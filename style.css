@@ -182,7 +182,7 @@ transform: scale(1.03);
     font-weight: 500;
     transition: color 0.5s;
     cursor: pointer;
-    font-size:x-small ;
+    font-size:large ;
   }
   .nav li:hover, .nav li:focus, .nav li.active {
     color: blue;
