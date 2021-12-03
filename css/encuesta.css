@@ -17,7 +17,15 @@ body {
     height: 100%;
 
 }
+#canv{
 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+background-color: blueviolet;
+    height: 100%;
+
+}
 #quizArea, #resultArea, #playAgain {
     display: none;
 
