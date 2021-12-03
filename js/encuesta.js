@@ -35,7 +35,7 @@ $(function(){
 	
 	function check(chosen){
 	    if(chosen == correctAnswer){
-			$('#correct').text('Correct!');
+			$('#correct').text('Correcto!');
 			$('#correct').css('color','green');
 			points++;
 			
@@ -44,13 +44,13 @@ $(function(){
 				level += 1;
 				$('#level').html('Level&nbsp;' + level);
 				if(level == 10){
-					alert('Congrats! You are a true American!');
+					alert('Felicidades bien hecho!');
 				}
 			}
 		}
 		
 		else{
-			$('#correct').text('Incorrect. Correct answer: ' + correctAnswer);
+			$('#correct').text('Incorrecto. Respuesta correcta: ' + correctAnswer);
 			$('#correct').css('color','red');
 			points--;
 			
@@ -67,7 +67,7 @@ $(function(){
     var img = new Image();
     
 
-	var statesInfo = {'Albania' : 'Tirana','Alemania':'Berlín','Argelia':'Argel','Egipto':'El Cairo','Ghana':'Accra','Chipre':'Nicosia','Ciudad del Vaticano':'Ciudad del Vaticano','Croacia':' Zagreb','Dinamarca ':'Copenhague','Eslovaquia':'Bratislava','España':'Madrid','Francia ':'París','Hungría ':' Budapest','Italia':'Roma','Kazajistán':'Astaná','Rusia ':'Moscú','Canadá ':'Ottawa','Costa rica':'San José','El Salvador ':'San Salvador','Nicaragua Libre':'Managua','Panamá ':'Panamá','Argentina':'Buenos Aires','Venezuela':'Caracas','Antigua y Barbuda':'Saint John','Cuba':'La Habana','Montana':'Helena','Nebraska':'Lincoln','Nevada':'Carson City','New Hampshire':'Concord','New Jersey':'Trenton','New Mexico':'Santa Fe','Angola':'Luanda','Camerún':'Yaundé','Congo':'Brazzaville','Eritrea':'Asmara','Etiopía':'Adis Abeba','Kenya':'Nairobi','Liberia':'Monrovia','Irán':'Teherán','Iraq':'Bagdad','Israel':'Jerusalén','Japón':'Tokio','Jordania':'Ammán','Kuwait':' Al-kuwait','Mongolia':'Ulan Bator ','Nepal,':'Katmandú','Pakistán':'Islamabad','República De Corea':'Seúl','Siria':'Damasco','Sri Lanka,':'Colombo'};
+	var statesInfo = {'Albania' : 'Tirana','Alemania':'Berlín','Argelia':'Argel','Egipto':'El Cairo','Ghana':'Accra','Chipre':'Nicosia','Ciudad del Vaticano':'Ciudad del Vaticano','Croacia':' Zagreb','Dinamarca ':'Copenhague','Eslovaquia':'Bratislava','España':'Madrid','Francia ':'París','Hungría ':' Budapest','Italia':'Roma','Kazajistán':'Astaná','Rusia ':'Moscú','Canadá ':'Ottawa','Costa rica':'San José','El Salvador ':'San Salvador','Nicaragua Libre':'Managua','Panamá ':'Panamá','Argentina':'Buenos Aires','Venezuela':'Caracas','Antigua y Barbuda':'Saint John','Cuba':'La Habana','Montana':'Helena','Nebraska':'Lincoln','New Hampshire':'Concord','Angola':'Luanda','Camerún':'Yaundé','Congo':'Brazzaville','Eritrea':'Asmara','Etiopía':'Adis Abeba','Kenya':'Nairobi','Liberia':'Monrovia','Irán':'Teherán','Iraq':'Bagdad','Israel':'Jerusalén','Japón':'Tokio','Jordania':'Ammán','Kuwait':' Al-kuwait','Mongolia':'Ulan Bator ','Nepal,':'Katmandú','Pakistán':'Islamabad','República De Corea':'Seúl','Siria':'Damasco','Sri Lanka,':'Colombo'};
 
 	display(getQ());
     $('#option0').on('click',function(){
