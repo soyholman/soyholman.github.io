@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/css/encuesta.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+        <script src = 'https://code.jquery.com/jquery-3.2.1.js'></script>
     <title>Trivia </title>
 </head>
 
@@ -19,131 +19,39 @@
         <div class="row">
             <div class="col-12">
                 <header>
-                    <h1>Trivia <i class="fas fa-question-circle"></i> </h1>
+                    <h1>Trivia de cultura general <i class="fas fa-question-circle"></i> </h1>
                     <a href="/games.html">Volver</a>
                 </header>
-                <div id="start">
-                    <button class="btn  startGame">Jugar</button>
-                </div>
+              
                 <div id="wrapper"  >
-                    <section id="quizArea"  >
-                        <article id="timeDisplay"></article>
-                        <form id="questionsArea">
-                            <article id="question1">
-                                <h4>En que año empezo la segunda guerra mundial?</h4>
-                                <div class="form-check custom-radio">
-                                    <input type="radio" name="organ" id="organ_liver" class="form-check-input"
-                                        value="25">
-               <label for="organ_liver" class="form-check-label">1939</label>
-                                </div>
-                                <div class="form-check custom-radio">
-                                    <input type="radio" name="organ" id="organ_heart" class="form-check-input"
-                                        value="0">
-                                    <label for="organ_heart" class="form-check-label">1919</label>
-                                </div>
-                                <div class="form-check custom-radio">
-                                    <input type="radio" name="organ" id="organ_brain" class="form-check-input"
-                                        value="0">
-                                    <label for="organ_brain" class="form-check-label">1942</label>
-                                </div>
-                                <div class="form-check custom-radio">
-                                    <input type="radio" name="organ" id="organ_kidney" class="form-check-input"
-                                        value="0">
-                                    <label for="organ_kidney" class="form-check-label">1917</label>
-                                </div>
-                            </article>
-                            <article id="question2">
-                                <h4>quien fue el primer humano en pisar la luna?</h4>
-                                <div class="form-check custom-radio">
-                                    <input type="radio" name="phobia" id="phobia_height" class="form-check-input"
-                                        value="0">
-                                    <label for="phobia_height" class="form-check-label">Michael Collins</label>
-                                </div>
-                                <div class="form-check custom-radio">
-                                    <input type="radio" name="phobia" id="phobia_fog" class="form-check-input"
-                                        value="0">
-                                    <label for="phobia_fog" class="form-check-label">David Scott</label>
-                                </div>
-                                <div class="form-check custom-radio">
-                                    <input type="radio" name="phobia" id="phobia_bugs" class="form-check-input"
-                                        value="0">
-                                    <label for="phobia_bugs" class="form-check-label">Charlie Conrad</label>
-                                </div>
-                                <div class="form-check custom-radio">
-                                    <input type="radio" name="phobia" id="phobia_hiking" class="form-check-input"
-                                        value="25">
-                                    <label for="phobia_hiking" class="form-check-label">Neil Armstrong</label>
-                                </div>
-                            </article>
-                            <article id="question3">
-                                <h4>Cuantos años duro la guerra de los 100 años?</h4>
-                                <div class="form-check custom-radio">
-                                    <input type="radio" name="softDrink" id="softDrink_pepsi" class="form-check-input"
-                                        value="0">
-                                    <label for="softDrink_pepsi" class="form-check-label">100</label>
-                                </div>
-                                <div class="form-check custom-radio">
-                                    <input type="radio" name="softDrink" id="softDrink_pepper" class="form-check-input"
-                                        value="0">
-                                    <label for="softDrink_pepper" class="form-check-label">110</label>
-                                </div>
-                                <div class="form-check custom-radio">
-                                    <input type="radio" name="softDrink" id="softDrink_coke" class="form-check-input"
-                                        value="0">
-                                    <label for="softDrink_coke" class="form-check-label">105</label>
-                                </div>
-                                <div class="form-check custom-radio">
-                                    <input type="radio" name="softDrink" id="softDrink_All" class="form-check-input"
-                                        value="25">
-                                    <label for="softDrink_All" class="form-check-label">116</label>
-                                </div>
-                            </article>
-                            <article id="question4">
-                                <h4>En qué lugar del cuerpo se produce la insulina?</h4>
-                                <div class="form-check custom-radio">
-                                    <input type="radio" name="americans" id="americans_doctor" class="form-check-input"
-                                        value="25">
-                                    <label for="americans_doctor" class="form-check-label">Páncreas</label>
-                                </div>
-                                <div class="form-check custom-radio">
-                                    <input type="radio" name="americans" id="americans_dentist" class="form-check-input"
-                                        value="0">
-                                    <label for="americans_dentist" class="form-check-label">Espina dorsal</label>
-                                </div>
-                                <div class="form-check custom-radio">
-                                    <input type="radio" name="americans" id="americans_dermatologist"
-                                        class="form-check-input" value="0">
-                                    <label for="americans_dermatologist" class="form-check-label">Corazón
-                                        </label>
-                                </div>
-                                <div class="form-check custom-radio">
-                                    <input type="radio" name="americans" id="americans_ophth" class="form-check-input"
-                                        value="0">
-                                    <label for="americans_ophth" class="form-check-label">Todas las anteriores</label>
-                                </div>
-                            </article>
-                        </form>
-                        <div id="submit">
-                            <button class="btn" type="submit" id="submitButton">Realizar</button>
-                        </div>
-                    </section>
-                    <section id="resultArea">
-                        <h3 id="result"></h3>
-                        <h4 id="comment"></h4>
-                    </section>
-                    <section id="playAgain" >
-                        <hr>
-                        <h5> Haz clic a continuación para volver a jugar !</h5>
-                    </section>
+                 
+                       
+                     
+                            <div id = topnav>
+                                <div id = outer><div id = inner><span id = level>Nivel  &nbsp;0</span></div></div>
+                                <div id="img_home"></div>
+                            </div>
+                            <div id = wrapper>
+                                <h1 id = question-outer>Cual es la capital <br><span id = question></span>?</h1>
+                            </div>
+                            <p id = correct></p>
+                            <button class = options  id = option0></button>
+                            <button class = options id = option1></button>
+                            <button class = options id = option2></button>
+                            <button class = options id = option3></button>
+                            
+                     
+                    
+           
                 </div>
             </div>
         </div>
 
     </main>
+
+</body>
     <script src="https://kit.fontawesome.com/f955c68031.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-    </script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
     </script>
@@ -151,9 +59,4 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
     <script type="text/javascript" src="/js/encuesta.js"></script>
-</body>
-
-<script>
-    
-</script>
 </html>

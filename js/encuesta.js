@@ -1,87 +1,99 @@
-$(function (){
-    var question1;
-    var question2;
-    var question3;
-    var question4;
-    var result;
-    var countStart = 21;
-    var timer;
 
-    $(".startGame").on("click", function () {  
-        startGame();
-        $("#playAgain").hide();
-        $("#resultArea").hide();
-        //Clear all checked button
-        $("input[type=radio]").prop("checked",false);
-    })
-    
-    function startGame(){
-        $("#start").appendTo("#playAgain");
-        question1 = "";
-        question2 = "";
-        question3 = "";
-        question4 = "";
-        playGame();
-    
-        setTimeout (function (){
 
-            var can=document.querySelector('#quizArea');
-            can.width=W;can.height=H;can.style.background='white';
-            $("#quizArea").show();
-        }, 1000);
-    }
+$(function(){
+	alert('Cada pregunta que responda correctamente le da un punto. ¡Obtén 10 puntos para subir de nivel! !');
+	var level = 0;
+	
+	function choice(array){
+		return array[Math.floor(Math.random() * array.length)];
+	}
+	
+	function sample(arr, size) {
+		var shuffled = arr.slice(0), i = arr.length, min = i - size, temp, index;
+		while (i-- > min) {
+			index = Math.floor((i + 1) * Math.random());
+			temp = shuffled[index];
+			shuffled[index] = shuffled[i];
+			shuffled[i] = temp;
+		}
+		return shuffled.slice(min);
+	}
+	
+	function getQ(){
+		states = sample(Object.keys(statesInfo),4);
+		state = choice(states);
+		correctAnswer = statesInfo[state];
+		return states;
+	}
+	
+	function display(states){
+	    $('#question').text(state);
+		for(var index = 0;index < states.length;index++){
+		    $('#option' + index).text(statesInfo[states[index]]);
+		}
+	}
+	
+	function check(chosen){
+	    if(chosen == correctAnswer){
+			$('#correct').text('Correct!');
+			$('#correct').css('color','green');
+			points++;
+			
+			if(points == 10){
+				points = 0;
+				level += 1;
+				$('#level').html('Level&nbsp;' + level);
+				if(level == 10){
+					alert('Congrats! You are a true American!');
+				}
+			}
+		}
+		
+		else{
+			$('#correct').text('Incorrect. Correct answer: ' + correctAnswer);
+			$('#correct').css('color','red');
+			points--;
+			
+			if(points < 0){
+				points = 0;
+			}
+		}
+		$('#inner').animate({'width':points * 10 + '%'});
+		$('#text').val('');
+	}
+	
+	var state,correctAnswer,chosen;
+	var points = 0;
+    var img = new Image();
     
-    function countTime(){
-        countStart--;
-        $("#timeDisplay").html("<h3>Tiempo restante : " + countStart + "</h3>");
-        if (countStart === -1){
-            clearInterval(timer);
-            $("#timeDisplay").html("<h3>Se ha agotado el tiempo !!</h3>");
+
+	var statesInfo = {'Albania' : 'Tirana','Alemania':'Berlín','Argelia':'Argel','Egipto':'El Cairo','Ghana':'Accra','Chipre':'Nicosia','Ciudad del Vaticano':'Ciudad del Vaticano','Croacia':' Zagreb','Dinamarca ':'Copenhague','Eslovaquia':'Bratislava','España':'Madrid','Francia ':'París','Hungría ':' Budapest','Italia':'Roma','Kazajistán':'Astaná','Rusia ':'Moscú','Canadá ':'Ottawa','Costa rica':'San José','El Salvador ':'San Salvador','Nicaragua Libre':'Managua','Panamá ':'Panamá','Argentina':'Buenos Aires','Venezuela':'Caracas','Antigua y Barbuda':'Saint John','Cuba':'La Habana','Montana':'Helena','Nebraska':'Lincoln','Nevada':'Carson City','New Hampshire':'Concord','New Jersey':'Trenton','New Mexico':'Santa Fe','Angola':'Luanda','Camerún':'Yaundé','Congo':'Brazzaville','Eritrea':'Asmara','Etiopía':'Adis Abeba','Kenya':'Nairobi','Liberia':'Monrovia','Irán':'Teherán','Iraq':'Bagdad','Israel':'Jerusalén','Japón':'Tokio','Jordania':'Ammán','Kuwait':' Al-kuwait','Mongolia':'Ulan Bator ','Nepal,':'Katmandú','Pakistán':'Islamabad','República De Corea':'Seúl','Siria':'Damasco','Sri Lanka,':'Colombo'};
+
+	display(getQ());
+    $('#option0').on('click',function(){
+        chosen = $('#option0').text();
+        check(chosen);
+        display(getQ());
+    });
     
-            setTimeout(timeUp, 2000);
-        }
-    }
+    $('#option1').on('click',function(){
+        chosen = $('#option1').text();
+        check(chosen);
+        display(getQ());
+    });
     
-    function playGame() {
-        countStart = 30;
-        timer = setInterval(countTime,1000);
-        
-        $("#submitButton").on("click", function () {
-            
-            if ($("input[type = 'radio']:checked").length < 4) {
-                alert("¡Por favor, elija una respuesta para cada pregunta!!")
-            } else {
-            clearInterval(timer);    
-            question1 = parseInt($('input[name = "organ"]:checked').val(),10);
-            question2 = parseInt($("input[name = 'phobia']:checked").val(),10);
-            question3 = parseInt($("input[name = 'softDrink']:checked").val(),10);
-            question4 = parseInt($("input[name = 'americans']:checked").val(),10);
-            
-            result = question1 + question2 + question3 + question4;
-            gameResult();
-            }
-        });
-    }
+    $('#option2').on('click',function(){
+        chosen = $('#option2').text();
+        check(chosen);
+        display(getQ());
+    });
     
-    function gameResult (){
-        $("#quizArea").hide();
-        $("#playAgain").show();
-        $("#resultArea").show();
-        $("#result").text("Tu resultado es" + " " + result + "/100");
-                if (result >= 75){
-                    $("#comment").text("Muy Bien !");
-                }else{
-                    
-                    $("#comment").text("No muy bien !")
-                }
-    }
-    
-    function timeUp (){
-        $("#quizArea").hide();
-        $("#playAgain").show();
-    }
-        
-    })
+    $('#option3').on('click',function(){
+        chosen = $('#option3').text();
+        check(chosen);
+        display(getQ());
+    });
+});
 
 
     "use strict"
