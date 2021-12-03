@@ -30,23 +30,23 @@ $(function (){
     
     function countTime(){
         countStart--;
-        $("#timeDisplay").html("<h3>Time remaining : " + countStart + "</h3>");
+        $("#timeDisplay").html("<h3>Tiempo restante : " + countStart + "</h3>");
         if (countStart === -1){
             clearInterval(timer);
-            $("#timeDisplay").html("<h3>Time Up !!</h3>");
+            $("#timeDisplay").html("<h3>Se ha agotado el tiempo !!</h3>");
     
             setTimeout(timeUp, 2000);
         }
     }
     
     function playGame() {
-        countStart = 21;
+        countStart = 30;
         timer = setInterval(countTime,1000);
         
         $("#submitButton").on("click", function () {
             
             if ($("input[type = 'radio']:checked").length < 4) {
-                alert("Please pick an answer for each question!")
+                alert("¡Por favor, elija una respuesta para cada pregunta!!")
             } else {
             clearInterval(timer);    
             question1 = parseInt($('input[name = "organ"]:checked').val(),10);
@@ -64,11 +64,12 @@ $(function (){
         $("#quizArea").hide();
         $("#playAgain").show();
         $("#resultArea").show();
-        $("#result").text("Your result is" + " " + result + "/100");
+        $("#result").text("Tu resultado es" + " " + result + "/100");
                 if (result >= 75){
-                    $("#comment").text("Good Job !");
+                    $("#comment").text("Muy Bien !");
                 }else{
-                    $("#comment").text("Not so good buddy !")
+                    
+                    $("#comment").text("No muy bien !")
                 }
     }
     
