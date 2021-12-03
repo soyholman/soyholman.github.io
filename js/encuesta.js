@@ -93,14 +93,14 @@ this.r=r;
 this.c=c;
 this.v=v;
 this.e=e;
-this.a=.5;
+this.a=.2;
 }
 draw(){this.sn+=.3
        this.y-=this.v;
        this.y<this.e?this.a-=.02:'';
        san.beginPath();
        san.arc(this.x,this.y,this.r,0,44/7,false);
-       san.fillStyle=`rgb(0,0,00)`;
+       san.fillStyle=`rgb(0,0,240)`;
        san.fill()
        san.closePath();
 }
