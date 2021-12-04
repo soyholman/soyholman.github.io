@@ -20,6 +20,16 @@ body {
     height: 100%;
 
 }
+
+#timeDisplay{
+  /* Safari */
+  
+    top: 0;
+    background-color: white;
+    background:none;
+position: sticky;
+border: 1px solid gray;
+}
 #canv{
 
     background-size: cover;
