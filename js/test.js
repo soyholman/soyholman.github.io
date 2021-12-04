@@ -44,7 +44,7 @@ $(function (){
     }
 
     function playGame() {
-        countStart = 60;
+        countStart = 80;
         timer = setInterval(countTime,1000);
         
         $("#submitButton").on("click", function () {
