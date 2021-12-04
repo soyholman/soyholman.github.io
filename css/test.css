@@ -98,3 +98,16 @@ img{
     border-radius: 5%;
 }
 
+
+
+@media (max-width:768px) {
+     
+    img{
+    
+        width: 57%;
+        border-radius: 5%;
+    }
+    
+    
+ }
+
