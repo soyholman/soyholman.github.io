@@ -70,7 +70,7 @@ $(function (){
         $("#playAgain").show();
         $("#resultArea").show();
         $("#result").text("Tu resultado es:" + " " + result + "/100");
-                if (result >= 75){
+                if (result >= 74){
                     $("#comment").text("Bien hecho !");
                 }else{
                     $("#comment").text("Quiza necesitas intentarlo una vez mas :(!")
