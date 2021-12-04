@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="/css/test.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src = 'https://code.jquery.com/jquery-3.2.1.js'></script>
+        
+    <title>Trivia </title>
+</head>
+
+<body>
+  
+    <main class="container text-center">
+        <div class="row">
+            <div class="col-12">
+                <header>
+                    
+                    <h1>¿De qué planeta se trata?</h1>
+                    <br>
+                    <a href="/Juegos/test_Menu.html">Volver</a>    
+                </header>
+                <div id="start">
+                    <button class="btn startGame">Empezar</button>
+                </div>
+                <div id="wrapper">
+                    <section id="quizArea">
+                        <article id="timeDisplay"></article>
+                        <form id="questionsArea">
+                            <article id="question1">
+                                
+                                    </h4>
+                                    <br>
+                                    <img src="https://www.nationalgeographic.com.es/medio/2017/07/28/venus_62441e9f.jpg" alt="">
+                                    <br>
+                                    <br>
+                                <div class="form-check custom-radio">
+                                    <input type="radio" name="1" id="1q" class="form-check-input"
+                                        value="10">
+                                    <label  for="1q" class="form-check-label">Venus
+                                    </label>
+                                </div>
+                                <div class="form-check custom-radio">
+                                    <input type="radio" name="1" id="1qq"  class="form-check-input"
+                                        value="0">
+                                    <label for="1qq" class="form-check-label">Saturno</label>
+                                </div>
+                                <div class="form-check custom-radio">
+                                    <input type="radio" name="1" id="1qqq" class="form-check-input"
+                                        value="0">
+                                    <label for="1qqq" class="form-check-label">Marte</label>
+                                </div>
+                                <!-- <div class="form-check custom-radio">
+                                    <input type="radio" name="organ" id="organ_kidney" class="form-check-input"
+                                        value="0">
+                                    <label for="organ_kidney" class="form-check-label">Kidney</label>
+                                </div> -->
+                            </article>
+                            <hr>
+                            <article id="question2">
+                           
+                                <br>
+                                <img src="https://www.nationalgeographic.com.es/medio/2017/07/28/transito-de-mercurio-ante-el-sol_9691d4df.jpg" alt="">
+                                <br>
+                                <br>
+                                <div class="form-check custom-radio">
+                                    <input type="radio" name="2" id="2q" class="form-check-input"
+                                        value="12">
+                                    <label class="form-check-label" for="2q" >Mercurio</label>
+                                </div>
+                                <div class="form-check custom-radio">
+                                    <input type="radio" name="2" id="2qq" class="form-check-input"
+                                        value="0">
+                                    <label for="2qq" class="form-check-label">Saturno</label>
+                                </div>
+                                <div class="form-check custom-radio">
+                                    <input type="radio" name="2" id="2qqq" class="form-check-input"
+                                        value="0">
+                                    <label  for="2qqq" class="form-check-label">Júpiter</label>
+                                </div>
+                                <!-- <div class="form-check custom-radio">
+                                    <input type="radio" name="phobia" id="phobia_hiking" class="form-check-input"
+                                        value="0">
+                                    <label for="phobia_hiking" class="form-check-label">Hiking</label>
+                                </div> -->
+                            </article>
+                            <hr>
+                            <article id="question3">
+                             
+                                <br>
+                                <img src="https://www.nationalgeographic.com.es/medio/2017/07/28/auroras-jupiter_42879c0d.png" alt="">
+                                <br>
+                                <br>
+                                <div class="form-check custom-radio">
+                                    <input type="radio" name="3" id="3q"  class="form-check-input "
+                                        value="16">
+                                    <label for="3q" class="form-check-label">Júpiter</label>
+                                </div>
+                                <div class="form-check custom-radio">
+                                    <input type="radio" name="3" id="3qq" class="form-check-input"
+                                        value="0">
+                                    <label for="3qq" class="form-check-label">Urano</label>
+                                </div>
+                           
+                                <div class="form-check custom-radio">
+                                    <input type="radio" name="3" id="3qqq" class="form-check-input"
+                                        value="0">
+                                    <label for="3qqq" class="form-check-label">Urano</label>
+                                </div>
+                            </article>
+                            <hr>
+                            <article id="question4">
+                        
+                                <br>
+                                <img src="https://www.nationalgeographic.com.es/medio/2017/07/28/neptuno_38373a2a.jpg" alt="">
+                                <br>
+                                <br>
+                                <div class="form-check custom-radio">
+                                    <input type="radio" name="4" id="4q"  class="form-check-input"
+                                        value="0">
+                                    <label for="4q"  class="form-check-label">Marte</label>
+                                </div>
+                                <div class="form-check custom-radio">
+                                    <input type="radio" name="4" id="4qq"  class="form-check-input"
+                                        value="0">
+                                    <label for="4qq" class="form-check-label">Marte</label>
+                                </div>
+                                <div class="form-check custom-radio">
+                                    <input type="radio" name="4" 
+                                        class="form-check-input" id="4qqq" value="16">
+                                    <label  for="4qqq" class="form-check-label">Neptuno</label>
+                                </div>
+                               
+                            </article>
+<hr>
+                            <article id="question5">
+                             <h2>Un año en este planeta dura 1.433 días terrestres. ¿A qué planeta nos referimos?</h2>
+                                <br>
+                                <img src="https://estaticos.muyinteresante.es/media/cache/1000x_thumb/uploads/images/test/5798a87f5cafe8c01c8b4571/p8.jpg" alt="">
+                                <br>
+                                <br>
+                                <div class="form-check custom-radio">
+                                    <input type="radio" name="5"  id="5q" class="form-check-input"
+                                        value="0">
+                                    <label  for="5q" class="form-check-label">Saturno</label>
+                                </div>
+                                <div class="form-check custom-radio">
+                                    <input id="5qq" type="radio" name="5"  class="form-check-input"
+                                        value="0">
+                                    <label for="5qq"  class="form-check-label">MakeMake</label>
+                                </div>
+                                <div class="form-check custom-radio">
+                                    <input type="radio" id="5qqq" name="5" 
+                                        class="form-check-input" value="20">
+                                    <label for="5qqq"  class="form-check-label">Júpiter</label>
+                                </div>
+                               
+                            </article>
+<hr>
+                            <article id="question6">
+                                <h2>¿En qué año Plutón pasó a ser de planeta a planeta enano?</h2>
+                                <br>
+                                <img src="https://estaticos.muyinteresante.es/media/cache/1000x_thumb/uploads/images/test/5798a87f5cafe8c01c8b4571/p7.jpg" alt="">
+                                <br>
+                                <br>
+                                <div class="form-check custom-radio">
+                                    <input type="radio" id="6q" name="6"  class="form-check-input"
+                                        value="26">
+                                    <label for="6q"  class="form-check-label">2006</label>
+                                </div>
+                                <div class="form-check custom-radio">
+                                    <input type="radio" id="6qq" name="6"  class="form-check-input"
+                                        value="0">
+                                    <label for="6qq"  class="form-check-label">
+                                        2007</label>
+                                </div>
+                                <div class="form-check custom-radio">
+                                    <input type="radio" id="6qqq" name="6"
+                                        class="form-check-input" value="0">
+                                    <label for="6qqq" class="form-check-label">2008</label>
+                                </div>
+                               
+                            </article>
+                        </form>
+                        <div id="submit">
+                            <button class="btn" type="submit" id="submitButton">Realizar</button>
+                        </div>
+                    </section>
+                    <section id="resultArea">
+                        <h3 id="result"></h3>
+                        <h4 id="comment"></h4>
+                    </section>
+
+                    
+                    <section id="playAgain">
+                        <hr>
+                        <h5> Click en empezar para volverlo a intentarlo !</h5>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+</body>
+    <script src="https://kit.fontawesome.com/f955c68031.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="/js/test.js"></script>
+    <script type="text/javascript" src="/js/test_burbujas.js"> </script>
+</html>

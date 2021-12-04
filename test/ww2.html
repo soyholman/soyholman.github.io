@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="/css/test.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src = 'https://code.jquery.com/jquery-3.2.1.js'></script>
+        
+    <title>Trivia </title>
+</head>
+
+<body>
+  
+    <main class="container text-center">
+        <div class="row">
+            <div class="col-12">
+                <header>
+                    
+                    <h1>¿cuánto sabes sobre la segunda guerra mundial?</h1>
+                    <br>
+                    <a href="/Juegos/test_Menu.html">Volver</a>    
+                </header>
+                <div id="start">
+                    <button class="btn startGame">Empezar</button>
+                </div>
+                <div id="wrapper">
+                    <section id="quizArea">
+                        <article id="timeDisplay"></article>
+                        <form id="questionsArea">
+                            <article id="question1">
+                                <h4>¿En qué consistía la "guerra relámpago" o blitzkrieg llevada a cabo por los alemanes?
+                                    </h4>
+                                    <br>
+                                    <img src="https://historia.nationalgeographic.com.es/medio/2016/04/29/luftwaffe_77cefb54.jpg" alt="">
+                                    <br>
+                                    <br>
+                                <div class="form-check custom-radio">
+                                    <input type="radio" name="1" id="1q" class="form-check-input"
+                                        value="10">
+                                    <label  for="1q" class="form-check-label">Consistía en la acción coordinada de unidades de artillería, blindadas, aviación y comunicaciones para debilitar rápidamente las defensas del enemigo</label>
+                                </div>
+                                <div class="form-check custom-radio">
+                                    <input type="radio" name="1" id="1qq"  class="form-check-input"
+                                        value="0">
+                                    <label for="1qq" class="form-check-label">Consistía en atacar los objetivos clave siempre coincidiendo con tormentas y mal tiempo para mermar más fácilmente las defensas del enemigo</label>
+                                </div>
+                                <div class="form-check custom-radio">
+                                    <input type="radio" name="1" id="1qqq" class="form-check-input"
+                                        value="0">
+                                    <label for="1qqq" class="form-check-label">Consistía en usar armas químicas junto con bombardeos continuos</label>
+                                </div>
+                                <!-- <div class="form-check custom-radio">
+                                    <input type="radio" name="organ" id="organ_kidney" class="form-check-input"
+                                        value="0">
+                                    <label for="organ_kidney" class="form-check-label">Kidney</label>
+                                </div> -->
+                            </article>
+                            <hr>
+                            <article id="question2">
+                                <h4>Hitler sufrió muchos atentados (todos ellos fallidos). ¿Cuántos exactamente?</h4>
+                                <br>
+                                <img src="https://historia.nationalgeographic.com.es/medio/2016/04/29/adolf-hitler_c7582a13.jpg" alt="">
+                                <br>
+                                <br>
+                                <div class="form-check custom-radio">
+                                    <input type="radio" name="2" id="2q" class="form-check-input"
+                                        value="0">
+                                    <label class="form-check-label" for="2q" >23</label>
+                                </div>
+                                <div class="form-check custom-radio">
+                                    <input type="radio" name="2" id="2qq" class="form-check-input"
+                                        value="0">
+                                    <label for="2qq" class="form-check-label">32</label>
+                                </div>
+                                <div class="form-check custom-radio">
+                                    <input type="radio" name="2" id="2qqq" class="form-check-input"
+                                        value="12">
+                                    <label  for="2qqq" class="form-check-label">43</label>
+                                </div>
+                                <!-- <div class="form-check custom-radio">
+                                    <input type="radio" name="phobia" id="phobia_hiking" class="form-check-input"
+                                        value="0">
+                                    <label for="phobia_hiking" class="form-check-label">Hiking</label>
+                                </div> -->
+                            </article>
+                            <hr>
+                            <article id="question3">
+                                <h4>¿Cuál fue el último país en rendirse concluyendo de este modo la Segunda Guerra Mundial?
+                                </h4>
+                                <br>
+                                <img src="https://historia.nationalgeographic.com.es/medio/2016/04/29/estadounidenses-celebran-la-rendicion-de-japon-y-el-final-de-la-segunda-guerra-mundial_dbb795d1.png" alt="">
+                                <br>
+                                <br>
+                                <div class="form-check custom-radio">
+                                    <input type="radio" name="3" id="3q"  class="form-check-input "
+                                        value="0">
+                                    <label for="3q" class="form-check-label">Alemania</label>
+                                </div>
+                                <div class="form-check custom-radio">
+                                    <input type="radio" name="3" id="3qq" class="form-check-input"
+                                        value="0">
+                                    <label for="3qq" class="form-check-label">Italia</label>
+                                </div>
+                                <div class="form-check custom-radio">
+                                    <input type="radio" id="3qqq" name="3" class="form-check-input"
+                                        value="16">
+                                    <label for="3qqq" class="form-check-label">Japón</label>
+                                </div>
+                                <!-- <div class="form-check custom-radio">
+                                    <input type="radio" name="softDrink" id="softDrink_All" class="form-check-input"
+                                        value="25">
+                                    <label for="softDrink_All" class="form-check-label">All of the above</label>
+                                </div> -->
+                            </article>
+                            <hr>
+                            <article id="question4">
+                                <h4>El Holocausto, el asesinato masivo y sistemático de población judía ¿con cuántas vidas terminó?
+                                </h4>
+                                <br>
+                                <img src="https://historia.nationalgeographic.com.es/medio/2016/04/29/judios-procedente-de-los-carpatos-a-su-llegada-al-campo-de-concentracion-de-auschwitz_ea594792.jpg" alt="">
+                                <br>
+                                <br>
+                                <div class="form-check custom-radio">
+                                    <input type="radio" name="4" id="4q"  class="form-check-input"
+                                        value="0">
+                                    <label for="4q"  class="form-check-label">Entre 2.000.000 y 3.000.000 de personas fueron ejecutadas en el Holocausto</label>
+                                </div>
+                                <div class="form-check custom-radio">
+                                    <input type="radio" name="4" id="4qq"  class="form-check-input"
+                                        value="16">
+                                    <label for="4qq" class="form-check-label">Entre 5.900.000 y 7.100.000 personas fueron asesinadas vilmente</label>
+                                </div>
+                                <div class="form-check custom-radio">
+                                    <input type="radio" name="4" 
+                                        class="form-check-input" id="4qqq" value="0">
+                                    <label  for="4qqq" class="form-check-label">Entre 15.00.000 y 18.000.000 personas fueron asesinadas en el Holocausto</label>
+                                </div>
+                               
+                            </article>
+<hr>
+                            <article id="question5">
+                                <h4>¿En qué ciudad se lanzó primero la bomba atómica?</h4>
+                                <br>
+                                <img src="https://historia.nationalgeographic.com.es/medio/2016/04/29/hiroshima_fbe2ac7f.jpg" alt="">
+                                <br>
+                                <br>
+                                <div class="form-check custom-radio">
+                                    <input type="radio" name="5"  id="5q" class="form-check-input"
+                                        value="0">
+                                    <label  for="5q" class="form-check-label">Nagasaki</label>
+                                </div>
+                                <div class="form-check custom-radio">
+                                    <input id="5qq" type="radio" name="5"  class="form-check-input"
+                                        value="20">
+                                    <label for="5qq"  class="form-check-label">Hiroshima</label>
+                                </div>
+                                <div class="form-check custom-radio">
+                                    <input type="radio" id="5qqq" name="5" 
+                                        class="form-check-input" value="0">
+                                    <label for="5qqq"  class="form-check-label">Pearl Harbour</label>
+                                </div>
+                               
+                            </article>
+<hr>
+                            <article id="question6">
+                                 <h4>¿Cuál fue el país que sufrió un mayor número de bajas militares y civiles?</h4>
+                                <br>
+                                <img src="https://historia.nationalgeographic.com.es/medio/2016/04/29/soldados-de-la-union-sovietica-de-republicas-socialistas-otono-de-1941_8532d368.jpg" alt="">
+                                <br>
+                                <br>
+                                <div class="form-check custom-radio">
+                                    <input type="radio" id="6q" name="6"  class="form-check-input"
+                                        value="0">
+                                    <label for="6q"  class="form-check-label">Alemania</label>
+                                </div>
+                                <div class="form-check custom-radio">
+                                    <input type="radio" id="6qq" name="6"  class="form-check-input"
+                                        value="26">
+                                    <label for="6qq"  class="form-check-label">URSS</label>
+                                </div>
+                                <div class="form-check custom-radio">
+                                    <input type="radio" id="6qqq" name="6"
+                                        class="form-check-input" value="0">
+                                    <label for="6qqq" class="form-check-label">Inglaterra</label>
+                                </div>
+                               
+                            </article>
+                        </form>
+                        <div id="submit">
+                            <button class="btn" type="submit" id="submitButton">Realizar</button>
+                        </div>
+                    </section>
+                    <section id="resultArea">
+                        <h3 id="result"></h3>
+                        <h4 id="comment"></h4>
+                    </section>
+
+                    
+                    <section id="playAgain">
+                        <hr>
+                        <h5> Click en empezar para volverlo a intentarlo !</h5>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+</body>
+    <script src="https://kit.fontawesome.com/f955c68031.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="/js/test.js"></script>
+    <script type="text/javascript" src="/js/test_burbujas.js"> </script>
+</html>
