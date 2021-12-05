@@ -220,6 +220,15 @@ color: blue;
     #gameTitle {
         font-size: 2.5em;
     }
+    #canv{
+
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    
+        height: 100%;
+    
+    }
 }
 
 .btn{
