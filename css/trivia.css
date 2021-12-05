@@ -204,7 +204,7 @@ color: blue;
     }
 
     #imageTrivia {
-        display: none;
+        display:block;
     }
 
     #timer-image {
