@@ -73,7 +73,7 @@ $(function (){
                 if (result >= 74){
                     $("#comment").text("Bien hecho !");
                 }else{
-                    $("#comment").text("Quiza necesitas intentarlo una vez mas :(!")
+                    $("#comment").text("Mejor suerte la próxima vez. :(!")
                 }
     }
     
