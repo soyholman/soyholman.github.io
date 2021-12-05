@@ -1,100 +1,254 @@
+var QUESTIONS = [
+    {
+        question: "En qué país se encuentra este punto de referencia?",
+        answers: ["Ucrania", "Rumania", "Italia", "Francia"],
+        correctAnswer: "Italia",
+        image: "https://th.bing.com/th/id/OIP.MG4AyqHAEMuePVJz3Zen0QHaE8?w=292&h=194&c=7&r=0&o=5&pid=1.7"
+    },
+    {
+        question: "En qué país se encuentra este punto de referencia?",
+        answers: ["Estados Unidos", "Groenlandia", "Islandia", "Nepal"],
+        correctAnswer: "Nepal",
+        image: "https://th.bing.com/th/id/OIP.u3SX-hO82EN97udPbFKDBAHaE8?w=236&h=180&c=7&r=0&o=5&pid=1.7"
+    },
+    {
+     
+        question: "En qué país se encuentra este punto de referencia?",
+        answers: ["Japón", "Bangladesh", "Indonesia", "Camboya"],
+        correctAnswer: "Camboya",
+        image: "https://th.bing.com/th/id/R.d7a3ce8b545ad69aae4988104d43484d?rik=Yi3%2bgqU1YSKYWw&riu=http%3a%2f%2f3.bp.blogspot.com%2f-TzMw_1Tri9A%2fVHacW0Cx_SI%2fAAAAAAAAACU%2fr0E4JSU4mUY%2fs1600%2fadrian.jpg&ehk=hfD2ZVqiOJRU5aOFTXftvrsQX%2biPOY1aL7GCmPwhlfw%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+		question: "En qué país se encuentra este punto de referencia?",
+        answers: ["Nicaragua", "Italia", "Panama", "Brasil"],
+        correctAnswer: "Nicaragua",
+        image: "https://th.bing.com/th/id/OIP.4Y5c0HALrurtijstBDenpgHaE8?pid=ImgDet&rs=1"
+    },
+    {	
+		question: "En qué país se encuentra este punto de referencia?",
+        answers: ["Alemania", "Serbia", "Venezuela", "Argentina"],
+        correctAnswer: "Argentina",
+        image: "https://th.bing.com/th/id/OIP.3n3iuYyQSM0cpu78cNlXYwHaEK?pid=ImgDet&rs=1"
+    },
+    {
+		question: "En qué país se encuentra este punto de referencia?",
+        answers: ["Venezuela", "Nicaragua", "Ghana", "Perú"],
+        correctAnswer: "Venezuela",
+        image: "https://th.bing.com/th/id/OIP.paiIrquskzORlFvdpDB4-AHaD_?pid=ImgDet&rs=1e"
+    },
+    {
+		question: "En qué país se encuentra este punto de referencia?",
+        answers: ["Bután", "Pakistán", "Rusia", "India"],
+        correctAnswer: "Rusia",
+        image: "https://th.bing.com/th/id/R.a3525f28b21f21ea945bc790dc1dece3?rik=xfGw8qNouw165g&pid=ImgRaw&r=0"
+    },
+    {
+		question: "En qué país se encuentra este punto de referencia?",
+        answers: ["Inglaterra", "Polonia", "Corea del Sur", "España"],
+        correctAnswer: "Inglaterra",
+        image: "https://th.bing.com/th/id/OIP.yjPM_xekj-eihvUZzEge4QHaEd?w=290&h=180&c=7&r=0&o=5&pid=1.7"
+    },
+    {
+		question: "En qué país se encuentra este punto de referencia?",
+        answers: ["Perú", "Chile", "Mexico", "Colombia"],
+        correctAnswer: "Perú",
+        image: "https://th.bing.com/th/id/OIP.cN_FoyBqvQbDW7bkzlJueQHaFY?w=211&h=180&c=7&r=0&o=5&pid=1.7e"
+    },
+    {
+		question: "En qué país se encuentra este punto de referencia?",
+        answers: ["Jordania", "Arabia Saudita", "Yemen", "Egipto"],
+        correctAnswer: "Egipto",
+        image: "https://th.bing.com/th/id/OIP.Wd76yRUJZJtaZHiJDdBOYgHaE8?pid=ImgDet&rs=1"
+    },
+    {
+		question: "En qué país se encuentra este punto de referencia?",
+        answers: ["Polonia", "Alemania", "Rusia", "Austria"],
+        correctAnswer: "Polonia",
+        image: "https://media-cdn.tripadvisor.com/media/photo-s/08/78/23/87/shuttle-4-you-krakow.jpg"
+    }
+];
+
+var correctAnswerElement;
+var questionIndex = 0;
+var timeLeft = 12;
+var timer;
+var correct = 0;
+var incorrect = 0;
+
+$(function () {
+
+    // Function gets Questions-Data and append it to HTML and
+    // returns element containing correct answer
+    function getTrivia() {
+
+        var correctAnswer;
+        $("#answers").empty();
+        $("#question-header").text(QUESTIONS[questionIndex].question);
+        QUESTIONS[questionIndex].answers.forEach(function (answer) {
+            var div = $("<div>").append(answer);
+            div.appendTo($("#answers"));
+            if (div.text() === QUESTIONS[questionIndex].correctAnswer) {
+                correctAnswer = div;
+            }
+            div.addClass("hover"); // Adds hover effect to each answer element
+        });
+
+        return correctAnswer;
+    }
+
+    // Function adds click event to each answer element and
+    // checks for correct answer. If clicked element has
+    // correct answer, text turns green and appends check mark
+    // else text turns color gray and appends an X mark
+    function checkCorrectAnswer() {
+
+        $("#answers").children().click(function () {
+
+            resetIntervalTimer();
+
+            if ($(this).text() === correctAnswerElement.text()) {
+
+                correct++;
+                showCorrectAnswer();
+
+            } else {
+
+                incorrect++;
+                $(this).addClass("wrong");
+                $(this).append("<span> &#10008;</span>");
+                $(this).siblings().not(correctAnswerElement).addClass("wrong");
+
+                correctAnswerElement.append("<span> &#10004;</span>");
+                correctAnswerElement.addClass("correct");
+
+                $("#message").css("display", "block");
+                $("#timeLeft").css("display", "none");
+                $("#message").text("INCORRECTO");
+
+                $("#imageTrivia").attr("src", "https://images.angelpub.com/2016/35/39703/wrong.gif");
+
+            }
+
+            $(this).parent().children().off("click"); // Prevent click event
+            $("#answers").children().removeClass("hover"); // Turn off hover effect
+
+        });
+
+    }
+
+    // Function shows the correct trivia answer
+    function showCorrectAnswer() {
+
+        $("#answers").children().not(correctAnswerElement).addClass("wrong");
+        correctAnswerElement.append("<span> &#10004;</span>");
+        correctAnswerElement.addClass("correct");
+
+        $("#answers").children().removeClass("hover");
+        $("#answers").children().off("click");
+
+        $("#message").css("display", "block");
+        $("#timeLeft").css("display", "none");
+        $("#message").text("CORRECTO");
+
+        $("#imageTrivia").attr("src", "https://media1.tenor.com/images/c69fe60c4e179c1cf21726c224353de8/tenor.gif?itemid=11296495");
+
+    }
+
+    // Function creates a countdown which is display on HTML
+    // If timeLeft variable reach zero, correct answer shows up
+    // and then wait for 4 seconds to restart
+    function intervalTimer() {
+
+        timer = setInterval(function () {
+
+            timeLeft--;
+            $("#timerSeconds").text(timeLeft);
+
+            if (timeLeft == 0) {
+                incorrect++;
+                showCorrectAnswer();
+                clearInterval(timer);
+                timeLeft = 15;
+                $("#timeLeft").css("display", "none");
+                $("#message").text("se acabó el tiempo!");
+                $("#message").css("display", "block");
+
+                setTimeout(function () {
+                    questionIndex++;
+					startGame();
+                    $("#message").css("display", "none");
+                    $("#timeLeft").css("display", "block");
+                    $("#timerSeconds").text(timeLeft);
+                    $("#imageTrivia").attr("src", QUESTIONS[questionIndex].image);
+                  
+                }, 5000);
+            }
+
+        }, 1000);
+    }
 
 
-$(function(){
-	alert('Cada pregunta que responda correctamente le da un punto. ¡Obtén 10 puntos para subir de nivel! !');
-	var level = 0;
-	
-	function choice(array){
-		return array[Math.floor(Math.random() * array.length)];
-	}
-	
-	function sample(arr, size) {
-		var shuffled = arr.slice(0), i = arr.length, min = i - size, temp, index;
-		while (i-- > min) {
-			index = Math.floor((i + 1) * Math.random());
-			temp = shuffled[index];
-			shuffled[index] = shuffled[i];
-			shuffled[i] = temp;
-		}
-		return shuffled.slice(min);
-	}
-	
-	function getQ(){
-		states = sample(Object.keys(statesInfo),4);
-		state = choice(states);
-		correctAnswer = statesInfo[state];
-		return states;
-	}
-	
-	function display(states){
-	    $('#question').text(state);
-		for(var index = 0;index < states.length;index++){
-		    $('#option' + index).text(statesInfo[states[index]]);
-		}
-	}
-	
-	function check(chosen){
-	    if(chosen == correctAnswer){
-			$('#correct').text('Correcto!');
-			$('#correct').css('color','green');
-			points++;
-			
-			if(points == 10){
-				points = 0;
-				level += 1;
-				$('#level').html('Level&nbsp;' + level);
-				if(level == 10){
-					alert('Felicidades bien hecho!');
-				}
-			}
-		}
-		
-		else{
-			$('#correct').text('Incorrecto. Respuesta correcta: ' + correctAnswer);
-			$('#correct').css('color','red');
-			points--;
-			
-			if(points < 0){
-				points = 0;
-			}
-		}
-		$('#inner').animate({'width':points * 10 + '%'});
-		$('#text').val('');
-	}
-	
-	var state,correctAnswer,chosen;
-	var points = 0;
-    var img = new Image();
-    
+    // Function clears countdown after an answer is click and
+    // waits four seconds to restart
+    function resetIntervalTimer() {
 
-	var statesInfo = {'Albania' : 'Tirana','Alemania':'Berlín','Argelia':'Argel','Egipto':'El Cairo','Ghana':'Accra','Chipre':'Nicosia','Ciudad del Vaticano':'Ciudad del Vaticano','Croacia':' Zagreb','Dinamarca ':'Copenhague','Eslovaquia':'Bratislava','España':'Madrid','Francia ':'París','Hungría ':' Budapest','Italia':'Roma','Kazajistán':'Astaná','Rusia ':'Moscú','Canadá ':'Ottawa','Costa rica':'San José','El Salvador ':'San Salvador','Nicaragua Libre':'Managua','Panamá ':'Panamá','Argentina':'Buenos Aires','Venezuela':'Caracas','Antigua y Barbuda':'Saint John','Cuba':'La Habana','Montana':'Helena','Nebraska':'Lincoln','Angola':'Luanda','Camerún':'Yaundé','Congo':'Brazzaville','Eritrea':'Asmara','Etiopía':'Adis Abeba','Kenya':'Nairobi','Liberia':'Monrovia','Irán':'Teherán','Iraq':'Bagdad','Israel':'Jerusalén','Japón':'Tokio','Jordania':'Ammán','Kuwait':' Al-kuwait','Mongolia':'Ulan Bator ','Nepal,':'Katmandú','Pakistán':'Islamabad','República De Corea':'Seúl','Siria':'Damasco','Sri Lanka,':'Colombo'};
+        clearInterval(timer);
 
-	display(getQ());
-    $('#option0').on('click',function(){
-        chosen = $('#option0').text();
-        check(chosen);
-        display(getQ());
+        setTimeout(function () {
+            questionIndex++;
+            timeLeft = 15;
+			startGame();
+            $("#message").css("display", "none");
+            $("#message").text("SE HA TERMINADO EL TIEMPO!");
+            $("#timeLeft").css("display", "block");
+            $("#timerSeconds").text(timeLeft);
+            $("#imageTrivia").attr("src",QUESTIONS[questionIndex].image);
+        
+
+        }, 2000);
+
+    }
+
+    // Function starts the game
+    // If questionIndex reach QUESTIONS length, game ends and score
+    // shows up, otherwise the games keeps running until last question
+    function startGame() {
+
+        if (questionIndex <QUESTIONS.length) {
+
+            correctAnswerElement = getTrivia();
+
+            checkCorrectAnswer();
+
+            intervalTimer();
+
+        } else {
+            questionIndex = 0;
+            $("#card").css("display", "none");
+            $("#correct").text("Correcto: " + correct);
+            $("#incorrect").text("Incorrecto: " + incorrect);
+            $("#score").css("display", "block");
+        }
+
+    }
+
+    // Click event button starts game
+    $("#button").click(function(){
+        correct = 0;
+        incorrect = 0;
+        questionIndex = 0;
+        $("#card").css("display", "flex");
+        $("#button").css("display", "none");
+        startGame();
     });
-    
-    $('#option1').on('click',function(){
-        chosen = $('#option1').text();
-        check(chosen);
-        display(getQ());
+
+    // Click event close score pop-up
+    $("#close").click(function(){
+        $("#score").css("display", "none");
+        $("#button").css("display", "inline-block");
     });
-    
-    $('#option2').on('click',function(){
-        chosen = $('#option2').text();
-        check(chosen);
-        display(getQ());
-    });
-    
-    $('#option3').on('click',function(){
-        chosen = $('#option3').text();
-        check(chosen);
-        display(getQ());
-    });
+
 });
-
 
     "use strict"
 class Circle {
