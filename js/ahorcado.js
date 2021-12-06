@@ -58,9 +58,12 @@ function clearPlayer() {
 
 // Get new word
 function createWord() {
+    var min = 1;
+var max = 20;
     var d = gId("letter")
     d.innerHTML = ""
-    select = Math.floor(Math.random() * word.length)
+
+    select = Math.floor(Math.random() * (word.length - min)+min)
     for(a = 0; a < word[select][0].length; a++) {
         var x = word[select][0][a].toUpperCase()
         var b = document.createElement("span")
