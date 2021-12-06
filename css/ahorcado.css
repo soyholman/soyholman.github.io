@@ -102,19 +102,15 @@ display:inline-flexbox;
 #result {
     background:linear-gradient(rgba(125, 0, 0, 0.9) 20%, rgba(0, 0, 0, 0.7) 80%);
     bottom:0;
-   
     left:0;
-   
+    position:absolute;
     right:0;
     top:0;
-    color: white;
-    z-index:99;
-     position:absolute;
+    z-index:100;
 }
 
 #result[data="true"] {
     background:linear-gradient(rgba(0, 125, 0, 0.9) 20%, rgba(0, 0, 0, 0.7) 80%);
-    position: absolute;
 }
 
 #result .title {
@@ -375,15 +371,12 @@ background: fixed;
   border-top-style:groove;
     position:absolute;
     right:0;
-    
      font-size:large;
     text-align:center;
 }
 
-#tastatur  span{
-    width: 8%;
-    border-style:groove;
-}
+
+
 #hint {
     border-radius:2px;
     box-shadow:1px 1px 4px #888;
