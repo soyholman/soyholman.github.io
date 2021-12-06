@@ -52,10 +52,10 @@ background:linear-gradient(mediumseagreen, rgba(0, 0, 0, 0.7) 80%);
     background:green;
     border-radius:2px;
     color: white;
-    display:table;
+display: block;
     width:  180px;
     font-weight:bold;
-
+ 
     margin:20% auto;
     text-align: center;
 }
