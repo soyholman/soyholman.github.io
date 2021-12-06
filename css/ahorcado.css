@@ -3,9 +3,7 @@
 
 
 body {
-    background-color:#eee;
-    margin:0;
-    
+ 
     font-family: 'Poppins',sans-serif;
 
 }
@@ -360,6 +358,11 @@ background: fixed;
 
 #game .hintButton[data="false"] {
     display:none;
+}
+#tastatur  span{
+    width: 8%;
+
+    border-style:groove;
 }
 
 #tastatur {
