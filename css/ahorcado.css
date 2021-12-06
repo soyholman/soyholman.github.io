@@ -371,12 +371,15 @@ background: fixed;
   border-top-style:groove;
     position:absolute;
     right:0;
+    
      font-size:large;
     text-align:center;
 }
 
-
-
+#tastatur  span{
+    width: 8%;
+    border-style:groove;
+}
 #hint {
     border-radius:2px;
     box-shadow:1px 1px 4px #888;
