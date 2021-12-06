@@ -1,12 +1,14 @@
-<!-- Created by Duvan MC -->
+
 
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Hangman</title>
+        <title>Ahorcado</title>
         <link rel="stylesheet" href="/css/ahorcado.css">
         <script src = 'https://code.jquery.com/jquery-3.2.1.js'></script>
         <link rel="stylesheet" href="/css/test.css">
+        <link rel="stylesheet" href="/css/modal_stilo.css">
+        
     </head>
    
     <body t="0x31">
@@ -15,15 +17,20 @@
            
            
            
-            <div class="title">Ahorcado <i class="fas fa-brain"></i>
+            <div class="title">Ahorcado(Beta) <i class="fas fa-tree"></i>
                 <br>
                 <a href="/games.html"> Volver</a>
+    
                 
             </div>
+            <h1 style="text-align: center;color: black;position:absolute;left:0;right:0;" >Para una mejor experiencia Utilizar el celular en modo horizontal
+                <i class="fas fa-expand-alt"></i>!</h1>
+         
             
-            <div class="button anim" onclick="startGame()">Jugar
+    
+            <button class="button anim" onclick="startGame()">Jugar
                 
-            </div>
+          
        
               
        
@@ -54,13 +61,14 @@
             <div id="tastatur"> </div>
             
             <div class="hint" id="hint">
-                <div class="title">Hint<div class="exit" onclick="hintExit()">X</div></div>
+                <div class="title">Pista<div class="exit" onclick="hintExit()">X</div></div>
                 <div class="body" id="hintText"></div>
                 
             </div>
             
         </div>
-
+     
     </body>
+    <script src="https://kit.fontawesome.com/f955c68031.js"></script>
     <script src="/js/ahorcado.js"></script>
 </html>

@@ -31,6 +31,7 @@ text-align: center;
 #home {
 background:linear-gradient(mediumseagreen, rgba(0, 0, 0, 0.7) 80%);
     bottom:0;
+   
     left:0;
     position:absolute;
     right:0;
@@ -39,6 +40,13 @@ background:linear-gradient(mediumseagreen, rgba(0, 0, 0, 0.7) 80%);
     z-index:99;
 }
 
+#hom{
+    
+position:absolute;
+   
+    color: black;
+
+}
 #home .title {
     font-size:48px;
     font-weight:bold;
@@ -51,7 +59,7 @@ background:linear-gradient(mediumseagreen, rgba(0, 0, 0, 0.7) 80%);
     border-radius:2px;
     color: white;
     display:table;
-    width:  100px;
+    width:  180px;
     font-weight:bold;
     padding:10px 20px;
     margin:20% auto;
@@ -431,7 +439,7 @@ background: fixed;
     animation:button 3s infinite;
 }
 
-@keyframes button {
+@keyframes btn{
     0%, 50%, 90% {
         transform:rotate(0deg);
     }
