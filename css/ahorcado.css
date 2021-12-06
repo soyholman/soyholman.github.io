@@ -49,11 +49,13 @@ background:linear-gradient(mediumseagreen, rgba(0, 0, 0, 0.7) 80%);
 }
 
 #home .button {
-    background:green;
-    border-radius:1px;
+    background:mediumseagreen;
+border: 2px solid ;
     color: white;
+    
 display:inline-flexbox;
     width:  200px;
+    height: 40px;
     
   
     font-weight:bold;
