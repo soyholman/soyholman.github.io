@@ -3,13 +3,12 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 #c{
 
-    background-position:center;
-    background-size:cover;
-    margin:0;
-    transition:all 5s;
-    position: fixed;
+box-sizing: border-box;
+top:0;
+bottom: 0;
+position: absolute;
 
-
+background-size: cover;
 }
 *{
 

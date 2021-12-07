@@ -117,6 +117,9 @@ body{
     max-height:calc(36vh - 2em);
 }
 
+
+
+
 #sistem{
     position:fixed;
     left:0; bottom:0;
@@ -134,3 +137,5 @@ body{
     display:flex;
     height:90%;
 }
+
+
