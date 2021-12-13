@@ -23,8 +23,12 @@ body {
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
+    color:#333 ;
+    background:white;
+    
+    font-weight: bolder;
     border: 1px solid gray;
-
+border-radius: 25px;
 }
 #canv{
 
