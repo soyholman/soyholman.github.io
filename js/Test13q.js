@@ -5,6 +5,13 @@ $(function (){
     var question4;
     var question5;
     var question6;
+    var question7;
+    var question8;
+    var question9;
+    var question10;
+    var question11;
+    var question12;
+    var question13;
     var result;
     var countStart = 21;
     var timer;
@@ -25,6 +32,13 @@ $(function (){
         question4 = "";
         question5 = "";
         question6 = "";
+        question7="";
+        question8="";
+        question9="";
+        question10="";
+        question11="";
+        question12="";
+        question13="";
         playGame();
     
         setTimeout (function (){
@@ -44,7 +58,7 @@ $(function (){
     }
 
     function playGame() {
-        countStart = 60;
+        countStart = 80;
         timer = setInterval(countTime,1000);
         
         $("#submitButton").on("click", function () {
@@ -59,7 +73,14 @@ $(function (){
             question4 = parseInt($("input[name = '4']:checked").val(),10);
             question5 = parseInt($("input[name = '5']:checked").val(),10);
             question6 = parseInt($("input[name = '6']:checked").val(),10);
-            result = question1 + question2 + question3 + question4+question5+question6;
+            question6 = parseInt($("input[name = '7']:checked").val(),10);
+            question6 = parseInt($("input[name = '8']:checked").val(),10);
+            question6 = parseInt($("input[name = '9']:checked").val(),10);
+            question6 = parseInt($("input[name = '10']:checked").val(),10);
+            question6 = parseInt($("input[name = '11']:checked").val(),10);
+            question6 = parseInt($("input[name = '12']:checked").val(),10);
+            question6 = parseInt($("input[name = '13']:checked").val(),10);
+            result = question1 + question2 + question3 + question4+question5+question6+question7+question8+question9+question10+question11+question13;
             gameResult();
             }
         });

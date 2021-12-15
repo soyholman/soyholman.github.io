@@ -187,7 +187,7 @@ a:hover{
     font-weight: 500;
     transition: color 0.5s;
     cursor: pointer;
-    font-size:large ;
+    font-size:medium ;
   }
   .nav li:hover, .nav li:focus,nav .li:hover{
     letter-spacing: 1px;
