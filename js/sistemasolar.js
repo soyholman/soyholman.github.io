@@ -137,7 +137,7 @@ function skip(){
     word_counter = main_text.length;
     setTimeout(function(){
         $("allTexts").innerHTML = main_text;
-        word_count = 0;
+        word_count = 100;
     },100);
 }
 

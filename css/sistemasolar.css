@@ -85,7 +85,7 @@
     user-select:none;
 }
 #main a{
-    margin-top: 90px;
+    margin-top: 20px;
     display: inline-block;
     background: transparent;
     color: #fff;text-align: center;
@@ -98,7 +98,7 @@
     animation-name:space;
     animation-duration:3s;
  
-    width: 40%;
+
   
     
 }
