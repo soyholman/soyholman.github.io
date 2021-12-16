@@ -102,29 +102,6 @@
   
     
 }
-#main #next{
-   
-    display: inline-block;
-    background: transparent;
-    color: #fff;text-align: center;
-    font-size: 17px;
-    border-radius: 5px;
-    padding: 8px 35px;
-    border: 2px solid white;
-
-    animation-iteration-count:infinite;
-    animation-name:space;
-    animation-duration:3s;
- 
-    width: auto;
-  
-    
-}
-#main #next:hover{
-    color: black;
-    background: white;
-    border: 2px solid black;
-}
 #main a:hover{
     color: black;
     background: white;
