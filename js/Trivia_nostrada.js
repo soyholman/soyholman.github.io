@@ -31,7 +31,7 @@ var QUESTIONS = [
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Lahanas1913.jpg/330px-Lahanas1913.jpg"
     },
     {
-		question: "¿A quién se refiere el adivino con la frase? Bestias salvajes hambrientas cruzan el río y la mayor parte del campo de batalla abucheará?",
+		question: " Bestias salvajes hambrientas cruzan el río y la mayor parte del campo de batalla abucheará,¿A quién se refiere?",
         answers: ["Adolf Hitler", "Benito Mussolini", "Josef Stalin","Hirohito"],
         correctAnswer: "Adolf Hitler",
         image: "https://www.recreoviral.com/wp-content/uploads/2016/12/Cover-nostradamus.jpg"
