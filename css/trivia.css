@@ -80,7 +80,8 @@ color: black;
     border-radius: 10px;
     overflow: hidden;
     min-width: 375px;
-    max-width: 650px;
+    max-width: auto;
+    /* max-width: 650px; */
     margin: 0 auto;
 }
 
