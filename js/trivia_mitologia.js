@@ -39,7 +39,7 @@ var QUESTIONS = [
     {
 		question: "Ariadne se enamoró perdidamente de Teseo, quien había decidido entregar su vida por el bienestar de su pueblo ¿Qué hizo para salvarlo?",
         answers: ["Se sacrificó ella en su nombre", "Envió a su más fiel pretendiente a que tomara su lugar", "Creó  un ríode lágrimas para inundar el puebloy salvarlo","Le dio un hiloque se convertiría en su salvación"],
-        correctAnswer: "Le dio un hiloque se convertiría en su salvación",
+        correctAnswer: "Le dio un hilo que se convertiría en su salvación",
         image: "https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1538717082/gwizf3lctrzckxf7zelr.jpg"
     },
     {
