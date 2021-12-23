@@ -64,7 +64,7 @@ var QUESTIONS = [
 
 var correctAnswerElement;
 var questionIndex = 0;
-var timeLeft = 12;
+var timeLeft = 15;
 var timer;
 var correct = 0;
 var incorrect = 0;

@@ -1,88 +1,99 @@
 var QUESTIONS = [
     {
-        question: "El órgano humano más grande ..",
-        answers: ["Cerebro", "Piel", "Higado","Riñón"],
-        correctAnswer: "Piel",
-        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/cdn/582d7eae-2beb-4c9a-8c3f-1792a2dcb789/11ca6905-7cdc-4f0f-b57a-4fcc53a2d19b.jpg"
+        question: "Siéntate __ antes de que te caigas",
+        answers: ["ahy", "ahí", "Hay","ay"],
+        correctAnswer: "ahí",
+        image: "https://gifimage.net/wp-content/uploads/2018/11/gif-sit-1.gif"
     },
     {
-        question: "¿Cuántas cinturas tienen los seres humanos?",
-        answers: ["1", "2","3", "4"],
-        correctAnswer: "2",
-        image: "https://4.bp.blogspot.com/-c46gwHmLDAg/TVg2tA43EVI/AAAAAAAAAL8/XFVLcwrlS78/s1600/Human+Anatomy.7.jpg"
+        question: "La sequía ha afectado ______ a la parte sur del continente",
+        answers: ["sobretodo", "sobre todo"],
+        correctAnswer: "sobre todo",
+        image: "https://th.bing.com/th/id/R.e40623bafa478c039d48ab1934aea45f?rik=kh%2ffMlaHOI%2btpA&pid=ImgRaw&r=0"
     },
     {
      
-        question: "¿Cuántos huesos conforman el cráneo humano?",
-        answers: [ "4", "10", "8","5"],
-        correctAnswer: "8",
-        image: "https://www.publicdomainpictures.net/pictures/250000/nahled/human-anatomy-1517256616AlU.jpg"
+        question: "Es una cantante excepcional, creo que _______ mejor en todo el mundo",
+        answers: [ "no le hay", "no lo hay", "no la hay"],
+        correctAnswer: "no la hay",
+        image: "https://c.tenor.com/M2jRS63MhcAAAAAC/adele-hello.gif"
     },
     {
-		question: "La “campanilla” de la boca recibe el nombre de…",
-        answers: ["Úgula","Úvula", "Únula","Úbula"],
-        correctAnswer: "Úvula",
-        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1566666772/rwals7je5wah3029woja.png"
+		question: "No entiendo ______ te pones tan pesado algunas veces",
+        answers: ["porqué", "por qué", "porque","por que"],
+        correctAnswer: "por qué",
+        image: "https://c.tenor.com/B4vKlEjr_-AAAAAd/mr-bean-sleepy.gif"
     },
     {	
-		question: "¿Qué papilas gustativas son las receptoras del sabor dulce?",
-        answers: ["Foliadas", "Caliciformes", "Fungiformes","Espungiformes"],
-        correctAnswer: "Caliciformes",
-        image: "https://images.fineartamerica.com/images-medium-large-5/tongue-anatomy-artwork-henning-dalhoff.jpg"
+		question: "Creo que todo gira ________ al color de la vajilla",
+        answers: ["entorno","en torno"],
+        correctAnswer: "en torno",
+        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/cdn/b32d458a-e7ba-4d0e-869b-6d8ff34296c1/a681f570-9b0a-477e-9049-bac3708b2fe9.jpg"
     },
     {
-		question: "El gastrocnemio es un músculo que queda ubicado en...?",
-        answers: ["El estomago", "El corazón", "La pierna","Las manos"],
-        correctAnswer: "La pierna",
-        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1566668404/rjshgd5zq3khzapgadzr.jpg"
+		question: "Hoy no me apetece bañarme ____ tomar el sol",
+        answers: ["sino", "si no"],
+        correctAnswer: "sino",
+        image: "https://c.tenor.com/UqW-583WtbgAAAAM/shower-pool.gif"
     },
     {
-		question: "La membrana que rodea y protege al corazón externamente es el…",
-        answers: ["Pericardio", "Miocardio", "Endocardio","Cetocardio"],
-        correctAnswer: "Pericardio",
-        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1566666940/qrmpbpsckm8s3cycxik1.jpg"
+		question: "_____ cuando vienes a recoger tu bicicleta",
+        answers: ["a ver", "Haber"],
+        correctAnswer: "a ver",
+        image: "https://2.bp.blogspot.com/-bayW_eI98So/WTBpa3Mj52I/AAAAAAAAEio/vlhEc746HawXVk_jtdGOY8m2JmNs9nM0QCLcB/s640/Carlos%2BVives%252C%2BShakira%2B-%2BLa%2BBicicleta.gif"
     },
     {
-		question: "La coroides es una membrana presente en el…",
-        answers: ["Ojo", "Cerebro", "Riñón","Higado"],
-        correctAnswer: "Ojo",
-        image: "https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/human-anatomy-of-head-with-skull-eye-pixelchaos.jpg"
+		question: "Lo de las islas de plástico en el océano debe ser una leyenda urbana, ____ ya estarían organizando excursiones para verlas",
+        answers: ["si no", "sino"],
+        correctAnswer: "si no",
+        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/cdn/b32d458a-e7ba-4d0e-869b-6d8ff34296c1/bcf88fc6-7035-4c32-8f9a-c87c0d33f71a.jpg"
     },
     {
-		question: "El trapezoide es un hueso que está en la…",
-        answers: ["Mano", "Escapula", "Pierna","Hombros"],
-        correctAnswer: "Mano",
-        image: "https://th.bing.com/th/id/OIP.sz_6_dgwB3UGXpx7K5APMwAAAA?pid=ImgDet&w=450&h=600&rs=1"
+		question: "¡__ mi cabeza! Menudo golpe me he dado",
+        answers: ["Ahí", "Ay", "Ahy","Hay"],
+        correctAnswer: "Ay",
+        image: "https://c.tenor.com/56ocFlKjieoAAAAC/head-migraine.gif"
     },
     {
-		question: "La lúnula es una parte de… ",
-        answers: ["El diente", "La Uña", "El oido","El codo"],
-        correctAnswer: "La Uña",
-        image: "https://th.bing.com/th/id/R.9f2d9da7c8a70c8bdab8f8129a89bf04?rik=RYiaTf2V%2bX%2fdqg&riu=http%3a%2f%2fcode7700.com%2fimages%2fphysiology_biology_q_and_a.jpg&ehk=4WlH1oQ6JoHVmPTFM%2bVnFFJduZSNejuCI1av3UcatJI%3d&risl=&pid=ImgRaw&r=0"
+		question: "Desde luego... ¡______ poca cosa te has enfadado!",
+        answers: ["por qué", "porque", "porqué","por que"],
+        correctAnswer: "por qué",
+        image: "https://i.pinimg.com/originals/be/bf/8b/bebf8bc1566d1b8f29fe6811551595d8.gif"
     },
     {
-		question: "¿Cuántos dientes generalmente tiene un humano adulto?",
-        answers: ["28", "30", "32","40"],
-        correctAnswer: "32",
-        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1566668083/pywgj5dicvxmwx0uqwlj.jpg"
+		question: "Y ese es el ______ de su afición por los peces de colores",
+        answers: ["por que", "por qué", "porque","porqué"],
+        correctAnswer: "porqué",
+        image: "https://i.pinimg.com/originals/76/20/60/7620608082d58b22e387676afe2c730f.gif"
     },
     {
-		question: "¿Qué pulmón es más pequeño?",
-        answers: ["Derecho", "Izquierdo"],
-        correctAnswer: "Izquierdo",
-        image: "https://preview.free3d.com/img/2017/10/1870533495437132975/2rc5t9rd-900.jpg"
-    },
-    {
-		question: "¿Con qué otro nombre se conoce a la glándula pituitaria?",
-        answers: ["Hipófisis", "Hipocampo","Hipotálamo","Necrotálamo"],
-        correctAnswer: "Hipófisis",
-        image: "https://pymstatic.com/3914/conversions/glandula-pituitaria-hipofisis-social.jpg"
+		question: "Aquí mismo __ una señal que lo prohíbe",
+        answers: ["ahy", "ahí", "hay","ay"],
+        correctAnswer: "hay",
+        image: "https://c.tenor.com/d8KlRn-G_VIAAAAC/kitty-stop.gif"
+    },  {
+		question: "No tengo pensamiento de ir ______ no me han invitado",
+        answers: ["porqué", "por que", "porque","por qué"],
+        correctAnswer: "porque",
+        image: "https://c.tenor.com/k6OQBqI0rNwAAAAd/crying-upset.gif"
+    }, 
+     {
+		question: "Con _____ llegado a tiempo me habría conformado",
+        answers: ["haber", "a ver"],
+        correctAnswer: "haber",
+        image: "https://c.tenor.com/7F8RuUyn_i4AAAAd/be-on-time-dont-be-late.gif"
+    },  {
+		question: "Me gustaría _____ podido escucharlos en directo",
+        answers: ["haber", "a ver"],
+        correctAnswer: "haber",
+        image: "https://c.tenor.com/xu-i1FdasOQAAAAd/freddie-mercury-live-aid.gif"
     }
+
 ];
 
 var correctAnswerElement;
 var questionIndex = 0;
-var timeLeft = 15;
+var timeLeft = 20;
 var timer;
 var correct = 0;
 var incorrect = 0;
@@ -180,7 +191,7 @@ $(function () {
                 incorrect++;
                 showCorrectAnswer();
                 clearInterval(timer);
-                timeLeft = 15;
+                timeLeft = 20;
                 $("#timeLeft").css("display", "none");
                 $("#message").text("se acabó el tiempo!");
                 $("#message").css("display", "block");
@@ -208,7 +219,7 @@ $(function () {
 
         setTimeout(function () {
             questionIndex++;
-            timeLeft = 15;
+            timeLeft =20;
 			startGame();
             $("#message").css("display", "none");
             $("#message").text("SE HA TERMINADO EL TIEMPO!");
