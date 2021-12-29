@@ -84,7 +84,8 @@ $(function () {
             if (div.text() === QUESTIONS[questionIndex].correctAnswer) {
                 correctAnswer = div;
             }
-            div.addClass("hover"); // Adds hover effect to each answer element
+            div.addClass("hover");
+            $("#Titles").css("font-size", "medium");  // Adds hover effect to each answer element
         });
 
         return correctAnswer;
