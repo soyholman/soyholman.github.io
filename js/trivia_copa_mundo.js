@@ -1,81 +1,76 @@
 var QUESTIONS = [
     {
-        question: "Cupido es hijo del dios de la guerra.",
-        answers: ["No, es hijo de Apolo,dios de la belleza", "No,es hijo Dionisio dios del placer", "No, es hijo de Zeus, dios omnipotente","Sí, es hijo de Ares,dios de la guerra"],
-        correctAnswer: "Sí, es hijo de Ares,dios de la guerra",
-        image: "https://ayeunicornioliterario.files.wordpress.com/2019/02/giphy.gif?w=356"
+        question: "BONUS: ¿De qué país fue mascota Naranjito?",
+        answers: ["España", "México", "Argentina","Holanda"],
+        correctAnswer: "España",
+        image: "https://th.bing.com/th/id/R.652b272b80b19a23c9b228d1865c0b85?rik=ZMKTW6LaknpBfQ&riu=http%3a%2f%2fimg.europapress.es%2ffotoweb%2ffotonoticia_20150306081737_800.jpg&ehk=ZEOBJYRSLjFnliK%2bIIzevu8M%2fIC2y5NDomxrIhn3QfY%3d&risl=&pid=ImgRaw&r=0"
     },
     {
-        question: "Aracne era una joven increíblemente talentosa que con sus tejidos impactaba al pueblo. Atenea, envidiosa de sus talentos, decidió convertirla en araña.",
-        answers: ["Verdadero", "Falso"],
-        correctAnswer: "Verdadero",
-        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1538717700/ohkmyyg7su5y881tjkjq.jpg"
+        question: "¿En cuál Mundial fue suspendido Diego Maradona tras ser acusado por dopaje?",
+        answers: ["Estados Unidos 1994", "Italia 1990","Francia 1998","Ninguna de las anteriores"],
+        correctAnswer: "Estados Unidos 1994",
+        image: "https://th.bing.com/th/id/R.9f93a140fddc7b5438f8c902f75804ee?rik=tkf0OhHT7q8ePw&riu=http%3a%2f%2fwww.polvo.com.ar%2fwp-content%2fuploads%2f2017%2f11%2ftenor.gif&ehk=LEYfVRWlt%2fkrHyM19Tgwl%2fqe1QnzkB5a3XHCVwaqyW4%3d&risl=&pid=ImgRaw&r=0"
     },
     {
      
-        question: "Zeus se enamoró de Dánae, una joven que estaba encerrada en una caja de cobre. Para poder pretenderla, se transformó en….",
-        answers: [ "Viento", "Lluvia de estrellas", "Corriente de agua","En un colibrí"],
-        correctAnswer: "Lluvia de estrellas",
-        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1538717499/nd9owable2invkzs5cbd.jpg"
+        question: "En el Mundial de Francia de 1938, Mussolini envió un mensaje que causó furor en la selección de Italia, ¿qué decía el mensaje?",
+        answers: [ "Vencer o morir", "El poder esta en sus pies", "Italia vencedora hasta la muerte","Campeones o vencidos, pero unidos a intentarlo"],
+        correctAnswer: "Vencer o morir",
+        image: "https://media.giphy.com/media/QYRs4esUS6Ot2/200.gif"
     },
     {
-		question: "Apolo, el dios de la música, despellejó vivo a un músico porque le tenía envidia.",
-        answers: ["Verdadero", "Falso"],
-        correctAnswer: "Verdadero",
-        image: "https://i.pinimg.com/originals/00/1e/91/001e91b2ff24ce51611bbb4daf78622c.gif"
+		question: "¿Cuál es el nombre de la canción que cantó Ricky Martin en el Mundial de 1998?",
+        answers: ["GOL GOL GOL", "ALLEZ ALLEZ ALLEZ", "El mundo está de pie","La copa de la vida"],
+        correctAnswer: "La copa de la vida",
+        image: "https://media.giphy.com/media/l0MYAp4DXCrhfLp6g/giphy.gif"
     },
     {	
-		question: "Una terrible guerra desatada por el amor de una mujer. ¿Quién predijo la guerra de Troya?",
-        answers: ["Discordia", "Atenea", "Artemisa","Cassandra"],
-        correctAnswer: "Cassandra",
-        image: "https://i.pinimg.com/originals/e5/5c/b9/e55cb998cae6e73da2fbf6836090a296.gif"
+		question: "¿Quién fue el máximo goleador de la Copa del Mundo del 2002?",
+        answers: ["Ronaldo el fenómeno","Puyol","Zinédine Zidane","Roberto Carlos"],
+        correctAnswer: "Ronaldo el fenómeno",
+        image: "https://th.bing.com/th/id/R.2858cd5505e58f19e0e1212b2442270d?rik=W6PAjr83RPgh6A&riu=http%3a%2f%2fhumorfutbolclub.com%2fwp-content%2fuploads%2f2012%2f05%2fgif-gracioso-futbol-lanzamiento-falta-barrera-gol-propia-puerta.gif&ehk=381QMqXEXP4WHRTJNrWhOT12FDaf5IjHSFUc%2f%2fY4%2fLY%3d&risl=&pid=ImgRaw&r=0"
     },
     {
-		question: "Cupido es el dios del amor, el responsable de unir corazones. Una vez, se enamoró… ¿Quién lo enamoró?",
-        answers: ["Afrodita", "Psique", "Atenea","Éride"],
-        correctAnswer: "Psique",
-        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1538717229/ubhptz5yjfab6xtgj1rw.jpg"
+		question: "¿Cómo se llamó la mascota del Mundial Sudáfrica 2010?",
+        answers: ["Waka Waka", "Zakumi","Mundialito","Wakanda"],
+        correctAnswer: "Zakumi",
+        image: "https://i7.glitter-graphics.org/pub/2804/2804227ya0s2fr5e7.gif"
     },
     {
-		question: "Ariadne se enamoró perdidamente de Teseo, quien había decidido entregar su vida por el bienestar de su pueblo ¿Qué hizo para salvarlo?",
-        answers: ["Se sacrificó ella en su nombre", "Envió a su más fiel pretendiente a que tomara su lugar", "Creó  un río de lágrimas para inundar el puebloy salvarlo","Le dio un hilo que se convertiría en su salvación"],
-        correctAnswer: "Le dio un hilo que se convertiría en su salvación",
-        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1538717082/gwizf3lctrzckxf7zelr.jpg"
+		question: "¿Cuál es el orden cronológico correcto de las últimas 5 sedes del Mundial? (De más reciente a más antiguo).",
+        answers: ["Rusia,brasil,Sudáfrica,Alemania, Japón-Corea", "Rusia,Sudáfrica,Brasil,Alemania,Francia","Rusia,Brasil  ,Alemania,Sudáfrica,México"],
+        correctAnswer: "Rusia,brasil,Sudáfrica,Alemania, Japón-Corea",
+        image: "https://thumbs.gfycat.com/LonelyWaterloggedJumpingbean-max-1mb.gif"
     },
     {
-		question: "¿Quién le hace los rayos a Zeus?",
-        answers: ["Él mismo los fabrica", "Los hace Atenea","Los diseña Artemisa","Los fabrican los Cíclopes"],
-        correctAnswer: "Los fabrican los Cíclopes",
-        image: "https://c.tenor.com/acJ0bxQyO4QAAAAC/zeus-god.gif"
+		question: "¿Qué país ganó la Copa del Mundo en Alemania 2006?",
+        answers: ["Alemania", "Francia","Italia","Argentina"],
+        correctAnswer: "Italia",
+        image: "https://c.tenor.com/Wa0kczXZac0AAAAC/grosso-2006.gif"
     },
     {
-		question: "¿Quién enseñó medicina a Asclepio, el dios de la salud?",
-        answers: ["Apolo su padre", "Zeus, el dios más poderoso", "Atenea, la diosa más sabia","Quirón, el centauro"],
-        correctAnswer: "Quirón, el centauro",
-        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1538716780/zbwusphrzsfwkbnrgxmg.jpg"
+		question: "¿En qué año se estrenó la famosa canción de Shakira Waka Waka?",
+        answers: ["2010", "2006", "2014","2002"],
+        correctAnswer: "2010",
+        image: "https://i.pinimg.com/originals/d7/1c/08/d71c08719e70a97f34ab66da29d9d7ce.gif"
     },
     {
-		question: "¿Quién mató a Medusa?",
-        answers: ["Paris", "Aquiles", "Perseo","Apolo"],
-        correctAnswer: "Perseo",
-        image: "https://c.tenor.com/AtkogyYmzwYAAAAd/medusa-percy.gif"
+		question: "¿Cuántas veces ha ganado Brasil la Copa del Mundo?",
+        answers: ["5", "6", "3","4"],
+        correctAnswer: "5",
+        image: "https://thumbs.gfycat.com/PettyAgitatedBluetickcoonhound-size_restricted.gif"
     },
     {
-		question: "¿Por qué en la mitología, los poderosos usan coronas de laurel?",
-        answers: ["Por su olor agradable", "Porque era una hierba extremadamente costosa", "Porque es la planta consagrada de Apolo","Porque tiene propiedades mágicas y curativas"],
-        correctAnswer: "Porque es la planta consagrada de Apolo",
-        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1538716455/zek95oovmajw4nxexalp.jpg"
+		question: "¿Qué selección salió vencedora en la primera Copa del Mundo en 1930?",
+        answers: ["Uruguay", "Italia", "Alemania","Francia"],
+        correctAnswer: "Uruguay",
+        image: "https://phoneky.co.uk/thumbs/screensavers/down/sports/worldcup_xwks2dvf.gif"
     },
     {
-		question: "La reina Pasífae, se enamoró de un toro y de la unión, nació un minotauro que debieron encerrar en un laberinto. ¿Quién construyó el laberinto?",
-        answers: ["El rey Minos", "Dédalo", "Ícaro","Aquiles"],
-        correctAnswer: "Dédalo",
-        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1538716286/m3p0c45gv19aklwqxtqc.png"
-    },  {
-		question: "En la mitología griega, Amazonas era una tribu de mujeres guerreras que NO compartía con hombres.",
-        answers: ["Verdadero", "Falso"],
-        correctAnswer: "Verdadero",
-        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1538716204/tnukkwawn6pgi68tf92b.jpg"
+		question: "¿Quién es el jugador con más goles en la historia del Mundial?",
+        answers: ["Josef Klose", "Pelé", "Maradona","KaKá"],
+        correctAnswer: "Josef Klose",
+        image: "https://i0.wp.com/33.media.tumblr.com/e7a7a0b4582c994fcd471073627089d8/tumblr_n8pckvNZg81r1hfqdo1_400.gif?resize=350%2C196&ssl=1"
     }
 
 ];
@@ -103,8 +98,8 @@ $(function () {
                 correctAnswer = div;
             }
             div.addClass("hover");
-            $("#Titles").css("font-size", "medium");
-            $("h3").css("font-size", "larger");   // Adds hover effect to each answer element
+            $("#Titles").css("font-size", "medium"); 
+            $("h3").css("font-size", "larger");  // Adds hover effect to each answer element
         });
 
         return correctAnswer;
@@ -210,7 +205,7 @@ $(function () {
 
         setTimeout(function () {
             questionIndex++;
-            timeLeft = 20;
+            timeLeft =20;
 			startGame();
             $("#message").css("display", "none");
             $("#message").text("SE HA TERMINADO EL TIEMPO!");

@@ -103,7 +103,8 @@ $(function () {
                 correctAnswer = div;
             }
             div.addClass("hover");
-            $("#Titles").css("font-size", "medium");  // Adds hover effect to each answer element
+            $("#Titles").css("font-size", "medium");
+            $("h3").css("font-size", "larger"); // Adds hover effect to each answer element
         });
 
         return correctAnswer;

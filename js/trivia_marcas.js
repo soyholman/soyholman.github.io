@@ -1,88 +1,65 @@
 var QUESTIONS = [
     {
-        question: "Cupido es hijo del dios de la guerra.",
-        answers: ["No, es hijo de Apolo,dios de la belleza", "No,es hijo Dionisio dios del placer", "No, es hijo de Zeus, dios omnipotente","Sí, es hijo de Ares,dios de la guerra"],
-        correctAnswer: "Sí, es hijo de Ares,dios de la guerra",
-        image: "https://ayeunicornioliterario.files.wordpress.com/2019/02/giphy.gif?w=356"
-    },
-    {
-        question: "Aracne era una joven increíblemente talentosa que con sus tejidos impactaba al pueblo. Atenea, envidiosa de sus talentos, decidió convertirla en araña.",
-        answers: ["Verdadero", "Falso"],
-        correctAnswer: "Verdadero",
-        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1538717700/ohkmyyg7su5y881tjkjq.jpg"
+        question: "Chevrolet",
+        answers: ["Estados Unidos", "Japón","Canadá"],
+        correctAnswer: "Estados Unidos",
+        image: "https://th.bing.com/th/id/OIP.sn8LHaOURg__N51OKLuj6wHaDt?pid=ImgDet&rs=1"
     },
     {
      
-        question: "Zeus se enamoró de Dánae, una joven que estaba encerrada en una caja de cobre. Para poder pretenderla, se transformó en….",
-        answers: [ "Viento", "Lluvia de estrellas", "Corriente de agua","En un colibrí"],
-        correctAnswer: "Lluvia de estrellas",
-        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1538717499/nd9owable2invkzs5cbd.jpg"
+        question: "LG",
+        answers: [ "Japón", "Corea del sur","Corea del norte"],
+        correctAnswer: "Corea del sur",
+        image: "https://th.bing.com/th/id/R.16c6fac84be4475bc382f7da31f7c671?rik=x3tk5eDldUlFmw&riu=http%3a%2f%2fglobalgeeknews.com%2fwp-content%2fuploads%2f2011%2f03%2flg-logo.gif&ehk=pyrHX1wY6Px6lL00UiUsf7l%2bgQtQBshXLq7FXiF9RQE%3d&risl=&pid=ImgRaw&r=0"
     },
     {
-		question: "Apolo, el dios de la música, despellejó vivo a un músico porque le tenía envidia.",
-        answers: ["Verdadero", "Falso"],
-        correctAnswer: "Verdadero",
-        image: "https://i.pinimg.com/originals/00/1e/91/001e91b2ff24ce51611bbb4daf78622c.gif"
+		question: "Lenovo",
+        answers: ["Filipinas", "China","Mongolia"],
+        correctAnswer: "China",
+        image: "https://th.bing.com/th/id/R.576da75e7a369f2dc787e5b688595b53?rik=ekaMEgy9j4FJkA&pid=ImgRaw&r=0"
     },
     {	
-		question: "Una terrible guerra desatada por el amor de una mujer. ¿Quién predijo la guerra de Troya?",
-        answers: ["Discordia", "Atenea", "Artemisa","Cassandra"],
-        correctAnswer: "Cassandra",
-        image: "https://i.pinimg.com/originals/e5/5c/b9/e55cb998cae6e73da2fbf6836090a296.gif"
+		question: "Ferraria",
+        answers: ["Italia", "España","Grecia"],
+        correctAnswer: "Italia",
+        image: "https://giffiles.alphacoders.com/988/98859.gif"
     },
     {
-		question: "Cupido es el dios del amor, el responsable de unir corazones. Una vez, se enamoró… ¿Quién lo enamoró?",
-        answers: ["Afrodita", "Psique", "Atenea","Éride"],
-        correctAnswer: "Psique",
-        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1538717229/ubhptz5yjfab6xtgj1rw.jpg"
+		question: "Siemens",
+        answers: ["Francia","Bélgica","Alemania"],
+        correctAnswer: "Alemania",
+        image: "https://th.bing.com/th/id/OIP.d9iv-xgUaW-Upl3tKl2o9AHaBw?pid=ImgDet&rs=1"
     },
     {
-		question: "Ariadne se enamoró perdidamente de Teseo, quien había decidido entregar su vida por el bienestar de su pueblo ¿Qué hizo para salvarlo?",
-        answers: ["Se sacrificó ella en su nombre", "Envió a su más fiel pretendiente a que tomara su lugar", "Creó  un río de lágrimas para inundar el puebloy salvarlo","Le dio un hilo que se convertiría en su salvación"],
-        correctAnswer: "Le dio un hilo que se convertiría en su salvación",
-        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1538717082/gwizf3lctrzckxf7zelr.jpg"
+		question: "Nintendo",
+        answers: ["China", "Japón","Malasia"],
+        correctAnswer: "Japón",
+        image: "https://media.giphy.com/media/h9ylbGfDQfNDy/giphy.gif"
     },
     {
-		question: "¿Quién le hace los rayos a Zeus?",
-        answers: ["Él mismo los fabrica", "Los hace Atenea","Los diseña Artemisa","Los fabrican los Cíclopes"],
-        correctAnswer: "Los fabrican los Cíclopes",
-        image: "https://c.tenor.com/acJ0bxQyO4QAAAAC/zeus-god.gif"
+		question: "Facebook",
+        answers: ["Estados Unidos", "Inglaterra","Australia"],
+        correctAnswer: "Estados Unidos",
+        image: "https://www.audienciaelectronica.net/wp-content/uploads/2017/03/facebook-gif.gif"
     },
     {
-		question: "¿Quién enseñó medicina a Asclepio, el dios de la salud?",
-        answers: ["Apolo su padre", "Zeus, el dios más poderoso", "Atenea, la diosa más sabia","Quirón, el centauro"],
-        correctAnswer: "Quirón, el centauro",
-        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1538716780/zbwusphrzsfwkbnrgxmg.jpg"
+		question: "Peugeot",
+        answers: ["España", "Francia","Alemania"],
+        correctAnswer: "Francia",
+        image: "https://th.bing.com/th/id/OIP.cMLEkQoLRzdyAs6L0fZTtgAAAA?pid=ImgDet&rs=1"
     },
+ 
     {
-		question: "¿Quién mató a Medusa?",
-        answers: ["Paris", "Aquiles", "Perseo","Apolo"],
-        correctAnswer: "Perseo",
-        image: "https://c.tenor.com/AtkogyYmzwYAAAAd/medusa-percy.gif"
-    },
-    {
-		question: "¿Por qué en la mitología, los poderosos usan coronas de laurel?",
-        answers: ["Por su olor agradable", "Porque era una hierba extremadamente costosa", "Porque es la planta consagrada de Apolo","Porque tiene propiedades mágicas y curativas"],
-        correctAnswer: "Porque es la planta consagrada de Apolo",
-        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1538716455/zek95oovmajw4nxexalp.jpg"
-    },
-    {
-		question: "La reina Pasífae, se enamoró de un toro y de la unión, nació un minotauro que debieron encerrar en un laberinto. ¿Quién construyó el laberinto?",
-        answers: ["El rey Minos", "Dédalo", "Ícaro","Aquiles"],
-        correctAnswer: "Dédalo",
-        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1538716286/m3p0c45gv19aklwqxtqc.png"
-    },  {
-		question: "En la mitología griega, Amazonas era una tribu de mujeres guerreras que NO compartía con hombres.",
-        answers: ["Verdadero", "Falso"],
-        correctAnswer: "Verdadero",
-        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1538716204/tnukkwawn6pgi68tf92b.jpg"
+		question: "Apple",
+        answers: ["Escocia", "Inglaterra","Estados Unidos"],
+        correctAnswer: "Estados Unidos",
+        image: "https://1000marken.net/wp-content/uploads/2021/01/Apple-logo.png"
     }
-
 ];
 
 var correctAnswerElement;
 var questionIndex = 0;
-var timeLeft = 20;
+var timeLeft = 15;
 var timer;
 var correct = 0;
 var incorrect = 0;
@@ -103,8 +80,7 @@ $(function () {
                 correctAnswer = div;
             }
             div.addClass("hover");
-            $("#Titles").css("font-size", "medium");
-            $("h3").css("font-size", "larger");   // Adds hover effect to each answer element
+            $("#Titles").css("font-size", "medium");  // Adds hover effect to each answer element
         });
 
         return correctAnswer;
@@ -182,7 +158,7 @@ $(function () {
                 incorrect++;
                 showCorrectAnswer();
                 clearInterval(timer);
-                timeLeft = 20;
+                timeLeft = 15;
                 $("#timeLeft").css("display", "none");
                 $("#message").text("se acabó el tiempo!");
                 $("#message").css("display", "block");
@@ -210,7 +186,7 @@ $(function () {
 
         setTimeout(function () {
             questionIndex++;
-            timeLeft = 20;
+            timeLeft = 15;
 			startGame();
             $("#message").css("display", "none");
             $("#message").text("SE HA TERMINADO EL TIEMPO!");
