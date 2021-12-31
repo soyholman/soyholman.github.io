@@ -1,59 +1,58 @@
 var QUESTIONS = [
     {
-        question: "Chevrolet",
-        answers: ["Estados Unidos", "Japón","Canadá"],
-        correctAnswer: "Estados Unidos",
-        image: "https://th.bing.com/th/id/OIP.sn8LHaOURg__N51OKLuj6wHaDt?pid=ImgDet&rs=1"
+        question: "El león es el felino de mayor tamaño…",
+        answers: ["Verdadero", "Falso"],
+        correctAnswer: "Falso",
+        image: "https://c.tenor.com/yZpFH9fS-yEAAAAC/lion-rawr.gif"
+    },
+    {
+        question: "¿En qué paisaje habitan principalmente los leones?",
+        answers: ["Selva", "Sabana", "Desierto","Manglar"],
+        correctAnswer: "Sabana",
+        image: "https://c.tenor.com/gJXumAXejJ4AAAAC/animales-leones.gif"
     },
     {
      
-        question: "LG",
-        answers: [ "Japón", "Corea del sur","Corea del norte"],
-        correctAnswer: "Corea del sur",
-        image: "https://th.bing.com/th/id/R.16c6fac84be4475bc382f7da31f7c671?rik=x3tk5eDldUlFmw&riu=http%3a%2f%2fglobalgeeknews.com%2fwp-content%2fuploads%2f2011%2f03%2flg-logo.gif&ehk=pyrHX1wY6Px6lL00UiUsf7l%2bgQtQBshXLq7FXiF9RQE%3d&risl=&pid=ImgRaw&r=0"
+        question: "Las leonas son las responsables de salir a cazar y alimentar a toda la manada…",
+        answers: [  "Verdadero","Falso"],
+        correctAnswer: "Verdadero",
+        image: "https://c.tenor.com/SfdyEQ-R3JgAAAAM/tiger-roar.gif"
     },
     {
-		question: "Lenovo",
-        answers: ["Filipinas", "China","Mongolia"],
-        correctAnswer: "China",
-        image: "https://th.bing.com/th/id/R.576da75e7a369f2dc787e5b688595b53?rik=ekaMEgy9j4FJkA&pid=ImgRaw&r=0"
+		question: "¿A qué distancia se puede escuchar el rugido de un león?",
+        answers: ["1 km", "4 km", "3 km","8 km"],
+        correctAnswer: "8 km",
+        image: "https://c.tenor.com/13X1YUL4dwYAAAAC/leon-animales.gif"
     },
     {	
-		question: "Ferrari",
-        answers: ["Italia", "España","Grecia"],
-        correctAnswer: "Italia",
-        image: "https://giffiles.alphacoders.com/988/98859.gif"
+		question: "¿Cuánto tiempo pasa descansando, en promedio, un león macho al día?",
+        answers: ["8 horas", "10 horas", "15 horas","20 horas"],
+        correctAnswer: "20 horas",
+        image: "https://c.tenor.com/uQb9dWIOX28AAAAC/leones-animales.gif"
     },
     {
-		question: "Siemens",
-        answers: ["Francia","Bélgica","Alemania"],
-        correctAnswer: "Alemania",
-        image: "https://th.bing.com/th/id/OIP.d9iv-xgUaW-Upl3tKl2o9AHaBw?pid=ImgDet&rs=1"
+		question: "Los leones son los únicos felinos que viven en manada…",
+        answers: ["Verdadero","Falso"],
+        correctAnswer: "Verdadero",
+        image: "https://reygif.com/media/1/leon-lindo-9532.gif"
     },
     {
-		question: "Nintendo",
-        answers: ["China", "Japón","Malasia"],
-        correctAnswer: "Japón",
-        image: "https://media.giphy.com/media/h9ylbGfDQfNDy/giphy.gif"
+		question: "¿Cuántas veces puede llegar a copular un león macho en un día de época reproductiva?",
+        answers: ["30 veces", "25 veces", "50 veces","10 veces"],
+        correctAnswer: "50 veces",
+        image: "https://c.tenor.com/M_fUTO1dmHQAAAAC/lion-king-leon.gif"
     },
     {
-		question: "Facebook",
-        answers: ["Estados Unidos", "Inglaterra","Australia"],
-        correctAnswer: "Estados Unidos",
-        image: "https://www.audienciaelectronica.net/wp-content/uploads/2017/03/facebook-gif.gif"
+		question: "¿Cuántos años vive un león en su hábitat natural?",
+        answers: ["10 años", "8 años", "15 años","20 años"],
+        correctAnswer: "15 años",
+        image: "https://c.tenor.com/brNXbtMIv0AAAAAC/leon-animales.gif"
     },
     {
-		question: "Peugeot",
-        answers: ["España", "Francia","Alemania"],
-        correctAnswer: "Francia",
-        image: "https://th.bing.com/th/id/OIP.cMLEkQoLRzdyAs6L0fZTtgAAAA?pid=ImgDet&rs=1"
-    },
- 
-    {
-		question: "Apple",
-        answers: ["Escocia", "Inglaterra","Estados Unidos"],
-        correctAnswer: "Estados Unidos",
-        image: "https://1000marken.net/wp-content/uploads/2021/01/Apple-logo.png"
+		question: "¿A qué edad un león macho abandona su manada?",
+        answers: ["2 años", "10 años", "5 años","8 años"],
+        correctAnswer: "5 años",
+        image: "https://reygif.com/media/1/leones-blancos-9549.gif"
     }
 ];
 
@@ -80,7 +79,7 @@ $(function () {
                 correctAnswer = div;
             }
             div.addClass("hover");
-            $("#Titles").css("font-size", "medium");  // Adds hover effect to each answer element
+            $("#Titles").css("font-size", "medium"); // Adds hover effect to each answer element
         });
 
         return correctAnswer;

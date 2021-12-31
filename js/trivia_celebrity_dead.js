@@ -1,59 +1,64 @@
 var QUESTIONS = [
     {
-        question: "Chevrolet",
-        answers: ["Estados Unidos", "Japón","Canadá"],
-        correctAnswer: "Estados Unidos",
-        image: "https://th.bing.com/th/id/OIP.sn8LHaOURg__N51OKLuj6wHaDt?pid=ImgDet&rs=1"
+        question: "¿Cómo murió el famoso actor Heath Ledger?",
+        answers: ["ahorcamiento", "Sobredosis causada", "Sobredosis accidental"],
+        correctAnswer: "Sobredosis accidental",
+        image: "https://th.bing.com/th/id/R.7d53a4577b36960a61676719a8fb6a9e?rik=ARKUfm0cuDKjWQ&riu=http%3a%2f%2fvenus.com.py%2fwp-content%2fuploads%2f2020%2f01%2factor-heath-ledger-habria-cumplido-hoy-40-anos-1000x600.jpeg&ehk=%2fPt2zFMs3mbNPjdskWTj51XrO5D82uu%2bd532eOl6FZo%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+        question: "Whitney Houston murió por…",
+        answers: ["Sobredosis", "Mezcla de sobredosisy enfermedad coronaria", "Enfermedad coronaria"],
+        correctAnswer: "Enfermedad coronaria",
+        image: "https://www.out.com/sites/out.com/files/2016/02/11/tumblr_lzaymseshv1qh9nffo2_500.gif"
     },
     {
      
-        question: "LG",
-        answers: [ "Japón", "Corea del sur","Corea del norte"],
-        correctAnswer: "Corea del sur",
-        image: "https://th.bing.com/th/id/R.16c6fac84be4475bc382f7da31f7c671?rik=x3tk5eDldUlFmw&riu=http%3a%2f%2fglobalgeeknews.com%2fwp-content%2fuploads%2f2011%2f03%2flg-logo.gif&ehk=pyrHX1wY6Px6lL00UiUsf7l%2bgQtQBshXLq7FXiF9RQE%3d&risl=&pid=ImgRaw&r=0"
+        question: "¿Por qué razón murió el famoso trigésimo quinto presidente de los Estados Unidos, John F. Kennedy?",
+        answers: [ "Accidente aéreo", "Accidente de tránsito", "Complicaciones de la diabetes","Ninguna de las anteriores"],
+        correctAnswer: "Ninguna de las anteriores",
+        image: "https://media.giphy.com/media/GDx4qy4uhSfK/200.gif"
     },
     {
-		question: "Lenovo",
-        answers: ["Filipinas", "China","Mongolia"],
-        correctAnswer: "China",
-        image: "https://th.bing.com/th/id/R.576da75e7a369f2dc787e5b688595b53?rik=ekaMEgy9j4FJkA&pid=ImgRaw&r=0"
+		question: "La causa de muerte del polifacético actor Robin Williams fue…",
+        answers: ["Asfixia", "Paro respiratorio", "Paro cardíaco","Ninguna de las anteriores"],
+        correctAnswer: "Asfixia",
+        image: "https://3.bp.blogspot.com/-xyAIIOyFDGQ/U-oOeNK_rzI/AAAAAAAAKcc/v9wte0478-8/s1600/Robin%2BWilliams%2B2.gif"
     },
     {	
-		question: "Ferrari",
-        answers: ["Italia", "España","Grecia"],
-        correctAnswer: "Italia",
-        image: "https://giffiles.alphacoders.com/988/98859.gif"
+		question: "¿Cómo murió John Lennon?",
+        answers: ["Asesinado por arma blanca", "Asesinado por herida de bala", "Enfermedad coronaria"],
+        correctAnswer: "Asesinado por herida de bala",
+        image: "https://media.giphy.com/media/g1rGb3OrQfDNu/giphy.gif"
     },
     {
-		question: "Siemens",
-        answers: ["Francia","Bélgica","Alemania"],
-        correctAnswer: "Alemania",
-        image: "https://th.bing.com/th/id/OIP.d9iv-xgUaW-Upl3tKl2o9AHaBw?pid=ImgDet&rs=1"
+		question: "Marilyn Monroe murió en 1962, por una sobredosis de…",
+        answers: ["Heroína", "Barbitúricos", "Morfina","Ninguna de las anteriores"],
+        correctAnswer: "Barbitúricos",
+        image: "https://media1.tenor.com/images/4f229ecc3ae98b2c0e8305c4ef8f4938/tenor.gif?itemid=14026074"
     },
     {
-		question: "Nintendo",
-        answers: ["China", "Japón","Malasia"],
-        correctAnswer: "Japón",
-        image: "https://media.giphy.com/media/h9ylbGfDQfNDy/giphy.gif"
+		question: "¿Por qué murió Nelson Mandela?",
+        answers: ["Infección respiratoria", "Infarto al miocardio", "Accidente cerebrovascular","Aneurisma"],
+        correctAnswer: "Infección respiratoria",
+        image: "https://media.giphy.com/media/S542RrScMNwLC/giphy.gif"
     },
     {
-		question: "Facebook",
-        answers: ["Estados Unidos", "Inglaterra","Australia"],
-        correctAnswer: "Estados Unidos",
-        image: "https://www.audienciaelectronica.net/wp-content/uploads/2017/03/facebook-gif.gif"
+		question: "¿De qué murió el icónico actor de la trilogía ‘El padrino’, Marlon Brando?",
+        answers: ["Cirrosis", "Sobredosis", "Infarto al miocardio","Insuficiencia cardíaca","Insuficiencia respiratoria"],
+        correctAnswer: "Insuficiencia respiratoria",
+        image: "https://th.bing.com/th/id/R.23a5d48672b08c222e95378ecb03d775?rik=MbyY%2f%2flxbG7HYg&riu=http%3a%2f%2f25.media.tumblr.com%2f557c46e0ea5eedcc1879939814a9a3cb%2ftumblr_mxmlrz1ldw1r90ooxo1_500.gif&ehk=uXkz5FYzJuvGTgLnPLT3MExTP65IQ0MKvCxtA6UrjWo%3d&risl=&pid=ImgRaw&r=0g"
     },
     {
-		question: "Peugeot",
-        answers: ["España", "Francia","Alemania"],
-        correctAnswer: "Francia",
-        image: "https://th.bing.com/th/id/OIP.cMLEkQoLRzdyAs6L0fZTtgAAAA?pid=ImgDet&rs=1"
+		question: "Lady Diana murió en el año 1997, en un...:",
+        answers: ["Accidente de tráfico", "Atraco a mano armada", "Secuestro"],
+        correctAnswer: "Accidente de tráfico",
+        image: "https://th.bing.com/th/id/R.70f8ec8318a3aa8d179f58eac27d8efd?rik=oJsVOO5EcOWIKw&pid=ImgRaw&r=0"
     },
- 
     {
-		question: "Apple",
-        answers: ["Escocia", "Inglaterra","Estados Unidos"],
-        correctAnswer: "Estados Unidos",
-        image: "https://1000marken.net/wp-content/uploads/2021/01/Apple-logo.png"
+		question: "¿De qué murió Elizabeth Taylor?",
+        answers: ["Cáncer", "Insuficiencia cardíaca", "Insuficiencia respiratoria","Sobredosis de barbitúricos"],
+        correctAnswer: "Insuficiencia cardíaca",
+        image: "https://th.bing.com/th/id/R.9d12aaecaa55bf5ad93d3b0cbf51bfac?rik=YXmg50gnAruKSw&riu=http%3a%2f%2f49.media.tumblr.com%2fc2f80e482b47663a9f7e9f08647b2274%2ftumblr_o2s69gQnRW1s9l6yxo1_500.gif&ehk=TLPBgXKVcRpQynn%2fXpieFN5BPXJfq9OkF583XxFmMi0%3d&risl=&pid=ImgRaw&r=0"
     }
 ];
 
@@ -80,7 +85,7 @@ $(function () {
                 correctAnswer = div;
             }
             div.addClass("hover");
-            $("#Titles").css("font-size", "medium");  // Adds hover effect to each answer element
+            $("#Titles").css("font-size", "medium"); // Adds hover effect to each answer element
         });
 
         return correctAnswer;
