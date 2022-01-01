@@ -18,7 +18,33 @@ position:sticky;
 #main-c{display: none;}
 #moreadriano{display: none;}
 
+     
+#clear {
+  position: absolute;
+  top: 0;
+  border-radius: 5px;
+  right: 0px;
+  z-index: 2;
+  border: none;
+  top: 2px;
+ width: 40px;
+ height: 30px;
+  cursor: pointer;
 
+ 
+
+background: #333;
+color: #fff;
+
+
+  transform: translateX(2px);
+}
+ #clear:hover{
+  letter-spacing: 3px;
+    border-style:ridge;
+  box-shadow:  0 10px 15px rgba(0, 0, 0, .3);
+  transform: scale(1.08 );
+}
 
 .container{
     background: black;  /* fallback for old browsers */
@@ -49,7 +75,9 @@ input {
   color: rgba(0,0,0,0.8);
   background-color: rgba(0,0,0,0);
 }
-
+input::placeholder{
+  font-weight: bold;
+}
   #search {
       width: 250px;
       height: 30px;
