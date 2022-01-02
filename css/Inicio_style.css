@@ -21,13 +21,18 @@ html{   scroll-behavior: smooth;}
 }
 img{
      border-radius: 20px;
+       background-size: cover;
+  background-repeat: no-repeat;
+  height: 426px;
+  background-attachment: fixed;
+  background-position: center;
 }
 .masthead{
 
     grid-area: content;
     align-self: flex-end;
-  background-image: url(https://th.bing.com/th/id/R.aea67874b4ebf89074f0884e3496badf?rik=C%2bKMMlQ2f51Nsw&pid=ImgRaw&r=0) ;
-  filter:  contrast(100%)  ;
+  background-image: url(https://64.media.tumblr.com/115041351890f072f80bb22c8e2ee134/tumblr_ozywdcxF5Y1rqqedro2_r1_1280.jpg) ;
+  filter:  contrast(100%);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
