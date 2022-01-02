@@ -47,11 +47,11 @@ img{
     font-weight: 500;
     color: white;
     font-weight: bold;
-    background: black;
+    text-align: center;
 }
 .masthead_description{
     font-weight: 20px;
-    color:black ;
+    color:white ;
     
     font-weight: bold;
 }
