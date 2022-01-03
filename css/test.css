@@ -129,12 +129,15 @@ img {
     font-size: 1.15em;
     text-align: center;
     height: 100%;
+    
+   
 }
 
 #answers > * {
-    border-bottom: 1px solid rgb(158, 152, 152);
+    border-bottom: 1px solid #ddd;
     height: 100%;
-    line-height:auto;
+    line-height: 2.5em;
+ 
     cursor: pointer;
 }
 
