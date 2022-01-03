@@ -132,9 +132,10 @@ img {
 }
 
 #answers > * {
-    border-bottom: 1px solid #ddd;
-    height: 25%;
-    line-height: 2.5em;
+    /* border-bottom: 1px solid #ddd; */
+    border-bottom: 1px solid rgb(158, 152, 152);
+    height: 100%;
+    line-height:auto;
     cursor: pointer;
 }
 

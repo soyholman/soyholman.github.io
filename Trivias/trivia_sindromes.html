@@ -5,28 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/css/test.css">
+    <link rel="stylesheet" href="/css/trivia.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <script src = 'https://code.jquery.com/jquery-3.2.1.js'></script>
-
-
-        <meta name="description" content="¿Eres Fanático Del Reino Animal? ¿Te Interesan Los Datos Curiosos Acerca De Las Criaturas Que Habitan En Nuestro Planeta? ¡Con Esta Trivia Pondrás A Prueba Tu Conocimiento!">
+        <meta name="description" content="La medicina es imprescindible para nosotros, si te gusta pon a prueba tus conocimientos con esta trivia… ¡Adelante!">
+    
     <title>Trivia </title>
 </head>
 
-<body >
+<body>
   
     <main class="container text-center" >
         <canvas id="canv"></canvas>
         <div class="row">
             <div class="col-12">
                 <header>
-                    <h1 id="Titles">Test: ¿cuánto sabes sobre la primera guerra mundial? <i >💥🌐</i> </h1>
-                    <a href="/Juegos/test_Menu.html">Volver</a>
-                    <br>
-               
-                
+                    <h1 id="Titles">Trivia: ¿Conoces los síntomas de estos síndromes?<i >👥</i> </h1>
+                    <a href="/Juegos/Triviamenu.html">Volver</a>
+                    <p></p>
                 </header>
               
      
@@ -38,18 +35,12 @@
                  -->
                  <br>
                         <div id="card">
-                            
                             <div id="timer-image">
-                             
-                        
-                                <img id="imageTrivia" src="https://historia.nationalgeographic.com.es/medio/2016/04/04/francisco-fernando-de-absburgo-archiduque-de-austria-1836-1914_2bc98acd.png" alt="Question Mark Gif">
-                        
-                         
+                                <img id="imageTrivia" src="https://th.bing.com/th/id/R.2e18da19480d251f3d40ce618824c55d?rik=aA6ifTCG41QHhA&pid=ImgRaw&r=0" alt="Question Mark Gif">
                                 <div id="timer">
-                                    <h4 id="message"></h4>
-                                   
+                                    <h4 id="message">SE HA TERMINADO EL TIEMPO!</h4>
+                                    <p id="timeLeft">Tiempo restante: <span id="timerSeconds">15</span></p>
                                 </div>
-                            
                             </div>
                             <div id="question">
                                 <h2 id="question-header">?</h2>
@@ -86,13 +77,12 @@
 
 </body>
     <script src="https://kit.fontawesome.com/f955c68031.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
     </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
-    <script src="/js/trivia_filter.js"></script>
-    <script type="text/javascript" src="/js/test/test_ww1.js"></script>
+    <script type="text/javascript" src="/js/trivia_sindromes.js"></script>
 </html>
