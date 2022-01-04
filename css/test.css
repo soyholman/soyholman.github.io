@@ -251,7 +251,7 @@ color: blue;
 #answers > * {
     border-bottom: 1px solid #ddd;
     height: 25%;
-    line-height: 2.0em;
+    line-height: 2.4em;
     cursor: pointer;
 }
 }
