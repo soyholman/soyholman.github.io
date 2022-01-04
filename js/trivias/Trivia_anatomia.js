@@ -151,41 +151,41 @@ $(function () {
     }
 
       // Function shows the correct trivia answer
-      function showCorrectAnswer() {
+        function showCorrectAnswer() {
 
-        $("#answers").children().not(correctAnswerElement).addClass("wrong");
-        correctAnswerElement.append("<span> &#10004;</span>");
-        correctAnswerElement.addClass("correct");
+            $("#answers").children().not(correctAnswerElement).addClass("wrong");
+            correctAnswerElement.append("<span> &#10004;</span>");
+            correctAnswerElement.addClass("correct");
 
-        $("#answers").children().removeClass("hover");
-        $("#answers").children().off("click");
-        $("#timer").css("display", "none");
-        $("#message").css("display", "none");
-        $("#timeLeft").css("display", "none");
-        // $("#message").text("CORRECTO");
+            $("#answers").children().removeClass("hover");
+            $("#answers").children().off("click");
+            $("#timer").css("display", "none");
+            $("#message").css("display", "none");
+            $("#timeLeft").css("display", "none");
+            // $("#message").text("CORRECTO");
 
-        Swal.fire({
-           
-            icon: 'success',
-            title: 'Correcto',
-            showConfirmButton: false,
-            timer: 1600
-          })
-    }
-    function showCorrectAnswertimer() {
+            Swal.fire({
+            
+                icon: 'success',
+                title: 'Correcto',
+                showConfirmButton: false,
+                timer: 1600
+            })
+        }
+        function showCorrectAnswertimer() {
 
-        $("#answers").children().not(correctAnswerElement).addClass("wrong");
-        correctAnswerElement.append("<span> &#10004;</span>");
-        correctAnswerElement.addClass("correct");
+            $("#answers").children().not(correctAnswerElement).addClass("wrong");
+            correctAnswerElement.append("<span> &#10004;</span>");
+            correctAnswerElement.addClass("correct");
 
-        $("#answers").children().removeClass("hover");
-        $("#answers").children().off("click");
-      
-        $("#message").css("display", "none");
-        $("#timeLeft").css("display", "none");
-        // $("#message").text("CORRECTO");
+            $("#answers").children().removeClass("hover");
+            $("#answers").children().off("click");
+        
+            $("#message").css("display", "none");
+            $("#timeLeft").css("display", "none");
+            // $("#message").text("CORRECTO");
 
-    }
+        }
 
     // Function creates a countdown which is display on HTML
     // If timeLeft variable reach zero, correct answer shows up
