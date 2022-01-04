@@ -190,8 +190,12 @@ $(function () {
                 resetIntervalTimer();
                     Swal.fire({
                         icon: 'error',
-                        title: "Respuesta Incorrecta",
-                        text: ''+QUESTIONS[questionIndex].text
+                        title: 'Respuesta Incorrecta',
+                      html: '<small><p>'+QUESTIONS[questionIndex].text+'<p> </strong>',
+                     footer: '<strong>respuesta correcta es: <p style="color:mediumseagreen">'+QUESTIONS[questionIndex].correctAnswer+'<p> </strong>',
+
+                     
+                      
               
                       }).then(function(){
                      
@@ -228,18 +232,25 @@ $(function () {
     // Function shows the correct trivia answer
     function showCorrectAnswer() {
 
-        $("#answers").children().not(correctAnswerElement).addClass("wrong");
-        correctAnswerElement.append("<span> &#10004;</span>");
-        correctAnswerElement.addClass("correct");
+        // $("#answers").children().not(correctAnswerElement).addClass("wrong");
+        // correctAnswerElement.append("<span> &#10004;</span>");
+        // correctAnswerElement.addClass("correct");
 
-        $("#answers").children().removeClass("hover");
-        $("#answers").children().off("click");
+        // $("#answers").children().removeClass("hover");
+        // $("#answers").children().off("click");
 
-        $("#message").css("display", "block");
-        $("#timer").css("display", "block");
-        $("#message").text("CORRECTO");
+        // $("#message").css("display", "block");
+        // $("#timer").css("display", "block");
+        // $("#message").text("CORRECTO");
 
-        $("#imageTrivia").attr("src", "https://c.tenor.com/BntXpMlrGuEAAAAC/check-correct.gif");
+        // $("#imageTrivia").attr("src", "https://c.tenor.com/BntXpMlrGuEAAAAC/check-correct.gif");
+        Swal.fire({
+           
+            icon: 'success',
+            title: 'Correcto',
+            showConfirmButton: false,
+            timer: 1600
+          })
 
     }
 
