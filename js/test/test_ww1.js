@@ -288,7 +288,7 @@ $(function () {
    
 			startGame();
             $("#message").css("display", "none");
-            $("#timer").css("display", "none");
+            $("#timer").css("display", "block");
             $("#timeLeft").css("display", "block");
           
             $("#imageTrivia").attr("src",QUESTIONS[questionIndex].image);

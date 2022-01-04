@@ -100,11 +100,11 @@ img {
 }
 
 #timer {
-    display: none;
+    display: block;
     justify-content: space-evenly;
     align-items: center;
-    height: 50px;
-    background: blue;
+    /* height: 50px; */
+
     color: white;
 
    
@@ -124,6 +124,7 @@ img {
 }
 
 #answers {
+   
     display: flex;
     flex-direction: column;
     font-size: 1.15em;
@@ -134,9 +135,10 @@ img {
 }
 
 #answers > * {
+
     border-bottom: 1px solid #ddd;
-    height: 25%;
-    line-height: 2.5em;
+    height: 100%;
+    line-height:auto;
     cursor: pointer;
 }
 
@@ -234,6 +236,23 @@ color: blue;
         height: 100%;
     
     }
+    
+#answers {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.15em;
+    text-align: center;
+    height: 100%;
+    
+   
+}
+
+#answers > * {
+    border-bottom: 1px solid #ddd;
+    height: 25%;
+    line-height: 2.5em;
+    cursor: pointer;
+}
 }
 
 .btn{
