@@ -1,64 +1,70 @@
 var QUESTIONS = [
     {
-        question: "Karate",
-        answers: ["Rumania", "Japón","Malasia"],
-        correctAnswer: "Japón",
-        image: "https://th.bing.com/th/id/R.6409384815dddf8511756b0dd0d4d4db?rik=oy%2fWLU8SZUZosQ&riu=http%3a%2f%2fwww.canalgif.net%2fGifs-animados%2fDeportes%2fKarate%2fImagen-animada-Karate-15.gif&ehk=DUgMH2p6HHagWYDDSfaGzLQZsLH1x5AHtGUELNUwBHQ%3d&risl=&pid=ImgRaw&r=0"
+        question: "¿¿Cuál es el resultado de esta operación: 834 x 10 x 0 x 1??",
+        answers: ["0", "1", "873635"],
+        correctAnswer: "0",
+        image: "https://th.bing.com/th/id/OIP.D9T99T6q9lSgL67f-nhNVQHaD4?pid=ImgDet&rs=1"
     },
     {
-        question: "Wing Chun",
-        answers: ["China", "Japón", "Surinam"],
-        correctAnswer: "China",
-        image: "https://th.bing.com/th/id/R.b48ff71921b7cc91628aa68b84e500b9?rik=11l1pIGR4YTgvg&pid=ImgRaw&r=0"
+        question: "¿Qué es un centauro?",
+        answers: ["Mitad hombre, mitad caballo", "Mitad hombre, mitad toro", "Mitad hombre, mitad avestruz"],
+        correctAnswer: "Mitad hombre, mitad caballo",
+        image: "https://th.bing.com/th/id/R.b208e6a094eee109efdeceeea70db8e5?rik=Xe%2bLPcFaoLzWeA&pid=ImgRaw&r=0"
     },
     {
      
-        question: "Judo",
-        answers: [ "Turkmenistán", "Japón","Perú"],
-        correctAnswer: "Japón",
-        image: "https://78.media.tumblr.com/cd67fdd2d031ac991c5fdcbdf2940b3b/tumblr_ohzkcmpom71qbrivdo1_500.gif"
+        question: "En química... ¿Qué nombre posee la fórmula HCl??",
+        answers: [ "Ácido clorhídrico", "Cloro", "Potasio"],
+        correctAnswer: "Ácido clorhídrico",
+        image: "https://th.bing.com/th/id/OIP.vGfLXWjWxau3i1QrpjbiFAAAAA?pid=ImgDet&rs=1"
     },
     {
-		question: "Kung Fu",
-        answers: ["Japón","China","India"],
-        correctAnswer: "China",
-        image: "https://th.bing.com/th/id/R.47516542b7bacb8a789a8ba51c455dd3?rik=dmH4n3rVLZ9l4w&riu=http%3a%2f%2f24.media.tumblr.com%2f02ecd5fae2007239da32f30b8f3e0fed%2ftumblr_mok6x93kwA1s37tx6o1_400.gif&ehk=oK5I5srJyt04r%2b%2bS5MaCkWOyk8hw78ic9%2f0Pu1mDmtY%3d&risl=&pid=ImgRaw&r=0"
+		question: "El número 8 es…?",
+        answers: ["Un número primo", "Un número compuesto", "Un número decimal"],
+        correctAnswer: "Un número compuesto",
+        image: "https://th.bing.com/th/id/OIP.lbMetHEQEyAfg0ZrpiKrxQHaD9?w=335&h=180&c=7&r=0&o=5&pid=1.7"
     },
     {	
-		question: "Jiu-Jitsu",
-        answers: ["Vietnam", "Japón","Bután"],
-        correctAnswer: "Japón",
-        image: "https://th.bing.com/th/id/R.6c4e46f786187038ffa21dd747295152?rik=m88VGYev6nxEmA&pid=ImgRaw&r=0"
+		question: "¿Qué tipo de radiación te produce quemaduras?",
+        answers: ["Ultravioleta", "Rayos X", "infrarroja"],
+        correctAnswer: "Ultravioleta",
+        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/cdn/0b2df156-897f-4ceb-85ef-9fc91a09399a/c18613cd-0e2a-415e-8127-cc9400fbbc33.jpg"
     },
     {
-		question: "Jeet Kune Do",
-        answers: ["China y Japón", "Estados Unidos y Hong Kong", "Senegal y Nepal"],
-        correctAnswer: "Estados Unidos y Hong Kong",
-        image: "https://media1.tenor.com/images/a68597bfa3adb8507370d52040dc4784/tenor.gif?itemid=7480326"
+		question: "¿Cuál es la principal función de los globulos rojos?",
+        answers: ["Combatir enfermedades", "Coagular la sangre", "Llevar oxígeno"],
+        correctAnswer: "Llevar oxígeno",
+        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/cdn/0b2df156-897f-4ceb-85ef-9fc91a09399a/03f8bbee-8ff4-497b-8b3c-5fedb633304d.jpg"
     },
     {
-		question: "Krav Magá",
-        answers: ["Israel", "España ","Pakistán"],
-        correctAnswer: "Israel",
-        image: "https://hypescience.com/wp-content/uploads/2015/11/movimentos-de-autodefesa-krav-maga-4.gif"
+		question: "La velocidad a la que viaja la luz es?",
+        answers: ["300,000 m/s", "300,000 km/s", "300 km/h"],
+        correctAnswer: "300,000 km/s",
+        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/cdn/0b2df156-897f-4ceb-85ef-9fc91a09399a/159f715c-f78f-4d88-89ee-4957b43a104d.jpg"
     },
     {
-		question: "Capoeira",
-        answers: ["Angola", "Brasil", "Egipto"],
-        correctAnswer: "Angola",
-        image: "https://th.bing.com/th/id/R.6e980fe5b14099c29c27c67a1346a3ce?rik=yw4h4wdtLAZ9zw&pid=ImgRaw&r=0g"
+		question: "Un miligramo son?",
+        answers: ["0,001 gramos", "1000 microgramos", "Las dos son verdaderas"],
+        correctAnswer: "Las dos son verdaderas",
+        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/cdn/0b2df156-897f-4ceb-85ef-9fc91a09399a/159f715c-f78f-4d88-89ee-4957b43a104d.jpg"
     },
     {
-		question: "Taekwondo",
-        answers: ["Corea", "China","Japón"],
-        correctAnswer: "Corea",
-        image: "https://media.giphy.com/media/qezjp0kHJtHIA/giphy.gif"
+		question: "La columna más a la derecha de la tabla periódica esta compuesta por:",
+        answers: ["Haluros", "Gases Nobles", "Minerales"],
+        correctAnswer: "Gases Nobles",
+        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/cdn/0b2df156-897f-4ceb-85ef-9fc91a09399a/dcad754e-cd0d-44e2-9333-512937f787fe.jpg"
     },
     {
-		question: "Aikido ",
-        answers: ["Japón", "Taiwán","Nepal"],
-        correctAnswer: "Japón",
-        image: "https://gifimage.net/wp-content/uploads/2018/11/child-aikido-throw-gif-2.gif"
+		question: "¿Cómo se llaman las partículas subatómicas con carga eléctrica negativa?",
+        answers: ["Neutrones", "Protones", "Electrones"],
+        correctAnswer: "Electrones",
+        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/cdn/0b2df156-897f-4ceb-85ef-9fc91a09399a/fba347e1-d3a5-4680-928f-30dfb55529af.jpg"
+    },
+    {
+		question: "Para el pan y para la cerveza se utilizan para fermentar:",
+        answers: ["Microbios", "Bacterias", "Levaduras"],
+        correctAnswer: "Levaduras",
+        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/cdn/0b2df156-897f-4ceb-85ef-9fc91a09399a/e1bd868d-cd2a-4ef0-87bf-ac152e67efbc.jpg"
     }
 ];
 
@@ -85,7 +91,7 @@ $(function () {
                 correctAnswer = div;
             }
             div.addClass("hover");
-            $("#Titles").css("font-size", "medium");  // Adds hover effect to each answer element
+            $("#Titles").css("font-size", "medium"); // Adds hover effect to each answer element
         });
 
         return correctAnswer;
@@ -120,7 +126,7 @@ $(function () {
                 $("#timeLeft").css("display", "none");
                 $("#message").text("INCORRECTO");
 
-                $("#imageTrivia").attr("src", "https://images.angelpub.com/2016/35/39703/wrong.gif");
+                $("#imageTrivia").attr("src", "https://media.baamboozle.com/uploads/images/49869/1618223208_15917_gif-url.gif");
 
             }
 
@@ -140,15 +146,33 @@ $(function () {
 
         $("#answers").children().removeClass("hover");
         $("#answers").children().off("click");
-
-        $("#message").css("display", "block");
+        $("#timer").css("display", "none");
+        $("#message").css("display", "none");
         $("#timeLeft").css("display", "none");
-        $("#message").text("CORRECTO");
+        // $("#message").text("CORRECTO");
 
-        $("#imageTrivia").attr("src", "https://media1.tenor.com/images/c69fe60c4e179c1cf21726c224353de8/tenor.gif?itemid=11296495");
+        Swal.fire({
+           
+            icon: 'success',
+            title: 'Correcto',
+            showConfirmButton: false,
+            timer: 1600
+          })
+    }
+    function showCorrectAnswertimer() {
+
+        $("#answers").children().not(correctAnswerElement).addClass("wrong");
+        correctAnswerElement.append("<span> &#10004;</span>");
+        correctAnswerElement.addClass("correct");
+
+        $("#answers").children().removeClass("hover");
+        $("#answers").children().off("click");
+      
+        $("#message").css("display", "none");
+        $("#timeLeft").css("display", "none");
+        // $("#message").text("CORRECTO");
 
     }
-
     // Function creates a countdown which is display on HTML
     // If timeLeft variable reach zero, correct answer shows up
     // and then wait for 4 seconds to restart
@@ -161,7 +185,7 @@ $(function () {
 
             if (timeLeft == 0) {
                 incorrect++;
-                showCorrectAnswer();
+                showCorrectAnswertimer();
                 clearInterval(timer);
                 timeLeft = 15;
                 $("#timeLeft").css("display", "none");
@@ -194,6 +218,7 @@ $(function () {
             timeLeft = 15;
 			startGame();
             $("#message").css("display", "none");
+            $("#timer").css("display", "flex");
             $("#message").text("SE HA TERMINADO EL TIEMPO!");
             $("#timeLeft").css("display", "block");
             $("#timerSeconds").text(timeLeft);

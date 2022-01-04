@@ -191,8 +191,8 @@ $(function () {
                     Swal.fire({
                         icon: 'error',
                         title: 'Respuesta Incorrecta',
-                      html: '<small><p>'+QUESTIONS[questionIndex].text+'<p> </strong>',
-                     footer: '<strong>respuesta correcta es: <p style="color:mediumseagreen">'+QUESTIONS[questionIndex].correctAnswer+'<p> </strong>',
+                      html: '<small><p>'+QUESTIONS[questionIndex].text+'<p></strong>',
+                     footer: '<strong>Respuesta correcta:<p style="color:mediumseagreen;justify-content: center;">'+QUESTIONS[questionIndex].correctAnswer+'<p> </strong>',
 
                      
                       

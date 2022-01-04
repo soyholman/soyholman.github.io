@@ -1,64 +1,64 @@
 var QUESTIONS = [
     {
-        question: "¿Cómo murió el famoso actor Heath Ledger?",
-        answers: ["ahorcamiento", "Sobredosis causada", "Sobredosis accidental"],
-        correctAnswer: "Sobredosis accidental",
-        image: "https://th.bing.com/th/id/R.7d53a4577b36960a61676719a8fb6a9e?rik=ARKUfm0cuDKjWQ&riu=http%3a%2f%2fvenus.com.py%2fwp-content%2fuploads%2f2020%2f01%2factor-heath-ledger-habria-cumplido-hoy-40-anos-1000x600.jpeg&ehk=%2fPt2zFMs3mbNPjdskWTj51XrO5D82uu%2bd532eOl6FZo%3d&risl=&pid=ImgRaw&r=0"
+        question: "Karate",
+        answers: ["Rumania", "Japón","Malasia"],
+        correctAnswer: "Japón",
+        image: "https://th.bing.com/th/id/R.6409384815dddf8511756b0dd0d4d4db?rik=oy%2fWLU8SZUZosQ&riu=http%3a%2f%2fwww.canalgif.net%2fGifs-animados%2fDeportes%2fKarate%2fImagen-animada-Karate-15.gif&ehk=DUgMH2p6HHagWYDDSfaGzLQZsLH1x5AHtGUELNUwBHQ%3d&risl=&pid=ImgRaw&r=0"
     },
     {
-        question: "Whitney Houston murió por…",
-        answers: ["Sobredosis", "Mezcla de sobredosisy enfermedad coronaria", "Enfermedad coronaria"],
-        correctAnswer: "Enfermedad coronaria",
-        image: "https://www.out.com/sites/out.com/files/2016/02/11/tumblr_lzaymseshv1qh9nffo2_500.gif"
+        question: "Wing Chun",
+        answers: ["China", "Japón", "Surinam"],
+        correctAnswer: "China",
+        image: "https://th.bing.com/th/id/R.b48ff71921b7cc91628aa68b84e500b9?rik=11l1pIGR4YTgvg&pid=ImgRaw&r=0"
     },
     {
      
-        question: "¿Por qué razón murió el famoso trigésimo quinto presidente de los Estados Unidos, John F. Kennedy?",
-        answers: [ "Accidente aéreo", "Accidente de tránsito", "Complicaciones de la diabetes","Ninguna de las anteriores"],
-        correctAnswer: "Ninguna de las anteriores",
-        image: "https://media.giphy.com/media/GDx4qy4uhSfK/200.gif"
+        question: "Judo",
+        answers: [ "Turkmenistán", "Japón","Perú"],
+        correctAnswer: "Japón",
+        image: "https://78.media.tumblr.com/cd67fdd2d031ac991c5fdcbdf2940b3b/tumblr_ohzkcmpom71qbrivdo1_500.gif"
     },
     {
-		question: "La causa de muerte del polifacético actor Robin Williams fue…",
-        answers: ["Asfixia", "Paro respiratorio", "Paro cardíaco","Ninguna de las anteriores"],
-        correctAnswer: "Asfixia",
-        image: "https://3.bp.blogspot.com/-xyAIIOyFDGQ/U-oOeNK_rzI/AAAAAAAAKcc/v9wte0478-8/s1600/Robin%2BWilliams%2B2.gif"
+		question: "Kung Fu",
+        answers: ["Japón","China","India"],
+        correctAnswer: "China",
+        image: "https://th.bing.com/th/id/R.47516542b7bacb8a789a8ba51c455dd3?rik=dmH4n3rVLZ9l4w&riu=http%3a%2f%2f24.media.tumblr.com%2f02ecd5fae2007239da32f30b8f3e0fed%2ftumblr_mok6x93kwA1s37tx6o1_400.gif&ehk=oK5I5srJyt04r%2b%2bS5MaCkWOyk8hw78ic9%2f0Pu1mDmtY%3d&risl=&pid=ImgRaw&r=0"
     },
     {	
-		question: "¿Cómo murió John Lennon?",
-        answers: ["Asesinado por arma blanca", "Asesinado por herida de bala", "Enfermedad coronaria"],
-        correctAnswer: "Asesinado por herida de bala",
-        image: "https://media.giphy.com/media/g1rGb3OrQfDNu/giphy.gif"
+		question: "Jiu-Jitsu",
+        answers: ["Vietnam", "Japón","Bután"],
+        correctAnswer: "Japón",
+        image: "https://th.bing.com/th/id/R.6c4e46f786187038ffa21dd747295152?rik=m88VGYev6nxEmA&pid=ImgRaw&r=0"
     },
     {
-		question: "Marilyn Monroe murió en 1962, por una sobredosis de…",
-        answers: ["Heroína", "Barbitúricos", "Morfina","Ninguna de las anteriores"],
-        correctAnswer: "Barbitúricos",
-        image: "https://media1.tenor.com/images/4f229ecc3ae98b2c0e8305c4ef8f4938/tenor.gif?itemid=14026074"
+		question: "Jeet Kune Do",
+        answers: ["China y Japón", "Estados Unidos y Hong Kong", "Senegal y Nepal"],
+        correctAnswer: "Estados Unidos y Hong Kong",
+        image: "https://media1.tenor.com/images/a68597bfa3adb8507370d52040dc4784/tenor.gif?itemid=7480326"
     },
     {
-		question: "¿Por qué murió Nelson Mandela?",
-        answers: ["Infección respiratoria", "Infarto al miocardio", "Accidente cerebrovascular","Aneurisma"],
-        correctAnswer: "Infección respiratoria",
-        image: "https://media.giphy.com/media/S542RrScMNwLC/giphy.gif"
+		question: "Krav Magá",
+        answers: ["Israel", "España ","Pakistán"],
+        correctAnswer: "Israel",
+        image: "https://hypescience.com/wp-content/uploads/2015/11/movimentos-de-autodefesa-krav-maga-4.gif"
     },
     {
-		question: "¿De qué murió el icónico actor de la trilogía ‘El padrino’, Marlon Brando?",
-        answers: ["Cirrosis", "Sobredosis", "Infarto al miocardio","Insuficiencia cardíaca","Insuficiencia respiratoria"],
-        correctAnswer: "Insuficiencia respiratoria",
-        image: "https://th.bing.com/th/id/R.23a5d48672b08c222e95378ecb03d775?rik=MbyY%2f%2flxbG7HYg&riu=http%3a%2f%2f25.media.tumblr.com%2f557c46e0ea5eedcc1879939814a9a3cb%2ftumblr_mxmlrz1ldw1r90ooxo1_500.gif&ehk=uXkz5FYzJuvGTgLnPLT3MExTP65IQ0MKvCxtA6UrjWo%3d&risl=&pid=ImgRaw&r=0g"
+		question: "Capoeira",
+        answers: ["Angola", "Brasil", "Egipto"],
+        correctAnswer: "Angola",
+        image: "https://th.bing.com/th/id/R.6e980fe5b14099c29c27c67a1346a3ce?rik=yw4h4wdtLAZ9zw&pid=ImgRaw&r=0g"
     },
     {
-		question: "Lady Diana murió en el año 1997, en un...:",
-        answers: ["Accidente de tráfico", "Atraco a mano armada", "Secuestro"],
-        correctAnswer: "Accidente de tráfico",
-        image: "https://th.bing.com/th/id/R.70f8ec8318a3aa8d179f58eac27d8efd?rik=oJsVOO5EcOWIKw&pid=ImgRaw&r=0"
+		question: "Taekwondo",
+        answers: ["Corea", "China","Japón"],
+        correctAnswer: "Corea",
+        image: "https://media.giphy.com/media/qezjp0kHJtHIA/giphy.gif"
     },
     {
-		question: "¿De qué murió Elizabeth Taylor?",
-        answers: ["Cáncer", "Insuficiencia cardíaca", "Insuficiencia respiratoria","Sobredosis de barbitúricos"],
-        correctAnswer: "Insuficiencia cardíaca",
-        image: "https://th.bing.com/th/id/R.9d12aaecaa55bf5ad93d3b0cbf51bfac?rik=YXmg50gnAruKSw&riu=http%3a%2f%2f49.media.tumblr.com%2fc2f80e482b47663a9f7e9f08647b2274%2ftumblr_o2s69gQnRW1s9l6yxo1_500.gif&ehk=TLPBgXKVcRpQynn%2fXpieFN5BPXJfq9OkF583XxFmMi0%3d&risl=&pid=ImgRaw&r=0"
+		question: "Aikido ",
+        answers: ["Japón", "Taiwán","Nepal"],
+        correctAnswer: "Japón",
+        image: "https://gifimage.net/wp-content/uploads/2018/11/child-aikido-throw-gif-2.gif"
     }
 ];
 
@@ -85,7 +85,7 @@ $(function () {
                 correctAnswer = div;
             }
             div.addClass("hover");
-            $("#Titles").css("font-size", "medium"); // Adds hover effect to each answer element
+            $("#Titles").css("font-size", "medium");  // Adds hover effect to each answer element
         });
 
         return correctAnswer;
@@ -120,7 +120,8 @@ $(function () {
                 $("#timeLeft").css("display", "none");
                 $("#message").text("INCORRECTO");
 
-                $("#imageTrivia").attr("src", "https://images.angelpub.com/2016/35/39703/wrong.gif");
+             
+                $("#imageTrivia").attr("src", "https://media.baamboozle.com/uploads/images/49869/1618223208_15917_gif-url.gif");
 
             }
 
@@ -140,14 +141,34 @@ $(function () {
 
         $("#answers").children().removeClass("hover");
         $("#answers").children().off("click");
-
-        $("#message").css("display", "block");
+        $("#timer").css("display", "none");
+        $("#message").css("display", "none");
         $("#timeLeft").css("display", "none");
-        $("#message").text("CORRECTO");
+        // $("#message").text("CORRECTO");
 
-        $("#imageTrivia").attr("src", "https://media1.tenor.com/images/c69fe60c4e179c1cf21726c224353de8/tenor.gif?itemid=11296495");
+        Swal.fire({
+           
+            icon: 'success',
+            title: 'Correcto',
+            showConfirmButton: false,
+            timer: 1600
+          })
+    }
+    function showCorrectAnswertimer() {
+
+        $("#answers").children().not(correctAnswerElement).addClass("wrong");
+        correctAnswerElement.append("<span> &#10004;</span>");
+        correctAnswerElement.addClass("correct");
+
+        $("#answers").children().removeClass("hover");
+        $("#answers").children().off("click");
+      
+        $("#message").css("display", "none");
+        $("#timeLeft").css("display", "none");
+        // $("#message").text("CORRECTO");
 
     }
+
 
     // Function creates a countdown which is display on HTML
     // If timeLeft variable reach zero, correct answer shows up
@@ -161,7 +182,7 @@ $(function () {
 
             if (timeLeft == 0) {
                 incorrect++;
-                showCorrectAnswer();
+                showCorrectAnswertimer();
                 clearInterval(timer);
                 timeLeft = 15;
                 $("#timeLeft").css("display", "none");
@@ -194,6 +215,7 @@ $(function () {
             timeLeft = 15;
 			startGame();
             $("#message").css("display", "none");
+            $("#timer").css("display", "flex");
             $("#message").text("SE HA TERMINADO EL TIEMPO!");
             $("#timeLeft").css("display", "block");
             $("#timerSeconds").text(timeLeft);

@@ -1,82 +1,52 @@
 var QUESTIONS = [
     {
-        question: "El órgano humano más grande ..",
-        answers: ["Cerebro", "Piel", "Higado","Riñón"],
-        correctAnswer: "Piel",
-        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/cdn/582d7eae-2beb-4c9a-8c3f-1792a2dcb789/11ca6905-7cdc-4f0f-b57a-4fcc53a2d19b.jpg"
+        question: "¿Quién venció a Goliat?",
+        answers: ["Sansón", "David", "Saul"],
+        correctAnswer: "David",
+        image: "https://media.giphy.com/media/R9AtQfEyKAPhm/giphy.gif"
     },
     {
-        question: "¿Cuántas cinturas tienen los seres humanos?",
-        answers: ["1", "2","3", "4"],
-        correctAnswer: "2",
-        image: "https://4.bp.blogspot.com/-c46gwHmLDAg/TVg2tA43EVI/AAAAAAAAAL8/XFVLcwrlS78/s1600/Human+Anatomy.7.jpg"
+        question: "¿Quién abrió el mar en dos?",
+        answers: ["Moisés", "Abraham","Jesús"],
+        correctAnswer: "Moisés",
+        image: "https://4.bp.blogspot.com/-_vZBgYv0VHs/UXu7TOStu9I/AAAAAAAAADY/u7sHzMLLg9E/s1600/tumblr_m8vbqdvIgz1r68q57o1_250.gif"
     },
     {
      
-        question: "¿Cuántos huesos conforman el cráneo humano?",
-        answers: [ "4", "10", "8","5"],
-        correctAnswer: "8",
-        image: "https://www.publicdomainpictures.net/pictures/250000/nahled/human-anatomy-1517256616AlU.jpg"
+        question: "¿Qué tarea le fue asignada a Noé?",
+        answers: [ "Liberar a los israelitas de Egipto","Construir un arca", "Revelar los sueños del faraón"],
+        correctAnswer: "Construir un arca",
+        image: "https://th.bing.com/th/id/R.9efcee958eb1d8e76a60b6516acff74f?rik=6xfFGkJEFPc78g&riu=http%3a%2f%2fveracidadchannel.com%2f_site%2fwp-content%2fuploads%2f2019%2f09%2fp173f9jv0i5skg168gh1r88t9o1.gif&ehk=PRIpZx7IJwnJQIjxFfnL9himgHiBi8z5uNs585o8yjo%3d&risl=&pid=ImgRaw&r=0"
     },
     {
-		question: "La “campanilla” de la boca recibe el nombre de…",
-        answers: ["Úgula","Úvula", "Únula","Úbula"],
-        correctAnswer: "Úvula",
-        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1566666772/rwals7je5wah3029woja.png"
+		question: "¿Qué mujer de la Biblia era bisabuela de David, y a su vez amaba devotamente a su suegra?",
+        answers: ["Ester","Debora","Rut"],
+        correctAnswer: "Rut",
+        image: "https://th.bing.com/th/id/R.80b605b7e6ae9231723b89c02968f64e?rik=IVrnkITVsBjoiw&riu=http%3a%2f%2fetc.usf.edu%2fclipart%2f66000%2f66065%2f66065_ruth_naomi_lg.gif&ehk=AqT01HqkVI8vDEDD9ngVRcWLbQE3Wn9MYobOfTGcR8w%3d&risl=&pid=ImgRaw&r=0"
     },
     {	
-		question: "¿Qué papilas gustativas son las receptoras del sabor dulce?",
-        answers: ["Foliadas", "Caliciformes", "Fungiformes","Espungiformes"],
-        correctAnswer: "Caliciformes",
-        image: "https://images.fineartamerica.com/images-medium-large-5/tongue-anatomy-artwork-henning-dalhoff.jpg"
+		question: "¿A qué personaje de la Biblia un gran pez lo guarda en su vientre por tres días?",
+        answers: ["Isaías", "Jonás", "Daniel"],
+        correctAnswer: "Jonás",
+        image: "https://i.pinimg.com/originals/74/fc/9f/74fc9fee4f2a2f4b80dcca4076213f68.jpg"
     },
     {
-		question: "El gastrocnemio es un músculo que queda ubicado en...?",
-        answers: ["El estomago", "El corazón", "La pierna","Las manos"],
-        correctAnswer: "La pierna",
-        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1566668404/rjshgd5zq3khzapgadzr.jpg"
+		question: "¿Quién de los siguientes personajes no es devorado por leones hambrientos, a pesar de haber estado en una fosa con ellos?",
+        answers: ["Daniel", "José", "Job"],
+        correctAnswer: "Daniel",
+        image: "https://th.bing.com/th/id/OIP.CkVzTi31hz4YWKTK8RYs3AHaEK?pid=ImgDet&rs=1"
     },
     {
-		question: "La membrana que rodea y protege al corazón externamente es el…",
-        answers: ["Pericardio", "Miocardio", "Endocardio","Cetocardio"],
-        correctAnswer: "Pericardio",
-        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1566666940/qrmpbpsckm8s3cycxik1.jpg"
+		question: "¿A qué edad Sara dio a luz a su primogénito?",
+        answers: ["A los 300 años", "A los 50 años", "A los 90 años"],
+        correctAnswer: "A los 90 años",
+        image: "https://media.giphy.com/media/rE9mvz5nIfjeE/200.gif"
     },
     {
-		question: "La coroides es una membrana presente en el…",
-        answers: ["Ojo", "Cerebro", "Riñón","Higado"],
-        correctAnswer: "Ojo",
-        image: "https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/human-anatomy-of-head-with-skull-eye-pixelchaos.jpg"
-    },
-    {
-		question: "El trapezoide es un hueso que está en la…",
-        answers: ["Mano", "Escapula", "Pierna","Hombros"],
-        correctAnswer: "Mano",
-        image: "https://th.bing.com/th/id/OIP.sz_6_dgwB3UGXpx7K5APMwAAAA?pid=ImgDet&w=450&h=600&rs=1"
-    },
-    {
-		question: "La lúnula es una parte de… ",
-        answers: ["El diente", "La Uña", "El oido","El codo"],
-        correctAnswer: "La Uña",
-        image: "https://th.bing.com/th/id/R.9f2d9da7c8a70c8bdab8f8129a89bf04?rik=RYiaTf2V%2bX%2fdqg&riu=http%3a%2f%2fcode7700.com%2fimages%2fphysiology_biology_q_and_a.jpg&ehk=4WlH1oQ6JoHVmPTFM%2bVnFFJduZSNejuCI1av3UcatJI%3d&risl=&pid=ImgRaw&r=0"
-    },
-    {
-		question: "¿Cuántos dientes generalmente tiene un humano adulto?",
-        answers: ["28", "30", "32","40"],
-        correctAnswer: "32",
-        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1566668083/pywgj5dicvxmwx0uqwlj.jpg"
-    },
-    {
-		question: "¿Qué pulmón es más pequeño?",
-        answers: ["Derecho", "Izquierdo"],
-        correctAnswer: "Izquierdo",
-        image: "https://preview.free3d.com/img/2017/10/1870533495437132975/2rc5t9rd-900.jpg"
-    },
-    {
-		question: "¿Con qué otro nombre se conoce a la glándula pituitaria?",
-        answers: ["Hipófisis", "Hipocampo","Hipotálamo","Necrotálamo"],
-        correctAnswer: "Hipófisis",
-        image: "https://pymstatic.com/3914/conversions/glandula-pituitaria-hipofisis-social.jpg"
+		question: "¿¿Dónde nació Jesús?",
+        answers: ["Belén", "Edem", "Jerusalén"],
+        correctAnswer: "Belén",
+        image: "https://th.bing.com/th/id/OIP.4Phsk3ImMfF6phTHvnVSmgHaIP?pid=ImgDet&rs=1"
     }
 ];
 
@@ -102,8 +72,8 @@ $(function () {
             if (div.text() === QUESTIONS[questionIndex].correctAnswer) {
                 correctAnswer = div;
             }
-            div.addClass("hover");
-            $("#Titles").css("font-size", "medium");  // Adds hover effect to each answer element
+            div.addClass("hover"); 
+            $("#Titles").css("font-size", "medium"); // Adds hover effect to each answer element
         });
 
         return correctAnswer;
@@ -138,7 +108,7 @@ $(function () {
                 $("#timeLeft").css("display", "none");
                 $("#message").text("INCORRECTO");
 
-                $("#imageTrivia").attr("src", "https://images.angelpub.com/2016/35/39703/wrong.gif");
+                $("#imageTrivia").attr("src", "https://media.baamboozle.com/uploads/images/49869/1618223208_15917_gif-url.gif");
 
             }
 
@@ -149,7 +119,6 @@ $(function () {
 
     }
 
-    // Function shows the correct trivia answer
     function showCorrectAnswer() {
 
         $("#answers").children().not(correctAnswerElement).addClass("wrong");
@@ -158,12 +127,31 @@ $(function () {
 
         $("#answers").children().removeClass("hover");
         $("#answers").children().off("click");
-
-        $("#message").css("display", "block");
+        $("#timer").css("display", "none");
+        $("#message").css("display", "none");
         $("#timeLeft").css("display", "none");
-        $("#message").text("CORRECTO");
+        // $("#message").text("CORRECTO");
 
-        $("#imageTrivia").attr("src", "https://media1.tenor.com/images/c69fe60c4e179c1cf21726c224353de8/tenor.gif?itemid=11296495");
+        Swal.fire({
+           
+            icon: 'success',
+            title: 'Correcto',
+            showConfirmButton: false,
+            timer: 1600
+          })
+    }
+    function showCorrectAnswertimer() {
+
+        $("#answers").children().not(correctAnswerElement).addClass("wrong");
+        correctAnswerElement.append("<span> &#10004;</span>");
+        correctAnswerElement.addClass("correct");
+
+        $("#answers").children().removeClass("hover");
+        $("#answers").children().off("click");
+      
+        $("#message").css("display", "none");
+        $("#timeLeft").css("display", "none");
+        // $("#message").text("CORRECTO");
 
     }
 
@@ -179,7 +167,7 @@ $(function () {
 
             if (timeLeft == 0) {
                 incorrect++;
-                showCorrectAnswer();
+                showCorrectAnswertimer();
                 clearInterval(timer);
                 timeLeft = 15;
                 $("#timeLeft").css("display", "none");
@@ -212,10 +200,12 @@ $(function () {
             timeLeft = 15;
 			startGame();
             $("#message").css("display", "none");
+            $("#timer").css("display", "flex");
             $("#message").text("SE HA TERMINADO EL TIEMPO!");
             $("#timeLeft").css("display", "block");
             $("#timerSeconds").text(timeLeft);
             $("#imageTrivia").attr("src",QUESTIONS[questionIndex].image);
+        
         
 
         }, 2000);

@@ -120,7 +120,7 @@ $(function () {
                 $("#timeLeft").css("display", "none");
                 $("#message").text("INCORRECTO");
 
-                $("#imageTrivia").attr("src", "https://images.angelpub.com/2016/35/39703/wrong.gif");
+                $("#imageTrivia").attr("src", "https://media.baamboozle.com/uploads/images/49869/1618223208_15917_gif-url.gif");
 
             }
 
@@ -140,12 +140,31 @@ $(function () {
 
         $("#answers").children().removeClass("hover");
         $("#answers").children().off("click");
-
-        $("#message").css("display", "block");
+        $("#timer").css("display", "none");
+        $("#message").css("display", "none");
         $("#timeLeft").css("display", "none");
-        $("#message").text("CORRECTO");
+        // $("#message").text("CORRECTO");
 
-        $("#imageTrivia").attr("src", "https://media1.tenor.com/images/c69fe60c4e179c1cf21726c224353de8/tenor.gif?itemid=11296495");
+        Swal.fire({
+           
+            icon: 'success',
+            title: 'Correcto',
+            showConfirmButton: false,
+            timer: 1600
+          })
+    }
+    function showCorrectAnswertimer() {
+
+        $("#answers").children().not(correctAnswerElement).addClass("wrong");
+        correctAnswerElement.append("<span> &#10004;</span>");
+        correctAnswerElement.addClass("correct");
+
+        $("#answers").children().removeClass("hover");
+        $("#answers").children().off("click");
+      
+        $("#message").css("display", "none");
+        $("#timeLeft").css("display", "none");
+        // $("#message").text("CORRECTO");
 
     }
 
@@ -161,7 +180,7 @@ $(function () {
 
             if (timeLeft == 0) {
                 incorrect++;
-                showCorrectAnswer();
+              showCorrectAnswertimer();
                 clearInterval(timer);
                 timeLeft = 15;
                 $("#timeLeft").css("display", "none");
@@ -194,6 +213,7 @@ $(function () {
             timeLeft = 15;
 			startGame();
             $("#message").css("display", "none");
+            $("#timer").css("display", "flex");
             $("#message").text("SE HA TERMINADO EL TIEMPO!");
             $("#timeLeft").css("display", "block");
             $("#timerSeconds").text(timeLeft);

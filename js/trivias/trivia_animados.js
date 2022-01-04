@@ -1,52 +1,65 @@
 var QUESTIONS = [
     {
-        question: "¿Quién venció a Goliat?",
-        answers: ["Sansón", "David", "Saul"],
-        correctAnswer: "David",
-        image: "https://media.giphy.com/media/R9AtQfEyKAPhm/giphy.gif"
+        question: "¿Cómo se llama este personaje de Coraje, el perro cobarde?",
+        answers: ["Kitty", "Muriel","Shirley"],
+        correctAnswer: "Shirley",
+        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/cdn/4181f6f7-32f1-4ce7-83f9-dd3ca2a9dc0e/80d79f33-1c71-445e-a537-004a40c146e1.jpg"
     },
     {
-        question: "¿Quién abrió el mar en dos?",
-        answers: ["Moisés", "Abraham","Jesús"],
-        correctAnswer: "Moisés",
-        image: "https://4.bp.blogspot.com/-_vZBgYv0VHs/UXu7TOStu9I/AAAAAAAAADY/u7sHzMLLg9E/s1600/tumblr_m8vbqdvIgz1r68q57o1_250.gif"
+        question: "¿De cuánto es el coeficiente intelectual de Jimmy Neutrón?",
+        answers: ["241","240","242"],
+        correctAnswer: "242",
+        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/cdn/4181f6f7-32f1-4ce7-83f9-dd3ca2a9dc0e/13437181-726e-4944-8023-abc3367558c9.jpg"
     },
     {
      
-        question: "¿Qué tarea le fue asignada a Noé?",
-        answers: [ "Liberar a los israelitas de Egipto","Construir un arca", "Revelar los sueños del faraón"],
-        correctAnswer: "Construir un arca",
-        image: "https://th.bing.com/th/id/R.9efcee958eb1d8e76a60b6516acff74f?rik=6xfFGkJEFPc78g&riu=http%3a%2f%2fveracidadchannel.com%2f_site%2fwp-content%2fuploads%2f2019%2f09%2fp173f9jv0i5skg168gh1r88t9o1.gif&ehk=PRIpZx7IJwnJQIjxFfnL9himgHiBi8z5uNs585o8yjo%3d&risl=&pid=ImgRaw&r=0"
+        question: "¿Cómo se llaman los bebés de los Rugrats?",
+        answers: [ "Didi, Carlitos,Betty,Fili, Lili", "Taffy,Luci,Carlitos,Tommy, Kimi  y Susie","Tommy,Carlitos,Fili,Lili,Dil,Kimi"],
+        correctAnswer: "Tommy,Carlitos,Fili,Lili,Dil,Kimi",
+        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/cdn/4181f6f7-32f1-4ce7-83f9-dd3ca2a9dc0e/36a3f00e-476d-4cd9-84f0-ac601864a5db.jpg"
     },
     {
-		question: "¿Qué mujer de la Biblia era bisabuela de David, y a su vez amaba devotamente a su suegra?",
-        answers: ["Ester","Debora","Rut"],
-        correctAnswer: "Rut",
-        image: "https://th.bing.com/th/id/R.80b605b7e6ae9231723b89c02968f64e?rik=IVrnkITVsBjoiw&riu=http%3a%2f%2fetc.usf.edu%2fclipart%2f66000%2f66065%2f66065_ruth_naomi_lg.gif&ehk=AqT01HqkVI8vDEDD9ngVRcWLbQE3Wn9MYobOfTGcR8w%3d&risl=&pid=ImgRaw&r=0"
+		question: "¿Dónde tenía Dexter su laboratorio secreto?",
+        answers: ["En la sala", "En el patio","En su habitación"],
+        correctAnswer: "En su habitación",
+        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/cdn/4181f6f7-32f1-4ce7-83f9-dd3ca2a9dc0e/1d2453fa-5bcc-4022-8e5b-648cec4b8744.jpg"
     },
     {	
-		question: "¿A qué personaje de la Biblia un gran pez lo guarda en su vientre por tres días?",
-        answers: ["Isaías", "Jonás", "Daniel"],
-        correctAnswer: "Jonás",
-        image: "https://i.pinimg.com/originals/74/fc/9f/74fc9fee4f2a2f4b80dcca4076213f68.jpg"
+		question: "¿Qué edad tiene Arnold?",
+        answers: ["9", "10","8"],
+        correctAnswer: "9",
+        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/cdn/4181f6f7-32f1-4ce7-83f9-dd3ca2a9dc0e/5b806931-f455-45f6-8dcb-c946196a72d2.jpg"
     },
     {
-		question: "¿Quién de los siguientes personajes no es devorado por leones hambrientos, a pesar de haber estado en una fosa con ellos?",
-        answers: ["Daniel", "José", "Job"],
-        correctAnswer: "Daniel",
-        image: "https://th.bing.com/th/id/OIP.CkVzTi31hz4YWKTK8RYs3AHaEK?pid=ImgDet&rs=1"
+		question: "¿Cuál es el nombre correcto de este personaje?",
+        answers: ["Jhonny Bravo","Jonnhy Bravo","Johnny Bravo"],
+        correctAnswer: "Johnny Bravo",
+        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/cdn/4181f6f7-32f1-4ce7-83f9-dd3ca2a9dc0e/22ac6532-2e23-481d-bec8-4ea440bc32cc.jpg"
     },
     {
-		question: "¿A qué edad Sara dio a luz a su primogénito?",
-        answers: ["A los 300 años", "A los 50 años", "A los 90 años"],
-        correctAnswer: "A los 90 años",
-        image: "https://media.giphy.com/media/rE9mvz5nIfjeE/200.gif"
+		question: "¿Cómo se llaman los miembros del Equipo Rocket?",
+        answers: ["Otto,Ray,Trish y Sam", "Reggie,Sam,Otto y Twister","Sherry,Reggie Twister y tito"],
+        correctAnswer: "Reggie,Sam,Otto y Twister",
+        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/cdn/4181f6f7-32f1-4ce7-83f9-dd3ca2a9dc0e/ae89df88-8ad3-4d1c-82f8-d0d5a7886b41.jpg"
     },
     {
-		question: "¿¿Dónde nació Jesús?",
-        answers: ["Belén", "Edem", "Jerusalén"],
-        correctAnswer: "Belén",
-        image: "https://th.bing.com/th/id/OIP.4Phsk3ImMfF6phTHvnVSmgHaIP?pid=ImgDet&rs=1"
+		question: "¿Cuál es el nombre de este dibujo animado?",
+        answers: ["Rocko y sus amigos", "La vida moderna de Rocko","La familia de Rocko"],
+        correctAnswer: "La vida moderna de Rocko",
+        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/cdn/4181f6f7-32f1-4ce7-83f9-dd3ca2a9dc0e/d6282422-fe3a-4fbd-836a-31c87847268a.jpg"
+    },
+    {
+		question: "¿De qué color tiene la lengua Ed?",
+        answers: ["Verde", "Amarillo","Azul"],
+        correctAnswer: "Azul",
+        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/cdn/4181f6f7-32f1-4ce7-83f9-dd3ca2a9dc0e/fcd0ac8b-8899-4cf5-8048-d8b9aa54f0cd.jpg"
+    },
+ 
+    {
+		question: "¿Cómo se llama este personaje de Los Supersónicos?",
+        answers: ["Robocina", "Robotin","Robotina"],
+        correctAnswer: "Robotina",
+        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/cdn/4181f6f7-32f1-4ce7-83f9-dd3ca2a9dc0e/60238ae6-8953-4dc3-8c29-353dab9c0a10.jpg"
     }
 ];
 
@@ -72,8 +85,8 @@ $(function () {
             if (div.text() === QUESTIONS[questionIndex].correctAnswer) {
                 correctAnswer = div;
             }
-            div.addClass("hover"); 
-            $("#Titles").css("font-size", "medium"); // Adds hover effect to each answer element
+            div.addClass("hover");
+            $("#Titles").css("font-size", "medium");  // Adds hover effect to each answer element
         });
 
         return correctAnswer;
@@ -108,7 +121,7 @@ $(function () {
                 $("#timeLeft").css("display", "none");
                 $("#message").text("INCORRECTO");
 
-                $("#imageTrivia").attr("src", "https://images.angelpub.com/2016/35/39703/wrong.gif");
+                $("#imageTrivia").attr("src", "https://media.baamboozle.com/uploads/images/49869/1618223208_15917_gif-url.gif");
 
             }
 
@@ -121,19 +134,38 @@ $(function () {
 
     // Function shows the correct trivia answer
     function showCorrectAnswer() {
-
         $("#answers").children().not(correctAnswerElement).addClass("wrong");
         correctAnswerElement.append("<span> &#10004;</span>");
         correctAnswerElement.addClass("correct");
 
         $("#answers").children().removeClass("hover");
         $("#answers").children().off("click");
-
-        $("#message").css("display", "block");
+        $("#timer").css("display", "none");
+        $("#message").css("display", "none");
         $("#timeLeft").css("display", "none");
-        $("#message").text("CORRECTO");
+        // $("#message").text("CORRECTO");
 
-        $("#imageTrivia").attr("src", "https://media1.tenor.com/images/c69fe60c4e179c1cf21726c224353de8/tenor.gif?itemid=11296495");
+        Swal.fire({
+           
+            icon: 'success',
+            title: 'Correcto',
+            showConfirmButton: false,
+            timer: 1600
+          })
+    }
+    function showCorrectAnswertimer() {
+
+   
+        $("#answers").children().not(correctAnswerElement).addClass("wrong");
+        correctAnswerElement.append("<span> &#10004;</span>");
+        correctAnswerElement.addClass("correct");
+
+        $("#answers").children().removeClass("hover");
+        $("#answers").children().off("click");
+      
+        $("#message").css("display", "none");
+        $("#timeLeft").css("display", "none");
+        // $("#message").text("CORRECTO");
 
     }
 
@@ -149,12 +181,13 @@ $(function () {
 
             if (timeLeft == 0) {
                 incorrect++;
-                showCorrectAnswer();
+            showCorrectAnswertimer();
                 clearInterval(timer);
                 timeLeft = 15;
                 $("#timeLeft").css("display", "none");
                 $("#message").text("se acabó el tiempo!");
                 $("#message").css("display", "block");
+                
 
                 setTimeout(function () {
                     questionIndex++;
@@ -182,11 +215,11 @@ $(function () {
             timeLeft = 15;
 			startGame();
             $("#message").css("display", "none");
+            $("#timer").css("display", "flex");
             $("#message").text("SE HA TERMINADO EL TIEMPO!");
             $("#timeLeft").css("display", "block");
             $("#timerSeconds").text(timeLeft);
             $("#imageTrivia").attr("src",QUESTIONS[questionIndex].image);
-        
 
         }, 2000);
 

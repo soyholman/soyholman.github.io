@@ -1,65 +1,82 @@
 var QUESTIONS = [
     {
-        question: "¿Cómo se llama este personaje de Coraje, el perro cobarde?",
-        answers: ["Kitty", "Muriel","Shirley"],
-        correctAnswer: "Shirley",
-        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/cdn/4181f6f7-32f1-4ce7-83f9-dd3ca2a9dc0e/80d79f33-1c71-445e-a537-004a40c146e1.jpg"
+        question: "El órgano humano más grande ..",
+        answers: ["Cerebro", "Piel", "Higado","Riñón"],
+        correctAnswer: "Piel",
+        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/cdn/582d7eae-2beb-4c9a-8c3f-1792a2dcb789/11ca6905-7cdc-4f0f-b57a-4fcc53a2d19b.jpg"
     },
     {
-        question: "¿De cuánto es el coeficiente intelectual de Jimmy Neutrón?",
-        answers: ["241","240","242"],
-        correctAnswer: "242",
-        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/cdn/4181f6f7-32f1-4ce7-83f9-dd3ca2a9dc0e/13437181-726e-4944-8023-abc3367558c9.jpg"
+        question: "¿Cuántas cinturas tienen los seres humanos?",
+        answers: ["1", "2","3", "4"],
+        correctAnswer: "2",
+        image: "https://4.bp.blogspot.com/-c46gwHmLDAg/TVg2tA43EVI/AAAAAAAAAL8/XFVLcwrlS78/s1600/Human+Anatomy.7.jpg"
     },
     {
      
-        question: "¿Cómo se llaman los bebés de los Rugrats?",
-        answers: [ "Didi, Carlitos,Betty,Fili, Lili", "Taffy,Luci,Carlitos,Tommy, Kimi  y Susie","Tommy,Carlitos,Fili,Lili,Dil,Kimi"],
-        correctAnswer: "Tommy,Carlitos,Fili,Lili,Dil,Kimi",
-        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/cdn/4181f6f7-32f1-4ce7-83f9-dd3ca2a9dc0e/36a3f00e-476d-4cd9-84f0-ac601864a5db.jpg"
+        question: "¿Cuántos huesos conforman el cráneo humano?",
+        answers: [ "4", "10", "8","5"],
+        correctAnswer: "8",
+        image: "https://www.publicdomainpictures.net/pictures/250000/nahled/human-anatomy-1517256616AlU.jpg"
     },
     {
-		question: "¿Dónde tenía Dexter su laboratorio secreto?",
-        answers: ["En la sala", "En el patio","En su habitación"],
-        correctAnswer: "En su habitación",
-        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/cdn/4181f6f7-32f1-4ce7-83f9-dd3ca2a9dc0e/1d2453fa-5bcc-4022-8e5b-648cec4b8744.jpg"
+		question: "La “campanilla” de la boca recibe el nombre de…",
+        answers: ["Úgula","Úvula", "Únula","Úbula"],
+        correctAnswer: "Úvula",
+        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1566666772/rwals7je5wah3029woja.png"
     },
     {	
-		question: "¿Qué edad tiene Arnold?",
-        answers: ["9", "10","8"],
-        correctAnswer: "9",
-        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/cdn/4181f6f7-32f1-4ce7-83f9-dd3ca2a9dc0e/5b806931-f455-45f6-8dcb-c946196a72d2.jpg"
+		question: "¿Qué papilas gustativas son las receptoras del sabor dulce?",
+        answers: ["Foliadas", "Caliciformes", "Fungiformes","Espungiformes"],
+        correctAnswer: "Caliciformes",
+        image: "https://images.fineartamerica.com/images-medium-large-5/tongue-anatomy-artwork-henning-dalhoff.jpg"
     },
     {
-		question: "¿Cuál es el nombre correcto de este personaje?",
-        answers: ["Jhonny Bravo","Jonnhy Bravo","Johnny Bravo"],
-        correctAnswer: "Johnny Bravo",
-        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/cdn/4181f6f7-32f1-4ce7-83f9-dd3ca2a9dc0e/22ac6532-2e23-481d-bec8-4ea440bc32cc.jpg"
+		question: "El gastrocnemio es un músculo que queda ubicado en...?",
+        answers: ["El estomago", "El corazón", "La pierna","Las manos"],
+        correctAnswer: "La pierna",
+        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1566668404/rjshgd5zq3khzapgadzr.jpg"
     },
     {
-		question: "¿Cómo se llaman los miembros del Equipo Rocket?",
-        answers: ["Otto,Ray,Trish y Sam", "Reggie,Sam,Otto y Twister","Sherry,Reggie Twister y tito"],
-        correctAnswer: "Reggie,Sam,Otto y Twister",
-        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/cdn/4181f6f7-32f1-4ce7-83f9-dd3ca2a9dc0e/ae89df88-8ad3-4d1c-82f8-d0d5a7886b41.jpg"
+		question: "La membrana que rodea y protege al corazón externamente es el…",
+        answers: ["Pericardio", "Miocardio", "Endocardio","Cetocardio"],
+        correctAnswer: "Pericardio",
+        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1566666940/qrmpbpsckm8s3cycxik1.jpg"
     },
     {
-		question: "¿Cuál es el nombre de este dibujo animado?",
-        answers: ["Rocko y sus amigos", "La vida moderna de Rocko","La familia de Rocko"],
-        correctAnswer: "La vida moderna de Rocko",
-        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/cdn/4181f6f7-32f1-4ce7-83f9-dd3ca2a9dc0e/d6282422-fe3a-4fbd-836a-31c87847268a.jpg"
+		question: "La coroides es una membrana presente en el…",
+        answers: ["Ojo", "Cerebro", "Riñón","Higado"],
+        correctAnswer: "Ojo",
+        image: "https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/human-anatomy-of-head-with-skull-eye-pixelchaos.jpg"
     },
     {
-		question: "¿De qué color tiene la lengua Ed?",
-        answers: ["Verde", "Amarillo","Azul"],
-        correctAnswer: "Azul",
-        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/cdn/4181f6f7-32f1-4ce7-83f9-dd3ca2a9dc0e/fcd0ac8b-8899-4cf5-8048-d8b9aa54f0cd.jpg"
+		question: "El trapezoide es un hueso que está en la…",
+        answers: ["Mano", "Escapula", "Pierna","Hombros"],
+        correctAnswer: "Mano",
+        image: "https://th.bing.com/th/id/OIP.sz_6_dgwB3UGXpx7K5APMwAAAA?pid=ImgDet&w=450&h=600&rs=1"
     },
- 
     {
-		question: "¿Cómo se llama este personaje de Los Supersónicos?",
-        answers: ["Robocina", "Robotin","Robotina"],
-        correctAnswer: "Robotina",
-        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/cdn/4181f6f7-32f1-4ce7-83f9-dd3ca2a9dc0e/60238ae6-8953-4dc3-8c29-353dab9c0a10.jpg"
+		question: "La lúnula es una parte de… ",
+        answers: ["El diente", "La Uña", "El oido","El codo"],
+        correctAnswer: "La Uña",
+        image: "https://th.bing.com/th/id/R.9f2d9da7c8a70c8bdab8f8129a89bf04?rik=RYiaTf2V%2bX%2fdqg&riu=http%3a%2f%2fcode7700.com%2fimages%2fphysiology_biology_q_and_a.jpg&ehk=4WlH1oQ6JoHVmPTFM%2bVnFFJduZSNejuCI1av3UcatJI%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+		question: "¿Cuántos dientes generalmente tiene un humano adulto?",
+        answers: ["28", "30", "32","40"],
+        correctAnswer: "32",
+        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1566668083/pywgj5dicvxmwx0uqwlj.jpg"
+    },
+    {
+		question: "¿Qué pulmón es más pequeño?",
+        answers: ["Derecho", "Izquierdo"],
+        correctAnswer: "Izquierdo",
+        image: "https://preview.free3d.com/img/2017/10/1870533495437132975/2rc5t9rd-900.jpg"
+    },
+    {
+		question: "¿Con qué otro nombre se conoce a la glándula pituitaria?",
+        answers: ["Hipófisis", "Hipocampo","Hipotálamo","Necrotálamo"],
+        correctAnswer: "Hipófisis",
+        image: "https://pymstatic.com/3914/conversions/glandula-pituitaria-hipofisis-social.jpg"
     }
 ];
 
@@ -121,7 +138,8 @@ $(function () {
                 $("#timeLeft").css("display", "none");
                 $("#message").text("INCORRECTO");
 
-                $("#imageTrivia").attr("src", "https://images.angelpub.com/2016/35/39703/wrong.gif");
+                $("#imageTrivia").attr("src", "https://media.baamboozle.com/uploads/images/49869/1618223208_15917_gif-url.gif");
+
 
             }
 
@@ -132,8 +150,8 @@ $(function () {
 
     }
 
-    // Function shows the correct trivia answer
-    function showCorrectAnswer() {
+      // Function shows the correct trivia answer
+      function showCorrectAnswer() {
 
         $("#answers").children().not(correctAnswerElement).addClass("wrong");
         correctAnswerElement.append("<span> &#10004;</span>");
@@ -141,12 +159,31 @@ $(function () {
 
         $("#answers").children().removeClass("hover");
         $("#answers").children().off("click");
-
-        $("#message").css("display", "block");
+        $("#timer").css("display", "none");
+        $("#message").css("display", "none");
         $("#timeLeft").css("display", "none");
-        $("#message").text("CORRECTO");
+        // $("#message").text("CORRECTO");
 
-        $("#imageTrivia").attr("src", "https://media1.tenor.com/images/c69fe60c4e179c1cf21726c224353de8/tenor.gif?itemid=11296495");
+        Swal.fire({
+           
+            icon: 'success',
+            title: 'Correcto',
+            showConfirmButton: false,
+            timer: 1600
+          })
+    }
+    function showCorrectAnswertimer() {
+
+        $("#answers").children().not(correctAnswerElement).addClass("wrong");
+        correctAnswerElement.append("<span> &#10004;</span>");
+        correctAnswerElement.addClass("correct");
+
+        $("#answers").children().removeClass("hover");
+        $("#answers").children().off("click");
+      
+        $("#message").css("display", "none");
+        $("#timeLeft").css("display", "none");
+        // $("#message").text("CORRECTO");
 
     }
 
@@ -162,7 +199,7 @@ $(function () {
 
             if (timeLeft == 0) {
                 incorrect++;
-                showCorrectAnswer();
+            showCorrectAnswertimer();
                 clearInterval(timer);
                 timeLeft = 15;
                 $("#timeLeft").css("display", "none");
@@ -195,6 +232,7 @@ $(function () {
             timeLeft = 15;
 			startGame();
             $("#message").css("display", "none");
+            $("#timer").css("display", "flex");
             $("#message").text("SE HA TERMINADO EL TIEMPO!");
             $("#timeLeft").css("display", "block");
             $("#timerSeconds").text(timeLeft);

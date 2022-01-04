@@ -7,7 +7,6 @@ box-sizing: border-box;
 top:0;
 bottom: 0;
 position: absolute;
-
 background-size: cover;
 }
 *{

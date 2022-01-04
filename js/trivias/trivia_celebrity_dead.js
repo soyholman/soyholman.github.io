@@ -1,70 +1,64 @@
 var QUESTIONS = [
     {
-        question: "¿¿Cuál es el resultado de esta operación: 834 x 10 x 0 x 1??",
-        answers: ["0", "1", "873635"],
-        correctAnswer: "0",
-        image: "https://th.bing.com/th/id/OIP.D9T99T6q9lSgL67f-nhNVQHaD4?pid=ImgDet&rs=1"
+        question: "¿Cómo murió el famoso actor Heath Ledger?",
+        answers: ["ahorcamiento", "Sobredosis causada", "Sobredosis accidental"],
+        correctAnswer: "Sobredosis accidental",
+        image: "https://th.bing.com/th/id/R.7d53a4577b36960a61676719a8fb6a9e?rik=ARKUfm0cuDKjWQ&riu=http%3a%2f%2fvenus.com.py%2fwp-content%2fuploads%2f2020%2f01%2factor-heath-ledger-habria-cumplido-hoy-40-anos-1000x600.jpeg&ehk=%2fPt2zFMs3mbNPjdskWTj51XrO5D82uu%2bd532eOl6FZo%3d&risl=&pid=ImgRaw&r=0"
     },
     {
-        question: "¿Qué es un centauro?",
-        answers: ["Mitad hombre, mitad caballo", "Mitad hombre, mitad toro", "Mitad hombre, mitad avestruz"],
-        correctAnswer: "Mitad hombre, mitad caballo",
-        image: "https://th.bing.com/th/id/R.b208e6a094eee109efdeceeea70db8e5?rik=Xe%2bLPcFaoLzWeA&pid=ImgRaw&r=0"
+        question: "Whitney Houston murió por…",
+        answers: ["Sobredosis", "Mezcla de sobredosisy enfermedad coronaria", "Enfermedad coronaria"],
+        correctAnswer: "Enfermedad coronaria",
+        image: "https://www.out.com/sites/out.com/files/2016/02/11/tumblr_lzaymseshv1qh9nffo2_500.gif"
     },
     {
      
-        question: "En química... ¿Qué nombre posee la fórmula HCl??",
-        answers: [ "Ácido clorhídrico", "Cloro", "Potasio"],
-        correctAnswer: "Ácido clorhídrico",
-        image: "https://th.bing.com/th/id/OIP.vGfLXWjWxau3i1QrpjbiFAAAAA?pid=ImgDet&rs=1"
+        question: "¿Por qué razón murió el famoso trigésimo quinto presidente de los Estados Unidos, John F. Kennedy?",
+        answers: [ "Accidente aéreo", "Accidente de tránsito", "Complicaciones de la diabetes","Ninguna de las anteriores"],
+        correctAnswer: "Ninguna de las anteriores",
+        image: "https://media.giphy.com/media/GDx4qy4uhSfK/200.gif"
     },
     {
-		question: "El número 8 es…?",
-        answers: ["Un número primo", "Un número compuesto", "Un número decimal"],
-        correctAnswer: "Un número compuesto",
-        image: "https://th.bing.com/th/id/OIP.lbMetHEQEyAfg0ZrpiKrxQHaD9?w=335&h=180&c=7&r=0&o=5&pid=1.7"
+		question: "La causa de muerte del polifacético actor Robin Williams fue…",
+        answers: ["Asfixia", "Paro respiratorio", "Paro cardíaco","Ninguna de las anteriores"],
+        correctAnswer: "Asfixia",
+        image: "https://3.bp.blogspot.com/-xyAIIOyFDGQ/U-oOeNK_rzI/AAAAAAAAKcc/v9wte0478-8/s1600/Robin%2BWilliams%2B2.gif"
     },
     {	
-		question: "¿Qué tipo de radiación te produce quemaduras?",
-        answers: ["Ultravioleta", "Rayos X", "infrarroja"],
-        correctAnswer: "Ultravioleta",
-        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/cdn/0b2df156-897f-4ceb-85ef-9fc91a09399a/c18613cd-0e2a-415e-8127-cc9400fbbc33.jpg"
+		question: "¿Cómo murió John Lennon?",
+        answers: ["Asesinado por arma blanca", "Asesinado por herida de bala", "Enfermedad coronaria"],
+        correctAnswer: "Asesinado por herida de bala",
+        image: "https://media.giphy.com/media/g1rGb3OrQfDNu/giphy.gif"
     },
     {
-		question: "¿Cuál es la principal función de los globulos rojos?",
-        answers: ["Combatir enfermedades", "Coagular la sangre", "Llevar oxígeno"],
-        correctAnswer: "Llevar oxígeno",
-        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/cdn/0b2df156-897f-4ceb-85ef-9fc91a09399a/03f8bbee-8ff4-497b-8b3c-5fedb633304d.jpg"
+		question: "Marilyn Monroe murió en 1962, por una sobredosis de…",
+        answers: ["Heroína", "Barbitúricos", "Morfina","Ninguna de las anteriores"],
+        correctAnswer: "Barbitúricos",
+        image: "https://media1.tenor.com/images/4f229ecc3ae98b2c0e8305c4ef8f4938/tenor.gif?itemid=14026074"
     },
     {
-		question: "La velocidad a la que viaja la luz es?",
-        answers: ["300,000 m/s", "300,000 km/s", "300 km/h"],
-        correctAnswer: "300,000 km/s",
-        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/cdn/0b2df156-897f-4ceb-85ef-9fc91a09399a/159f715c-f78f-4d88-89ee-4957b43a104d.jpg"
+		question: "¿Por qué murió Nelson Mandela?",
+        answers: ["Infección respiratoria", "Infarto al miocardio", "Accidente cerebrovascular","Aneurisma"],
+        correctAnswer: "Infección respiratoria",
+        image: "https://media.giphy.com/media/S542RrScMNwLC/giphy.gif"
     },
     {
-		question: "Un miligramo son?",
-        answers: ["0,001 gramos", "1000 microgramos", "Las dos son verdaderas"],
-        correctAnswer: "Las dos son verdaderas",
-        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/cdn/0b2df156-897f-4ceb-85ef-9fc91a09399a/159f715c-f78f-4d88-89ee-4957b43a104d.jpg"
+		question: "¿De qué murió el icónico actor de la trilogía ‘El padrino’, Marlon Brando?",
+        answers: ["Cirrosis", "Sobredosis", "Infarto al miocardio","Insuficiencia cardíaca","Insuficiencia respiratoria"],
+        correctAnswer: "Insuficiencia respiratoria",
+        image: "https://th.bing.com/th/id/R.23a5d48672b08c222e95378ecb03d775?rik=MbyY%2f%2flxbG7HYg&riu=http%3a%2f%2f25.media.tumblr.com%2f557c46e0ea5eedcc1879939814a9a3cb%2ftumblr_mxmlrz1ldw1r90ooxo1_500.gif&ehk=uXkz5FYzJuvGTgLnPLT3MExTP65IQ0MKvCxtA6UrjWo%3d&risl=&pid=ImgRaw&r=0g"
     },
     {
-		question: "La columna más a la derecha de la tabla periódica esta compuesta por:",
-        answers: ["Haluros", "Gases Nobles", "Minerales"],
-        correctAnswer: "Gases Nobles",
-        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/cdn/0b2df156-897f-4ceb-85ef-9fc91a09399a/dcad754e-cd0d-44e2-9333-512937f787fe.jpg"
+		question: "Lady Diana murió en el año 1997, en un...:",
+        answers: ["Accidente de tráfico", "Atraco a mano armada", "Secuestro"],
+        correctAnswer: "Accidente de tráfico",
+        image: "https://th.bing.com/th/id/R.70f8ec8318a3aa8d179f58eac27d8efd?rik=oJsVOO5EcOWIKw&pid=ImgRaw&r=0"
     },
     {
-		question: "¿Cómo se llaman las partículas subatómicas con carga eléctrica negativa?",
-        answers: ["Neutrones", "Protones", "Electrones"],
-        correctAnswer: "Electrones",
-        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/cdn/0b2df156-897f-4ceb-85ef-9fc91a09399a/fba347e1-d3a5-4680-928f-30dfb55529af.jpg"
-    },
-    {
-		question: "Para el pan y para la cerveza se utilizan para fermentar:",
-        answers: ["Microbios", "Bacterias", "Levaduras"],
-        correctAnswer: "Levaduras",
-        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/cdn/0b2df156-897f-4ceb-85ef-9fc91a09399a/e1bd868d-cd2a-4ef0-87bf-ac152e67efbc.jpg"
+		question: "¿De qué murió Elizabeth Taylor?",
+        answers: ["Cáncer", "Insuficiencia cardíaca", "Insuficiencia respiratoria","Sobredosis de barbitúricos"],
+        correctAnswer: "Insuficiencia cardíaca",
+        image: "https://th.bing.com/th/id/R.9d12aaecaa55bf5ad93d3b0cbf51bfac?rik=YXmg50gnAruKSw&riu=http%3a%2f%2f49.media.tumblr.com%2fc2f80e482b47663a9f7e9f08647b2274%2ftumblr_o2s69gQnRW1s9l6yxo1_500.gif&ehk=TLPBgXKVcRpQynn%2fXpieFN5BPXJfq9OkF583XxFmMi0%3d&risl=&pid=ImgRaw&r=0"
     }
 ];
 
@@ -126,7 +120,8 @@ $(function () {
                 $("#timeLeft").css("display", "none");
                 $("#message").text("INCORRECTO");
 
-                $("#imageTrivia").attr("src", "https://images.angelpub.com/2016/35/39703/wrong.gif");
+               
+                $("#imageTrivia").attr("src", "https://media.baamboozle.com/uploads/images/49869/1618223208_15917_gif-url.gif");
 
             }
 
@@ -138,6 +133,7 @@ $(function () {
     }
 
     // Function shows the correct trivia answer
+
     function showCorrectAnswer() {
 
         $("#answers").children().not(correctAnswerElement).addClass("wrong");
@@ -146,15 +142,33 @@ $(function () {
 
         $("#answers").children().removeClass("hover");
         $("#answers").children().off("click");
-
-        $("#message").css("display", "block");
+        $("#timer").css("display", "none");
+        $("#message").css("display", "none");
         $("#timeLeft").css("display", "none");
-        $("#message").text("CORRECTO");
+        // $("#message").text("CORRECTO");
 
-        $("#imageTrivia").attr("src", "https://media1.tenor.com/images/c69fe60c4e179c1cf21726c224353de8/tenor.gif?itemid=11296495");
+        Swal.fire({
+           
+            icon: 'success',
+            title: 'Correcto',
+            showConfirmButton: false,
+            timer: 1600
+          })
+    }
+    function showCorrectAnswertimer() {
+
+        $("#answers").children().not(correctAnswerElement).addClass("wrong");
+        correctAnswerElement.append("<span> &#10004;</span>");
+        correctAnswerElement.addClass("correct");
+
+        $("#answers").children().removeClass("hover");
+        $("#answers").children().off("click");
+      
+        $("#message").css("display", "none");
+        $("#timeLeft").css("display", "none");
+        // $("#message").text("CORRECTO");
 
     }
-
     // Function creates a countdown which is display on HTML
     // If timeLeft variable reach zero, correct answer shows up
     // and then wait for 4 seconds to restart
@@ -167,7 +181,7 @@ $(function () {
 
             if (timeLeft == 0) {
                 incorrect++;
-                showCorrectAnswer();
+                showCorrectAnswertimer();
                 clearInterval(timer);
                 timeLeft = 15;
                 $("#timeLeft").css("display", "none");
@@ -200,6 +214,7 @@ $(function () {
             timeLeft = 15;
 			startGame();
             $("#message").css("display", "none");
+            $("#timer").css("display", "flex");
             $("#message").text("SE HA TERMINADO EL TIEMPO!");
             $("#timeLeft").css("display", "block");
             $("#timerSeconds").text(timeLeft);
