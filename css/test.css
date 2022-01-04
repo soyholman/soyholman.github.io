@@ -240,7 +240,8 @@ color: blue;
 #answers {
     display: flex;
     flex-direction: column;
-    font-size: 1.15em;
+    /* font-size: 1.15em; */
+    font-size: medium;
     text-align: center;
     height: 100%;
     
@@ -250,7 +251,7 @@ color: blue;
 #answers > * {
     border-bottom: 1px solid #ddd;
     height: 25%;
-    line-height: 2.5em;
+    line-height: 2.0em;
     cursor: pointer;
 }
 }
