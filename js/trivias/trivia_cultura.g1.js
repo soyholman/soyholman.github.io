@@ -14,7 +14,7 @@ var QUESTIONS = [
     {
      
         question: "¿Cuál es la primera ley de Newton?",
-        answers: [ "¿Cuál es la primera ley de Newton?","Principio de inercia", "Principio fundamental de la dinámica"],
+        answers: [ "la ley de acción y reacción","Principio de inercia", "Principio fundamental de la dinámica"],
         correctAnswer: "Principio de inercia",
         image: "https://media2.giphy.com/media/3LN9HQjb04ESc/giphy.gif"
     },
