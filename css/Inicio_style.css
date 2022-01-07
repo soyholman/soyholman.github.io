@@ -12,7 +12,10 @@ html{   scroll-behavior: smooth;}
 
     background-color: #f4f4f4;
 }
-
+.container-footer_link:hover{
+  text-decoration:underline;
+  letter-spacing: 1px;
+}
 
 .container{
     width: 80%;
@@ -20,8 +23,8 @@ html{   scroll-behavior: smooth;}
     overflow: hidden;
 }
 img{
-     border-radius: 100px;
-       background-size: cover;
+     border-radius: 10px;
+       background-size: contain;
   background-repeat: no-repeat;
   height: 426px;
   background-attachment: fixed;
