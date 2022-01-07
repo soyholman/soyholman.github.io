@@ -77,15 +77,15 @@ border: 5px solid white;
 
 .card_icon--facebook{
 
-    background-image: url('/Icons/facebook.svg');
+    background-image: url('/ico/facebook.svg');
 }
 
 .card_icon--twitter{
 
-    background-image: url('/Icons/twitter.svg');
+    background-image: url('/ico/twitter.svg');
 }
 
 .card_icon--instagram{
-    background-image: url('/Icons/instagram.svg');
+    background-image: url('/ico/instagram.svg');
 }
 
