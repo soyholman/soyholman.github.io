@@ -24,29 +24,29 @@ google_button.addEventListener('click',(e) =>{
    })
 })
 
-const facebok_button= document.querySelector('#facebook');
-facebok_button.addEventListener('click',(e) =>{
+// const facebok_button= document.querySelector('#facebook');
+// facebok_button.addEventListener('click',(e) =>{
     
-   const provider= new firebase.auth.FacebookAuthProvider();
-   auth.signInWithPopup(provider).then(result=>{
+//    const provider= new firebase.auth.FacebookAuthProvider();
+//    auth.signInWithPopup(provider).then(result=>{
 
       
-    Swal.fire({
+//     Swal.fire({
            
-        icon: 'success',
-        title: 'Ha iniciado facebook con google satisfactoriamente',
-        showConfirmButton: false,
-        timer: 1600
-      }).then(function(){
+//         icon: 'success',
+//         title: 'Ha iniciado facebook con google satisfactoriamente',
+//         showConfirmButton: false,
+//         timer: 1600
+//       }).then(function(){
 
-        location.href="index.html";
-      })
-    singupform.reset();
+//         location.href="index.html";
+//       })
+//     singupform.reset();
 
-   }).catch(err=>{
-       console.log(err);
-   })
-})
+//    }).catch(err=>{
+//        console.log(err);
+//    })
+// })
 
 
 const singupform= document.querySelector('#sing');
