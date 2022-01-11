@@ -10,14 +10,14 @@
     <link rel="stylesheet" href="css/modal_stilo.css">
   
 </head>
-<body>
+<body onload="params();">
     
     <div class="container">
 <h1 class="heading">
 
     <i class="fas fa-dice-four"></i> Juegos
     <br>
-    <a href="/index.html" class="btn"><i class="fas fa-home"></i> Home</a>
+    <a href="/index.html" class="btn"><i class="fas fa-home"></i> Inicio</a>
     <a href="/Personajes Historicos/indexin.html" class="btn">Personajes Historicos</a>
     <a href="/Juegos/menu_universo.html" class="btn">Universo    <i class="fas fa-globe"></i> </a>
   
@@ -65,10 +65,18 @@
         <div class="snow snow--far"></div>
         <div class="snow snow--far snow--alt"></div>
     </div>
-       
-</body>
+    <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-database.js"></script>
+    
 <script src="/js/Font-owesome/all.js"></script>
 <script src="js/transition.js"></script>
+<script src="/js/firebase/firebase.js"></script>
+<script src="/js/sweetalert.min.js"></script>
+
+</body>
+
 <!-- <script src="js/Animacion/bubble.js"></script> -->
 
 </html>

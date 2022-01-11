@@ -167,7 +167,7 @@ else if(user==null){
            timer: 1600
          }).then(function(){
 
-            location.href="Login.html";
+            location.href="/Login.html";
 
          })
   
@@ -176,20 +176,35 @@ else if(user==null){
 
 }
 
+
+
 const logout=document.querySelector('#leave');
 
 logout.addEventListener('click', e=>{
 
   
     firebase.auth().signOut().then(()=> {
-console.log('Good');
-     
-location.href="Login.html";
+
+
+Swal.fire({
+           
+           icon: 'warning',
+           title: 'se ha cerrado sesión correctamente',
+           showConfirmButton: false,
+           timer: 1600
+         }).then(function(){
+
+            location.href="/Login.html";
+
+         })
+
     }).catch(e=>{
         console.error('Sign Out Error', e);
        });
 
+     
 })
+
 
       </script>
         <script src="/js/sweetalert.min.js"></script>

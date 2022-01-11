@@ -8,12 +8,36 @@
     -webkit-tap-highlight-color: transparent;
     -webkit-tap-highlight-color: transparent;
 }
+html,body{
+    height:100%;
+}
+body{
 
-
+    background: url(https://coolwallpapers.me/picsup/5477335-fantasy-pyramid-wallpapers.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
 :root{
 
     --radius:4px;
     --padding:2rem;
+}
+
+@media screen and (max-width: 800px){
+    body{
+        position:absolute;
+        right:0;
+        left:0;
+        top:0;
+        bottom:0;
+        overflow-x:hidden;
+        overflow-y:scroll;
+    }
+
+    
 }
 
 
@@ -222,4 +246,8 @@ in-methods-container .login-method:hover{
     .form-container{
         width: 80%;
     }
+    
 }
+
+
+
