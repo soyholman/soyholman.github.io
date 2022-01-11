@@ -6,8 +6,19 @@ google_button.addEventListener('click',(e) =>{
    const provider=new firebase.auth.GoogleAuthProvider();
    auth.signInWithPopup(provider).then(result=>{
 
-    console.log('Google Sing in')
-    singupform.reset();
+    
+    Swal.fire({
+           
+        icon: 'success',
+        title: 'Ha iniciado sesión con google satisfactoriamente',
+        showConfirmButton: false,
+        timer: 1600
+      }).then(function(){
+
+        location.href="index.html";
+      })
+   
+
    }).catch(err=>{
        console.log(err);
    })
@@ -19,8 +30,19 @@ facebok_button.addEventListener('click',(e) =>{
    const provider= new firebase.auth.FacebookAuthProvider();
    auth.signInWithPopup(provider).then(result=>{
 
-    console.log('Google Sing in')
+      
+    Swal.fire({
+           
+        icon: 'success',
+        title: 'Ha iniciado facebook con google satisfactoriamente',
+        showConfirmButton: false,
+        timer: 1600
+      }).then(function(){
+
+        location.href="index.html";
+      })
     singupform.reset();
+
    }).catch(err=>{
        console.log(err);
    })
@@ -41,10 +63,27 @@ const singupassword= document.querySelector('#password').value;
 auth.signInWithEmailAndPassword(singupemail,singupassword)
 .then(UserCredential=>{
 
-alert('Success')
+    Swal.fire({
+           
+        icon: 'success',
+        title: '',
+        showConfirmButton: false,
+        timer: 1600
+      }).then(function(){
+
+        location.href="index.html";
+      })
+
 }).catch(err=>{
 
-alert(err.message)
+
+Swal.fire({
+           
+    icon: 'error',
+    title: ''+err.message,
+    showConfirmButton: false,
+    timer: 1600
+  })
 })
 })
 

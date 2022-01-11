@@ -6,6 +6,9 @@
     font-family: 'Poppins',sans-serif;
 }
 
+a{
+  cursor: pointer;
+}
 html{   scroll-behavior: smooth;}
 .body{
 
@@ -160,8 +163,14 @@ p{
 .menu-list-social{
     list-style-type:none;
 }
+
 .icons-social_item{
     display: inline;
+}
+span{
+  color: white;
+  letter-spacing: 1px;
+  font-weight:lighter;
 }
 .icons-social_i{
     font-size: 23px;

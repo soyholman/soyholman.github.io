@@ -105,7 +105,21 @@ a:hover{
     top:1rem;
     left: 1rem;
 }
+#google{
 
+    transition: all 0.3s linear;
+}
+#google:hover{
+    transform: translateY(-7px);
+}
+
+#facebook{
+    transition: all 0.3s linear;
+}
+#facebook:hover{
+    transform: translateY(-7px);
+
+}
 form input{
 
     width: 100%;
