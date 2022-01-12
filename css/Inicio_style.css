@@ -32,6 +32,12 @@ img{
   background-attachment: fixed;
   background-position: center;
 }
+#logo{
+  width: 42%;
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+}
 .masthead{
 
     grid-area: content;
@@ -45,7 +51,8 @@ img{
 }
 
 .masthead_title{
-    
+  
+  
     margin-top: 200px;
     margin-bottom: 15px;
     font-size: 40px;
@@ -207,7 +214,8 @@ a{
 }
 
 @media (max-width:800px) {
-    .header{
+  
+  .header{
         padding-bottom:20px;
       }
     
@@ -281,6 +289,11 @@ a{
       .btn-submit--contact-form{
         width:100%;
       } 
+      #logo{
+        width: 100%;
+        
+    
+      }
 }
 @media (max-width:450px){
     .menu_item{
@@ -304,6 +317,7 @@ a{
     .masthead_description{
         font-size: 17px;
     }
+  
 
 }
 
