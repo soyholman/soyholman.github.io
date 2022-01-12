@@ -87,21 +87,21 @@ Swal.fire({
 })
 })
 
-const logout=document.querySelector('#leave');
+// const logout=document.querySelector('#leave');
 
-logout.addEventListener('click', e=>{
+// logout.addEventListener('click', e=>{
 
   
-    firebase.auth().signOut().then(()=> {
-singupform.reset();
-alert('Sing out');
+//     firebase.auth().signOut().then(()=> {
+// singupform.reset();
+// alert('Sing out');
 
-    }).catch(e=>{
-        console.error('Sign Out Error', e);
-       });
+//     }).catch(e=>{
+//         console.error('Sign Out Error', e);
+//        });
 
      
-})
+// })
 
 
 
