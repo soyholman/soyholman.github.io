@@ -18,7 +18,34 @@ position:sticky;
 #main-c{display: none;}
 #moreadriano{display: none;}
 
-     
+ #logo img{
+ 
+  display: flex;
+  flex-direction: column;
+opacity:0.6;
+
+
+}
+#logo {
+  
+  border-left-style:solid ;
+  width: 40%;
+  border-right-style:solid ;
+  border-radius: 12px;
+  
+}
+#logo2{
+ 
+  width: 20%;
+  border-bottom:solid ;
+    color: white;
+ 
+  border-radius: 12px;
+
+ 
+  
+
+}
 #clear {
   position: absolute;
   top: 0;
@@ -215,6 +242,12 @@ a:hover{
         padding: 20px;
 
     }
+    #logo{
+      width: 70%;
+    }
+    #logo2{
+      width: 50%;
+    }
     
  }
 
@@ -314,6 +347,7 @@ a:hover{
  font-size: small;
 }
 
+
 }
 
 
@@ -322,10 +356,11 @@ a:hover{
        background-repeat:no-repeat;
        height:450px;}
  
+       /* quitar punto a imagen */
 img{
     height:100%;
     width:auto;
-    opacity:0.6;
+    /* opacity:0.6; */
 }
 .winter-is-coming, .snow {
   z-index: 100;

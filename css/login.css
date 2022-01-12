@@ -11,6 +11,13 @@
 html,body{
     height:100%;
 }
+.form-container  #logo{
+width: 75%;
+background-position: center;
+align-content: center;
+align-items: center;
+
+}
 body{
 
     background: url(https://coolwallpapers.me/picsup/5477335-fantasy-pyramid-wallpapers.jpg);
@@ -113,7 +120,9 @@ background-repeat: no-repeat;
     position: relative;
     width: 100%;
     padding: var(--padding);
+    
 }
+
 .form-container .form-body .field{
     width: 100%;
 }
