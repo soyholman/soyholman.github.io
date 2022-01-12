@@ -21,12 +21,11 @@ align-items: center;
 body{
 
     background: url(https://coolwallpapers.me/picsup/5477335-fantasy-pyramid-wallpapers.jpg);
-  
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-position: center;
-    
 }
 :root{
 
@@ -43,7 +42,6 @@ body{
         bottom:0;
         overflow-x:hidden;
         overflow-y:scroll;
-        
     }
 
     
@@ -275,7 +273,9 @@ in-methods-container .login-method:hover{
 
 @media screen and (max-width:480px) {
     
-
+    .form-container{
+        width: 80%;
+    }
     
 }
 
