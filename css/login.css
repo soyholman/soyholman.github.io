@@ -275,7 +275,7 @@ in-methods-container .login-method:hover{
 @media screen and (max-width:480px) {
     
     .form-container{
-        width: 80%;
+        width: 100%;
     }
     
 }
