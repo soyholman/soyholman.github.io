@@ -276,7 +276,7 @@ a{
       .aside{
         width:100%; 
         float:none;
-        text-align:center;
+      text-align:center;
         padding-bottom:20px;
       }
       
@@ -295,6 +295,128 @@ a{
     
       }
 }
+
+
+
+
+
+.contenido-slider{
+
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-shrink: 0;
+color: #1e2528;
+  background-color:#90B8F8;
+}
+
+.contenido-slider:nth-child(2){
+  background:#0EA2F6;
+  color: #1e2528;
+  
+}
+.contenido-slider:nth-child(3){
+  background: #0ef6be;
+  color: #1e2528;
+}
+.contenido-slider:nth-child(4){
+  background:#0EA2F6;
+  color: #1e2528;
+}
+.contenido-slider:nth-child(5){
+  background:#0ef6be;
+  color: #1e2528;
+}
+.contenido-slider > img{
+  width: 400px;
+  box-shadow: -6px 8px 6px -6px #000;
+  border-radius: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.contenido-slider > div{
+  border-radius: 10px;
+  width: 40%;
+}
+.contenido-slider h4{
+
+  font-weight: 500;
+
+  line-height: 30px;
+}
+.contenido-slider h1{
+text-align: center;
+  font-size: medium;
+  box-shadow: -6px 8px 6px -6px #444442;
+
+  line-height: 30px;
+
+}
+
+.contenido-slider a{
+color: black;
+background: #f7f7f7;
+width: 140px;
+display: block;
+padding: 15px 0;
+text-align: center;
+border-radius: 5px;
+margin-top: 20px;
+text-decoration: none;
+}
+.contenido-slider a:hover{
+
+  color: black;
+  background: transparent;
+  border:2px solid white;
+}
+
+
+.slider-contenedor{
+  width: 100%;
+  display: flex;
+  
+
+}
+
+@media screen and (max-width:900px){
+   .contenido-slider > img{
+       width: 150px;
+      
+       height: 130px;
+   }
+
+   .contenido-slider > div{
+
+      width: 40%;
+   }
+
+   .contenido-slider h2{
+       font-size: 23px;
+   }
+}
+
+@media screen and (max-width:600px){
+  .contenido-slider{
+    flex-direction: column-reverse;
+    border-radius: 10px;
+  }
+
+  .contenido-slider > div{
+
+     width: 80%;
+  }
+
+  .contenido-slider h2{
+      font-size: 23px;
+  }
+}
+
 @media (max-width:450px){
     .menu_item{
         padding: 0px 4px 0px 4px;

@@ -17,7 +17,8 @@
 <ul class="menu">
   
     <li class="menu_item"><a href="#home-section" class="menu_link">Bienvenida</a></li>
-    
+      
+    <li class="menu_item"><a href="#novedades-section" class="menu_link">Novedades</a></li>
     <li class="menu_item"><a href="#services-section" class="menu_link">Secciones</a></li>
     
     <li class="menu_item"><a href="#about-section" class="menu_link">Acerca de mi</a></li>
@@ -47,7 +48,71 @@
     </div>
         <div class="masthead" style="height: 150px; overflow: hidden;"  ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.26,204.77 331.55,-67.59 504.22,25.16 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill:white;"></path></svg>
 </section>
+<section class="about" id="novedades-section">
+    <div class="container">
+        <h1 class="container_title">Novedades</h1>
+        <br>
+            <div class="slider-contenedor">
+                <section  class= "contenido-slider">
+                  
+                    <div>
+                        <h1 class="title">Test:¿Cuánto Sabes Sobre Astronomía?</h1>
+                        <br>
+                        <p>Si Te Gustan Las Estrellas Y Te Fascinan Las Galaxias, Ponte A Prueba Con Este Test.</p>
+                        <a href="/test/Astronomia_test.html">Realizar</a>
+                    </div>
+                        <img src="https://images.unsplash.com/photo-1610296669228-602fa827fc1f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=775&q=80" alt="">
+                  
+                </section>
+                  <section class="contenido-slider">
+                    <div>
+                        <h1 class="title">Trivia:¿Cuánto Sabes De Literatura?</h1>
+                       <br>
+                        <p>El Cuestionario Literario Definitivo,¿Sabes Cuanto Sabes De Novelas, Escritores Y Estilos?</p>
+                        <br>
+                        <a href="Trivias/trivia_literatura.html">Realizar</a>
+                    </div>
+                        <img src="https://aztecadist.es/wp-content/uploads/2020/10/99b-800x400-1.png" alt="">
+                    
+                  </section>
+                <section class="contenido-slider">
+                    <div>
+                        <h1 class="title">Trivia: Lugares Más Seguros Para Sobrevivir Al Fin Del Mundo</h1>
+                       <br>
+                        <h4>Diviértete Con Esta Trivia Y Descubre Cuáles Son Los Lugares Más Seguros Para Sobrevivir Al Fin Del Mundo.</h4>
+                        <a href="/Trivias/trivia_lugar_seguro.html">Realizar</a>
+                    </div>
+                        <img src="https://th.bing.com/th/id/R.b03bcfbc0c6e2516913931a78a58c797?rik=jQA%2fvCCrpbnrrg&riu=http%3a%2f%2fwww.viajejet.com%2fwp-content%2fviajes%2fdesastres-naturales-los-tsunamis.jpg&ehk=Wr9%2bea8JxosLAwelSSmvsY5vm3%2fzjLIczDOGvZfEvTk%3d&risl=&pid=ImgRaw&r=0" alt="">
+                   
+                </section>
+                <section class="contenido-slider">
+                    <div>
+                        <h1 class="title">Test:¿Cuánto Sabes Sobre El Cerebro?</h1>
+                       <br>
+                        <h4>El Cerebro Alberga Los Secretos De La Esencia Del Ser Humano. Demuestra Con Este Test Tus Conocimientos Sobre El Órgano Más Complejo De Nuestro Organismo.</h4>
+                        <a href="/test/Cerebro.html">Realizar</a>
+                    </div>
+                        <img src="https://images.unsplash.com/photo-1592496001020-d31bd830651f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=912&q=80" alt="">
+                   
+                </section>
+                <section class="contenido-slider">
+                    <div>
+                        <h1 class="title">Trivia:La Máxima Trivia Acerca De Copas Mundiales</h1>
+                       <br>
+                        <p>Una Difícil Trivia Que Pondrá A Prueba Tus Conocimientos Sobre El Torneo Mas Esperado Del Fútbol.</p>
+                        <br>
+                        <a href="Trivias/trivia_copa_mundo.html">Realizar</a>
+                    </div>
+                        <img src="https://th.bing.com/th/id/OIP.Lop1PrlNQQ-6kcyeyLPW2wHaFH?pid=ImgDet&rs=1alt=%22%22" alt="">
+                    
+                  </section>
+            </div>
+        
 
+    </div>  
+</section>
+<br>
+<hr>
 <section class="services" id="services-section">
     
     <div class="container">
@@ -207,6 +272,37 @@ Swal.fire({
      
 })
 
+let slider=document.querySelector(".slider-contenedor")
+let sliderindivudual=document.querySelectorAll(".contenido-slider")
+let contador=1;
+let width=sliderindivudual[0].clientWidth;
+let intervalo=4200;
+window.addEventListener("resize",function(){
+
+width=sliderindivudual[0].clientWidth;
+
+
+})
+
+setInterval(function(){
+    slides();   
+}, intervalo);
+function slides(){
+
+    slider.style.transform="translate("+(-width*contador)+"px)";
+    slider.style.transition="transform .8s";
+    
+    contador++;
+    if(contador==sliderindivudual.length){
+         setTimeout(() => {
+             
+    slider.style.transform="translate(0px)";
+    
+    slider.style.transition="transform .8s";
+    contador=1;
+         }, 1800);
+    }
+}
 
       </script>
         <script src="/js/sweetalert.min.js"></script>
