@@ -13,7 +13,7 @@
     <title>Trivia </title>
 </head>
 
-<body>
+<body  >
   
     <main class="container text-center" >
         <canvas id="canv"></canvas>
@@ -60,7 +60,7 @@
                                             </div>
                                     <br>
                                     <br>
-                                            <button id="button" class="btn">Empezar juego</button>
+                                            <button id="button" onclick="params();" class="btn">Empezar juego</button>
                                     <br><br>
                                     <br>
                                             <div id="score">
@@ -80,15 +80,25 @@
         </div>
 
     </main>
-
-</body>
     <script src="https://kit.fontawesome.com/f955c68031.js"></script>
-    <script src="/js/sweetalert.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-database.js"></script>
+    <script type="text/javascript" src="/js/trivias/trivia_Gamesofthores.js"></script>
+<script src="/js/Font-owesome/all.js"></script>
+<script src="js/transition.js"></script>
+<script src="/js/firebase/firebase_trivia.js"></script>
+<script src="/js/sweetalert.min.js"></script>
+  
+</body>
+    
+   
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
     </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
-    <script type="text/javascript" src="/js/trivias/trivia_Gamesofthores.js"></script>
+    
 </html>
