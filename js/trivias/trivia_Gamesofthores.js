@@ -121,7 +121,8 @@ $(function () {
                 correctAnswer = div;
             }
             div.addClass("hover");
-            $("#Titles").css("font-size", "medium"); // Adds hover effect to each answer element
+            $("#Titles").css("font-size", "medium");
+            $("#colaborador").css("width", "60px"); // Adds hover effect to each answer element
         });
 
         return correctAnswer;
@@ -290,6 +291,7 @@ $(function () {
         questionIndex = 0;
         $("#card").css("display", "flex");
         $("#button").css("display", "none");
+     
         startGame();
     });
 
