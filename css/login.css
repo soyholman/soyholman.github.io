@@ -9,7 +9,7 @@
     -webkit-tap-highlight-color: transparent;
 }
 html,body{
-    height:100%;
+    height:100vh;
 }
 .form-container  #logo{
 width: 75%;
@@ -23,7 +23,9 @@ body{
     background: url(https://coolwallpapers.me/picsup/5477335-fantasy-pyramid-wallpapers.jpg);
    background-repeat: no-repeat;
    background-position: center;
+   background-size: cover;
    background-attachment: fixed;
+   
 }
 :root{
 
