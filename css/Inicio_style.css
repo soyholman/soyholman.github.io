@@ -477,7 +477,7 @@ button:active{
 
 select:focus{
  border:2px solid hsl(210,82%, 56%);
-
+ outline: none;
   background-color: #f5f5f8;
 }
 
