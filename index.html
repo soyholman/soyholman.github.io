@@ -37,7 +37,7 @@
     </div>
     <div class="container">
         <img src="/img/culturags.png" id="logo" class="menu_item masthead_title" alt="">
-        <h1 class="masthead_title">  Bienvenido</h1>
+        <h1 class="masthead_title" id="welcome">  Bienvenido</h1>
           <hr>
                 <p class="masthead_description"> By Holman Morales
                     <br>
@@ -221,55 +221,12 @@
           messagingSenderId: "1098470238354",
           appId: "1:1098470238354:web:dd90ac6dd974704ea35e4b"
         };
-      
+  
         // Initialize Firebase
        firebase.initializeApp(firebaseConfig);
         const auth=firebase.auth();
-        var firebaseref=firebase.database().ref('Sugerencias');
-    const fs=firebase.firestore();
+       
 
-    document.querySelector("#Enviar").addEventListener("click",()=>{
-const dinamica= document.getElementById('dinamic');
-const sugerencia=document.getElementById('suggest').value;
-const nombre=document.getElementById('getname');
-var hoy = new Date();
-var dd = hoy.getDate();
-var mm = hoy.getMonth()+1;
-var yyyy = hoy.getFullYear();
-
-if(dinamica=="" || sugerencia==""){
-
-    Swal.fire({
-           
-           icon: 'error',
-           title: 'Por favor seleccione la dinamica y escriba el tema a sugerir.',
-           text: '',
-           showConfirmButton: false,
-           timer:1600
-          
-         })
-    
-}
-else{
-
-    firebaseref.push({
-    fecha:dd+'/'+mm+'/'+yyyy,
-    dinamica:dinamica.value,
-    usuario:nombre.textContent,
-          tema:sugerencia
-});
-
-Swal.fire({
-           
-           icon: 'success',
-           title: 'Se ha enviado tu sugerencia',
-           text: 'Muchas Gracias',
-           showConfirmButton: true,
-          
-         })
-}
-
-    });
       </script>
       <script>
 
@@ -286,6 +243,7 @@ if(user!=null){
 
  
 document.querySelector('#getname').innerHTML="Cuenta registrada : "+user.email;
+document.querySelector('#welcome').innerHTML="Bienvenido : "+user.displayName;
         
  
 }
@@ -371,5 +329,6 @@ function slides(){
 
       </script>
         <script src="/js/sweetalert.min.js"></script>
+        <script src="/js/firebase/recomendaciones.js"></script>
 </body>
 </html>
