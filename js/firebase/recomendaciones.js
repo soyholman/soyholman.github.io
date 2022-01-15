@@ -45,7 +45,7 @@ Swal.fire({
         firebaseref.push({
 fecha:dd+'/'+mm+'/'+yyyy,
 dinamica:dinamica.value,
-usuario:nombre.textContent,
+usuario:user.email,
       tema:sugerencia
 });
 document.getElementById('suggest').value = ''
