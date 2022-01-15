@@ -9,21 +9,24 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <script src = 'https://code.jquery.com/jquery-3.2.1.js'></script>
-        <meta name="description" content="El Cuerpo Humano Es Una Máquina Asombrosa. Nos Mantiene Vivos, Se Regenera, Crece, Se Estira Y Todo Pasa Sin Darnos Cuenta… ¿Serías Capaz De Contestar Perfectamente Esta Trivia Sobre La Anatomía De Tu Propio Cuerpo? ¡Averígualo!">
-    
-    <title>Trivia </title>
+
+     
+        <meta name="description" content="El ojo es un órgano único y fantástico, diferente en cada animal y en muchas ocasiones una autentica obra de ingeniería de la evolución. ¿Sabrías reconocer a qué animal pertenece cada uno de estos ojos?">
+    <title>Trivia</title>
 </head>
 
-<body>
+<body >
   
     <main class="container text-center" >
         <canvas id="canv"></canvas>
         <div class="row">
             <div class="col-12">
                 <header>
-                    <h1 id="Titles">Trivia: ¿Sabes todo sobre anatomía humana?<i >🧠</i> </h1>
+                    <h1 id="Titles">¿A qué animal pertenecen estos ojos?<i >👁️❔</i> </h1>
                     <a href="/Juegos/Triviamenu.html">Volver</a>
-                    <p></p>
+                    <br>
+               
+                
                 </header>
               
      
@@ -34,28 +37,27 @@
                         <h1 id="gameTitle">General<br> Knowledge<br> Trivia</h1>
                  -->
                  <br>
-                        <div id="card">
-                            <div id="timer-image">
-                                <img id="imageTrivia" src="https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/NIHmZbghlilb1qj7b/videoblocks-animated-3d-human-anatomy-illustration_hdcnxzlkh_thumbnail-1080_01.png" alt="Question Mark Gif">
-                               
-                                <div id="timer">
-                                    <h4 id="message">SE HA TERMINADO EL TIEMPO!</h4>
-                                    <p id="timeLeft">Tiempo restante: <span id="timerSeconds">15</span></p>
-                                </div>
-                            </div>
-                            <div id="question">
-                                <h2 id="question-header">?</h2>
-                                <div id="answers">
-                                    <div class="correct">Lorem ipsum dolor sit amet <span>&#10004;</span></div>
-                                    <div>Lorem ipsum dolor sit amet.</div>
-                                    <div class="wrong">Lorem ipsum dolor sit amet <span>&#10008;</span></div>
-                                    <div>Lorem ipsum dolor sit amet.</div>
-                                </div>
-                            </div>
+                 <div id="card">
+                    <div id="timer-image">
+                        <img id="imageTrivia" src="https://www.nationalgeographic.com.es/medio/2016/02/09/2cb865d8ojos_copia_2.jpg" alt="Question Mark Gif">
+                        <div id="timer">
+                            <h4 id="message"></h4>
+                            <p id="timeLeft">Tiempo restante: <span id="timerSeconds">15</span></p>
                         </div>
+                    </div>
+                    <div id="question">
+                        <h2 id="question-header">?</h2>
+                        <div id="answers">
+                            <div class="correct">Lorem ipsum dolor sit amet <span>&#10004;</span></div>
+                            <div>Lorem ipsum dolor sit amet.</div>
+                            <div class="wrong">Lorem ipsum dolor sit amet <span>&#10008;</span></div>
+                            <div>Lorem ipsum dolor sit amet.</div>
+                        </div>
+                    </div>
+                </div>
                 <br>
                 <br>
-                        <button id="button" onclick="params();"  class="btn">Empezar juego</button>
+                        <button id="button"  onclick="params();" class="btn">Empezar juego</button>
                 <br><br>
                 <br>
                         <div id="score">
@@ -75,6 +77,7 @@
         </div>
 
     </main>
+  
     <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-firestore.js"></script>
@@ -89,5 +92,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
-    <script type="text/javascript" src="/js/trivias/Trivia_anatomia.js"></script>
+    <script src="/js/trivia_filter.js"></script>
+    <script type="text/javascript" src="/js/trivias/animal_eye.js"></script>
 </html>

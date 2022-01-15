@@ -46,30 +46,3 @@ else if(user==null){
 }
 
 
-
-const logout=document.querySelector('#leave');
-
-logout.addEventListener('click', e=>{
-
- 
-   firebase.auth().signOut().then(()=> {
-
-
-Swal.fire({
-          
-          icon: 'warning',
-          title: 'se ha cerrado sesión correctamente',
-          showConfirmButton: false,
-          timer: 1600
-        }).then(function(){
-
-           location.href="/Login.html";
-
-        })
-
-   }).catch(e=>{
-       console.error('Sign Out Error', e);
-      });
-
-    
-})
