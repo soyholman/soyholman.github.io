@@ -214,7 +214,7 @@ a{
 }
 
 @media (max-width:800px) {
-  
+ 
   .header{
         padding-bottom:20px;
       }
@@ -294,6 +294,8 @@ a{
         
     
       }
+
+      
 }
 
 
@@ -416,11 +418,74 @@ text-decoration: none;
       font-size: 23px;
   }
 }
+.container select{
+
+  width: 30%;
+  height: 3rem;
+  border:1px solid #eee;
+  color: #666;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+
+  transition:  all 150ms ease-out;
+}
+
+ input {
+
+  width: 38%;
+  height: 3rem;
+  padding: 0 0.8rem;
+  display: inline-block;
+  border:1px solid #eee;
+  color: #666;
+  border-radius: var(--radius);
+  transition:  all 150ms ease-out;
+}
+button{
+  background-color: hsl(210, 82%, 56%);
+
+   width: 30%;
+  height: 3rem;
+  border:0;
+
+  color: white;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  border-radius: 5px;
+  transition:  all 150ms ease-out;
+}
+ button:focus{
+  outline: none;
+}
+ 
+button:hover{
+  background-color: hsl(210, 82%,62%);
+ cursor: pointer;
+}
+
+button:active{
+  background-color: hsl(210, 82%,62%);
+}
+
+ input:focus{
+ outline: none;
+ box-shadow: 0 0 0 1pt hsl(210,82%, 56%);
+ background-color: #f5f5f8;
+}
+
+select:focus{
+ border:2px solid hsl(210,82%, 56%);
+
+  background-color: #f5f5f8;
+}
 
 @media (max-width:450px){
     .menu_item{
         padding: 0px 4px 0px 4px;
     }
+    
     .menu_link{
         font-size: 13px;
     }
