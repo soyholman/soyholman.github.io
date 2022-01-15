@@ -154,8 +154,7 @@
             <option value="Test">Test</option>
            </select>
         </center>
-    </div>
-    <br>
+        <br>
     <p>Propón un tema</p>
     <br>
     <center>
@@ -165,6 +164,8 @@
         <br>
        <button id="Enviar">Enviar Sugerencia</button>
 </center>
+    </div>
+    
 </section>
 <br>
 <br>
@@ -195,6 +196,7 @@
         <ul class="menu menu-list-social">
         <li class="icons-social_item"><a href="https://www.instagram.com/soyholman/" target="_blank" class="icons-social_link"><i class="icons-social_i fab fa-instagram"></i></a></li>
         <li class="icons-social_item"><a href="https://www.facebook.com/holmanalejandro.morales"  target="_blank" class="icons-social_link"><i class="icons-social_i fab fa-facebook"></i></a></li>
+        <li class="icons-social_item"><a href="https://vm.tiktok.com/ZMLJt3opv"  target="_blank" class="icons-social_link"><i class="icons-social_i fab fa-tiktok"></i></a></li>
         <li class="icons-social_item"><a href="https://twitter.com/holmanmor"  target="_blank"  class="icons-social_link"><i class="icons-social_i fab fa-twitter"></i></a></li>
         <!-- <li class="icons-social_item"><a href="" class="icons-social_link"><i class="icons-social_i fab fa-google-plus"></i></a></li> -->
     </ul>   
@@ -243,8 +245,15 @@ if(user!=null){
 
  
 document.querySelector('#getname').innerHTML="Cuenta registrada : "+user.email;
-document.querySelector('#welcome').innerHTML="Bienvenido : "+user.displayName;
-        
+
+        if( user.displayName==null){
+
+            document.querySelector('#welcome').innerHTML="Bienvenido";
+        }
+        else{
+
+            document.querySelector('#welcome').innerHTML="Bienvenido : "+user.displayName;
+        }
  
 }
 else if(user==null){

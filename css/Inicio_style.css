@@ -431,9 +431,9 @@ text-decoration: none;
   transition:  all 150ms ease-out;
 }
 
- input {
+.container input {
 
-  width: 38%;
+  width: 40%;
   height: 3rem;
   padding: 0 0.8rem;
   display: inline-block;
@@ -442,7 +442,7 @@ text-decoration: none;
   border-radius: var(--radius);
   transition:  all 150ms ease-out;
 }
-button{
+.container button{
   background-color: hsl(210, 82%, 56%);
 
    width: 30%;
@@ -504,8 +504,17 @@ select:focus{
     .masthead_description{
         font-size: 17px;
     }
-  
+    .container input {
+      width: 90%;
+    }
 
+    .container button{
+
+      width: 70%;
+    }
+    .container select{
+      width: 50%;
+    }
 }
 
  
