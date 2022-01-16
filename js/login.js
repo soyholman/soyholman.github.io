@@ -36,16 +36,21 @@ facebok_button.addEventListener('click',(e) =>{
     Swal.fire({
            
         icon: 'success',
-        title: 'Ha iniciado sesión con google satisfactoriamente',
+        title: 'Ha iniciado sesión con Facebook satisfactoriamente',
         showConfirmButton: false,
         timer: 1600
       }).then(function(){
 
+     
+        
         location.href="index.html";
       })
    
+  
 
    }).catch(err=>{
+     
+  
        console.log(err);
    })
 })
