@@ -24,24 +24,26 @@ google_button.addEventListener('click',(e) =>{
    })
 })
 
-const facebok_button= document.querySelector('#facebook');
+
+
+const facebok_button= document.querySelector('#facebook')
 facebok_button.addEventListener('click',(e) =>{
-    
-   const provider= new firebase.auth.FacebookAuthProvider();
+
+   const provider=new firebase.auth.FacebookAuthProvider();
    auth.signInWithPopup(provider).then(result=>{
 
-      
+    
     Swal.fire({
            
         icon: 'success',
-        title: 'Ha iniciado facebook con google satisfactoriamente',
+        title: 'Ha iniciado sesión con google satisfactoriamente',
         showConfirmButton: false,
         timer: 1600
       }).then(function(){
 
         location.href="index.html";
       })
-    singupform.reset();
+   
 
    }).catch(err=>{
        console.log(err);
