@@ -24,6 +24,29 @@ google_button.addEventListener('click',(e) =>{
    })
 })
 
+const anonimo= document.querySelector('#anonimo')
+anonimo.addEventListener('click',(e) =>{
+
+  //  const provider=new firebase.auth.AnnonymouslyAuthProvider();
+   firebase.auth().signInAnonymously().then(result=>{
+
+    
+    Swal.fire({
+           
+        icon: 'success',
+        title: 'Ha iniciado sesión como usuario anónimo',
+        showConfirmButton: false,
+        timer: 1600
+      }).then(function(){
+
+        location.href="index.html";
+      })
+   
+
+   }).catch(err=>{
+       console.log(err);
+   })
+})
 
 
 const facebok_button= document.querySelector('#facebook')
