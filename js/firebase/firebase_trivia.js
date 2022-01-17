@@ -1,7 +1,8 @@
 const firebaseConfig = {
    apiKey: "AIzaSyCLx7EClnZjSKXmWTCWx0GXjGE3ZCXbsf4",
    authDomain: "emailtest-98f89.firebaseapp.com",
-   projectId: "emailtest-98f89",
+   projectId: "emailtest-98f89",   
+    databaseURL:"https://emailtest-98f89-default-rtdb.firebaseio.com/",
    storageBucket: "emailtest-98f89.appspot.com",
    messagingSenderId: "1098470238354",
    appId: "1:1098470238354:web:dd90ac6dd974704ea35e4b"
