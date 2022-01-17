@@ -31,6 +31,7 @@ img{
   height: 426px;
   background-attachment: fixed;
   background-position: center;
+  display: block;
 }
 #logo{
   width: 42%;
