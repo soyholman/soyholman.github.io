@@ -239,6 +239,28 @@ $(function () {
             $("#correct").text("Correcto: " + correct);
             $("#incorrect").text("Incorrecto: " + incorrect);
             $("#score").css("display", "block");
+            var user = firebase.auth().currentUser;
+auth.onAuthStateChanged(user=>{
+    var hoy = new Date();
+var dd = hoy.getDate();
+var mm = hoy.getMonth()+1;
+var yyyy = hoy.getFullYear();
+var data_carpet=dd+'_'+mm+'_'+yyyy;
+
+var firebaseref=firebase.database().ref('Trivia/'+document.getElementById('Titles').textContent+'/'+user.displayName);
+const fs=firebase.firestore();
+
+
+        firebaseref.push({
+fecha:dd+'/'+mm+'/'+yyyy,
+usuario:user.displayName,
+Correctas:correct,
+incorrectas:incorrect
+});
+   
+
+
+})
         }
 
     }
