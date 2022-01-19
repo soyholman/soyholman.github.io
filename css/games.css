@@ -32,6 +32,7 @@ opacity:0.6;
   display: flex;
 } */
 .list {
+  
 list-style: none;
   width: 100%;
   color: white;
@@ -112,17 +113,7 @@ color: #fff;
     padding-bottom: 15px;
 }
 
-input {
-  border: none;
-  padding-top: 5px;
-  width: 95%;
-  transform: translateX(-50%);
-  margin-left: 50%;
 
-  text-align: center;
-  color: rgba(0,0,0,0.8);
-  background-color: rgba(0,0,0,0);
-}
 form {
   
   margin-top: 5px;
@@ -130,18 +121,28 @@ form {
 }
 input::placeholder{
   font-weight: bold;
+align-content: center;
+text-align: center;
+}
+
+#search{
+  margin-top: 90px;
+  margin-left: 50%;
 }
   #myInput {
      
-
-
-      margin-top: 90px;
-      margin-left: 50%;
-      overflow: hidden;
+    width: 60%;
+    height: 40px;
+ 
+    border-radius: 1em;
+text-align: center;
+    
+ 
+ 
       border-radius: 15px;
       transition-duration: .6s;
       transform: translateX(-50%);
-      width: 30%;
+      
       padding: 15px 10px;
       border: none;
 
@@ -155,9 +156,9 @@ input::placeholder{
   outline: none;
 }
 
-#myInput input:hover{
+/* #myInput input:hover{
 border-color: blue;
-}
+} */
 .container .box-container {
 display: grid;
 grid-template-columns: repeat(auto-fit, minmax(270px,1fr));
@@ -270,7 +271,7 @@ a:hover{
 
  @media (max-width:768px) {
   #myInput{
-    width: 70%;
+    width: 100px;
   }
     .container{
 
