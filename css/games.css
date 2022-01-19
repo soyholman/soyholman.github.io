@@ -141,7 +141,7 @@ input::placeholder{
       border-radius: 15px;
       transition-duration: .6s;
       transform: translateX(-50%);
-      width: 40%;
+      width: 30%;
       padding: 15px 10px;
       border: none;
 
@@ -269,7 +269,9 @@ a:hover{
 
 
  @media (max-width:768px) {
-     
+  #myInput{
+    width: 70%;
+  }
     .container{
 
         padding: 20px;
