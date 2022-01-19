@@ -1,10 +1,12 @@
 
 
+
+
 const google_button= document.querySelector('#google')
 google_button.addEventListener('click',(e) =>{
 
    const provider=new firebase.auth.GoogleAuthProvider();
-   auth.signInWithPopup(provider).then(result=>{
+   firebase.auth().signInWithPopup(provider).then(result=>{
 
     
     Swal.fire({
@@ -23,6 +25,7 @@ google_button.addEventListener('click',(e) =>{
        console.log(err);
    })
 })
+
 
 const anonimo= document.querySelector('#anonimo')
 anonimo.addEventListener('click',(e) =>{
