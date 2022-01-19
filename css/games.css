@@ -271,7 +271,7 @@ a:hover{
 
  @media (max-width:768px) {
   #myInput{
-    width: 100px;
+    width: 50vh;
   }
     .container{
 
