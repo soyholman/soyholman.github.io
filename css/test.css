@@ -134,11 +134,18 @@ img {
    
 }
 
-#answers > * {
+/* #answers > * {
 
     border-bottom: 1px solid #ddd;
     height: 100%;
     line-height:auto;
+    cursor: pointer;
+} */
+#answers > * {
+    /* border-bottom: 1px solid #ddd; */
+    border-bottom: 1px solid #ddd;
+    height: 25%;
+    line-height: 2.5em;
     cursor: pointer;
 }
 
