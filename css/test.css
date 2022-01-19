@@ -137,8 +137,8 @@ img {
 #answers > * {
 
     border-bottom: 1px solid #ddd;
-    height: 25%;
-    line-height: 2.5em;
+    height: 100%;
+    line-height: auto;
     cursor: pointer;
 }
 
@@ -196,7 +196,7 @@ color: blue;
 }
 
 
-@media all and (max-width: 900px) {
+@media all and (max-width: 900px )  {
 
 
    
