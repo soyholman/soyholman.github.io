@@ -59,6 +59,9 @@ function myFunction() {
     }
 }
 
+function clear(){
+    document.querySelector('#myInput').value = "";
+}
 window.addEventListener('load', () => {
     // const button = document.querySelector('#clear');
     // button.addEventListener('click', () => {
