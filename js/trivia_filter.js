@@ -59,10 +59,10 @@ function myFunction() {
     }
 }
 
-function clear(){
-    document.querySelector('#myInput').value = "";
-}
-window.addEventListener('load', () => {
+// function clear(){
+//     document.querySelector('#myInput').value = "";
+// }
+window.addEventListener('beforeunload', () => {
     // const button = document.querySelector('#clear');
     // button.addEventListener('click', () => {
         document.querySelector('#myInput').value = "";
