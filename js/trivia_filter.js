@@ -60,10 +60,10 @@ function myFunction() {
 }
 
 window.addEventListener('load', () => {
-    const button = document.querySelector('#clear');
-    button.addEventListener('click', () => {
+    // const button = document.querySelector('#clear');
+    // button.addEventListener('click', () => {
         document.querySelector('#myInput').value = "";
-        myFunction();
-    });
+    //     myFunction();
+    // });
    
 }); 
