@@ -1,6 +1,6 @@
 let nombres=[
     "Lugares","Ciencia","Nostradamus","Anatomía","Animales","Animados","Cultura General","Sexo"
-    ,"Literatura","Mitología","Frases","Mecánica","Fitness","Reyno","Animal","Sobrevivir","Emblema","Biblia","Historia","Mundiales","Marcas","Celebridades","Leones","Aprender","Inglés","Artes Marciales","Síndromes","Games Of Thrones","Ojos","Copas"
+    ,"Literatura","Mitología","Frases","Mecánica","Fitness","Reyno","Animal","Sobrevivir","Emblema","Biblia","Historia","Mundiales","Marcas","Celebridades","Leones","Aprender","Inglés","Artes Marciales","Síndromes","Games Of Thrones","Ojos","Copas","Harry Potter"
 
 ];
 let soredNames=nombres.sort();
