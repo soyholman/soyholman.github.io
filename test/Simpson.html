@@ -5,24 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/css/trivia.css">
+    <link rel="stylesheet" href="/css/test.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <script src = 'https://code.jquery.com/jquery-3.2.1.js'></script>
-        <meta name="description" content="¿Recuerdas Las Historias De La Biblia Que Te Han Contado Desde Pequeño? Independientemente De Cuál Sea Tu Religión Y/O Creencia Estas Historias Siempre Están Presentes Ya Sea En La Comunidad, Redes Sociales O Hasta En Películas… Por Algo Es El Libro Más Vendido En La Historia.">
-    <title>Trivia </title>
+
+     
+        <meta name="description" content="Demuestra Qué Tan Fanático Eres De La Serie De Televisión Más Popular De FOX… ¡Te Retamos!">
+    <title>Test</title>
 </head>
 
-<body>
+<body >
   
     <main class="container text-center" >
         <canvas id="canv"></canvas>
         <div class="row">
             <div class="col-12">
                 <header>
-                    <h1 id="Titles">Trivia: ¿Qué tanto conoces de la Biblia<i >📖🛐</i> </h1>
-                    <a href="/Juegos/Triviamenu.html">Volver</a>
-                    <p></p>
+                    <h1 id="Titles">Test: ¿Qué Tanto Sabes Sobre Los Simpson? <i >🏚️👨‍👩‍👧‍👦</i> </h1>
+                    <a href="/Juegos/test_Menu.html">Volver</a>
+                    <br>
+               
+                
                 </header>
               
      
@@ -34,13 +38,18 @@
                  -->
                  <br>
                         <div id="card">
+                            
                             <div id="timer-image">
-                                <img id="imageTrivia" src="https://media.giphy.com/media/R9AtQfEyKAPhm/giphy.gif" alt="Question Mark Gif">
-                               
+                             
+                        
+                                <img id="imageTrivia" src="https://static.vix.com/es/sites/default/files/n/nacimiento-de-bart-simpson.gif" alt="Question Mark Gif">
+                        
+                         
                                 <div id="timer">
-                                    <h4 id="message">SE HA TERMINADO EL TIEMPO!</h4>
-                                    <p id="timeLeft">Tiempo restante: <span id="timerSeconds">15</span></p>
+                                    <h4 id="message"></h4>
+                                   
                                 </div>
+                            
                             </div>
                             <div id="question">
                                 <h2 id="question-header">?</h2>
@@ -74,12 +83,12 @@
         </div>
 
     </main>
-
     <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-firestore.js"></script>
+
     <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-database.js"></script>
-    <script src="/js/firebase/firebase_trivia.js"></script>
+    <script src="/js/firebase/firebase_test.js"></script>
 </body>
     <script src="https://kit.fontawesome.com/f955c68031.js"></script>
     <script src="/js/sweetalert.min.js"></script>
@@ -89,5 +98,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
-    <script type="text/javascript" src="/js/trivias/trivia_biblia.js"></script>
+    <script src="/js/trivia_filter.js"></script>
+    <script type="text/javascript" src="/js/test/simpson.js"></script>
 </html>
