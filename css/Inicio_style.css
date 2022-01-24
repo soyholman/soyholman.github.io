@@ -44,12 +44,12 @@ img{
 
     grid-area: content;
     align-self: flex-end;
-  background-image: url(https://64.media.tumblr.com/115041351890f072f80bb22c8e2ee134/tumblr_ozywdcxF5Y1rqqedro2_r1_1280.jpg) ;
+  background-image: url(/img/fotos-6to_AutoCollage_7_Images.jpg) ;
   filter:  contrast(100%);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
+  background-position:center;
 }
 
 .masthead_title{

@@ -22,9 +22,10 @@ body{
 
     background: url(/img/fotos-6to_AutoCollage_7_Images.jpg);
    background-repeat: no-repeat;
-   background-position: center;
+   background-position:top;
    background-size: cover;
-   background-attachment: fixed;
+   
+   /* background-attachment: fixed; */
    
 }
 :root{
