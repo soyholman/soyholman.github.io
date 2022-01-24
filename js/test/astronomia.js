@@ -180,7 +180,7 @@ $(function () {
                         $("#message").css("background", "red");
                         $("#timeLeft").css("display", "none");
                         $("#message").text("INCORRECTO");
-        navigator.vibrate(250);
+        navigator.vibrate("250");
                         // $("#imageTrivia").attr("src", "https://images.angelpub.com/2016/35/39703/wrong.gif");
     
                       });
@@ -239,7 +239,7 @@ $(function () {
                 $("#timer").css("display", "none");
                 $("#message").text("se acabó el tiempo!");
                 $("#message").css("display", "block");
-                navigator.vibrate(250);
+                navigator.vibrate("250");
                 setTimeout(function () {
                     questionIndex++;
 					startGame();
