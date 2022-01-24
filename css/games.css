@@ -11,8 +11,7 @@
     border: none;
     text-decoration: none;
 text-transform: capitalize;
-transition: 2.s linear;
-position:sticky;
+
 }
 #moreabraham {display: none;}
 #main-c{display: none;}
@@ -399,69 +398,161 @@ img{
     width:auto;
     /* opacity:0.6; */
 }
-.winter-is-coming, .snow {
-  z-index: 100;
-  pointer-events: none;
-}
 
-.winter-is-coming {
-  overflow: hidden;
-  position: absolute;
-  left:0;
+.container * {
+  position:relative;
   top: 0;
-  height: 100%;
-  width: 100%;
-  max-width: 100%;
-}
-
-.snow {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
   left: 0;
-  -webkit-animation: falling linear infinite both;
-          animation: falling linear infinite both;
-  -webkit-transform: translate3D(0, -100%, 0);
-          transform: translate3D(0, -100%, 0);
 }
-.snow--near {
-  -webkit-animation-duration: 10s;
-          animation-duration: 10s;
-  background-image: url("https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-large-075d267ecbc42e3564c8ed43516dd557.png");
-  background-size: contain;
+
+
+.container .sky {
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(300px 300px at 50% 30%,
+      rgb(250, 130, 20),
+      rgb(0, 0, )
+  );
 }
-.snow--near + .snow--alt {
-   -webkit-animation-delay: 5s;
-    animation-delay: 5s;
+
+.sky .sun {
+  width: 15vw;
+  height: 15vw;
+  top: 20vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: linear-gradient(
+      rgb(255, 180, 60),
+      rgb(255, 230, 180)
+  );
+  box-shadow: 0 0 90px 0 rgb(255, 220, 180);
 }
-.snow--mid {-webkit-animation-duration: 20s;
-      animation-duration: 20s;
-      background-image: url("https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-medium-0b8a5e0732315b68e1f54185be7a1ad9.png");
-  background-size: contain;
+
+
+.mount-one {
+  background-position: center;
+  background-size: cover;
+ 
+  height: 60vh;
+  background: linear-gradient(
+      rgb(190, 90, 30),
+      rgb(0, 0, 0)
+  );
+  clip-path: polygon(
+      0 100vh,
+      0 30vh,
+      10vw 18vh,
+      20vw 15vh,
+      30vw 30vh,
+      40vw 37vh,
+      50vw 39vh,
+      60vw 45vh,
+      70vw 40vh,
+      80vw 32vh,
+      90vw 30vh,
+      100vw 40vh,
+      100vw 100vh);
 }
-.snow--mid + .snow--alt {
-     -webkit-animation-delay: 10s;
-     animation-delay: 10s;
+
+
+.clouds {
+  position: absolute;
+  background: linear-gradient(
+      rgba(245, 245, 245, 0.1),
+      rgba(250, 250, 250, 0.7)
+  );
+  z-index: 10;
 }
-.snow--far {-webkit-animation-duration: 30s;
-     animation-duration: 30s;
-     background-image: url("https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-small-1ecd03b1fce08c24e064ff8c0a72c519.png");
-  background-size: contain;
+
+
+.cloud-one {
+  width: 40vw;
+  height: 20vh;
+  top: 0vh;
+  left: 0vw;
+  
+  clip-path: polygon(
+      0% 40%,
+      14% 30%,
+      28% 30%,
+      57% 40%,
+      85% 40%,
+      100% 50%,
+      100% 55%,
+      90% 60%,
+      78% 60%,
+      65% 70%,
+      30% 70%,
+      20% 60%,
+      10% 60%,
+      0% 50%
+  );
+  
+  animation: cloudOne 10s ease-in-out infinite;
 }
-.snow--far + .snow--alt {
-  -webkit-animation-delay: 15s;
-          animation-delay: 15s;
+
+
+.cloud-two {
+  width: 30vw;
+  height: 20vh;
+  top: 20vh;
+  left: 60vw;
+  clip-path: polygon(
+      0% 40%,
+      14% 30%,
+      28% 30%,
+      45% 20%,
+      70% 20%,
+      80% 30%,
+      100% 35%,
+      100% 48%,
+      90% 52%,
+      80% 65%,
+      50% 65%,
+      30% 55%,
+      0% 50%
+  );
+  
+  animation: cloudTwo 15s ease-in-out infinite;
 }
-@-webkit-keyframes falling {
-  0% {-webkit-transform: translate3D(-7.5%, -100%, 0);
-          transform: translate3D(-7.5%, -100%, 0);}
-  100% {-webkit-transform: translate3D(7.5%, 100%, 0);
-            transform: translate3D(7.5%, 100%, 0);}
+
+
+@keyframes cloudOne {
+  0%{
+      top: 0;
+      left: 2vw;
+  }
+  50%{
+      top: 0;
+      left: 20vw;
+  }
+  100%{
+      top: 0;
+      left: 2vw;
+  }
 }
-@keyframes falling {
-0% {-webkit-transform: translate3D(-7.5%, -100%, 0);
-        transform: translate3D(-7.5%, -100%, 0);}
-100% {-webkit-transform: translate3D(7.5%, 100%, 0);
-           transform: translate3D(7.5%, 100%, 0);}
+
+
+@keyframes cloudTwo {
+  0%{
+      top: 20vh;
+      left: 50vw;
+  }
+  50%{
+      top: 20vh;
+      left: 60vw;
+  }
+  100%{
+      top: 20vh;
+      left: 50vw;
+  }
 }
+
+
+
+
+
+
+
+
