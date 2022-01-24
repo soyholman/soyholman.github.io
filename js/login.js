@@ -26,7 +26,7 @@ google_button.addEventListener('click',(e) =>{
    })
 })
 
-const
+
 const anonimo= document.querySelector('#anonimo')
 anonimo.addEventListener('click',(e) =>{
 
