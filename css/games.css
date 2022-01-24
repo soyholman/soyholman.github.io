@@ -407,8 +407,7 @@ img{
 
 
 .container .sky {
-  width: 100vw;
-  height: 100vh;
+ 
   background: radial-gradient(300px 300px at 50% 30%,
       rgb(250, 130, 20),
       rgb(0, 0, )
@@ -431,12 +430,11 @@ img{
 
 
 .mount-one {
-  background-position: center;
-  background-size: cover;
+ 
  
   height: 60vh;
   background: linear-gradient(
-      rgb(190, 90, 30),
+      rgb(151, 148, 146),
       rgb(0, 0, 0)
   );
   clip-path: polygon(
