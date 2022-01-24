@@ -20,7 +20,7 @@ align-items: center;
 }
 body{
 
-    background: url(/img/Jardines_babilonia.jpg);
+    background: url(/img/fotos-6to_AutoCollage_7_Images.jpg);
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
@@ -33,7 +33,7 @@ body{
     --padding:2rem;
 }
 
-@media screen and (max-width: 800px){
+/* @media screen and (max-width: 800px){
     body{
         position:absolute;
         right:0;
@@ -45,7 +45,7 @@ body{
     }
 
     
-}
+} */
 
 
 .wrapper{
@@ -265,13 +265,18 @@ in-methods-container .login-method:hover{
     background-color: #f2f2f2;
 }
 
-@media screen and (max-width:480px) {
+/* @media screen and (max-width:480px) {
     
     .form-container{
         width: 380px;
     }
     
+} */
+
+
+@media screen and (max-width: 480px) {
+    .form-container {
+        width: 80% ;
+    }
+
 }
-
-
-
