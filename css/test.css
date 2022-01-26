@@ -258,7 +258,8 @@ color: blue;
     border-bottom: 1px solid #ddd;
     height: 25%;
     /* 2.5em antes */
-    line-height: 3.5em;
+    /* line-height: 3.5em; */
+    line-height: 2.8em;
     cursor: pointer;
 }
 }
