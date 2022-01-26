@@ -248,8 +248,7 @@ color: blue;
 #answers {
     display: flex;
     flex-direction: column;
-    font-size: large;
-   
+    font-size: medium;
     text-align: center;
     height: 100%;
     
@@ -259,7 +258,7 @@ color: blue;
     border-bottom: 1px solid #ddd;
     height: 25%;
     /* 2.5em antes */
-    line-height: none;
+    line-height: 3.1em;
     cursor: pointer;
 }
 }
