@@ -447,21 +447,6 @@ text-decoration: none;
 .container button{
   background-color: hsl(210, 82%, 56%);
 
-   width: 20%;
-  height: 3rem;
-  border:0;
-
-  color: white;
-  align-items: center;
-  align-content: center;
-  text-align: center;
-  border-radius: 5px;
-  transition:  all 150ms ease-out;
-}
-
-.container #link_buttom{
-  background-color: hsl(210, 82%, 56%);
-
    width: 30%;
   height: 3rem;
   border:0;
@@ -527,11 +512,7 @@ select:focus{
 
     .container button{
 
-      width: 60%;
-    }
-
-    .container #link_buttom{
-      width: 40%;
+      width: 70%;
     }
     .container select{
       width: 50%;
