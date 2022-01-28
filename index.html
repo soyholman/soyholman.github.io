@@ -8,6 +8,7 @@
     <title>Home</title>
     <link rel="shortcut icon" href="ico/Letter_H_blue_34993.ico">
     <link rel="stylesheet" href="css/Inicio_style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body  onload="params();">
 
@@ -35,7 +36,7 @@
 
     
     </div>
-    <div class="container">
+    <div class="container" >
         <img src="/img/culturags.png" id="logo" class="menu_item masthead_title" alt="">
         <h1 class="masthead_title" id="welcome">  Bienvenido</h1>
           <hr>
@@ -48,7 +49,7 @@
     </div>
         <div class="masthead" style="height: 150px; overflow: hidden;"  ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.26,204.77 331.55,-67.59 504.22,25.16 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill:white;"></path></svg>
 </section>
-<section class="about" id="novedades-section">
+<section class="about"   id="novedades-section">
     <div class="container">
         <h1 class="container_title">Novedades</h1>
         <br>
@@ -125,9 +126,10 @@
 </section>
 <br>
 <hr>
-<section class="services" id="services-section">
+<section  id="services-section">
     
-    <div class="container">
+    <div class="container" class="services"  data-aos="fade-left"
+    data-aos-duration="1000">
         <h1 class="container_title">Secciones</h1>
       
         <!-- <p>De clic sobre los iconos para acceder.</p> -->
@@ -166,7 +168,7 @@
    
 </section>
 <hr>
-<section class="services" id="suggest-section">
+<section class="services"  id="suggest-section">
     
     <div class="container">
         <h1 class="container_title">Sugiérenos Temas</h1>
@@ -203,14 +205,16 @@
         <br>
         <h3>Holman Morales</h3>
         <br>
-        <article class="article-col">
+        <article class="article-col" data-aos="fade-right"
+        data-aos-easing="linear"
+        data-aos-duration="1500" >
             <p>Hola soy Holman Morales un chico de 22 años . Cuento con el título de Ingeniero en sistemas.  Podría definirme como un inadaptado de gustos sencillos  y extrovertido por naturaleza con mucho amor .por la lectura por el simple beneficio de mantenerme presente en cada segundo, este sitio web surgió como consecuencia de mis dos pasiones la informática y la historia.
 <br>
 <br>
                 Realmente en este apartado no quería plasmar muchos párrafos concurrentes de quien soy sino aprovechar este momento en el que lees esto para instarte a nunca dejar de aprender, quien no aprende ya está muerto en vida. Reinvéntate y jamás pongas límites a tus capacidades, porque es subjetivo ser bueno o malo en alguna disciplina Basta con dar lo mejor de ti , Gracias por llegar hasta acá espero pueda disfrutar de este contenido el cual lo hago sin tener alguna oportunidad adquisitiva más que el apoyo que ustedes me dan.</p>
         </article>
        
-        <aside class="aside">
+        <aside class="aside"  data-aos="zoom-out-up">
             <div class="container-aside">
                 <img src="img/mypic.jpg" alt="" class="container-aside_image" height="597">
             </div>
@@ -218,35 +222,39 @@
 
     </div>  
     <hr>
-    <div class="container">
+    <div class="container" >
      
         <br>
         <h3>Angely Membreño</h3>
         <br>
-        <article class="article-col">
+        <article class="article-col" data-aos="fade-left"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
             <p>Soy Angely Membreño, cuento con un titulo de ingeniería en sistemas, con experiencia en el área de diseño gráfico. podría definirme como una persona sencilla, humilde, capaz de lograr todo lo que se propone. Además de tener  un gran amor a los animales y la naturaleza.</p>
         </article>
        
         <aside class="aside">
             <div class="container-aside">
-                <img src="img/WhatsApp Image 2022-01-17 at 1.10.11 PM.jpeg" alt="" class="container-aside_image" height="597">
+                <img src="img/WhatsApp Image 2022-01-17 at 1.10.11 PM.jpeg" data-aos="zoom-in-up" alt="" class="container-aside_image" height="597">
             </div>
         </aside>
 
     </div>
     <hr>
-    <div class="container">
+    <div class="container" >
      
         <br>
         <h3>José Sánchez</h3>
         <br>
-        <article class="article-col">
+        <article class="article-col" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
             <p>Hola soy José Sánchez tengo la edad de 18 años actualmente me especializo en la área de edición y estudio la carrera de ingeniería en sistema, soy una persona que tranquila, humilde y capas de alcanzar mis metas y objetivos.</p>
         </article>
        
         <aside class="aside">
             <div class="container-aside">
-                <img src="img/jose.jpeg" alt="" class="container-aside_image" height="597">
+                <img src="img/jose.jpeg" data-aos="zoom-in" alt="" class="container-aside_image" height="597">
             </div>
         </aside>
 
@@ -267,7 +275,7 @@
         <p><a href="/Card/Card_Social.html" target="_blank"  class="container-footer_link"> <strong> Holman Morales</strong> </a>|  2021</p>
     </div>
 </footer>
-
+<script src="/js/aos.js"></script>
     <script src="https://kit.fontawesome.com/f955c68031.js"></script>
     <!-- <script src="/js/Font-owesome/all.js"></script> -->
     <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-app.js"></script>
@@ -275,7 +283,7 @@
     <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-firestore.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-database.js"></script>
     <script>
-    
+     AOS.init();
         const firebaseConfig = {
           apiKey: "AIzaSyCLx7EClnZjSKXmWTCWx0GXjGE3ZCXbsf4",
           authDomain: "emailtest-98f89.firebaseapp.com",
