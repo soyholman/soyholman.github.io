@@ -1,3 +1,4 @@
+AOS.init();
 var QUESTIONS = [
     {
         question: "¿A qué animal pertenecen estos ojos?",
