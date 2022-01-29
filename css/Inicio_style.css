@@ -432,7 +432,14 @@ text-decoration: none;
 
   transition:  all 150ms ease-out;
 }
+.container a{
+  color: black;
+}
 
+.container a:hover{
+  color: #1293d4;
+  letter-spacing: 2px;
+}
 .container input {
 
   width: 40%;
