@@ -475,9 +475,9 @@ b {
 
 
 .contact {
-    min-height: 50vh;
+    min-height: 5vh;
     width: 100vw;
-    background: rgb(20, 20, 20);
+    background: black;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -498,6 +498,7 @@ b {
 
 .contact .content {
     width: 100vw;
+    height: 15vw;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -507,7 +508,7 @@ b {
 
 
 .contact .content h2{
-    font-size: 4.7vw;
+    font-size: 6.7vw;
     margin-bottom: 4px;
     font-family: poppins;
     font-weight: 700;
@@ -551,7 +552,7 @@ b {
 
 
 footer {
-    min-height: 10vh;
+    min-height: 1vh;
     background: rgb(10, 10, 10);
     color: white;
     display: flex;
