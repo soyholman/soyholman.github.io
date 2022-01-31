@@ -385,7 +385,14 @@ text-align: center;
   line-height: 30px;
 
 }
+.container #social{
+  color: #000;
+}
 
+.container #social:hover{
+
+  color: #0EA2F6;
+}
 .contenido-slider a{
 color: black;
 background: #f7f7f7;
