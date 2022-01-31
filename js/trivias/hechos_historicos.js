@@ -14,7 +14,7 @@ var QUESTIONS = [
     {
         question: "¿Qué ocurrió primero?",
         answers: ["Llegada del hombre a la luna","Segunda Guerra Mundial"],
-        correctAnswer: "Segunda Guerra Mundia",
+        correctAnswer: "Segunda Guerra Mundial",
         image: "https://media0.giphy.com/media/cRKRlRPewM9NQCXRvf/200.gif"
     }
     ,
