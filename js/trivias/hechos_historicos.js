@@ -1,103 +1,72 @@
 var QUESTIONS = [
     {
-        question: "",
-        answers: ["","",""],
-        correctAnswer: "",
-        text:"",
-        image: ""
-       
+        question: "¿Qué ocurrió primero?",
+        answers: ["La invención de la rueda", "Descubrimiento del fuego",],
+        correctAnswer: "Descubrimiento del fuego",
+        image: "https://i.pinimg.com/originals/09/b0/08/09b008ceb45878eb34180d23506e4212.gif"
     },
     {
-        question: "",
-        answers: ["","",""],
-        correctAnswer: "",
-        text:"",
-        image: ""
+        question: "¿Qué ocurrió primero?",
+        answers: ["Revolución Francesa", "Revolución Industrial"],
+        correctAnswer: "Revolución Industrial",
+        image: "https://thumbs.gfycat.com/GroundedRemarkableArgentinehornedfrog-size_restricted.gif"
     },
     {
-     
-        question: "",
-        answers: [ "","","" ],
-        correctAnswer: "",
-        text:"",
-
-        image: ""
-    },
-    {
-		question: "",
-        answers: ["","",""],
-        correctAnswer: "",
-        text:"",
-        image: ""
-    },
-    {	
-		question: "",
-        answers: ["", "",""],
-        correctAnswer: "",
-        text:"",
-        image: ""
-    },
-    {
-		question: "",
-        answers: ["","",""],
-        correctAnswer: "",
-        text:"",
-        image: ""
-    },
-    {
-		question: "",
-        answers: ["","",""],
-        correctAnswer: "",
-        text:"",
-        image: ""
-    },
-    {
-		question: "",
-        answers: ["","",""],
-        correctAnswer: "",
-        text:"",
-        image: ""
+        question: "¿Qué ocurrió primero?",
+        answers: ["Llegada del hombre a la luna","Segunda Guerra Mundial"],
+        correctAnswer: "Segunda Guerra Mundia",
+        image: "https://media0.giphy.com/media/cRKRlRPewM9NQCXRvf/200.gif"
     }
     ,
     {
-		question: "",
-        answers: ["","",""],
-        correctAnswer: "",
-        text:"",
-        image: ""
+        question: "¿Qué ocurrió primero?",
+        answers: ["Descubrimiento de la Penicilina","Caída del Muro de Berlín"],
+        correctAnswer: "Descubrimiento de la Penicilina",
+        image: "https://i.imgur.com/K85GjNI.gif"
     }
     ,
     {
-		question: "",
-        answers: ["","",""],
-        correctAnswer: "",
-        text:"",
-        image: ""
+        question: "¿Qué ocurrió primero?",
+        answers: ["Desastre nuclear Chernobyl","Clonación de la oveja Dolly"],
+        correctAnswer: "Desastre nuclear Chernobyl",
+        image: "https://i.gifer.com/embedded/download/10Fv.gif"
     }
     ,
     {
-		question: "",
-        answers: ["","",""],
-        correctAnswer: "",
-        text:"",
-        image: ""
+        question: "¿Qué ocurrió primero?",
+        answers: ["Gran Depresión", "Hundimiento del Titanic"],
+        correctAnswer: "Hundimiento del Titanic",
+        image: "https://media3.giphy.com/media/26FLd2UmYFTpRMZxu/200.gif"
     }
     ,
     {
-		question: "",
-        answers: ["","",""],
-        correctAnswer: "",
-        text:"",
-        image: ""
+        question: "¿Qué ocurrió primero?",
+        answers: ["Píldora anticonceptiva", "Irrupción de Internet"],
+        correctAnswer: "Píldora anticonceptiva",
+        image: "https://i.pinimg.com/originals/60/aa/24/60aa24af9abab0bf8281ee8054f06cc9.gif"
     }
     ,
     {
-		question: "",
-        answers: ["","",""],
-        correctAnswer: "",
-        text:"",
-        image: ""
+        question: "¿Qué ocurrió primero?",
+        answers: ["Descubrimiento de América","Caída de Constantinopla"],
+        correctAnswer: "Caída de Constantinopla",
+        image: "https://c.tenor.com/dLnBySt7u9kAAAAC/robert-downey-jr-tony-stark.gif"
     }
+    ,
+    {
+        question: "¿Qué ocurrió primero?",
+        answers: ["El nacimiento de Venus", "Capilla Sixtina"],
+        correctAnswer: "El nacimiento de Venus",
+        image: "https://i.imgur.com/Yxbra7L.gif"
+    }
+    ,
+    {
+        question: "¿Qué ocurrió primero?",
+        answers: ["La bombilla","Teléfono"],
+        correctAnswer: "Teléfono",
+        image: "https://i.imgur.com/8uvN0Bc.gif"
+    }
+  
 ];
 
 var correctAnswerElement;
@@ -123,7 +92,7 @@ $(function () {
                 correctAnswer = div;
             }
             div.addClass("hover");
-            $("#Titles").css("font-size", "medium");  // Adds hover effect to each answer element
+            $("#Titles").css("font-size", "medium"); // Adds hover effect to each answer element
         });
 
         return correctAnswer;
@@ -137,49 +106,28 @@ $(function () {
 
         $("#answers").children().click(function () {
 
-       
+            resetIntervalTimer();
 
             if ($(this).text() === correctAnswerElement.text()) {
-                resetIntervalTimer();
+
                 correct++;
                 showCorrectAnswer();
-                
 
             } else {
-               
-    
-                resetIntervalTimer();
-                    Swal.fire({
-                        icon: 'error',
-                        title: 'Respuesta Incorrecta',
-                      html: '<small><p>'+QUESTIONS[questionIndex].text+'<p></strong>',
-                     footer: '<strong>Respuesta correcta:<p style="color:mediumseagreen;justify-content: center;">'+QUESTIONS[questionIndex].correctAnswer+'<p> </strong>',
 
-                     
-                      
-              
-                      }).then(function(){
-                     
-                     
-                          incorrect++;
-                      
-                        $(this).addClass("wrong");
-                        $(this).append("<span> &#10008;</span>");
-                        $(this).siblings().not(correctAnswerElement).addClass("wrong");
-        
-                        correctAnswerElement.append("<span> &#10004;</span>");
-                        correctAnswerElement.addClass("correct");
-        
-                        $("#message").css("display", "block");
-                        $("#message").css("background", "red");
-                        $("#timeLeft").css("display", "none");
-                        $("#message").text("INCORRECTO");
-        
-                        // $("#imageTrivia").attr("src", "https://images.angelpub.com/2016/35/39703/wrong.gif");
-    
-                      });
-                      
-                
+                incorrect++;
+                $(this).addClass("wrong");
+                $(this).append("<span> &#10008;</span>");
+                $(this).siblings().not(correctAnswerElement).addClass("wrong");
+
+                correctAnswerElement.append("<span> &#10004;</span>");
+                correctAnswerElement.addClass("correct");
+
+                $("#message").css("display", "block");
+                $("#timeLeft").css("display", "none");
+                $("#message").text("INCORRECTO");
+
+                $("#imageTrivia").attr("src", "https://media.baamboozle.com/uploads/images/49869/1618223208_15917_gif-url.gif");
 
             }
 
@@ -193,18 +141,17 @@ $(function () {
     // Function shows the correct trivia answer
     function showCorrectAnswer() {
 
-        // $("#answers").children().not(correctAnswerElement).addClass("wrong");
-        // correctAnswerElement.append("<span> &#10004;</span>");
-        // correctAnswerElement.addClass("correct");
+        $("#answers").children().not(correctAnswerElement).addClass("wrong");
+        correctAnswerElement.append("<span> &#10004;</span>");
+        correctAnswerElement.addClass("correct");
 
-        // $("#answers").children().removeClass("hover");
-        // $("#answers").children().off("click");
-
-        // $("#message").css("display", "block");
-        // $("#timer").css("display", "block");
+        $("#answers").children().removeClass("hover");
+        $("#answers").children().off("click");
+        $("#timer").css("display", "none");
+        $("#message").css("display", "none");
+        $("#timeLeft").css("display", "none");
         // $("#message").text("CORRECTO");
 
-        // $("#imageTrivia").attr("src", "https://c.tenor.com/BntXpMlrGuEAAAAC/check-correct.gif");
         Swal.fire({
            
             icon: 'success',
@@ -212,6 +159,19 @@ $(function () {
             showConfirmButton: false,
             timer: 1600
           })
+    }
+    function showCorrectAnswertimer() {
+
+        $("#answers").children().not(correctAnswerElement).addClass("wrong");
+        correctAnswerElement.append("<span> &#10004;</span>");
+        correctAnswerElement.addClass("correct");
+
+        $("#answers").children().removeClass("hover");
+        $("#answers").children().off("click");
+      
+        $("#message").css("display", "none");
+        $("#timeLeft").css("display", "none");
+        // $("#message").text("CORRECTO");
 
     }
 
@@ -222,15 +182,15 @@ $(function () {
 
         timer = setInterval(function () {
 
-          
-         
+            timeLeft--;
+            $("#timerSeconds").text(timeLeft);
 
             if (timeLeft == 0) {
                 incorrect++;
-                showCorrectAnswer();
+              showCorrectAnswertimer();
                 clearInterval(timer);
-              
-                $("#timer").css("display", "none");
+                timeLeft = 15;
+                $("#timeLeft").css("display", "none");
                 $("#message").text("se acabó el tiempo!");
                 $("#message").css("display", "block");
 
@@ -257,29 +217,18 @@ $(function () {
 
         setTimeout(function () {
             questionIndex++;
-   
+            timeLeft = 15;
 			startGame();
             $("#message").css("display", "none");
-            $("#timer").css("display", "block");
+            $("#timer").css("display", "flex");
+            $("#message").text("SE HA TERMINADO EL TIEMPO!");
             $("#timeLeft").css("display", "block");
-          
+            $("#timerSeconds").text(timeLeft);
             $("#imageTrivia").attr("src",QUESTIONS[questionIndex].image);
         
 
         }, 2000);
 
-    }
-
-    function resetInervalfalse(){
-
-        questionIndex++;
-   
-        startGame();
-        $("#message").css("display", "none");
-
-        $("#timeLeft").css("display", "block");
-      
-        $("#imageTrivia").attr("src",QUESTIONS[questionIndex].image);
     }
 
     // Function starts the game
@@ -309,7 +258,7 @@ var mm = hoy.getMonth()+1;
 var yyyy = hoy.getFullYear();
 var data_carpet=dd+'_'+mm+'_'+yyyy;
 
-var firebaseref=firebase.database().ref('Test/'+document.getElementById('Titles').textContent+'/'+user.displayName);
+var firebaseref=firebase.database().ref('Trivia/'+document.getElementById('Titles').textContent+'/'+user.displayName);
 const fs=firebase.firestore();
 
 
@@ -323,7 +272,7 @@ incorrectas:incorrect
 
 
 })
-
+      
         }
 
     }
@@ -342,6 +291,7 @@ incorrectas:incorrect
     $("#close").click(function(){
         $("#score").css("display", "none");
         $("#button").css("display", "inline-block");
+     
     });
 
 });
