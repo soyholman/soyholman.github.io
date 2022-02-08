@@ -142,7 +142,17 @@ body {
     justify-content: center;
 }
 
+.img_p img{
+background-position: center;
+width: 43%;
 
+padding: 10px 22px 23px 12px;
+
+transition:all 0.2s ease-in-out;
+
+}
+
+    
 .scrollDownSect span{
     animation: an 1s infinite;
     width: 3vw;
