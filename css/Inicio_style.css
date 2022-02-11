@@ -241,6 +241,8 @@ a{
 
 @media (max-width:800px) {
  
+
+
   .header{
         padding-bottom:20px;
       }
@@ -558,3 +560,162 @@ select:focus{
 }
 
  
+
+
+/* swiper sliderk */
+
+
+
+section .card .image{
+
+  height: 140px;
+  width: 140px;
+  padding: 3px;
+  background-color: #0EA2F6;
+  border-radius: 50%;
+  box-shadow: -6px 8px 6px -6px #000;
+
+}
+
+
+.card{
+        box-shadow: 0 5px 6px -6px black;
+  border-radius: 20px;
+ position: relative;
+  background-color: #fff;
+  margin: 20px 0;
+  width: 300px;
+ 
+
+}
+
+
+section .card .image img{
+
+  height: 100%;
+  width: 100%;
+ object-fit: cover;
+ border-radius: 50%;
+border: 3px solid #fff;
+
+
+}
+
+
+
+.card::before{
+height: 40%;
+width: 100%;
+
+background: #0EA2F6;
+  content: "";
+  border-radius: 20px 20px 0 0;
+  position: absolute;
+}
+.card .card-content{
+display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  padding:30px 0px 10px 0px;
+  z-index: 100;
+  position: relative;
+}
+
+.card .media-icons{
+
+  position: absolute;
+  top:10px;
+  right: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.card .media-icons i {
+
+
+color: #fff;
+opacity: 0.6;
+margin-top: 10px;
+transition: all 0.3s ease;
+cursor: pointer;
+}
+
+.card .media-icons i:hover{
+
+  opacity: 1;
+}
+
+
+.card .name-profession{
+
+
+  display: flex;
+  flex-direction:  column;
+  align-items: center;
+  margin-top: 10px;
+  color: #333;
+ 
+
+}
+
+.name-profession .name{
+text-align: center;
+  font-size: 16px;
+
+  font-weight: 600;
+  color: black;
+}
+
+.name-profession .profession{
+text-align: center;
+
+  font-size: 13px;
+  font-weight: 400;
+  color: #1e2528;
+}
+
+.card .rating{
+  display: flex;
+  align-items: center;
+  margin-top: 18px;
+}
+
+.card .rating i{
+
+
+  font-size: 18px;
+  margin: 0 2px;
+  color: #7d2ae8;
+}
+
+.card .button{
+
+width: 100%;
+
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+ .card .button button{
+
+  background-color: #0EA2F6;
+  outline: none;
+  border: none;
+  color: #fff;
+
+  border-radius: 20px;
+
+  font-size: 14px;
+  transition: all 0.3s ease;
+  cursor:pointer
+}
+
+
+
+.button button:hover{
+
+  background-color: #1293d4;
+}

@@ -1,44 +1,44 @@
-let nombres=[
-    "Lugares","Ciencia","Nostradamus","Anatomía","Animales","Animados","Cultura General","Sexo"
-    ,"Literatura","Mitología","Frases","Mecánica","Fitness","Reyno","Animal","Sobrevivir","Emblema","Biblia","Historia","Mundiales","Marcas","Celebridades","Leones","Aprender","Inglés","Artes Marciales","Síndromes","Games Of Thrones","Ojos","Copas","Harry Potter"
+// let nombres=[
+//     "Lugares","Ciencia","Nostradamus","Anatomía","Animales","Animados","Cultura General","Sexo"
+//     ,"Literatura","Mitología","Frases","Mecánica","Fitness","Reyno","Animal","Sobrevivir","Emblema","Biblia","Historia","Mundiales","Marcas","Celebridades","Leones","Aprender","Inglés","Artes Marciales","Síndromes","Games Of Thrones","Ojos","Copas","Harry Potter"
 
-];
-let soredNames=nombres.sort();
-input = document.getElementById("myInput");
+// ];
+// let soredNames=nombres.sort();
+// input = document.getElementById("myInput");
 
-input.addEventListener("keyup",(e)=>{
+// input.addEventListener("keyup",(e)=>{
 
-    removeElements();
+//     removeElements();
 
-    for (let i of soredNames){
+//     for (let i of soredNames){
 
-        if(i.toLowerCase().startsWith(input.value.toLowerCase())&& input.value!=""){
+//         if(i.toLowerCase().startsWith(input.value.toLowerCase())&& input.value!=""){
 
-            let listitems=document.createElement("li");
-            listitems.classList.add("list-items");
-            listitems.style.cursor="pointer";
+//             let listitems=document.createElement("li");
+//             listitems.classList.add("list-items");
+//             listitems.style.cursor="pointer";
 
-            listitems.setAttribute("onclick"," displaynames('"+ i + "')");
-            let word="<b>~ "+i.substring(0,input.value.length)+"</b>";
-            word+=i.substring(input.value.length);
-            listitems.innerHTML=word;
-            document.querySelector(".list").append(listitems);
+//             listitems.setAttribute("onclick"," displaynames('"+ i + "')");
+//             let word="<b>~ "+i.substring(0,input.value.length)+"</b>";
+//             word+=i.substring(input.value.length);
+//             listitems.innerHTML=word;
+//             document.querySelector(".list").append(listitems);
         
-        }
-    }
-});
-function displaynames(value){
-   input.value=value;
-    removeElements();
-}
+//         }
+//     }
+// });
+// function displaynames(value){
+//    input.value=value;
+//     removeElements();
+// }
 
-function removeElements(){
-    let items=document.querySelectorAll(".list-items");
-    items.forEach((item)=>{
+// function removeElements(){
+//     let items=document.querySelectorAll(".list-items");
+//     items.forEach((item)=>{
 
-        item.remove();
-    });
-}
+//         item.remove();
+//     });
+// }
 
 
 
