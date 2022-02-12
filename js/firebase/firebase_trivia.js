@@ -15,9 +15,10 @@ firebase.initializeApp(firebaseConfig);
 const fs=firebase.firestore();
 
 
+ 
 function params(){
-    
-
+     
+ 
    var user = firebase.auth().currentUser;
       auth.onAuthStateChanged(user=>{
      
@@ -29,21 +30,45 @@ if(user!=null){
 }
 else if(user==null){
 
-   Swal.fire({
+  Swal.fire({
+     title: 'Desea Iniciar Sesion?',
+     icon: 'warning',
+     html:
+     'Para continuar debe <b>Iniciar Sesión</b>, ' +
+     '',
+     showCancelButton: true,
+     confirmButtonText: 'Seguir como usuario Anonimo',
+     cancelButton: 'btn btn-success',
+       cancelButtonText: 'Iniciar Sesión',
+       cancelButtonColor: 'green',
+
+   }).then((result) => {
+     /* Read more about isConfirmed, isDenied below */
+     if (result.isConfirmed) {
+        firebase.auth().signInAnonymously().then(result=>{
+
+   
+           Swal.fire({
+                  
+               icon: 'success',
+               title: 'Ha iniciado sesión como usuario anónimo',
+               showConfirmButton: false,
+               timer: 1600
+             })
           
-          icon: 'warning',
-          title: 'Debe iniciar sesión',
-          showConfirmButton: false,
-          timer: 1600
-        }).then(function(){
+       
+          }).catch(err=>{
+              console.log(err);
+          })
+     } else  {
+       
+        location.href="/Login.html";
+     }
+   })
 
-           location.href="/Login.html";
 
-        })
  
 }
 })
 
 }
-
-

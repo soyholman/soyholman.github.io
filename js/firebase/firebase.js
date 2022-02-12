@@ -45,31 +45,48 @@ else if(user==null){
 
 }
 
+// const logout=document.querySelector('#leave');
 
+// logout.addEventListener('click', e=>{
+    
 
-const logout=document.querySelector('#leave');
-
-logout.addEventListener('click', e=>{
-
- 
-   firebase.auth().signOut().then(()=> {
-
-
-Swal.fire({
           
-          icon: 'warning',
-          title: 'se ha cerrado sesión correctamente',
-          showConfirmButton: false,
-          timer: 1600
-        }).then(function(){
 
-           location.href="/Login.html";
+//    Swal.fire({
+//       title: 'Desea Cerrar Sesión?',
+//       icon: 'warning',
+//       showCancelButton: true,
+//       confirmButtonText: 'No cerrar sesión',
+//       cancelButton: 'btn btn-success',
+//         cancelButtonText: 'Cerrar Sesion',
+//         cancelButtonColor: 'red',
 
-        })
-
-   }).catch(e=>{
-       console.error('Sign Out Error', e);
-      });
+//     }).then((result) => {
+//       /* Read more about isConfirmed, isDenied below */
+//       if (result.isConfirmed) {
+       
 
     
-})
+//             Swal.fire({
+                   
+//                 icon: 'success',
+//                 title: 'Sesión mantenida',
+//                 showConfirmButton: false,
+//                 timer: 1600
+//               })
+           
+        
+         
+//       } else  {
+//          firebase.auth().signOut().then(()=> {
+
+
+
+//          }).catch(e=>{
+//              console.error('Sign Out Error', e);
+//             });
+   
+//       }
+//     })
+
+// })
