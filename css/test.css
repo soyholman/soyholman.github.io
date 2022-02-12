@@ -167,6 +167,10 @@ color: blue;
 }
 
 
+ #menu img{
+width: 10%;
+
+}
 
 #score {
     display: none;
@@ -198,7 +202,9 @@ color: blue;
 
 
 @media all and (max-width: 900px )  {
-
+    #menu img{
+        width: 18%;
+        }
     #question-header {
         background-color: whitesmoke;
         padding: 10px;
@@ -265,13 +271,15 @@ color: blue;
 
 .btn{
 
-    margin-top: 10px;
-display: inline-block;
-background: blue;
-color: #fff;
-font-size: 17px;
-border-radius: 5px;
-width: 60%;
+  
+  background-color: #0EA2F6;
+  margin-top: 10px;
+  display: inline-block;
+  
+  color: #fff;
+  font-size: 17px;
+  border-radius: 5px;
+  width: 60%;
 
 }
 
@@ -280,8 +288,8 @@ width: 60%;
 
     letter-spacing: 1px;
   background: white;
-    color: blue;
-    border-color: black;
+  background-color: #1293d4;
+
     font-weight: bold;
     
 }
