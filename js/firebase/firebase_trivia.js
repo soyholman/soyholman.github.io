@@ -34,7 +34,7 @@ else if(user==null){
      title: 'Desea Iniciar Sesion?',
      icon: 'warning',
      html:
-     'Para continuar debe <b>Iniciar Sesión</b>, ' +
+     'Para continuar debe <b>Iniciar Sesión</b> ' +
      '',
      showCancelButton: true,
      confirmButtonText: 'Seguir como usuario Anonimo',
