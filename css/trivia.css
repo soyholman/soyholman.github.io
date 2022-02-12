@@ -145,7 +145,10 @@ color: blue;
 	/* letter-spacing: 1px; */
     
 }
-
+#menu img{
+    width: 10%;
+    
+    }
 .correct {
     color: green;
 }
@@ -162,6 +165,10 @@ color: blue;
     color: red;
 }
 
+
+img {
+    width: 100%;
+}
 
 
 #score {
@@ -195,7 +202,10 @@ color: blue;
 @media all and (max-width: 900px) {
 
 
-   
+    #menu img{
+        width: 18%;
+        }
+        
     #container {
         padding: 0 20px;
         min-width: 320px;
@@ -237,23 +247,27 @@ color: blue;
 
 .btn{
 
+    background-color: #0EA2F6;
     margin-top: 10px;
-display: inline-block;
-background: blue;
-color: #fff;
-font-size: 17px;
-border-radius: 5px;
-width: 60%;
+    display: inline-block;
+    
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+    width: 60%;
 
 }
 
 
+
 .btn:hover{
 
+   
     letter-spacing: 1px;
-    background: white;
-    color: black;
-    border-color: black;
+  background: white;
+  background-color: #1293d4;
+
+    font-weight: bold;
 }
 #topnav{
 	margin:0;
