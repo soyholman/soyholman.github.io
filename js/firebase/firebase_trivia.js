@@ -31,16 +31,19 @@ if(user!=null){
 else if(user==null){
 
   Swal.fire({
-     title: 'Desea Iniciar Sesion?',
-     icon: 'warning',
-     html:
-     'Para continuar debe <b>Iniciar Sesión</b> ' +
-     '',
-     showCancelButton: true,
-     confirmButtonText: 'Seguir como usuario Anonimo',
-     cancelButton: 'btn btn-success',
-       cancelButtonText: 'Iniciar Sesión',
-       cancelButtonColor: 'green',
+   title: 'Debe registrarse',
+   icon: 'warning',
+backdrop: `
+rgba(0,0,0,0.6)
+`,
+   html:
+   'Para continuar debe <b>registrarse</b> ' +
+   'como usuario de <strong style="color:green">Cultura general.</strong>',
+   showCancelButton: true,
+   confirmButtonText: 'Seguir como usuario Anonimo',
+   cancelButton: 'btn btn-success',
+     cancelButtonText: 'Iniciar Sesión',
+     cancelButtonColor: 'green',
 
    }).then((result) => {
      /* Read more about isConfirmed, isDenied below */
