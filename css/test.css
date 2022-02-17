@@ -10,7 +10,7 @@ background:scroll;
 #imageTrivia{
 
 	/* height: 290px; */
-    height: 300px;
+    height: 280px;
    
 }
 body {
@@ -85,6 +85,7 @@ color: black;
     max-width: auto;
     /* max-width: 650px; */
     margin: 0 auto;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
 }
 
 #timer-image {
@@ -222,7 +223,7 @@ width: 8%;
     #card {
         flex-direction: column;
         min-width: 320px;
-        box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+        box-shadow: 0px 9px 10px rgba(0,0,0,0.7);
     }
 
     #imageTrivia {
