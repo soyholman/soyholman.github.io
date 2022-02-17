@@ -160,6 +160,18 @@ padding-top: 10%;
 
 .container-aside{
    margin-bottom: 50px;
+
+}
+.container-aside img{
+
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+image-rendering: pixelated;
+
+width: 370px;
+height: 350px;
 }
 
 p{
@@ -312,6 +324,12 @@ a{
         margin-top:20px;
         width:100%;
         padding:0;
+      }
+      .container-aside img{
+
+
+width: 300px;
+height: 250px;
       }
     
       .btn-submit--contact-form{
