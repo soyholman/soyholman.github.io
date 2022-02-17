@@ -204,8 +204,16 @@ img {
 @media all and (max-width: 900px) {
 
 
-    #menu img{
+    /* #menu img{
         width: 18%;
+        } */
+        
+        #question-header {
+            background-color: whitesmoke;
+            padding: 10px;
+            /* font-size: 1.3em; */
+            margin: 0;
+            font-size: 1.2em;
         }
         
     #container {
@@ -221,6 +229,7 @@ img {
 
     #imageTrivia {
         display:block;
+        height: 200px;
     }
 
     #timer-image {

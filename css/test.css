@@ -9,7 +9,8 @@ background:scroll;
 }
 #imageTrivia{
 
-	height: 290px;
+	/* height: 290px; */
+    height: 250px;
    
 }
 body {
@@ -226,6 +227,12 @@ width: 8%;
 
     #imageTrivia {
         display:block;
+     
+
+            /* height: 290px; */
+            height: 200px;
+           
+        
     }
 
     #timer-image {
