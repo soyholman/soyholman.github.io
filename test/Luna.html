@@ -10,7 +10,8 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <script src = 'https://code.jquery.com/jquery-3.2.1.js'></script>
 
-     
+        <link rel="stylesheet" href="/css/Anijcollection.css">
+
         <meta name="description" content="La Luna ocupa un lugar especial en nuestro cielo, pero también en el almanaque de la memoria de la Humanidad, ya que su brillo nos acompaña desde nuestros orígenes. ¿Te atreves a demostrar en este test cuánto sabes sobre nuestro satélite?">
     <title>Test:¿Cuánto sabes sobre la Luna?🌑🌒🌘</title>
 </head>
@@ -22,7 +23,8 @@
         <div class="row">
             <div class="col-12">
                 <header>
-                    <h1 id="Titles">Test:¿Cuánto sabes sobre la Luna?<i >🌑🌒🌘</i> </h1>
+                    <h1 id="Titles" data-anijs="if: load,on:window, do:  rubberBand animated, to:#Titles, after: $removeAnim"
+                    >Test:¿Cuánto sabes sobre la Luna?<i >🌑🌒🌘</i> </h1>
                     <a id="menu" href="/Juegos/test_Menu.html"><img src="/img/row.svg" alt=""></a>
                     <br>
                
@@ -84,6 +86,7 @@
 
     </main>
 
+    <script src="/js/Animacion/anij.js"></script>
     <!-- <script src="/js/Font-owesome/all.js"></script> -->
     <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-auth.js"></script>

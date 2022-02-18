@@ -10,7 +10,8 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <script src = 'https://code.jquery.com/jquery-3.2.1.js'></script>
         <meta name="description" content="El Cuerpo Humano Es Una Máquina Asombrosa. Nos Mantiene Vivos, Se Regenera, Crece, Se Estira Y Todo Pasa Sin Darnos Cuenta… ¿Serías Capaz De Contestar Perfectamente Esta Trivia Sobre La Anatomía De Tu Propio Cuerpo? ¡Averígualo!">
-    
+        <link rel="stylesheet" href="/css/Anijcollection.css">
+
     <title>Trivia:¿Sabes todo sobre anatomía humana?🧠</title>
 </head>
 
@@ -21,7 +22,7 @@
         <div class="row">
             <div class="col-12">
                 <header>
-                    <h1 id="Titles">Trivia: ¿Sabes todo sobre anatomía humana?<i >🧠</i> </h1>
+                    <h1 id="Titles"data-anijs="if: load,on:window, do:  rubberBand animated, to:#Titles, after: $removeAnim">Trivia: ¿Sabes todo sobre anatomía humana?<i >🧠</i> </h1>
                     <a id="menu" href="/Juegos/Triviamenu.html"><img src="/img/row.svg" alt=""></a>
                     <p></p>
                 </header>
@@ -81,6 +82,8 @@
     <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-database.js"></script>
     <script src="/js/firebase/firebase_trivia.js"></script>
 </body>
+
+<script src="/js/Animacion/anij.js"></script>
     <script src="https://kit.fontawesome.com/f955c68031.js"></script>
     <script src="/js/sweetalert.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"

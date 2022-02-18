@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <script src = 'https://code.jquery.com/jquery-3.2.1.js'></script>
+        <link rel="stylesheet" href="/css/Anijcollection.css">
         <meta name="description" content="Una Difícil Trivia Que Pondrá A Prueba Tus Conocimientos Sobre El Torneo Mas Esperado Del Fútbol.">
     <title>Trivia:La máxima trivia acerca de copas mundiales⚽🏆 </title>
 </head>
@@ -20,7 +21,8 @@
         <div class="row">
             <div class="col-12">
                 <header>
-                    <h1 id="Titles">La máxima trivia acerca de copas mundiales<i >⚽🏆</i> </h1>
+                    <h1 id="Titles"data-anijs="if: load,on:window, do:  rubberBand animated, to:#Titles, after: $removeAnim"
+                    >La máxima trivia acerca de copas mundiales<i >⚽🏆</i> </h1>
                     <h3>Tema sugerido por: <a href="#" style="text-decoration: none;">Sebastían Cruz</a></h3> 
                     <br>
                     <a id="menu" href="/Juegos/Triviamenu.html"><img src="/img/row.svg" alt=""></a>
@@ -74,6 +76,7 @@
         </div>
 
     </main>
+    <script src="/js/Animacion/anij.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-firestore.js"></script>
@@ -88,5 +91,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
+
     <script type="text/javascript" src="/js/trivias/trivia_copa_mundo.js"></script>
 </html>

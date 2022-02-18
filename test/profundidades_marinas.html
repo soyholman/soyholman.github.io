@@ -10,7 +10,8 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <script src = 'https://code.jquery.com/jquery-3.2.1.js'></script>
 
-     
+        <link rel="stylesheet" href="/css/Anijcollection.css">
+
         <meta name="description" content="Los lugares más profundos de la Tierra albergan curiosidades sorprendentes: cadenas montañosas, abismos, especies surrealistas y bioluminiscencia son algunas de las sorpresas que podemos encontrar en lo más hondo del planeta. ¡Súbete a bordo del sumergible y ponte a prueba!">
     <title>Test: ¿Cuánto sabes sobre las profundidades marinas🌊</title>
 </head>
@@ -22,7 +23,8 @@
         <div class="row">
             <div class="col-12">
                 <header>
-                    <h1 id="Titles">Test: ¿Cuánto sabes sobre las profundidades marinas <i >🌊</i> </h1>
+                    <h1 id="Titles"data-anijs="if: load,on:window, do:  rubberBand animated, to:#Titles, after: $removeAnim"
+                    >Test: ¿Cuánto sabes sobre las profundidades marinas <i >🌊</i> </h1>
                     <a id="menu" href="/Juegos/test_Menu.html"><img src="/img/row.svg" alt=""></a>
                     <br>
                
@@ -83,6 +85,8 @@
         </div>
 
     </main>
+    
+    <script src="/js/Animacion/anij.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-firestore.js"></script>

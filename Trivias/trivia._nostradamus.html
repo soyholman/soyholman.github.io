@@ -9,8 +9,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <script src = 'https://code.jquery.com/jquery-3.2.1.js'></script>
+        <link rel="stylesheet" href="/css/Anijcollection.css">
+
         <meta name="description" content="A Continuación Se Muestran Una Serie De Preguntas Sobre Cultura General. Resuelve Estas Interrogantes Y Descubre A Cuál Profecía De Nostradamus (Ocurrida O No) Está Relacionada.">
     <title>Trivia:Cultura Nostradamus🧙🏿‍♂️</title>
+
 </head>
 
 <body>
@@ -20,7 +23,7 @@
         <div class="row">
             <div class="col-12">
                 <header>
-                    <h1 id="Titles">Trivia: Cultura Nostradamus <i >🧙🏿‍♂️</i> </h1>
+                    <h1 id="Titles"data-anijs="if: load,on:window, do:  rubberBand animated, to:#Titles, after: $removeAnim">Trivia: Cultura Nostradamus <i >🧙🏿‍♂️</i> </h1>
                     <a id="menu" href="/Juegos/Triviamenu.html"><img src="/img/row.svg" alt=""></a>
                     <p>Corría el año 1503 cuando nació en Francia el astrólogo y médico Nostradamus, un clarividente para algunos, un agorero para otros. Su principal obra se publicó en 1955 con el título Las profecías y sus palabras han dado pie a innumerables interpretaciones sobre el devenir del mundo y la humanidad.</p>
                 </header>
@@ -73,6 +76,7 @@
         </div>
 
     </main>
+    <script src="/js/Animacion/anij.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-firestore.js"></script>

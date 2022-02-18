@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <script src = 'https://code.jquery.com/jquery-3.2.1.js'></script>
-
+        <link rel="stylesheet" href="/css/Anijcollection.css">
         <meta name="theme-color" media="(prefers-color-scheme: light)" content="white">
         <meta name="description" content="Demuestra tu conocimientos sobre la mayor contienda militar de la historia">
     <title>Test:¿cuánto sabes sobre la segunda guerra mundial?</title>
@@ -22,7 +22,7 @@
         <div class="row">
             <div class="col-12">
                 <header>
-                    <h1 id="Titles">Test:¿cuánto sabes sobre la segunda guerra mundial?<i ></i> </h1>
+                    <h1 id="Titles"data-anijs="if: load,on:window, do:  rubberBand animated, to:#Titles, after: $removeAnim">Test:¿cuánto sabes sobre la segunda guerra mundial?<i ></i> </h1>
                     <a id="menu" href="/Juegos/test_Menu.html"><img src="/img/row.svg" alt=""></a>
                     <br>
                
@@ -83,6 +83,7 @@
         </div>
 
     </main>
+    <script src="/js/Animacion/anij.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-firestore.js"></script>

@@ -10,7 +10,7 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <script src = 'https://code.jquery.com/jquery-3.2.1.js'></script>
         <meta name="description" content="La sociedad se ha visto condicionada por estos hechos históricos que han marcado el devenir del mundo actual. Pero, ¿podrías decir cuál de estos ocurrió antes?">
-    
+        <link rel="stylesheet" href="/css/Anijcollection.css">
     <title>Trivia:¿Cuál de estos hechos históricos ocurrió antes?🕰️ </title>
 </head>
 
@@ -21,7 +21,7 @@
         <div class="row">
             <div class="col-12">
                 <header>
-                    <h1 id="Titles">Trivia: ¿Cuál de estos hechos históricos ocurrió antes?<i >🕰️</i> </h1>
+                    <h1 id="Titles"data-anijs="if: load,on:window, do:  rubberBand animated, to:#Titles, after: $removeAnim">Trivia: ¿Cuál de estos hechos históricos ocurrió antes?<i >🕰️</i> </h1>
                     <a id="menu" href="/Juegos/Triviamenu.html"><img src="/img/row.svg" alt=""></a>
                     <p></p>
                 </header>
@@ -74,7 +74,7 @@
         </div>
 
     </main>
-    
+    <script src="/js/Animacion/anij.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-firestore.js"></script>
