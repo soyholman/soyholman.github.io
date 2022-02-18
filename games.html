@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/modal_stilo.css">
   
 </head>
-<body data-anijs="if:load,on:window, do:rollIn animated, to: $closest target, after: $removeAnim">
+<body data-anijs="if:load,on:window, do:rubberBand animated, to: $closest target, after: $removeAnim">
     
     <div class="container">
         <div class="sky">
@@ -42,7 +42,7 @@
 <div class="box">
 
    
-    <a href="/Juegos/Triviamenu.html"  class="btn">Trivia <i class="fas fa-question-circle"></i></a>
+    <a href="/Juegos/Triviamenu.html" data-anijs="if: click, do: rollOut animated, to: body, after: $removeAnim"  class="btn">Trivia <i class="fas fa-question-circle"></i></a>
 
 
 
@@ -51,7 +51,7 @@
 <div class="box">
 
    
-    <a href="/Juegos/test_Menu.html"   class="btn">Tests  <i class="fas fa-brain"></i></a>
+    <a href="/Juegos/test_Menu.html"  data-anijs="if: click, do: rollOut animated, to: body, after: $removeAnim"  class="btn">Tests  <i class="fas fa-brain"></i></a>
 
 
 
