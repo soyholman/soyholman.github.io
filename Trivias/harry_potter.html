@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <script src = 'https://code.jquery.com/jquery-3.2.1.js'></script>
-
+        <link rel="stylesheet" href="/css/Anijcollection.css">
      
         <meta name="description" content="La saga no es corta. El número de frases memorables tampoco. Atrévete con esta trivia.">
     <title>Trivia: ¿Eres capaz de adivinar la película de ‘Harry Potter’ solo con una frase 🧙🏻‍♂️📽️</title>
@@ -22,7 +22,9 @@
         <div class="row">
             <div class="col-12">
                 <header>
-                    <h1 id="Titles">Trivia: ¿Eres capaz de adivinar la película de ‘Harry Potter’ solo con una frase?<i >🧙🏻‍♂️📽️</i> </h1>
+                    <h1 id="Titles" 
+
+                    data-anijs="if: load,on:window, do:  rubberBand animated, to:#Titles, after: $removeAnim">Trivia: ¿Eres capaz de adivinar la película de ‘Harry Potter’ solo con una frase?<i >🧙🏻‍♂️📽️</i> </h1>
                     <a id="menu" href="/Juegos/Triviamenu.html"><img src="/img/row.svg" alt=""></a>
                     <br>
                
@@ -83,7 +85,6 @@
     <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-firestore.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-database.js"></script>
     <script src="/js/firebase/firebase_trivia.js"></script>
-</body>
     <script src="https://kit.fontawesome.com/f955c68031.js"></script>
     <script src="/js/sweetalert.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
@@ -92,6 +93,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
+    <script src="/js/Animacion/anij.js"></script>
     <script src="/js/trivia_filter.js"></script>
     <script type="text/javascript" src="/js/trivias/harry_potter.js"></script>
+</body>
+   
 </html>

@@ -205,9 +205,9 @@ img {
 @media all and (max-width: 900px) {
 
 
-    /* #menu img{
+    #menu img{
         width: 18%;
-        } */
+        } 
         
         #question-header {
             background-color: whitesmoke;
