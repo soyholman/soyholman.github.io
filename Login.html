@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Login de inicio en sitio web de cultura general">
     <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/Anijcollection.css">
     <title>Login</title>
 </head>
 <body>
 
-<div class="wrapper">
+<div class="wrapper" data-anijs="if: load, do:fadeIn animated, on:window, after: $removeAnim">
     
     <div class="form-container">
     
@@ -58,11 +59,11 @@
 <div class="alt-login-methods-container">
     <div class="login-method">
         
-        <a id="google" class="btn">Google</a>
+        <a id="google" data-anijs="if: mouseover, do: pulse animated animated, to: $parent target" class="btn">Google</a>
         <br>
-        <a id="facebook" class="btn">Facebook</a>
+        <a id="facebook" data-anijs="if: mouseover, do: pulse animated animated, to: $parent target" class="btn">Facebook</a>
         <br>
-        <a id="anonimo" class="btn">Iniciar Sesión Como usuario anónimo</a>
+        <a id="anonimo" data-anijs="if: mouseover, do: pulse animated animated, to: $parent target" class="btn">Iniciar Sesión Como usuario anónimo</a>
   
         <!-- <i class="fab fa-google"></i> -->
         <!-- <svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);"><path d="M20.283 10.356h-8.327v3.451h4.792c-.446 2.193-2.313 3.453-4.792 3.453a5.27 5.27 0 0 1-5.279-5.28 5.27 5.27 0 0 1 5.279-5.279c1.259 0 2.397.447 3.29 1.178l2.6-2.599c-1.584-1.381-3.615-2.233-5.89-2.233a8.908 8.908 0 0 0-8.934 8.934 8.907 8.907 0 0 0 8.934 8.934c4.467 0 8.529-3.249 8.529-8.934 0-.528-.081-1.097-.202-1.625z"></path></svg> -->
@@ -82,6 +83,7 @@
 </div>
 
 <script src="/js/Font-owesome/all.js"></script>
+<script src="/js/Animacion/anij.js"></script>
 <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-auth.js"></script>
 <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-firestore.js"></script>

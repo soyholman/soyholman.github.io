@@ -91,14 +91,14 @@ background-repeat: no-repeat;
     background-color:#fff;
     box-shadow: 0 2px 4px rgba(0, 0,0,0.24);
     border-radius: 8px;
-    animation: pop 300ms 150ms ease-out forwards;
-    opacity: 0;
+    /* animation: pop 300ms 150ms ease-out forwards;
+    opacity: 0; */
 }
 
-@keyframes pop {
+/* @keyframes pop {
     from{transform: translateY(4rem);opacity: 0;}
     to{transform: translateY(0);opacity: 1;}
-}
+} */
 
 .form-container .form-head{
     display: flex;
