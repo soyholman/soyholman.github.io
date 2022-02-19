@@ -214,7 +214,7 @@ img {
             padding: 10px;
             /* font-size: 1.3em; */
             margin: 0;
-            font-size: 1.1em;
+            font-size: 1.3em;
         }
         
     #container {
@@ -258,9 +258,9 @@ img {
 }
 
 .btn{
-
-    background-color: #0EA2F6;
+    background: hsl(210,82%, 56%);
     margin-top: 10px;
+    
     display: inline-block;
     
     color: #fff;
@@ -275,11 +275,9 @@ img {
 .btn:hover{
 
    
-    letter-spacing: 1px;
-  background: white;
-  background-color: #1293d4;
-
-    font-weight: bold;
+    
+  background-color: hsl(210, 82%,62%);
+    
 }
 #topnav{
 	margin:0;
