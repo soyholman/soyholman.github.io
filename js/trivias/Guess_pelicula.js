@@ -65,35 +65,35 @@ var QUESTIONS = [
         question: "¿A qué película pertenece esta escena?",
         answers: ["Sensatez y sentimientos","Titanic","Hamlet","Romeo y Julieta"],
         correctAnswer: "Titanic",
-        image: "http://quizupso.pansyequitysa.netdna-cdn.com/q/wp-content/uploads/2016/11/1.jpg"
+        image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Factualidad.tuamc.tv%2Farchivo-canalhollywood%2Flos-10-mejores-momentos-de-titanic%2F&psig=AOvVaw0I3dxtbPVAfoEw5vnDmiuH&ust=1645475708035000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPCeheyQj_YCFQAAAAAdAAAAABAJ"
     }
     ,
     {
         question: "¿A qué película pertenece esta escena?",
         answers: ["Patch Adams","Mrs. Doubtfire","Jumanji"],
         correctAnswer: "Mrs. Doubtfire",
-        image: "http://quizupso.pansyequitysa.netdna-cdn.com/q/wp-content/uploads/2016/11/12.jpg"
+        image: "https://snews.pro/assets/images/2021-08/Robin-Williams-Mrs.-Doubtfire-1024x672.jpg"
     }
     ,
     {
         question: "¿A qué película pertenece esta escena?",
         answers: ["Rescatando al soldado Ryan","Bourne: Identidad desconocida","La supremacía Bourne"],
         correctAnswer: "Rescatando al soldado Ryan",
-        image: "http://quizupso.pansyequitysa.netdna-cdn.com/q/wp-content/uploads/2016/11/16.jpg"
+        image: "https://hips.hearstapps.com/es.h-cdn.co/fotoes/images/cinefilia/salvar-al-soldado-ryan-cumple-veinte-anos-siete-claves-del-clasico-belico-de-steven-spielberg/ryandamon/138150458-1-esl-ES/ryandamon.jpg?resize=480:*"
     }
     ,
     {
         question: "¿A qué película pertenece esta escena?",
         answers: ["Batman Forever","Batman & Robin"],
         correctAnswer: "Batman Forever",
-        image: "http://quizupso.pansyequitysa.netdna-cdn.com/q/wp-content/uploads/2016/11/21.jpg"
+        image: "https://uvn-brightspot.s3.amazonaws.com/assets/vixes/b/batman_forever_escenas_eliminadas.jpg"
     }
     ,
     {
         question: "¿A qué película pertenece esta escena?",
         answers: ["Mi pobre angelito 4","Mi pobre angelito 2"],
         correctAnswer: "Mi pobre angelito 2",
-        image: "http://quizupso.pansyequitysa.netdna-cdn.com/q/wp-content/uploads/2016/11/27.jpg"
+        image: "https://i1.wp.com/codigoespagueti.com/wp-content/uploads/2021/01/Macaulay-Culkin-elimina-escena-Trump.jpg?fit=1280%2C720&quality=80&ssl=1"
     }
 ];
 
