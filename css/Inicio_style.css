@@ -302,21 +302,6 @@ a{
       .menu_link{
         padding: 0 16px 2px 20px;
       }
-      .btn{
-   
-
-        background: hsl(210,82%, 56%);
-        color: black;
-        font-size: 17px;
-        border-radius: 5px;
-        padding: 8px 20px;
-        
-        cursor: pointer;
-        
-        
-        /* transition: all 0.3s linear; */
-        
-        }
       .btn-submit{
         display:block;
         width:100%;
