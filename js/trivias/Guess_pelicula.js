@@ -65,7 +65,7 @@ var QUESTIONS = [
         question: "¿A qué película pertenece esta escena?",
         answers: ["Sensatez y sentimientos","Titanic","Hamlet","Romeo y Julieta"],
         correctAnswer: "Titanic",
-        image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Factualidad.tuamc.tv%2Farchivo-canalhollywood%2Flos-10-mejores-momentos-de-titanic%2F&psig=AOvVaw0I3dxtbPVAfoEw5vnDmiuH&ust=1645475708035000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPCeheyQj_YCFQAAAAAdAAAAABAJ"
+        image: "http://www.ladyalmina.com/wp-content/uploads/2018/04/tumblr_muolrs6lhJ1qakh43o4_500.png"
     }
     ,
     {
