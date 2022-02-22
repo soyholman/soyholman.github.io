@@ -283,13 +283,14 @@ var mm = hoy.getMonth()+1;
 var yyyy = hoy.getFullYear();
 var data_carpet=dd+'_'+mm+'_'+yyyy;
 
-var firebaseref=firebase.database().ref('Test/'+document.getElementById('Titles').textContent+'/'+user.displayName);
+var firebaseref=firebase.database().ref('Test/'+document.getElementById('Titles').textContent+'/'+data_carpet+'/'+user.displayName);
 const fs=firebase.firestore();
 
 
         firebaseref.push({
-fecha:dd+'/'+mm+'/'+yyyy,
+// fecha:dd+'/'+mm+'/'+yyyy,
 usuario:user.displayName,
+Hora: hoy.getHours() + ':' + hoy.getMinutes() + ':' + hoy.getSeconds(),
 Correctas:correct,
 incorrectas:incorrect
 });
