@@ -3,12 +3,16 @@ var user = firebase.auth().currentUser;
 auth.onAuthStateChanged(user=>{
 
 const nombre=document.getElementById('getname');
+
 var hoy = new Date();
 var dd = hoy.getDate();
 var mm = hoy.getMonth()+1;
 var yyyy = hoy.getFullYear();
 var data_carpet=dd+'_'+mm+'_'+yyyy;
 nombre.textContent='Cuenta Registrada:'+user.displayName+'';
+var userPicURL = user.photoURL; 
+console.log("look:"+userPicURL);
+document.querySelector('.avatar__image').src =  user.photoURL;
 var firebaseref=firebase.database().ref('Sugerencias/'+user.displayName+"/"+ data_carpet.toString());
 const fs=firebase.firestore();
 

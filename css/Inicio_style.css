@@ -254,7 +254,16 @@ a{
 @media (max-width:800px) {
  
 
-
+ .cont .avatar__image {
+    /* Rounded border */
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+  
+    /* Take full size */
+    height: 70%;
+    width: 30%;
+}
   .header{
         padding-bottom:20px;
       }
@@ -708,6 +717,19 @@ text-align: center;
   color: #7d2ae8;
 }
 
+
+ 
+
+                    .avatar__image {
+                        /* Rounded border */
+                        border-radius: 50%;
+                        display: flex;
+                        flex-direction: column;
+                      
+                        /* Take full size */
+                        height: 70%;
+                        width: 10%;
+                    }
 .card .button{
 
 width: 100%;

@@ -22,7 +22,8 @@
     <div class="container">
         <nav class="navbar">
 <ul class="menu">
-  
+    
+    <li class="menu_item"><a data-anijs="if: mouseover, do: pulse animated animated, to: $parent target" href="#home-section" class="menu_link">Bienvenida</a></li>
     <li class="menu_item"><a data-anijs="if: mouseover, do: pulse animated animated, to: $parent target" href="#home-section" class="menu_link">Bienvenida</a></li>
       
     <li class="menu_item"><a data-anijs="if: mouseover, do: pulse animated animated, to: $parent target" href="#novedades-section" class="menu_link">Novedades</a></li>
@@ -43,16 +44,27 @@
     
     </div>
     <div class="container" >
-        <img src="/img/culturags.png" data-anijs="if: load, on: window, do: swing animated" id="logo" class="menu_item masthead_title" alt="">
-        <h1 class="masthead_title" id="welcome">Bienvenido</h1>
+        
+        <img src="/img/culturags.png" data-anijs="if: load, on: window, do: swing animated" id="logo" class="menu_item masthead_title" alt=""> 
+        
+        <div class="cont"> <h1 class="masthead_title" id="welcome">Bienvenido </h1>  <img class=" container avatar__image"/> </div>
+   
+            <!-- Avatar image -->
+         
+        
           <hr>
-                <p class="masthead_description"> By Holman Morales
+     
+                <p class="masthead_description"> <span class=" container" id="getname"></>
+                 
                     <br>
-                    <span id="getname"></span>
+                   
                 </p>
-              
+             
+                <br>
+                
        
     </div>
+
         <div class="masthead" style="height: 150px; overflow: hidden;"  ><svg viewBox="0 0 340 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill:white;"></path></svg>
 </section>
 <section class="about"   id="novedades-section">
