@@ -71,7 +71,7 @@
 
 var correctAnswerElement;
 var questionIndex = 0;
-var timeLeft = 20;
+var timeLeft = 24;
 var timer;
 var correct = 0;
 var incorrect = 0;
@@ -189,7 +189,7 @@ $(function () {
                 incorrect++;
               showCorrectAnswertimer();
                 clearInterval(timer);
-                timeLeft = 20;
+                timeLeft = 24;
                 $("#timeLeft").css("display", "none");
                 $("#message").text("se acabó el tiempo!");
                 $("#message").css("display", "block");
@@ -217,7 +217,7 @@ $(function () {
 
         setTimeout(function () {
             questionIndex++;
-            timeLeft = 20;
+            timeLeft = 24;
 			startGame();
             $("#message").css("display", "none");
             $("#timer").css("display", "flex");
