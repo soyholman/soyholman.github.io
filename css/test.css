@@ -173,11 +173,18 @@ color: blue;
 width: 8%;
 
 }
+#incorrect{
 
+    color: red;
+}
+
+#correct{
+color: green;
+}
 #score {
     display: none;
     position: absolute;
-    background: #fff;
+    
     color: #000;
     font-size: 1.2em;
     
@@ -186,8 +193,13 @@ width: 8%;
     text-align: center;
     width: 250px;
     padding: 30px;
+ 
     border-radius: 20px;
-    border: 5px dashed black;
+    background: #fff;
+    /* box-shadow:  -5px 5px 42px #cacaca,
+    5px -5px 42px #f6f6f6; */
+    box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
 }
 
 #close {
