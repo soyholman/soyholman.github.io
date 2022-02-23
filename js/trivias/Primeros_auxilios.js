@@ -1,77 +1,77 @@
-var QUESTIONS = [
+    var QUESTIONS = [
     {
-        question: "¿Quién inventó la máquina de escribir?",
-        answers: ["William Perkin","Carlos Glidden","Alexander Wood"],
-        correctAnswer: "Carlos Glidden",
-        image: "https://c.tenor.com/1sjlk_vExCEAAAAd/cantinflas-trabajando.gif"
+        question: "Te empezó a sangrar la nariz, ¿qué debes hacer?",
+        answers: ["Inclinaré la cabeza hacia adelante y cerraré las alas de la nariz con los dedos"," Me pondré un algodón en las fosas nasales","Llevaré la cabeza hacia atrás para que la sangre deje de escurrir"],
+        correctAnswer: "Inclinaré la cabeza hacia adelante y cerraré las alas de la nariz con los dedos",
+        image: "https://media3.giphy.com/media/go3OUPg8pYvCw/200.gif"
     },
     {
-        question: "¿Qué inventó el ingeniero David Edward Hughes?",
-        answers: ["El micrófono", "La radio","Los audífonos"],
-        correctAnswer: "El micrófono",
-        image: "https://c.tenor.com/X73EqPfwAfIAAAAM/minion-any-questions-question.gif"
+        question: "¿Qué hacer si te lesionaste seriamente?",
+        answers: ["Lavar la herida, eliminar los cuerpos extraños y aplicar una venda de gaza","No limpiar la herida y aplicar una venda de gaza que haga presión","Limpiar la herida con mertiolate o yodo"],
+        correctAnswer: "No limpiar la herida y aplicar una venda de gaza que haga presión",
+        image: "https://media4.giphy.com/media/ehankPc9FFdWnfOPBN/giphy.gif"
     },
     {
-        question: "¿Quién descubrió las vitaminas en 1912?",
-        answers: ["Tolbert Lanston", "Georges Leclanché","Casimir Funk"],
-        correctAnswer: "Casimir Funk",
-        image: "https://media1.giphy.com/media/L2lK6IhrZ2i2EMTckQ/giphy.gif"
+        question: "¿Qué debes hacer en caso de una quemadura?",
+        answers: ["Mantener el área quemada en el agua fría y, después, aplicar una venda floja","¡Fácil! Según me enseñó mi abuela, hay que untar el área afectada con aceite o crema","Aplicar hielo a la quemadura"],
+        correctAnswer: "Mantener el área quemada en el agua fría y, después, aplicar una venda floja",
+        image: "https://i.pinimg.com/originals/d4/9d/d1/d49dd1adf0dad609c45a1d1e63d37f73.gif"
     }
     ,
     {
-        question: "¿Qué inventó Percy L. Spencer?",
-        answers: ["El horno microondas", "La plancha","La nevera"],
-        correctAnswer: "El horno microondas",
-        image: "https://6469da.medialib.edu.glogster.com/yxgpHrGEUsCW4IJn3LMx/media/f7/f796e0ed760a958cd0e97e1bc3857f876ff09291/spencerp.jpg"
+        question: "¿Qué debes hacer si una persona se desmaya?",
+        answers: ["Voltear a la persona de lado"," Darle a oler amoníaco","Sacarle la lengua"],
+        correctAnswer: "Voltear a la persona de lado",
+        image: "http://2.bp.blogspot.com/-CgyQHBjI0n8/U4TkJK3QPII/AAAAAAAAEBs/adYlamBuNjo/s1600/desmayo.gif"
     }
     ,
     {
-        question: "¿Quién inventó la cámara polaroid?",
-        answers: ["George Eastman", "Edwin Hebert Land","Otto Lilienthal"],
-        correctAnswer: "Edwin Hebert Land",
-        image: "https://c.tenor.com/BELxvzX4bk4AAAAd/polaroid-pic-vintage.gif"
+        question: "Te congelaste los dedos, ¿qué debes hacer?",
+        answers: ["Cubrir la parte congelada del cuerpo","Frotarlos bien. Y si es con alcohol, mejor","Mantener las manos en agua caliente"],
+        correctAnswer: "Cubrir la parte congelada del cuerpo",
+        image: "https://c.tenor.com/14NTeoPGrKgAAAAC/jack-nicholson-frozen.gif"
     }
     ,
     {
-        question: "¿Qué inventó Ladislao Biro?",
-        answers: ["El corrector", "El bolígrafo","El lápiz"],
-        correctAnswer: "El bolígrafo",
-        image: "https://upload.wikimedia.org/wikipedia/commons/1/15/Ladislao_Biro_Argentina_Circa_1978.JPG"
+        question: "¿Cómo ayudarle a una persona atragantada?",
+        answers: ["Darle un pan duro","Inclinarla hacia adelante, sujetarla con los brazos y con un movimiento rápido presionarle el estómago","Darle unas palmadas en la espalda"],
+        correctAnswer: "Inclinarla hacia adelante, sujetarla con los brazos y con un movimiento rápido presionarle el estómago",
+        image: "https://c.tenor.com/IlZ2FuyDH5IAAAAM/toser-enchufetv.gif"
     }
     ,
     {
-        question: "¿Quién descubrió la insulina?",
-        answers: ["Valdemar Poulsen", "John James Rickard","James Dewar"],
-        correctAnswer: "John James Rickard",
-        image: "https://c.tenor.com/dNG3A4DR9JYAAAAM/2020-beetus.gif"
+        question: "Tu amigo se cayó de una bicicleta y se dislocó una pierna, ¿qué harás?",
+        answers: ["Me aseguraré de que la pierna quede inmóvil hasta que llegue la ambulancia","Intentaré enderezar la pierna y ponerle un torniquete","Intentaré acomodarla bien y fijar la pierna"],
+        correctAnswer: "Me aseguraré de que la pierna quede inmóvil hasta que llegue la ambulancia",
+        image: "https://c.tenor.com/65V05QYtEiQAAAAC/cycling-fail.gif"
     }
     ,
     {
-        question: "¿Quién inventó el aire acondicionado?",
-        answers: ["Mary Anderson", "Willis Haviland Carrier","Willem Einthoven"],
-        correctAnswer: "Willis Haviland Carrier",
-        image: "https://i.pinimg.com/originals/91/53/04/9153042f566196e8222d8390094c0903.gif"
+        question: "¿Qué debes hacer en primer lugar en una fractura abierta?",
+        answers: ["Inmovilizar la extremidad y aplicar un torniquete","Acomodar el hueso","Detener el sangrado"],
+        correctAnswer: "Detener el sangrado",
+        image: "https://j.gifs.com/vJag6X.gif"
     }
     ,
     {
-        question: "¿Qué inventó Ígor Sikorsky?",
-        answers: ["El tren", "El helicóptero","El monopatín"],
-        correctAnswer: "El helicóptero",
-        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/cdn/b7ab63d5-71b2-4b00-8a9d-54286f8ce06b/7b48c29c-7d58-4e6d-afd1-9622cbae3c94.jpg"
+        question: "¿Qué NO debes hacer al darle primeros auxilios a una persona electrocutada?",
+        answers: ["Jalar al lesionado lejos del equipo bajo presión","Tocar con las manos desnudas al lesionado que está en el área afectada","Ponerte guantes de goma"],
+        correctAnswer: "Tocar con las manos desnudas al lesionado que está en el área afectada",
+        image: "https://media2.giphy.com/media/xUySTIzc2BkMmQ9Zo4/200.gif"
     }
     ,
     {
-        question: "¿Quién inventó la fotocopiadora?",
-        answers: ["René Lorin", "Paul Ehrlich","Chester Carlson"],
-        correctAnswer: "Chester Carlson",
-        image: "https://thumbs.gfycat.com/SphericalDefiniteIsabellineshrike-size_restricted.gif"
+        question: "Eres testigo de un accidente. El conductor de uno de los autos perdió la conciencia. ¿Qué harás?",
+        answers: ["Lo pondré en el asiento trasero e intentaré darle respiración boca a boca","Nada. Llamaré a una ambulancia y a la policía","Lo sacaré del auto"],
+        correctAnswer: "Nada. Llamaré a una ambulancia y a la policía",
+        image: "https://i.gifer.com/9J8n.gif"
     }
-  
+ 
 ];
 
 var correctAnswerElement;
 var questionIndex = 0;
-var timeLeft = 15;
+var timeLeft = 20;
 var timer;
 var correct = 0;
 var incorrect = 0;
@@ -189,7 +189,7 @@ $(function () {
                 incorrect++;
               showCorrectAnswertimer();
                 clearInterval(timer);
-                timeLeft = 15;
+                timeLeft = 20;
                 $("#timeLeft").css("display", "none");
                 $("#message").text("se acabó el tiempo!");
                 $("#message").css("display", "block");
@@ -217,7 +217,7 @@ $(function () {
 
         setTimeout(function () {
             questionIndex++;
-            timeLeft = 15;
+            timeLeft = 20;
 			startGame();
             $("#message").css("display", "none");
             $("#timer").css("display", "flex");
@@ -270,8 +270,6 @@ Hora: hoy.getHours() + ':' + hoy.getMinutes() + ':' + hoy.getSeconds(),
 Correctas:correct,
 incorrectas:incorrect
 });
-   
-   
 
 
 })
