@@ -9,9 +9,16 @@ var dd = hoy.getDate();
 var mm = hoy.getMonth()+1;
 var yyyy = hoy.getFullYear();
 var data_carpet=dd+'_'+mm+'_'+yyyy;
-nombre.textContent='Cuenta Registrada:'+user.displayName+'';
+
+
+if(user.displayName==null){
+      nombre.textContent='';   
+}
+else if(user.displayName!=null){
+      nombre.textContent=':' +user.displayName+'';   
+}
 var userPicURL = user.photoURL; 
-console.log("look:"+userPicURL);
+
 document.querySelector('.avatar__image').src =  user.photoURL;
 var firebaseref=firebase.database().ref('Sugerencias/'+user.displayName+"/"+ data_carpet.toString());
 const fs=firebase.firestore();

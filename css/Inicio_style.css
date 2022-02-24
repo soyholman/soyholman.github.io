@@ -49,7 +49,7 @@ img{
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
+  background-position:bottom;
 }
 
 .masthead_title{
@@ -57,7 +57,7 @@ img{
   
     margin-top: 200px;
     margin-bottom: 15px;
-    font-size: 40px;
+    font-size: 34px;
     font-weight: 500;
     color: white;
     font-weight: bold;
@@ -254,13 +254,8 @@ a{
 @media (max-width:800px) {
  
 
- .cont .avatar__image {
-    /* Rounded border */
-    border-radius: 50%;
-    display: flex;
-    flex-direction: column;
+.container .avatar__image {
   
-    /* Take full size */
     height: 70%;
     width: 30%;
 }
@@ -566,10 +561,16 @@ select:focus{
         height: 426px;
         
     }
-    .masthead_title{
-        font-size: 45px;
+    
+.masthead_title{
+  
+  
+
+  font-size: 30px;
+
+}
         
-    }
+    
     .masthead_description{
         font-size: 17px;
     }
