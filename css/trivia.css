@@ -271,28 +271,37 @@ img {
     }
 }
 
+/* CSS */
 .btn{
-    background: hsl(210,82%, 56%);
-    margin-top: 10px;
-    
-    display: inline-block;
-    
-    color: #fff;
-    font-size: 17px;
-    border-radius: 5px;
-    width: 60%;
+background:blue;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex-shrink: 0;
 
+  font-weight: 500;
+  height: 4rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  font-size: 17px;
+  border-radius: 5px;
+  width: 50%;
+}
+
+.btn:hover {
+  box-shadow: blue 0 1px 30px;
+  transition-duration: .1s;
 }
 
 
 
-.btn:hover{
-
-   
-    
-  background-color: hsl(210, 82%,62%);
-    
-}
 #topnav{
 	margin:0;
 	background-color:white;
