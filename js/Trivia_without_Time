@@ -117,7 +117,7 @@ $(function () {
                 correctAnswerElement.append("<span> &#10004;</span>");
                 correctAnswerElement.addClass("correct");
 
-                $("#message").css("display", "block");
+                // $("#message").css("display", "block");
                 $("#timeLeft").css("display", "none");
                 $("#message").text("INCORRECTO");
 
