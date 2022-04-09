@@ -1,64 +1,64 @@
 var QUESTIONS = [
     {
-        question: "",
-        answers: ["", "", "",""],
-        correctAnswer: "",
-        image: ""
+        question: "¿A qué importante cambio hace referencia esta imagen?",
+        answers: ["La Revolución Industrial","La Revolución Francesa","La era agraria","El rompimiento de la división de las clases sociales"],
+        correctAnswer: "La Revolución Industrial",
+        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1544625297/xh9eninvx965ihqaoyl7.jpg"
     }
     ,
     {
-        question: "",
-        answers: ["", "", "",""],
-        correctAnswer: "",
-        image: ""
+        question: "¿Qué momento significó el inicio del régimen fascista que ocasionó la muerte de millones de judíos?",
+        answers: ["Joseph Stalin toma el poder del Partido Socialista de la Unión Soviética","Adolf Hitler es nombrado canciller de Alemania","Napoleón Bonaparte se autoproclama primer cónsul de Francia"],
+        correctAnswer: "Adolf Hitler es nombrado canciller de Alemania",
+        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1544625504/rqx3st8k78ypvy77mpfo.jpg"
     }
     ,{
-        question: "",
-        answers: ["", "", "",""],
-        correctAnswer: "",
-        image: ""
+        question: "El cristianismo pudo surgir debido a la caída del Imperio…",
+        answers: ["Persa","Romano","Griego","Islámico"],
+        correctAnswer: "Romano",
+        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1544625634/hk3j4zyh6a3gfer7m8m7.jpg"
     }
     ,{
-        question: "",
-        answers: ["", "", "",""],
-        correctAnswer: "",
-        image: ""
+        question: "¿Qué artefacto permitió la primera modernización de la palabra escrita?",
+        answers: ["La máquina de escribir","La imprenta de Gutenberg","El computador","El uso de la tinta china"],
+        correctAnswer: "La imprenta de Gutenberg",
+        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1544625829/qyfqdw3i2bypw0ccp3kv.jpg"
     }
     ,{
-        question: "",
-        answers: ["", "", "",""],
-        correctAnswer: "",
-        image: ""
+        question: "¿Qué conflicto bélico trajo la caída del Imperio persa?",
+        answers: ["La guerra de los 100 años","Las guerras médicas","Las guerras homéricas","La guerra de Vietnam"],
+        correctAnswer: "Las guerras médicas",
+        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1544625929/cupjqo6z9o2qyh22psbk.jpg"
     }
     ,{
-        question: "",
-        answers: ["", "", "",""],
-        correctAnswer: "",
-        image: ""
-    }
-    
-    ,{
-        question: "",
-        answers: ["", "", "",""],
-        correctAnswer: "",
-        image: ""
+        question: "¿La frase: “Un pequeño paso para el hombre, pero un gran salto para la humanidad” hace referencia a qué importante logro?",
+        answers: ["La caída del muro de Berlín","La culminación de la Gran Muralla china","El primer hombre en la Luna","La creación de la bomba atómica"],
+        correctAnswer: "El primer hombre en la Luna",
+        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1544627107/r2s6efciucuuqmn9uac5.jpg"
     }
     ,{
-        question: "",
-        answers: ["", "", "",""],
-        correctAnswer: "",
-        image: ""
+        question: "¿La reforma protestante representó la ruptura de la Iglesia católica que dio origen a las subdivisiones religiosas del presente?",
+        answers: ["Verdadero","Falso"],
+        correctAnswer: "Verdadero",
+        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1544627210/gqhraeszoq3xs7rwqplc.jpg"
     }
     ,{
-        question: "",
-        answers: ["", "", "",""],
-        correctAnswer: "",
-        image: ""
-    },{
-        question: "",
-        answers: ["", "", "",""],
-        correctAnswer: "",
-        image: ""
+        question: "¿Cuándo fue derrotado el fascismo alemán de Hitler?",
+        answers: ["1945","1944","1946","1935"],
+        correctAnswer: "1945",
+        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1544627511/akcc1v9ict5jquh3c6iy.jpg"
+    }
+    ,{
+        question: "¿Qué antibiótico representó el inicio de la medicina moderna?",
+        answers: ["La aspirina","La globulina","El misoprostol","La penicilina"],
+        correctAnswer: "La penicilina",
+        image: "https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1544627630/zggoqh58en8glg2cgvjl.jpg"
+    }
+    ,{
+        question: "¿Qué ocasionó el suicidio y desempleo de miles de trabajadores estadounidenses en 1929?",
+        answers: ["La muerte de Kennedy","La caída de la bolsa de Wall Street","El incidente de Haymarket","Hundimiento del Titanic"],
+        correctAnswer: "La caída de la bolsa de Wall Street",
+        image: "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2015/10/24/14456818009417.jpg"
     }
     
 ];

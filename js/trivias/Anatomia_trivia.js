@@ -322,7 +322,7 @@ var yyyy = hoy.getFullYear();
 var data_carpet=dd+'_'+mm+'_'+yyyy;
 
 
-var firebaseref=firebase.database().ref('Test/'+document.getElementById('Titles').textContent+'/'+data_carpet+'/'+user.displayName);
+var firebaseref=firebase.database().ref('Trivia/'+document.getElementById('Titles').textContent+'/'+data_carpet+'/'+user.displayName);
 const fs=firebase.firestore();
 
 
