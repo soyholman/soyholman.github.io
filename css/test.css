@@ -42,7 +42,7 @@ h5 {
 #container {
   align-items: center;
   min-width: 320px;
-  padding-top: 70px;
+  padding-top: 75px;
 }
 
 header,
@@ -413,7 +413,6 @@ input {
   --text-color: hsl(231, 4%, 45%);
   --body-color: hsl(231, 100%, 99%);
   --container-color: #fff;
-
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
   --tiny-font-size: 0.625rem;

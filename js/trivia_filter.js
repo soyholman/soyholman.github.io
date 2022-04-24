@@ -1,12 +1,3 @@
-const navlink = document.querySelectorAll(".nav__link");
-
-function activeLink() {
-  navlink.forEach((item) => item.classList.remove("active-link"));
-  this.classList.add("active-link");
-}
-
-navlink.forEach((item) => item.addEventListener("mouseover", activeLink));
-
 // let nombres=[
 //     "Lugares","Ciencia","Nostradamus","Anatomía","Animales","Animados","Cultura General","Sexo"
 //     ,"Literatura","Mitología","Frases","Mecánica","Fitness","Reyno","Animal","Sobrevivir","Emblema","Biblia","Historia","Mundiales","Marcas","Celebridades","Leones","Aprender","Inglés","Artes Marciales","Síndromes","Games Of Thrones","Ojos","Copas","Harry Potter"
