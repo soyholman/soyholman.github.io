@@ -459,7 +459,8 @@ a {
 }
 
 .nav {
-  position: fixed;
+  /* position: fixed; */
+  position: absolute;
   /* bottom: 2rem; */
   left: 0;
   right: 0;
