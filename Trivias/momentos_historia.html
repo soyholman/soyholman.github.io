@@ -29,17 +29,17 @@
   </head>
 
   <body>
-    <main class="container text-center">
+    <main
+      class="container text-center"
+      data-anijs="if: load,on:window, do:  rubberBand animated, to:#button, after: $removeAnim"
+    >
       <canvas id="canv"></canvas>
       <div class="row">
         <div class="col-12">
           <header>
-            <h1
-              id="Titles"
-              data-anijs="if: load,on:window, do:  rubberBand animated, to:#Titles, after: $removeAnim"
-            >
-              Trivia:¿Puedes recordar estos momentos que marcaron la historia de
-              la humanidad? Averígualo… <i>🧠📚</i>
+            <h1 id="Titles">
+              Puedes recordar estos momentos que marcaron la historia de la
+              humanidad
             </h1>
             <nav class="nav">
               <ul class="nav__list">

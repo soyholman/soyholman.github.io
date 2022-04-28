@@ -25,17 +25,15 @@
   </head>
 
   <body>
-    <main class="container text-center">
+    <main
+      class="container text-center"
+      data-anijs="if: load,on:window, do:  rubberBand animated, to:#button, after: $removeAnim"
+    >
       <canvas id="canv"></canvas>
       <div class="row">
         <div class="col-12">
           <header>
-            <h1
-              id="Titles"
-              data-anijs="if: load,on:window, do:  rubberBand animated, to:#Titles, after: $removeAnim"
-            >
-              ¿A qué animal pertenecen estos ojos?<i>👁️❔</i>
-            </h1>
+            <h1 id="Titles">¿A qué animal pertenecen estos ojos? 👁️❔</h1>
             <nav class="nav">
               <ul class="nav__list">
                 <a href="/index.html" class="nav__link">

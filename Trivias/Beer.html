@@ -26,18 +26,16 @@
   </head>
 
   <body>
-    <main class="container text-center">
+    <main
+      class="container text-center"
+      data-anijs="if: load,on:window, do:  rubberBand animated, to:#button, after: $removeAnim"
+    >
       <canvas id="canv"></canvas>
       <div class="row">
         <div class="col-12">
           <header>
-            <h1
-              id="Titles"
-              data-anijs="if: load,on:window, do:  rubberBand animated, to:#Titles, after: $removeAnim"
-            >
-              Trivia:Pon a prueba cuánto sabes de cerveza <i>🍺</i>
-            </h1>
-            <nav class="nav">
+            <h1 id="Titles">Trivia:Pon a prueba cuánto sabes de cerveza 🍺</h1>
+            <nav class="nav" id="nav">
               <ul class="nav__list">
                 <a href="/index.html" class="nav__link">
                   <i class="fa fa-home"></i>

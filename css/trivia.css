@@ -451,7 +451,8 @@ a {
 }
 
 .nav {
-  position: fixed;
+  /* position: fixed; */
+  position: absolute;
   /* bottom: 2rem; */
   left: 0;
   right: 0;
@@ -550,14 +551,14 @@ a {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-@media screen and (max-width: 320px) {
+/* @media screen and (max-width: 320px) {
   .nav {
     zoom: 0.8;
   }
-}
+} */
 
 /* For large devices */
-@media screen and (min-width: 968px) {
+/* @media screen and (min-width: 968px) {
   .container {
     margin-left: auto;
     margin-right: auto;
@@ -565,4 +566,4 @@ a {
   .nav {
     zoom: 1.1;
   }
-}
+} */
