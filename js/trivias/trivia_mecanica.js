@@ -257,7 +257,7 @@ $(function () {
           .database()
           .ref(
             "Trivia/" +
-              document.getElementById("Titles").innerTex +
+              document.getElementById("Titles").innerText +
               "/" +
               data_carpet +
               "/" +
