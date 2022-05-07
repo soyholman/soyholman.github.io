@@ -1,96 +1,93 @@
 var QUESTIONS = [
   {
-    question: " ¿Cuál es el apellido de los hermanos de 'Fullmetal Alchemist'?",
-    answers: [" Mustang", "Hohenheim", "Elric", "Ulrich"],
-    correctAnswer: "Elric",
-    text: "Los protagonistas de la serie Fullmetal Alchemist son los hermanos Edward y Alphonse Elric.",
+    question: "El nombre del Canguro significa:",
+    answers: ["Ratón gigante", "Diablo que salta", "No le entiendo"],
+    correctAnswer: "No le entiendo",
     image:
-      "https://i.pinimg.com/564x/d3/36/7f/d3367fd72d8a57fc0fa5f37ec4b77a12.jpg",
+      "https://i.pinimg.com/564x/0d/49/1d/0d491da58a20c5f90ee39470335304f2.jpg",
   },
   {
-    question: " ¿Cuál es el animé con más duración en el mundo?",
-    answers: ["Naruto", "Sazae-san", "Doraemon", "One Piece"],
-    correctAnswer: "Sazae-san",
-    text: "El animé con más duración del mundo es Sazae-san, que se estrenó en 1969 y sigue en emisión. Actualmente cuenta con más de 8 mil episodios.",
+    question: "La palabra ‘fuck’ proviene de:",
+    answers: ["Inglaterra", "Alemania", "Estados Unidos"],
+    correctAnswer: "Inglaterra",
     image:
-      "https://i.pinimg.com/564x/31/0b/85/310b85267c4951edbad104df20f15ad1.jpg",
+      "https://i.pinimg.com/564x/f7/6e/8a/f76e8adeae7e415856286967c6eec0fb.jpg",
   },
   {
-    question: "¿Qué deporte se practica en 'Captain Tsubasa'?",
-    answers: ["Voleibol", "Ajedrez", "Fútbol", "Béisbol"],
-    correctAnswer: "Fútbol",
-    text: "Captain Tsubasa o Supercampeones es un animé que aborda la historia de un jugador de fútbol que sueña con jugar profesionalmente.",
+    question: "En un principio, la palabra ‘OK’ se utilizaba para expresar:",
+    answers: ["Other King", "0 Killed", "Own Keen"],
+    correctAnswer: "0 Killed",
+    image:
+      "https://i.pinimg.com/564x/3f/2a/bc/3f2abc3674fceb9c73852d1c30509fdb.jpg",
+  },
+  {
+    question:
+      "En la Roma antigua, cuando se tenía que decir la verdad en un juicio, los participantes tenían que jurar mientras:",
+    answers: [
+      "Tomaban la Biblia",
+      "Se inclinaban ante el rey",
+      "Apretaban sus testículos",
+    ],
+    correctAnswer: "Apretaban sus testículos",
+    image:
+      "https://i.pinimg.com/564x/34/79/ee/3479ee71c850482673b374021ce4f579.jpg",
+  },
+  {
+    question:
+      "Al multiplicar 111.111.111 x 111.111.111 se obtiene como resultado:",
+    answers: [
+      "a. 111.111.111",
+      " b. 111.111.111.111.111.111",
+      "c. 12.345.678.987.654.321",
+    ],
+    correctAnswer: "c. 12.345.678.987.654.321",
+    image:
+      "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/cdn/976a079e-5324-403f-97d5-6b425c6680d2/2c9012b9-f0ea-4189-8eba-1c44dd3e756b.jpg",
+  },
+  {
+    question: " ¿Los diestros viven más que los zurdos?",
+    answers: ["Verdad", "Falso"],
+    correctAnswer: "Verdad",
+    image:
+      "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/cdn/976a079e-5324-403f-97d5-6b425c6680d2/1bf3c3cb-464e-4ca6-b434-ca07282f4907.jpg",
+  },
 
+  {
+    question: "Miguel de Cervantes murió el día:",
+    answers: [
+      "20 de marzo de 1503",
+      "22 de abril de 1616",
+      "6 de junio de 1666",
+    ],
+    correctAnswer: "22 de abril de 1616",
     image:
-      "https://i.pinimg.com/564x/0b/4e/51/0b4e5178af575e01b6fbd5e0983fe1f0.jpg",
+      "https://i.pinimg.com/564x/48/7d/26/487d261f3246332e387f1f040b32f4d2.jpg",
   },
   {
-    question: "¿Cuál es el animé más visto en Crunchyroll durante el año 2020?",
+    question: "Si le cortas la cabeza a una cucaracha, ¿Qué sucede?",
     answers: [
-      "Black Clover",
-      "Attack on Titan",
-      "Jujutsu Kaisen",
-      "Boruto: Naruto Next Generation",
+      "Muere de manera inmediata",
+      "Le vuelve a crecer la cabeza",
+      "Pueden vivir sin cabeza",
     ],
-    correctAnswer: "Black Clover",
-    text: "Black Cloveres el animé más visto en Crunchyroll durante el año 2020. Fue el número 1 en 87 países, superando a Jujutsu Kaisen que fue líder en 71 países.",
+    correctAnswer: "Pueden vivir sin cabeza",
     image:
-      "https://i.pinimg.com/564x/cf/94/0a/cf940a0389fa08e3469daba6752d8fb3.jpg",
+      "https://i.pinimg.com/564x/5c/35/39/5c353996e7e839d016c862978a7f3628.jpg",
+  },
+  {
+    question: "¿Qué es Llanfairpwllgwyngyllgogerychwyrndro?",
+    answers: ["Un pueblo", "Un animal", "Un elemento de la tabla periódica"],
+    correctAnswer: "Un pueblo",
+    image:
+      "https://i.pinimg.com/564x/88/05/44/880544877953bdb01a6f490f2a70f1a0.jpg",
   },
   {
     question:
-      " ¿Cuál es el episodio mejor valorado de un animé en el portal de IMDb?",
-    answers: [
-      " «150146» de The Promised Neverland",
-      "«Hero» de Attack on Titan",
-      "«Saikyô no hîrô» de One Punch Man",
-      "«Cho to ko» de Boruto: Naruto Next Generation",
-    ],
-    correctAnswer: "«Hero» de Attack on Titan",
-    text: "«Hero» es el episodio mejor valorado de todos los tiempos para una serie de animé, según la página web de IMDb. Este es el capítulo 17 de la temporada 3 de Attack on Titan, y tiene una valoración de 9,9/10 con más de 60 mil críticas.",
+      "En las cartas españolas, el rey de espadas es la representación de:",
+    answers: ["Jesús Cristo", "Miguel Ángelo", "El rey David"],
+    correctAnswer: "El rey David",
     image:
-      "https://i.pinimg.com/564x/02/23/9e/02239e9a5c9ff289161ed6ea08ea9999.jpg",
-  },
-  {
-    question:
-      "¿Cuántas transformaciones de Super Saiyajin hay en el canon de 'Dragon Ball'?",
-    answers: ["3", "4", "8", "5"],
-    correctAnswer: "5",
-    text: "Hay, hasta ahora, cinco transformaciones de Super Saiyajin en el canon de Dragon Ball. Esto es porque el Super Saiyajin fase 4, al igual que todo lo que sucede en Dragon Ball GT fue sustituido por Dragon Ball Super.",
-    image:
-      "https://i.pinimg.com/564x/21/c7/8f/21c78f9b11406fe5df076a31020b27b3.jpg",
-  },
-  {
-    question: "¿Qué nombre tiene el personaje Ash Ketchum en Japón?",
-    answers: [" Shigeru", "Satoshi", "Kenji", "Ash"],
-    correctAnswer: "Ash",
-    text: "El nombre de Ash en el idioma original de la serie Pokémon es Satoshi, heredado del creador de los videojuegos Satoshi Tajiri.",
-    image:
-      "https://i.pinimg.com/564x/98/bc/35/98bc3565b73bc34066fcad783c51fcee.jpg",
-  },
-  {
-    question: "¿A qué público va dirigido un animé Seinen?",
-    answers: [" Adolescentes", "Niños", "Mujeres adultas", "Hombres adultos"],
-    correctAnswer: "Hombres adultos",
-    text: "Los animé Seinen están dirigidos para hombres adultos, por lo general son historias más profundas que tocan temas como la política.",
-    image:
-      "https://i.pinimg.com/564x/0a/2a/bc/0a2abc80f94780a905b31451f820861f.jpg",
-  },
-  {
-    question: "¿Cuál es el verdadero nombre de L en la serie 'Death Note'?",
-    answers: ["Eraldo Coil", "Light Yagami", "Elle Lawliet", "Hideki Ryuga"],
-    correctAnswer: "Elle Lawliet",
-    text: "En el animé Death Note, el nombre real del personaje L es revelado por Light cuando logra derrotarlo. Su nombre es Elle Lawliet.",
-    image:
-      "https://i.pinimg.com/564x/5a/27/39/5a2739cd6bd6e9dff8b0a93a711439a8.jpg",
-  },
-  {
-    question: "¿Cuántos episodios tiene la serie 'Naruto Shippuden'?",
-    answers: ["623", "330", "500", "450"],
-    correctAnswer: "500",
-    text: "Naruto Shippuden tiene un total de 500 episodios, sumándole el relleno. La serie inició en febrero de 2007 y terminó diez años después, en marzo de 2017.",
-    image:
-      "https://i.pinimg.com/564x/ec/ca/cf/eccacfe4389e748f00b3171b4452a33e.jpg",
+      "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/cdn/976a079e-5324-403f-97d5-6b425c6680d2/eab0aeb4-7bda-4994-87f0-f09f8542359c.jpg",
   },
 ];
 
@@ -129,37 +126,28 @@ $(function () {
     $("#answers")
       .children()
       .click(function () {
+        resetIntervalTimer();
+
         if ($(this).text() === correctAnswerElement.text()) {
-          resetIntervalTimer();
           correct++;
           showCorrectAnswer();
         } else {
-          resetIntervalTimer();
-          Swal.fire({
-            icon: "error",
-            title: "Respuesta Incorrecta",
-            html: "<small><p>" + QUESTIONS[questionIndex].text + "<p></strong>",
-            footer:
-              '<strong>Respuesta correcta:<p style="color:mediumseagreen;justify-content: center;">' +
-              QUESTIONS[questionIndex].correctAnswer +
-              "<p> </strong>",
-          }).then(function () {
-            incorrect++;
+          incorrect++;
+          $(this).addClass("wrong");
+          $(this).append("<span> &#10008;</span>");
+          $(this).siblings().not(correctAnswerElement).addClass("wrong");
 
-            $(this).addClass("wrong");
-            $(this).append("<span> &#10008;</span>");
-            $(this).siblings().not(correctAnswerElement).addClass("wrong");
+          correctAnswerElement.append("<span> &#10004;</span>");
+          correctAnswerElement.addClass("correct");
 
-            correctAnswerElement.append("<span> &#10004;</span>");
-            correctAnswerElement.addClass("correct");
+          // $("#message").css("display", "block");
+          $("#timeLeft").css("display", "none");
+          $("#message").text("INCORRECTO");
 
-            $("#message").css("display", "block");
-            $("#message").css("background", "red");
-            $("#timeLeft").css("display", "none");
-            $("#message").text("INCORRECTO");
-
-            // $("#imageTrivia").attr("src", "https://images.angelpub.com/2016/35/39703/wrong.gif");
-          });
+          $("#imageTrivia").attr(
+            "src",
+            "https://media.baamboozle.com/uploads/images/49869/1618223208_15917_gif-url.gif"
+          );
         }
 
         $(this).parent().children().off("click"); // Prevent click event
@@ -270,7 +258,7 @@ $(function () {
         var firebaseref = firebase
           .database()
           .ref(
-            "Test/" +
+            "Trivia/" +
               document.getElementById("Titles").innerText +
               "/" +
               data_carpet +
