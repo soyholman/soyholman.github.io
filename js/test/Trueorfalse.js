@@ -74,7 +74,7 @@ var QUESTIONS = [
   {
     question: "Esta construcción es visible a simple vista desde la Luna…",
     answers: ["Verdadero", "Falso"],
-    correctAnswer: "Verdadero",
+    correctAnswer: "Falso",
     text: "El astronauta Alan Bean comentó que desde la Luna solo se ven masas de nubes, áreas desérticas y vegetación. De igual manera la Gran Muralla China no es más ancha que una carretera normal.",
     image:
       "https://i.pinimg.com/564x/57/55/47/57554713c114a5dbc14b3740d1206d38.jpg",
