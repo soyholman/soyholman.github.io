@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap");
+
+header {
+  height: 200vh;
+}
+
+.container {
+  clip: rect(0, auto, auto, 0);
+  overflow: hidden;
+  position: absolute;
+  height: 100vh;
+  left: 0;
+  width: 100%;
+  -webkit-mask-image: -webkit-linear-gradient(top, #ffffff, #ffffff, 100%);
+}
+
+.container_solid {
+  background: white;
+  top: 0;
+}
+
+.title_wrapper {
+  position: fixed;
+  display: block;
+  margin: auto;
+  width: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.title_wrapper h1 {
+  text-align: center;
+  font-size: 64px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Poppins", serif;
+  font-weight: 900;
+}
+
+@media (max-width: 800px) {
+  .title_wrapper h1 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Poppins", serif;
+    font-weight: 900;
+  }
+  .fig {
+    color: #555;
+    font-size: 10px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+  }
+}
+
+.container_solid .title_wrapper h1 {
+  /* the text background */
+
+  background-size: 100vw auto;
+  background-position: center;
+  /* clip the text is possible */
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  /* fallback text color */
+  color: black;
+}
+
+.container_image {
+  /* Grab a free image from unsplash */
+
+  background-size: 100vw auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+
+  /* position the second container below the first container */
+  top: 100vh;
+}
+
+.container_image,
+.container_solid .title_wrapper h1 {
+  background-repeat: no-repeat;
+}
+
+.container_image .title_wrapper h1 {
+  color: white;
+}
+
+section {
+  min-height: 100vh;
+  padding: 2em;
+  margin: auto;
+  max-width: 800px;
+}
+
+.scrollDownSect {
+  position: absolute;
+  height: 80px;
+  width: 100vw;
+  bottom: 30px px;
+  display: flex;
+  justify-content: center;
+}
+
+.scrollDownSect span {
+  animation: an 3s infinite;
+  width: 3vw;
+  height: 3vw;
+  border-radius: 50%;
+  background-color: #555;
+}
+
+@keyframes an {
+  0% {
+    opacity: 0;
+    transform: translateY(200%);
+  }
+
+  20% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(-200%);
+  }
+}
+figcaption {
+  padding: 10px;
+  color: #555;
+  font-size: 15px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+img {
+  display: block;
+  margin: auto;
+  max-width: 80%;
+
+  border-radius: 10px;
+}
+section h2,
+h3 {
+  font-family: "Poppins", serif;
+}
+
+section p {
+  font-family: -apple-system, BlinkMacSystemFont, "Poppins", sans-serif;
+}
