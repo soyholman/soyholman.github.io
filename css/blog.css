@@ -3,7 +3,33 @@
 header {
   height: 200vh;
 }
+* {
+  font-family: "Poppins", sans-serif;
+}
 
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.menu a {
+  text-decoration: none;
+}
+.menu .btn {
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  font-size: 17px;
+  border-radius: 5px;
+  padding: 5px 20px;
+  margin: 10px 5px 0px 20px;
+}
+.btn:hover {
+  color: #333;
+  background: white;
+}
 .container {
   clip: rect(0, auto, auto, 0);
   overflow: hidden;
@@ -147,9 +173,9 @@ img {
 }
 section h2,
 h3 {
-  font-family: "Poppins", serif;
+  font-family: "Poppins", sans-serif;
 }
 
 section p {
-  font-family: -apple-system, BlinkMacSystemFont, "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }

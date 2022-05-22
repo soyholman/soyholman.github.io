@@ -156,12 +156,34 @@ body a {
   transform: translate(0, 40px);
 }
 
-.card-1 .card-img,
+/* .card-1 .card-img,
 .card-1 .card-img-hovered {
   background-image: var(--card-img-hovered-overlay),
     url(https://source.unsplash.com/Qm_n6aoYzDs);
+} */
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
-
+.menu a {
+  text-decoration: none;
+}
+.menu .btn {
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  font-size: 17px;
+  border-radius: 5px;
+  padding: 5px 20px;
+  margin: 10px 5px 0px 20px;
+}
+.btn:hover {
+  color: #333;
+  background: white;
+}
 .card-2 .card-img,
 .card-2 .card-img-hovered {
   background-image: var(--card-img-hovered-overlay),
@@ -176,6 +198,17 @@ body a {
 
 .card-4 .card-img,
 .card-4 .card-img-hovered {
+  background-image: var(--card-img-hovered-overlay),
+    url(https://source.unsplash.com/zAi2Is48-MA);
+}
+
+.card-5 .card-img,
+.card-5 .card-img-hovered {
+  background-image: var(--card-img-hovered-overlay),
+    url(https://source.unsplash.com/zAi2Is48-MA);
+}
+.card-6 .card-img,
+.card-6 .card-img-hovered {
   background-image: var(--card-img-hovered-overlay),
     url(https://source.unsplash.com/zAi2Is48-MA);
 }
