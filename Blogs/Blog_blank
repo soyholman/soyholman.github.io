@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> | </title>
+    <link rel="shortcut icon" href="/ico/Letter_H_blue_34993.ico">
+    <link rel="stylesheet" href="/css/blog.css" />
+    <link rel="stylesheet" href="/css/Aos.css">
+
+    <meta name="description" content="">
+
+
+</head>
+
+<style>
+    .container_image,
+    .container_solid .title_wrapper h1 {
+        background-image: url();
+
+    }
+</style>
+
+<body>
+    <header>
+        <!-- First container -->
+        <div class="container container_solid">
+            <div class="title_wrapper">
+                <h1>
+
+                </h1>
+                <div class="scrollDownSect">
+                    <span><img src="" alt="" /></span>
+                </div>
+            </div>
+        </div>
+        <!-- Second container -->
+        <div class="container container_image" aria-hidden="true">
+            <div class="title_wrapper">
+                <h1></h1>
+            </div>
+        </div>
+    </header>
+    <section>
+        <h2>
+
+        </h2>
+        <p>
+            <i></i>
+        </p>
+        <p>
+
+
+        </p>
+
+        <img data-aos="flip-left" src="" alt="" />
+
+        <!-- <figcaption class="fig">
+            Su esposa Constance tras los escándalos, cambió el apellido de sus hijos
+            a Holland. Pese a que no se divorciaron formalmente, Wilde nunca supo
+            más de ellos.-
+        </figcaption> -->
+
+        <h3></h3>
+
+
+        <h2></h2>
+        <p></p>
+
+
+        <img src="" data-aos="fade-up" data-aos-anchor-placement="top-bottom" alt="">
+
+
+
+    </section>
+    <div class="menu">
+
+        <a href="/Blogs/grandes misterios/Grandes_misterios.html" class="btn"><i class="fa-solid fa-book"></i></a>
+        <a href="/Blogs/Blog_menu.html" class="btn"><i class="fa-solid fa-bookmark"></i> </a>
+    </div>
+
+    <script src="/js/aos.js"></script>
+    <script>AOS.init();</script>
+    <script src="/js/Font-owesome/all.js"></script>
+</body>
+
+</html>
