@@ -120,7 +120,7 @@ $(function () {
           correctAnswerElement.append("<span> &#10004;</span>");
           correctAnswerElement.addClass("correct");
 
-          $("#message").css("display", "block");
+          // $("#message").css("display", "block");
           $("#timeLeft").css("display", "none");
           $("#message").text("INCORRECTO");
 
@@ -137,17 +137,18 @@ $(function () {
 
   // Function shows the correct trivia answer
   function showCorrectAnswer() {
-    $("#answers").children().not(correctAnswerElement).addClass("wrong");
-    correctAnswerElement.append("<span> &#10004;</span>");
-    correctAnswerElement.addClass("correct");
+    // $("#answers").children().not(correctAnswerElement).addClass("wrong");
+    // correctAnswerElement.append("<span> &#10004;</span>");
+    // correctAnswerElement.addClass("correct");
 
-    $("#answers").children().removeClass("hover");
-    $("#answers").children().off("click");
-    $("#timer").css("display", "none");
-    $("#message").css("display", "none");
-    $("#timeLeft").css("display", "none");
+    // $("#answers").children().removeClass("hover");
+    // $("#answers").children().off("click");
+
+    // $("#message").css("display", "block");
+    // $("#timer").css("display", "block");
     // $("#message").text("CORRECTO");
 
+    // $("#imageTrivia").attr("src", "https://c.tenor.com/BntXpMlrGuEAAAAC/check-correct.gif");
     Swal.fire({
       icon: "success",
       title: "Correcto",
@@ -155,33 +156,18 @@ $(function () {
       timer: 1600,
     });
   }
-  function showCorrectAnswertimer() {
-    $("#answers").children().not(correctAnswerElement).addClass("wrong");
-    correctAnswerElement.append("<span> &#10004;</span>");
-    correctAnswerElement.addClass("correct");
-
-    $("#answers").children().removeClass("hover");
-    $("#answers").children().off("click");
-
-    $("#message").css("display", "none");
-    $("#timeLeft").css("display", "none");
-    // $("#message").text("CORRECTO");
-  }
 
   // Function creates a countdown which is display on HTML
   // If timeLeft variable reach zero, correct answer shows up
   // and then wait for 4 seconds to restart
   function intervalTimer() {
     timer = setInterval(function () {
-      timeLeft--;
-      $("#timerSeconds").text(timeLeft);
-
       if (timeLeft == 0) {
         incorrect++;
-        showCorrectAnswertimer();
+        showCorrectAnswer();
         clearInterval(timer);
-        timeLeft = 15;
-        $("#timeLeft").css("display", "none");
+
+        $("#timer").css("display", "none");
         $("#message").text("se acabó el tiempo!");
         $("#message").css("display", "block");
 
@@ -204,15 +190,25 @@ $(function () {
 
     setTimeout(function () {
       questionIndex++;
-      timeLeft = 15;
+
       startGame();
       $("#message").css("display", "none");
-      $("#timer").css("display", "flex");
-      $("#message").text("SE HA TERMINADO EL TIEMPO!");
+      $("#timer").css("display", "block");
       $("#timeLeft").css("display", "block");
-      $("#timerSeconds").text(timeLeft);
+
       $("#imageTrivia").attr("src", QUESTIONS[questionIndex].image);
     }, 2000);
+  }
+
+  function resetInervalfalse() {
+    questionIndex++;
+
+    startGame();
+    $("#message").css("display", "none");
+
+    $("#timeLeft").css("display", "block");
+
+    $("#imageTrivia").attr("src", QUESTIONS[questionIndex].image);
   }
 
   // Function starts the game
