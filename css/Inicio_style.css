@@ -33,6 +33,12 @@ img {
   background-position: center;
   display: block;
 }
+
+.service-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 /* comentari */
 #logo {
   width: 42%;
