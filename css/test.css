@@ -512,7 +512,8 @@ a {
 .nav__list {
   display: flex;
   justify-content: center;
-  column-gap: 3.1rem;
+  gap: 49.6px;
+  /* column-gap: 3.1rem; */
 }
 
 .nav__link {
