@@ -15,6 +15,9 @@ body {
   background-position: center;
   height: 100%;
 }
+body {
+  background-color: #e6e7ee !important;
+}
 #canv {
   background-size: cover;
   background-repeat: no-repeat;
@@ -77,14 +80,19 @@ header {
 }
 #card {
   display: none;
-  background-color: white;
-  border-radius: 10px;
+
   overflow: hidden;
   min-width: 375px;
   max-width: auto;
   /* max-width: 650px; */
   margin: 0 auto;
-  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+
+  word-wrap: break-word;
+  background-color: #e6e7ee;
+  background-clip: border-box;
+  border: 0.0625rem solid rgba(243, 247, 250, 0.05);
+  border-radius: 0.55rem;
+  box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px #ffffff !important;
 }
 
 #timer-image {
@@ -116,10 +124,13 @@ img {
 }
 
 #question-header {
-  background-color: whitesmoke;
-  padding: 10px;
+  box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #ffffff !important;
+  padding: 6px;
+  width: fit-content;
+  max-width: 90%;
+  margin-bottom: 10px;
+  align-self: center;
   font-size: 1.3em;
-  margin: 0;
 }
 
 #answers {
@@ -131,10 +142,14 @@ img {
 }
 
 #answers > * {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #d1d9e6;
   height: 100%;
   line-height: auto;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .hover:hover {
@@ -204,8 +219,10 @@ img {
     width: 18%;
   }
   #question-header {
-    background-color: whitesmoke;
+    box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #ffffff !important;
     padding: 10px;
+    width: fit-content;
+    max-width: 90%;
     /* font-size: 1.3em; */
     margin: 0;
     font-size: 1.1em;
@@ -259,7 +276,11 @@ img {
   }
 
   #answers > * {
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #d1d9e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     height: 25%;
     /* 2.5em antes */
     line-height: 3.1em;
@@ -465,9 +486,9 @@ a {
   left: 0;
   right: 0;
   width: 328px;
-  height: 72px;
-  background-color: var(--container-color);
-  box-shadow: 0 8px 32px hsla(231, 44%, 45%, 0.2);
+  height: 70px;
+  box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #ffffff;
+
   margin: 0 auto;
   padding: 1.5rem 0.5rem;
   border-radius: 0.65rem;
