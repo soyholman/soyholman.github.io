@@ -68,6 +68,7 @@ a {
   padding: 1.5rem 0.5rem;
   border-radius: 0.65rem;
   overflow: hidden;
+  margin-top: 10px;
 }
 
 .nav__list {
