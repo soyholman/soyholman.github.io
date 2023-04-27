@@ -7,7 +7,7 @@
 #imageTrivia {
   /* height: 290px; */
   height: 280px;
-  align-self: center;
+
   object-fit: cover;
 }
 body {
@@ -26,6 +26,10 @@ body {
   background-attachment: fixed;
 
   height: 100%;
+}
+a:hover {
+  color: unset;
+  text-decoration: unset !important;
 }
 #quizArea,
 #resultArea,
@@ -249,7 +253,7 @@ img {
 
     /* height: 290px; */
     height: 200px;
-    object-fit: contain;
+    object-fit: cover;
   }
 
   #timer-image {
