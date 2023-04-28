@@ -1029,6 +1029,7 @@ Categories & Collections Style
   top: 50%;
   transform: translateY(-50px);
   text-align: center;
+  overflow: hidden;
 }
 
 .collections .owl-nav .owl-prev {
