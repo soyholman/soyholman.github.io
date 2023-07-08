@@ -19,8 +19,8 @@ var QUESTIONS = [
     answers: ["Trombón", "Saxofón", "Piano"],
     correctAnswer: "Saxofón",
     text: "Lisa es una amante de la música jazz, por lo que toca el saxofón barítono y en ocasiones la guitarra.",
-
-    image: "https://c.tenor.com/HXQ6YHa9RxEAAAAd/quieres-pelea-fight.gif",
+    image:
+      "https://static.vix.com/es/sites/default/files/n/nacimiento-de-bart-simpson.gif",
   },
   {
     question: "¿Quién hace la voz de Homero Simpson en inglés?",
@@ -217,7 +217,13 @@ $(function () {
       $("#timeLeft").css("display", "block");
 
       $("#imageTrivia").attr("src", QUESTIONS[questionIndex].image);
-    }, 2000);
+
+      var imageTrivia = $("#imageTrivia");
+      imageTrivia.on("error", function () {
+        // Handle error when the image source doesn't exist
+        console.log("Image source does not exist.");
+      });
+    }, 1500);
   }
 
   function resetInervalfalse() {
