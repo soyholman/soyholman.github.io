@@ -1951,7 +1951,7 @@ h4 {
   }
   .work .project-box,
   .work .project-box .project-image {
-   width: 200%;
+    width: 200%;
     height: 117px;
   }
   .work .project-box.h {
