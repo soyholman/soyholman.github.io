@@ -2026,7 +2026,8 @@ footer .copy svg {
 }
 footer .social-wrp {
   display: grid;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
 }
 footer .social-wrp svg {
   width: 22px;
