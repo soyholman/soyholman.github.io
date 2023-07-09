@@ -12,6 +12,10 @@ html,
 body {
   height: 100vh;
 }
+
+.form-container {
+  align-self: center;
+}
 .form-container #logo {
   width: 60%;
   padding: 5%;
