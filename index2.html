@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Descripcion de pagina web de proposito educativo">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cultura General | Bienvenida</title>
+
+  <link rel="shortcut icon" href="ico/Letter_H_blue_34993.ico">
+  <link href="/css/Aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/Inicio_style.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/Anijcollection.css">
+</head>
+
+<body onload="params();">
+
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <ul class="menu">
+
+
+
+
+          <li class="menu_item"><a data-anijs="if: mouseover, do: pulse animated animated, to: $parent target"
+              href="#novedades-section" class="menu_link">Novedades</a></li>
+          <li class="menu_item"><a data-anijs="if: mouseover, do: pulse animated animated, to: $parent target"
+              href="#services-section" class="menu_link">Secciones</a></li>
+          <li class="menu_item"><a data-anijs="if: mouseover, do: pulse animated animated, to: $parent target"
+              href="#suggest-section" class="menu_link">Sugiérenos Temas</a></li>
+          <li class="menu_item"><a data-anijs="if: mouseover, do: pulse animated animated, to: $parent target"
+              href="#about-section" class="menu_link">Acerca de nosotros</a></li>
+
+          <li class="menu_item"><a data-anijs="if: mouseover, do: pulse animated animated, to: $parent target"
+              id="leave" style="color: red;" class="menu_link">Cerrar sesión</a></li>
+          <!-- <li class="menu_item"><a href="" class="menu_link">Articulos</a></li> -->
+        </ul>
+
+      </nav>
+    </div>
+  </header>
+
+  <section class="masthead" id="home-section">
+
+
+    </div>
+    <div class="container">
+
+      <img src="/img/culturags.png" data-anijs="if: load, on: window, do: swing animated" id="logo"
+        class="menu_item masthead_title" alt="">
+
+      <h2 class="masthead_title" id="welcome">Bienvenido <span class=" container" id="getname"></span> </h2>
+      <!-- Avatar image -->
+
+
+
+      <hr>
+
+
+      <br>
+      <img class="container avatar__image" />
+      </p>
+
+      <br>
+
+
+    </div>
+
+    <div class="masthead" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 340 150" preserveAspectRatio="none"
+        style="height: 100%; width: 100%;">
+        <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+          style="stroke: none; fill:#e6e7ee;"></path>
+      </svg>
+  </section>
+  <section class="about" id="novedades-section">
+
+
+    <div class="container">
+      <h1 class="container_title">Novedades</h1>
+
+      <section>
+
+        <div class="swiper mySwiper container">
+          <div class="swiper-wrapper content">
+
+
+
+            <div class="swiper-slide card">
+              <div class="card-content">
+                <div class="image">
+                  <img src="https://i.pinimg.com/564x/ba/ab/fe/baabfe3817a4e52e34a5edd73cf908a5.jpg">
+                </div>
+                <div class=" name-profession">
+                  <span class="name">Trivia:¿Qué tanto sabes sobre el mundo?</span>
+                  <span class="profession">Aquí te traigo una trivia para que demuestres tus
+                    conocimientos acerca del mundo y sus datos interesantes. ¡ÉXITO!</span>
+                </div>
+                <div class="button">
+                  <button class="aboutMe" data-anijs="if: click, do: fadeOut animated, to: body, after: $removeAnim"
+                    onclick="window.location='Trivias/World.html'">Jugar </button>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="swiper-slide card">
+              <div class="card-content">
+                <div class="image">
+                  <img src="https://i.pinimg.com/564x/38/74/fc/3874fc945f72bc661a76ddfd51576dea.jpg">
+                </div>
+                <div class=" name-profession">
+                  <span class="name">Trivia:¿Sabrías responder esta trivia de historia?</span>
+                  <span class="profession">La Historia es la ciencia que estudia y sistematiza los
+                    hechos más importantes y transcendentales del pasado humano.
+                    Realiza esta trivia de 9 preguntas sobre los sucesos que marcaron la historia de
+                    nuestra humanidad.</span>
+                </div>
+                <div class="button">
+                  <button class="aboutMe" data-anijs="if: click, do: fadeOut animated, to: body, after: $removeAnim"
+                    onclick="window.location='Trivias/Answer_history.html'">Jugar </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide card">
+              <div class="card-content">
+                <div class="image">
+                  <img src="https://i.pinimg.com/564x/54/fe/b1/54feb196e14473ac19a06a5e38cdd994.jpg">
+                </div>
+                <div class=" name-profession">
+                  <span class="name">Test:¿Podrás Responder Estas Preguntas De Verdadero O
+                    Falso?</span>
+                  <span class="profession">¿Podrás Responder Correctamente A Estas 10 Preguntas De
+                    Verdadero O Falso? ¡Pon A Prueba Tu Conocimiento Para Contestar
+                    A Este Divertido Test!</span>
+                </div>
+                <div class="button">
+                  <button class="aboutMe" data-anijs="if: click, do: fadeOut animated, to: body, after: $removeAnim"
+                    onclick="window.location='test/trueorfalse.html'">Jugar </button>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="swiper-slide card">
+              <div class="card-content">
+                <div class="image">
+                  <img
+                    src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=773&q=80 alt="">
+                                 </div>
+                                 <div class=" name-profession">
+                  <span class="name">Trivia: ¿Cuánto Conocimiento General Posees?</span>
+                  <span class="profession">10 Preguntas Que Pondrán En Duda Tus Conocimientos
+                    Generales. ¿Aceptas El Reto?</span>
+                </div>
+                <div class="button">
+                  <button class="aboutMe" data-anijs="if: click, do: fadeOut animated, to: body, after: $removeAnim"
+                    onclick="window.location='/Trivias/knowledge.html'">Jugar </button>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="swiper-slide card">
+              <div class="card-content">
+                <div class="image">
+                  <img src="https://i.pinimg.com/564x/21/c7/8f/21c78f9b11406fe5df076a31020b27b3.jpg" alt="">
+                </div>
+                <div class="name-profession">
+                  <span class="name">¡Test Para Los Fanáticos Del Animé! 🐱‍🚀</span>
+                  <span class="profession">¿Eres Un Amante De La Animación Japonesa? ¿Crees Que Eres
+                    Un Conocedor Del Animé? Entonces Este Test Es Para Ti. Intenta Superar Estas 10
+                    Preguntas De Animé Que Preparamos Para Verdaderos Fanáticos…</span>
+                </div>
+                <div class="button">
+                  <button class="aboutMe" data-anijs="if: click, do: fadeOut animated, to: body, after: $removeAnim"
+                    onclick="window.location='test/Anime_fan.html'">Jugar </button>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="swiper-slide card">
+              <div class="card-content">
+                <div class="image">
+                  <img
+                    src="https://images.unsplash.com/photo-1556720072-94ce7d90544c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                    alt="">
+                </div>
+                <div class="name-profession">
+                  <span class="name">Trivia:Pon A Prueba Cuánto Sabes De Cerveza</span>
+                  <span class="profession">Llámala Como Quieras: Elixir De Los Dioses, Amor
+                    Embotellado, Belleza De Los Fenicios Y Tendrás Razón. Pon A Prueba Cuánto Sabes
+                    De Cerveza Con Esta Lista De 8 Datos Que Solo Saben Los Expertos En
+                    Cerveza.</span>
+                </div>
+                <div class="button">
+                  <button class="aboutMe" data-anijs="if: click, do: fadeOut animated, to: body, after: $removeAnim"
+                    onclick="window.location='Trivias/Beer.html'">Jugar </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide card">
+              <div class="card-content">
+                <div class="image">
+                  <img
+                    src="https://images.unsplash.com/photo-1541873676-a18131494184?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=418&q=80alt=%22%22"
+                    alt="">
+                </div>
+                <div class="name-profession">
+                  <span class="name">Trivia:¿Puedes Recordar Estos Momentos Que Marcaron La Historia
+                    De La Humanidad? Averígualo…</span>
+                  <span class="profession">Si Crees Poder Recordar Estos Importantes Eventos,
+                    ¡Atrévete A Responder Esta Trivia!.</span>
+                </div>
+                <div class="button">
+                  <button class="aboutMe" data-anijs="if: click, do: fadeOut animated, to: body, after: $removeAnim"
+                    onclick="window.location='Trivias/momentos_historia.html'">Jugar </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide card">
+              <div class="card-content">
+                <div class="image">
+                  <img
+                    src="https://images.unsplash.com/photo-1590178632178-71dea458a543?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                    alt="">
+                </div>
+                <div class="name-profession">
+                  <span class="name">Test:¿Reconoces Estos 10 Patrones Sexuales? Mira Si Has
+                    Experimentado Alguno…</span>
+                  <span class="profession">El Universo De La Sexualidad Se Expande En Los Confines De
+                    Lo Correcto E Incorrecto… ¿Lo Sabes Todo Sobre Prácticas Sexuales Que Son, Para
+                    Muchos, Inusuales? Demuéstralo O Aprende Con Este Test.</span>
+                </div>
+                <div class="button">
+                  <button class="aboutMe" data-anijs="if: click, do: fadeOut animated, to: body, after: $removeAnim"
+                    onclick="window.location='test/patrones_sexuales.html'">Jugar </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide card">
+              <div class="card-content">
+                <div class="image">
+                  <img
+                    src="https://images.unsplash.com/photo-1600761649979-bd6967781045?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80"
+                    alt="">
+                </div>
+                <div class="name-profession">
+                  <span class="name">Trivia:¿Cuándo Se Fundaron Estas Compañías?</span>
+                  <span class="profession">¿Conoces El Año De Apertura De Estas Compañías Famosas?
+                    Descúbrelo Realizando Esta Trivia De 10 Preguntas.</span>
+                </div>
+                <div class="button">
+                  <button class="aboutMe" data-anijs="if: click, do: fadeOut animated, to: body, after: $removeAnim"
+                    onclick="window.location='Trivias/compañias.html'">Jugar </button>
+                </div>
+              </div>
+            </div>
+
+
+
+
+            <div class="swiper-slide card">
+              <div class="card-content">
+                <div class="image">
+                  <img
+                    src="https://images.unsplash.com/photo-1539814858141-928517f6afd3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+                    alt="">
+                </div>
+                <div class="name-profession">
+                  <span class="name">Trivia:¿Cuánto sabes de anatomía?</span>
+                  <span class="profession">20 preguntas sobre el cuerpo humano que todos deberíamos
+                    saber responder.</span>
+                </div>
+                <div class="button">
+                  <button class="aboutMe" data-anijs="if: click, do: fadeOut animated, to: body, after: $removeAnim"
+                    onclick="window.location='Trivias/Anatomia_trivia.html'">Jugar </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide card">
+              <div class="card-content">
+                <div class="image">
+                  <img src="https://www.recetas-nicaragua.com/base/stock/Recipe/165-image/165-image_web.jpg" alt="">
+                </div>
+                <div class="name-profession">
+                  <span class="name">Test: ¿Conoces El Origen De Estos Alimentos?</span>
+                  <span class="profession">A Todos Nos Encanta Comer Y Disfrutar Los Diferentes
+                    Sabores Que Cada Comida Nos Puede Brindar, Pero ¿Conoces De Dónde Provienen
+                    Verdaderamente Los Alimentos Que Consumes?</span>
+                </div>
+                <div class="button">
+                  <button class="aboutMe" data-anijs="if: click, do: fadeOut animated, to: body, after: $removeAnim"
+                    onclick="window.location='test/meals.html'">Jugar </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide card">
+              <div class="card-content">
+                <div class="image">
+                  <img
+                    src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80"
+                    alt="">
+                </div>
+                <div class="name-profession">
+                  <span class="name">Test¡Demuestra Que Eres El Sabelotodo De La Cultura
+                    General!</span>
+                  <span class="profession">¡Nuevamente Traemos Un Divertido Test De Cultura General!
+                    ¿Crees Que Tienes Lo Necesario Para Llevarte El Título De Sabelotodo En Cultura
+                    General? ¡Demuéstralo Aquí!</span>
+                </div>
+                <div class="button">
+                  <button class="aboutMe" data-anijs="if: click, do: fadeOut animated, to: body, after: $removeAnim"
+                    onclick="window.location='test/Show_culture.html'">Jugar </button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide card">
+              <div class="card-content">
+                <div class="image">
+                  <img
+                    src="https://images.unsplash.com/photo-1535905557558-afc4877a26fc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                    alt="">
+                </div>
+                <div class="name-profession">
+                  <span class="name">Trivia: Si Te Gusta La Historia Este Examen Es Para Ti</span>
+                  <span class="profession">¿Te Atreves A Poner A Prueba Tus Conocimientos De Historia
+                    Universal? Te Retamos Con Esta Trivia.¡Éxito!</span>
+                </div>
+                <div class="button">
+                  <button class="aboutMe" data-anijs="if: click, do: fadeOut animated, to: body, after: $removeAnim"
+                    onclick="window.location='Trivias/trivia_historia.html'">Jugar </button>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+            <div class="swiper-slide card">
+              <div class="card-content">
+                <div class="image">
+                  <img src="https://vicmun.com/media/stories/images/0ae9ed06-1c40-4243-aef5-fded4dc924fc.png" alt="">
+                </div>
+                <div class="name-profession">
+                  <span class="name">Trivia: ¿Puedes Adivinar Dónde Se Comen Estos Extraños
+                    Platillos?</span>
+                  <span class="profession">Ponemos A Prueba Tus Conocimientos Sobre Platillos Bastante
+                    Extraños.</span>
+                </div>
+                <div class="button">
+                  <button class="aboutMe" data-anijs="if: click, do: fadeOut animated, to: body, after: $removeAnim"
+                    onclick="window.location='Trivias/exotic_food.html'">Jugar </button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide card">
+              <div class="card-content">
+                <div class="image">
+                  <img
+                    src="https://www.radioestrelladelmar.org/wp-content/uploads/2018/05/Piffard_Harold_H_Joan_Of_Arc.jpg"
+                    alt="">
+                </div>
+                <div class="name-profession">
+                  <span class="name">Trivia: ¿Reconoces A Estos Personajes Históricos?</span>
+                  <span class="profession">¿Sabrías Reconocer A Estos Personajes Históricos Con Tan
+                    Solo Ver Una Imagen Suya?</span>
+                </div>
+                <div class="button">
+                  <button class="aboutMe" data-anijs="if: click, do: fadeOut animated, to: body, after: $removeAnim"
+                    onclick="window.location='Trivias/Personajes_historicos.html'">Jugar </button>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="swiper-slide card">
+              <div class="card-content">
+                <div class="image">
+                  <img
+                    src="https://cdn2.salud180.com/sites/default/files/styles/medium/public/field/image/2020/03/basicos-primeros-auxilios.jpg"
+                    alt="">
+                </div>
+                <div class="name-profession">
+                  <span class="name">Trivia:¿Puedes Dar Los Primeros Auxilios Correctamente?⛑️</span>
+                  <span class="profession">Te Invitamos A Hacer Una Trivia De Primeros Auxilios Y
+                    Descubrir Si Podrías Actuar Adecuadamente En Una Situación De Emergencia O Si
+                    Deberías Repasar Las Reglas Básicas.</span>
+                </div>
+                <div class="button">
+                  <button class="aboutMe" data-anijs="if: click, do: fadeOut animated, to: body, after: $removeAnim"
+                    onclick="window.location='Trivias/Primeros_Auxilios.html'">Jugar </button>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="swiper-slide card">
+              <div class="card-content">
+                <div class="image">
+                  <img
+                    src="https://images.unsplash.com/photo-1527566406204-827440d86bd3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                    alt="">
+                </div>
+                <div class="name-profession">
+                  <span class="name">Test: ¿Sabrás Cuánto Tardan En Degradarse Estos
+                    Materiales?</span>
+                  <span class="profession">Actualmente El Ser Humano Está Destruyendo Y Contaminando
+                    Cada Vez Más A Nuestro Planeta Tierra… Debido A La Cantidad Y Diversidad De
+                    Desechos, Su Degradación Puede Tardar Desde Meses Hasta Miles De Años…</span>
+                </div>
+                <div class="button">
+                  <button class="aboutMe" data-anijs="if: click, do: fadeOut animated, to: body, after: $removeAnim"
+                    onclick="window.location='test/ecotest.html'">Jugar </button>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+
+          </div>
+          <br>
+          <!-- <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div> -->
+          <div class="swiper-pagination"></div>
+        </div>
+
+
+      </section>
+
+    </div>
+
+  </section>
+
+  </div>
+  <!-- data-anijs="if: mouseover, do: pulse animated animated, to: $parent target" -->
+  </section>
+
+
+  <section id="services-section">
+
+    <div class="container" class="services" data-aos="zoom-out-up">
+      <h1 class="container_title">Secciones</h1>
+
+      <!-- <p>De clic sobre los iconos para acceder.</p> -->
+      <div class="service-items">
+        <div class="service">
+          <a class="fa fa-book-open service_icon "></a>
+          <!-- <h3>Personajes Historicos</h3> -->
+          <br>
+          <br>
+          <button data-anijs="if: click, do: fadeOut animated, to: body, after: $removeAnim"
+            onclick="window.location='/Blogs/Blog_menu.html'">Blogs</button>
+          <br>
+          <br>
+          <p>Datos informativos , blogs de muchas temáticas los cuales puedes leer y aprender de forma
+            divertida.
+          </p>
+        </div>
+
+        <div class="service">
+          <a class="fas fa-dice-four service_icon"></a>
+          <br>
+          <br>
+          <button data-anijs="if: click, do: fadeOut animated, to: body, after: $removeAnim"
+            onclick="window.location='/Juegos/Triviamenu.html'">Trivia</button>
+          <br>
+          <br>
+          <p>Trivia con amplías cantidades de temáticas ¡aprender nunca fue tan
+            divertido!.</p>
+        </div>
+
+        <div class="service">
+          <a class="fas fa-dice-four service_icon"></a>
+          <br>
+          <br>
+          <button data-anijs="if: click, do: fadeOut animated, to: body, after: $removeAnim"
+            onclick="window.location='/games.html'">Test</button>
+          <br>
+          <br>
+          <p>Divertidos test de diferentes tematicas que seguro te encantaran</p>
+        </div>
+        <div class="service">
+          <a class="fas fa-globe service_icon"></a>
+          <br>
+          <br>
+          <button data-anijs="if: click, do: fadeOut animated, to: body, after: $removeAnim"
+            onclick="window.location='/Juegos/menu_universo.html'">Universo</button>
+          <br>
+          <br>
+          <p>¿Te gustaría dar un viaje sobre nuestro pragmático universo?, entonces esta sección es para ti .
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="services" id="suggest-section">
+
+    <div class="container">
+      <h1 class="container_title">Sugiérenos Temas</h1>
+      <br>
+      <p>Selecciona la dinámica que deseas sugerir.</p>
+      <br>
+      <center>
+        <select name="" id="dinamic">
+
+          <option value="Trivia">Trivia</option>
+          <option value="Test">Test</option>
+        </select>
+      </center>
+      <br>
+      <p>Propón un tema</p>
+      <br>
+      <center>
+        <input type="text" data-anijs="if: click, do:  bounceIn animated, to:#suggest" id="suggest"
+          placeholder="Escríbenos el tema que deseas">
+        <br>
+        <br>
+        <br>
+        <button id="Enviar" data-anijs="if: mouseover, do: pulse animated animated, to: $parent target">Enviar
+          Sugerencia</button>
+      </center>
+    </div>
+
+  </section>
+
+
+  <section class="about" id="about-section">
+
+    <div class="container">
+      <h1 class="container_title">Acerca de nosotros</h1>
+      <br>
+      <h3><a href="/Card/Card_Social.html" target="_blank" id="social">Holman Morales</a> </h3>
+      <br>
+      <div class="Hero_profile">
+        <article class="article-col" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+          <p>Hola soy Holman Morales un chico de 24 años . Cuento con el título de Ingeniero en sistemas.
+            Podría
+            definirme como un inadaptado de gustos sencillos y extrovertido por naturaleza con mucho amor
+            .por
+            la lectura por el simple beneficio de mantenerme presente en cada segundo, este sitio web surgió
+            como consecuencia de mis dos pasiones la informática y la historia.
+            <br>
+            <br>
+            Realmente en este apartado no quería plasmar muchos párrafos concurrentes de quien soy sino
+            aprovechar este momento en el que lees esto para instarte a nunca dejar de aprender, quien no
+            aprende ya está muerto en vida. Reinvéntate y jamás pongas límites a tus capacidades, porque es
+            subjetivo ser bueno o malo en alguna disciplina Basta con dar lo mejor de ti , Gracias por
+            llegar
+            hasta acá espero pueda disfrutar de este contenido el cual lo hago sin tener alguna oportunidad
+            adquisitiva más que el apoyo que ustedes me dan.
+          </p>
+          <br>
+          <a id="portafolio" href="/Portafolios/Holman_portafolio.html" target="_blank"> <button
+              data-anijs="if: mouseover, do: pulse animated animated, to: $parent target">Mi
+              Portafolio</button></a>
+        </article>
+
+        <aside class="aside" data-aos="zoom-out-up">
+          <div class="container-aside">
+            <img data-anijs="if:click, do:  rotateIn animated, to: $parent target" src="img/mypic.jpg" alt=""
+              class="container-aside_image" height="597">
+          </div>
+
+        </aside>
+      </div>
+
+    </div>
+    <br>
+    <hr>
+    <div class="container">
+
+      <br>
+      <h3><a href="/Card/Card_angely.html" id="social" target="_blank">Angely Membreño</a> </h3>
+      <br>
+      <article class="article-col" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+        <p>Soy Angely Membreño, cuento con un titulo de ingeniería en sistemas, con experiencia en el área de
+          diseño gráfico. podría definirme como una persona sencilla, humilde, capaz de lograr todo lo que se
+          propone. Además de tener un gran amor a los animales y la naturaleza.</p>
+        <br>
+        <a id="portafolio" href="/Portafolios/portafolio_angely.html" target="_blank"> <button
+            data-anijs="if: mouseover, do: pulse animated animated, to: $parent target">Mi Portafolio
+          </button></a>
+      </article>
+
+      <aside class="aside">
+        <div class="container-aside">
+          <img data-anijs="if:click, do:  rotateIn animated, to: $parent target"
+            src="img/WhatsApp Image 2022-01-17 at 1.10.11 PM.jpeg" data-aos="zoom-in-up" alt=""
+            class="container-aside_image" height="597">
+        </div>
+      </aside>
+
+    </div>
+    <hr>
+    <div class="container">
+
+      <br>
+      <h3>José Sánchez</h3>
+      <br>
+      <article class="article-col" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+        <p>Hola soy José Sánchez tengo la edad de 18 años , tengo una curiosidad por la historia especialmente
+          por la segunda guerra mundial entre otros hechos históricos , actualmente me especializó en la area
+          de edición,soy una persona tranquila, humilde y capas de alcázar mis metas y objetivos.</p>
+      </article>
+
+      <aside class="aside">
+        <div class="container-aside">
+          <img data-anijs="if: click, do:  rotateIn animated, to: $parent target" src="img/jose.jpeg" data-aos="zoom-in"
+            alt="" class="container-aside_image" height="597">
+        </div>
+      </aside>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="icons-social">
+      <ul class="menu menu-list-social">
+        <li class="icons-social_item"><a href="https://www.instagram.com/soyholman/" target="_blank"
+            class="icons-social_link"><i class="icons-social_i fab fa-instagram"></i></a></li>
+        <li class="icons-social_item"><a href="https://www.facebook.com/holmanalejandro.morales" target="_blank"
+            class="icons-social_link"><i class="icons-social_i fab fa-facebook"></i></a></li>
+        <li class="icons-social_item"><a href="https://vm.tiktok.com/ZMLJt3opv" target="_blank"
+            class="icons-social_link"><i class="icons-social_i fab fa-tiktok"></i></a></li>
+        <li class="icons-social_item"><a href="https://twitter.com/holmanmor" target="_blank"
+            class="icons-social_link"><i class="icons-social_i fab fa-twitter"></i></a></li>
+        <!-- <li class="icons-social_item"><a href="" class="icons-social_link"><i class="icons-social_i fab fa-google-plus"></i></a></li> -->
+      </ul>
+    </div>
+    <div class="container-footer">
+      <p><a href="/Card/Card_Social.html" target="_blank" class="container-footer_link"> <strong> Holman
+            Morales</strong> </a>| 2021</p>
+    </div>
+  </footer>
+  <script src="/js/aos.js"></script>
+  <script src="https://kit.fontawesome.com/f955c68031.js"></script>
+  <!-- <script src="/js/Font-owesome/all.js"></script> -->
+  <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-database.js"></script>
+  <script>
+    AOS.init();
+    const firebaseConfig = {
+      apiKey: "AIzaSyCLx7EClnZjSKXmWTCWx0GXjGE3ZCXbsf4",
+      authDomain: "emailtest-98f89.firebaseapp.com",
+      projectId: "emailtest-98f89",
+      databaseURL: "https://emailtest-98f89-default-rtdb.firebaseio.com/",
+      storageBucket: "emailtest-98f89.appspot.com",
+      messagingSenderId: "1098470238354",
+      appId: "1:1098470238354:web:dd90ac6dd974704ea35e4b"
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    const auth = firebase.auth();
+
+
+  </script>
+  <script>
+    function params() {
+
+
+      var user = firebase.auth().currentUser;
+      auth.onAuthStateChanged(user => {
+
+        if (user != null) {
+
+
+
+
+        }
+        else if (user == null) {
+
+          Swal.fire({
+            title: 'Debe registrarse',
+            icon: 'warning',
+            backdrop: `
+    rgba(0,0,0,0.6)
+  `,
+            html:
+              'Para continuar debe <b>registrarse</b> ' +
+              'como usuario de <strong style="color:green">Cultura general.</strong>',
+            showCancelButton: true,
+            confirmButtonText: 'Seguir como usuario Anonimo',
+            cancelButton: 'btn btn-success',
+            cancelButtonText: 'Iniciar Sesión',
+            cancelButtonColor: 'green',
+
+          }).then((result) => {
+            /* Read more about isConfirmed, isDenied below */
+            if (result.isConfirmed) {
+              firebase.auth().signInAnonymously().then(result => {
+
+
+                Swal.fire({
+
+                  icon: 'success',
+                  title: 'Ha iniciado sesión como usuario anónimo',
+                  showConfirmButton: false,
+                  timer: 1600
+                })
+
+
+              }).catch(err => {
+                console.log(err);
+              })
+            } else {
+
+              location.href = "/Login.html";
+            }
+          })
+
+
+
+        }
+      })
+
+    }
+
+
+
+
+
+
+
+    const logout = document.querySelector('#leave');
+
+    logout.addEventListener('click', e => {
+
+
+
+
+      Swal.fire({
+        title: 'Desea Cerrar Sesión?',
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonText: 'No cerrar sesión',
+        cancelButton: 'btn btn-success',
+        cancelButtonText: 'Cerrar Sesion',
+        cancelButtonColor: 'red',
+
+      }).then((result) => {
+        /* Read more about isConfirmed, isDenied below */
+        if (result.isConfirmed) {
+
+
+
+          Swal.fire({
+
+            icon: 'success',
+            title: 'Sesión mantenida',
+            showConfirmButton: false,
+            timer: 1600
+          })
+
+
+
+        } else {
+          firebase.auth().signOut().then(() => {
+
+            location.href = "/Login.html";
+
+          }).catch(e => {
+            console.error('Sign Out Error', e);
+          });
+
+        }
+      })
+
+    })
+
+
+    let slider = document.querySelector(".slider-contenedor")
+    let sliderindivudual = document.querySelectorAll(".contenido-slider")
+    let contador = 1;
+    let width = sliderindivudual[0].clientWidth;
+    let intervalo = 4200;
+    window.addEventListener("resize", function () {
+
+      width = sliderindivudual[0].clientWidth;
+
+
+    })
+
+    setInterval(function () {
+      slides();
+    }, intervalo);
+    function slides() {
+
+      slider.style.transform = "translate(" + (-width * contador) + "px)";
+      slider.style.transition = "transform .8s";
+
+      contador++;
+      if (contador == sliderindivudual.length) {
+        setTimeout(() => {
+
+          slider.style.transform = "translate(0px)";
+
+          slider.style.transition = "transform .8s";
+          contador = 1;
+        }, 1800);
+      }
+    }
+
+  </script>
+  <script src="/js/Animacion/anij.js"></script>
+  <script src="/js/sweetalert.min.js"></script>
+  <script src="/js/firebase/recomendaciones.js"></script>
+  <script src="/js/swiper/swiper.js"></script>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 2,
+          spaceBetween: 50,
+        },
+      },
+    });
+  </script>
+
+</body>
+
+</html>
