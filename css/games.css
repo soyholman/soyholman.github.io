@@ -105,7 +105,11 @@ input::placeholder {
   align-content: center;
   text-align: center;
 }
-
+center {
+  margin-top: 50px;
+  /* margin-bottom: 30px; */
+  /* margin-left: 50%; */
+}
 #search {
   margin-top: 50px;
   margin-bottom: 30px;
@@ -380,7 +384,7 @@ nav .li:hover {
 }
 
 body {
-  background: black;
+  background: #e6e7ee;
   background-repeat: no-repeat;
   height: 450px;
 }

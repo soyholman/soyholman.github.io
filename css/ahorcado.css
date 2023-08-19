@@ -1,477 +1,499 @@
-
-@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
-
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
 
 body {
- 
-    font-family: 'Poppins',sans-serif;
-
+  font-family: "Poppins", sans-serif;
 }
- #home .title  a{
-text-align: center;
-    color: white;
-    background: fixed;
-    font-weight: bolder;
-    font-size:x-large;
-   
-    left:0;
+#home .title a {
+  text-align: center;
+  color: white;
+  background: fixed;
+  font-weight: bolder;
+  font-size: x-large;
 
-    right:0;
-    top:0;
-    text-decoration: none;
-    position:absolute;
+  left: 0;
+
+  right: 0;
+  top: 0;
+  text-decoration: none;
 }
-#home .title a:hover{
-
-    color: black;
-    letter-spacing: 3px;
+#home .title a:hover {
+  color: black;
+  letter-spacing: 3px;
 }
 #home {
-background:linear-gradient(mediumseagreen, rgba(0, 0, 0, 0.7) 80%);
-    bottom:0;
-   
-    left:0;
-   
-    right:0;
-    top:0;
-    color: white;
-    z-index:99;
-     position:absolute;
+  background: linear-gradient(mediumseagreen, rgba(0, 0, 0, 0.7) 80%);
+  bottom: 0;
+
+  left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: center;
+  right: 0;
+  top: 0;
+  color: white;
+  z-index: 99;
+  position: fixed;
 }
 
 #home .title {
-    font-size:48px;
-    font-weight:bold;
-    margin-top:15%;
-    text-align:center;
+  font-size: xx-large;
+  font-weight: bold;
+  margin-top: 15%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
 #home .button {
-    background:mediumseagreen;
-border: 2px solid ;
-    color: white;
-    
-display:inline-flexbox;
-    width:  200px;
-    height: 40px;
-    
-  
-    font-weight:bold;
- 
+  background: mediumseagreen;
+  border: 2px solid;
+  color: white;
 
-    text-align: center;
+  display: inline-flexbox;
+  width: 200px;
+  height: 40px;
+
+  font-weight: bold;
+
+  text-align: center;
 }
-.button{
+.button {
+  background: mediumseagreen;
+  border: 2px solid;
+  color: white;
 
-    background:mediumseagreen;
-    border: 2px solid ;
-        color: white;
-        
-    display:inline-flexbox;
-        width:  200px;
-        height: 40px;
-        
-      
-        font-weight:bold;
-     
-    
-        text-align: center;
+  display: inline-flexbox;
+  width: 200px;
+  height: 40px;
+
+  font-weight: bold;
+
+  text-align: center;
 }
 
-#home .button:hover{
-
-    color: black;
-    background: white;
-    letter-spacing: 2px;
-    border:  2px solid green;
+#home .button:hover {
+  color: black;
+  background: white;
+  letter-spacing: 2px;
+  border: 2px solid green;
 }
 #home .foother {
-    bottom:20px;
-    font-size:12px;
-    font-style:italic;
-    position:absolute;
-    right:20px;
+  bottom: 20px;
+  font-size: 12px;
+  font-style: italic;
+  position: absolute;
+  right: 20px;
 }
 
 .h {
-    display:none;
+  display: none;
 }
 
 #result {
-    background:linear-gradient(rgba(125, 0, 0, 0.9) 20%, rgba(0, 0, 0, 0.7) 80%);
-    bottom:0;
-    left:0;
-    position:absolute;
-    right:0;
-    top:0;
-    z-index:100;
+  background: linear-gradient(rgba(125, 0, 0, 0.9) 20%, rgba(0, 0, 0, 0.7) 80%);
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 100;
 }
 
 #result[data="true"] {
-    background:linear-gradient(rgba(0, 125, 0, 0.9) 20%, rgba(0, 0, 0, 0.7) 80%);
+  background: linear-gradient(rgba(0, 125, 0, 0.9) 20%, rgba(0, 0, 0, 0.7) 80%);
 }
 
 #result .title {
-    color:#eee;
-    font-size:48px;
-    margin-top:15%;
-    text-align:center;
-    text-shadow:1px 1px 0 #000;
+  color: #eee;
+  font-size: 48px;
+  margin-top: 15%;
+  text-align: center;
+  text-shadow: 1px 1px 0 #000;
 }
 
 #result .body {
-    color:#fff;
-    margin-top:30px;
-    text-align:center;
-    text-shadow:1px 1px 0 #000;
+  color: #fff;
+  margin-top: 30px;
+  text-align: center;
+  text-shadow: 1px 1px 0 #000;
 }
 
-#result .button {   
-    background: green;
-    border-radius:2px;
- color: white;
-    display:table;
-    font-weight:bold;
-    padding:10px 20px;
-    margin:40px auto;
-    margin-bottom:0;
- 
+#result .button {
+  background: green;
+  border-radius: 2px;
+  color: white;
+  display: table;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 40px auto;
+  margin-bottom: 0;
 }
-#result .button:hover{
-
-    letter-spacing: 2px;
-    background: transparent;
-    color: white;
-    border: 3px solid green;
+#result .button:hover {
+  letter-spacing: 2px;
+  background: transparent;
+  color: white;
+  border: 3px solid green;
 }
-
 
 #letter {
-    font-size:22px;
-    height:30px;
-    margin:20px;
-    text-align:center;
+  font-size: 22px;
+  height: 30px;
+  margin: 20px;
+  text-align: center;
 }
 
 .l {
-    box-shadow:0 3px 0 -1px #555;
-    display:inline-block;
-    margin:1px;
-    height:20px;
-    text-transform:uppercase;
-    width:20px;
+  box-shadow: 0 3px 0 -1px #555;
+  display: inline-block;
+  margin: 1px;
+  height: 20px;
+  text-transform: uppercase;
+  width: 20px;
 }
 
 .ls {
-    box-shadow:0 0 0 0 #555;
-    width:10px;
+  box-shadow: 0 0 0 0 #555;
+  width: 10px;
 }
 
 #game {
-    height:250px;
-    margin:auto;
-    position:relative;
-    width:220px;
+  height: 250px;
+  margin: auto;
+  position: relative;
+  width: 220px;
 }
 
 #game .player {
-    left:53px;
-    position:absolute;
-    top:90px;
-    height:130px;
-    width:75px;
+  left: 53px;
+  position: absolute;
+  top: 90px;
+  height: 130px;
+  width: 75px;
 }
 
 .player .playerModel {
-    height:100%;
-    position:relative;
-    width:100%;
+  height: 100%;
+  position: relative;
+  width: 100%;
 }
 
 .playerModel .head {
-    border-radius:50%;
-    box-shadow:0 0 0 2px #000 inset;
-    height:35px;
-    margin:auto;
-    width:35px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px #000 inset;
+  height: 35px;
+  margin: auto;
+  width: 35px;
 }
 
 .playerModel .head[data="false"] {
-    display:none;
+  display: none;
 }
 
 .playerModel .body {
-    background-color:#000;
-    height:45px;
-    margin:auto;
-    width:2px;
+  background-color: #000;
+  height: 45px;
+  margin: auto;
+  width: 2px;
 }
 
 .playerModel .body[data="false"] {
-    display:none;
+  display: none;
 }
 
-.playerModel .body:before, .playerModel .body:after {
-    background-color:#000;
-    content:"";
-    display:inline-block;
-    height:30px;
-    position:absolute;
-    width:2px;
+.playerModel .body:before,
+.playerModel .body:after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 30px;
+  position: absolute;
+  width: 2px;
 }
 
-.playerModel .body[l="false"]:before, .playerModel .body[r="false"]:after {
-    display:none;
+.playerModel .body[l="false"]:before,
+.playerModel .body[r="false"]:after {
+  display: none;
 }
 
 .playerModel .body:before {
-    left:27px;
-    transform:rotate(45deg);
+  left: 27px;
+  transform: rotate(45deg);
 }
 
 .playerModel .body:after {
-    right:26px;
-    transform:rotate(-45deg);
+  right: 26px;
+  transform: rotate(-45deg);
 }
 
 .playerModel .foot {
-    background-color:#000;
-    height:3px;
-    margin:auto;
-    width:2px;
+  background-color: #000;
+  height: 3px;
+  margin: auto;
+  width: 2px;
 }
 
 .playerModel .foot[data="false"] {
-    display:none;
+  display: none;
 }
 
-.playerModel .foot:before, .playerModel .foot:after {
-    background-color:#000;
-    content:"";
-    display:inline-block;
-    height:40px;
-    position:absolute;
-    width:2px;
+.playerModel .foot:before,
+.playerModel .foot:after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 40px;
+  position: absolute;
+  width: 2px;
 }
 
-.playerModel .foot[l="false"]:before, .playerModel .foot[r="false"]:after {
-    display:none;
+.playerModel .foot[l="false"]:before,
+.playerModel .foot[r="false"]:after {
+  display: none;
 }
 
 .playerModel .foot:before {
-    left:30px;
-    transform:rotate(20deg);
+  left: 30px;
+  transform: rotate(20deg);
 }
 
 .playerModel .foot:after {
-    right:29px;
-    transform:rotate(-20deg);
+  right: 29px;
+  transform: rotate(-20deg);
 }
 
 #game .stang3 {
-    background-color:#000;
-    height:20px;
-    left:90px;
-    position:absolute;
-    top:70px;
-    width:2px;
+  background-color: #000;
+  height: 20px;
+  left: 90px;
+  position: absolute;
+  top: 70px;
+  width: 2px;
 }
 
 #game .stang3[data="false"] {
-    display:none;
+  display: none;
 }
 
 #game .stang2 {
-    background-color:#000;
-    border-radius:5px 0 0 5px;
-    bottom:180px;
-    height:5px;
-    position:absolute;
-    right:45px;
-    width:95px;
+  background-color: #000;
+  border-radius: 5px 0 0 5px;
+  bottom: 180px;
+  height: 5px;
+  position: absolute;
+  right: 45px;
+  width: 95px;
 }
 
 #game .stang2:before {
-    background-color:#000;
-    content:"";
-    left:50px;
-    height:5px;
-    position:absolute;
-    top:17px;
-    transform:rotate(45deg);
-    width:50px;
+  background-color: #000;
+  content: "";
+  left: 50px;
+  height: 5px;
+  position: absolute;
+  top: 17px;
+  transform: rotate(45deg);
+  width: 50px;
 }
 
 #game .stang2[data="false"] {
-    display:none;
+  display: none;
 }
 
 #game .stang {
-    background-color:#000;
-    bottom:00;
-    height:180px;
-    margin:auto;
-    position:absolute;
-    right:45px;
-    width:5px;
+  background-color: #000;
+  bottom: 00;
+  height: 180px;
+  margin: auto;
+  position: absolute;
+  right: 45px;
+  width: 5px;
 }
 
 #game .stang[data="false"] {
-    display:none;
+  display: none;
 }
-#canv{
-background: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+#canv {
+  background: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 
-    height: 100%;
-
+  height: 100%;
 }
 
 #game .ground {
-    background-color:#000;
-    border-radius:5px;
-    bottom:0;
-    left:0;
-    height:5px;
-    margin:auto;
-    position:absolute;
-    right:0;
-    width:220px;
+  background-color: #000;
+  border-radius: 5px;
+  bottom: 0;
+  left: 0;
+  height: 5px;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  width: 220px;
 }
 
 #game .ground[data="false"] {
-    display:none;
+  display: none;
 }
 
 #game .hintButton {
-    background:linear-gradient(transparent, rgba(0, 0, 0, 0.1));
-    border-radius:8%;
-    box-shadow:1px 1px 3px #999;
-    font-weight:bold;
-    padding:5px 10px;
-    position:absolute;
-    right:5px;
-    top:5px;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.1));
+  border-radius: 8%;
+  box-shadow: 1px 1px 3px #999;
+  font-weight: bold;
+  padding: 5px 10px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
 }
 
 #game .hintButton[data="false"] {
-    display:none;
+  display: none;
 }
-#tastatur  span{
-    width: 8%;
+#tastatur span {
+  width: 8%;
 
-    border-style:groove;
+  border-style: groove;
 }
 
 #tastatur {
+  left: 0;
+  margin: auto;
 
-    left:0;
-    margin:auto;
-
-    max-width:700px;
-  border-top-style:groove;
-    position:absolute;
-    right:0;
-     font-size:large;
-    text-align:center;
+  max-width: 700px;
+  border-top-style: groove;
+  position: absolute;
+  right: 0;
+  font-size: large;
+  text-align: center;
 }
 
-
-
 #hint {
-    border-radius:2px;
-    box-shadow:1px 1px 4px #888;
-    display:none;
-    left:0;
-    margin:auto;
-    margin-top:75px;
-    position:absolute;
-    right:0;
-    top:0;
-    
-    width:250px;
+  border-radius: 2px;
+  box-shadow: 1px 1px 4px #888;
+  display: none;
+  left: 0;
+  margin: auto;
+  margin-top: 75px;
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  width: 250px;
 }
 
 #hint .title {
-    background:linear-gradient(#fff, #bbb3bb);
-    border-bottom:solid 1px #555;
-    border-radius:2px 2px 0 0;
-    font-weight:bold;
-    padding:5px 10px;
-    position:relative;
+  background: linear-gradient(#fff, #bbb3bb);
+  border-bottom: solid 1px #555;
+  border-radius: 2px 2px 0 0;
+  font-weight: bold;
+  padding: 5px 10px;
+  position: relative;
 }
 
 #hint .title .exit {
-    background-color:#f55;
-    border-radius:50%;
-    box-shadow:1px 1px 4px #888;
-    font-weight:bold;
-    padding:8px 12px;
-    position:absolute;
-    right:-15px;
-    top:-15px;
+  background-color: #f55;
+  border-radius: 50%;
+  box-shadow: 1px 1px 4px #888;
+  font-weight: bold;
+  padding: 8px 12px;
+  position: absolute;
+  right: -15px;
+  top: -15px;
 }
 
 #hint .title .exit:hover {
-    background-color:white;
-    border-radius:50%;
-    box-shadow:1px 1px 4px #888;
-    font-weight:bold;
-    padding:8px 12px;
-    position:absolute;
-    right:-15px;
-    top:-15px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 1px 1px 4px #888;
+  font-weight: bold;
+  padding: 8px 12px;
+  position: absolute;
+  right: -15px;
+  top: -15px;
 }
 
 #hint .body {
-    background-color:#ddd;
-    border-radius:0 0 2px 2px;
-    padding:10px;
+  background-color: #ddd;
+  border-radius: 0 0 2px 2px;
+  padding: 10px;
 }
 
 .b {
-    background:linear-gradient(#fff, #eee);
-    box-shadow:1px 1px 1px 0 #ccc;
-    display:inline-block;
-    margin:2px;
-    padding:8px;
-    text-align:center;
-    width:25px;
+  background: linear-gradient(#fff, #eee);
+  box-shadow: 1px 1px 1px 0 #ccc;
+  display: inline-block;
+  margin: 2px;
+  padding: 8px;
+  text-align: center;
+  width: 25px;
 }
 
-.b[data="false"], .b[data="true"] {
-    color:#555;
-    font-weight:bold;
+.b[data="false"],
+.b[data="true"] {
+  color: #555;
+  font-weight: bold;
 }
 
 .b[data="true"] {
-    background:#9f9;
+  background: #9f9;
 }
 
 .b[data="false"] {
-    background:#aaa;
+  background: #aaa;
 }
 
 .anim {
-    animation:button 3s infinite;
+  animation: button 3s infinite;
 }
 
+@media (max-width: 767px) {
+  #tastatur {
+    left: 0;
 
+    padding-top: 20px;
+    display: block;
+    margin: auto;
+    border-top-style: groove;
+    position: absolute;
+    right: 0;
+    font-size: large;
+    text-align: center;
+  }
 
+  #tastatur span {
+    width: 13%;
+    border-style: groove;
+  }
 
-@keyframes btn{
-    0%, 50%, 90% {
-        transform:rotate(0deg);
-    }
-    60% {
-        transform:rotate(5deg) scale(1);
-    }
-    70% {
-        transform:rotate(-5deg) scale(0.97);
-    }
-    80% {
-        transform:rotate(5deg) scale(1.05);
-    }
+  .b {
+    background: linear-gradient(#fff, #eee);
+    box-shadow: 1px 1px 1px 0 #ccc;
+    display: inline-block;
+    margin: 2px;
+    padding: 8px;
+    text-align: center;
+    width: 25px;
+  }
+}
+@keyframes btn {
+  0%,
+  50%,
+  90% {
+    transform: rotate(0deg);
+  }
+  60% {
+    transform: rotate(5deg) scale(1);
+  }
+  70% {
+    transform: rotate(-5deg) scale(0.97);
+  }
+  80% {
+    transform: rotate(5deg) scale(1.05);
+  }
 }

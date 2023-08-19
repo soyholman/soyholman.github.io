@@ -1742,7 +1742,9 @@ Details Page Style
   font-weight: 400;
   line-height: 25px;
 }
-
+a.fa.fa-user.service_icon {
+  color: #31344b;
+}
 .item-details-page span.author a {
   color: #31344b;
   font-weight: 900;
