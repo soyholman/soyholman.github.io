@@ -16,62 +16,62 @@ const fs=firebase.firestore();
 
 
  
-function params(){
+// function params(){
      
  
-   var user = firebase.auth().currentUser;
-      auth.onAuthStateChanged(user=>{
+//    var user = firebase.auth().currentUser;
+//       auth.onAuthStateChanged(user=>{
      
-if(user!=null){
+// if(user!=null){
 
 
 
 
-}
-else if(user==null){
+// }
+// else if(user==null){
 
-  Swal.fire({
-   title: 'Debe registrarse',
-   icon: 'warning',
-backdrop: `
-rgba(0,0,0,0.6)
-`,
-   html:
-   'Para continuar debe <b>registrarse</b> ' +
-   'como usuario de <strong style="color:green">Cultura general.</strong>',
-   showCancelButton: true,
-   confirmButtonText: 'Seguir como usuario Anonimo',
-   cancelButton: 'btn btn-success',
-     cancelButtonText: 'Iniciar Sesión',
-     cancelButtonColor: 'green',
+//   Swal.fire({
+//    title: 'Debe registrarse',
+//    icon: 'warning',
+// backdrop: `
+// rgba(0,0,0,0.6)
+// `,
+//    html:
+//    'Para continuar debe <b>registrarse</b> ' +
+//    'como usuario de <strong style="color:green">Cultura general.</strong>',
+//    showCancelButton: true,
+//    confirmButtonText: 'Seguir como usuario Anonimo',
+//    cancelButton: 'btn btn-success',
+//      cancelButtonText: 'Iniciar Sesión',
+//      cancelButtonColor: 'green',
 
-   }).then((result) => {
-     /* Read more about isConfirmed, isDenied below */
-     if (result.isConfirmed) {
-        firebase.auth().signInAnonymously().then(result=>{
+//    }).then((result) => {
+//      /* Read more about isConfirmed, isDenied below */
+//      if (result.isConfirmed) {
+//         firebase.auth().signInAnonymously().then(result=>{
 
    
-           Swal.fire({
+//            Swal.fire({
                   
-               icon: 'success',
-               title: 'Ha iniciado sesión como usuario anónimo',
-               showConfirmButton: false,
-               timer: 1600
-             })
+//                icon: 'success',
+//                title: 'Ha iniciado sesión como usuario anónimo',
+//                showConfirmButton: false,
+//                timer: 1600
+//              })
           
        
-          }).catch(err=>{
-              console.log(err);
-          })
-     } else  {
+//           }).catch(err=>{
+//               console.log(err);
+//           })
+//      } else  {
        
-        location.href="/Login.html";
-     }
-   })
+//         location.href="/Login.html";
+//      }
+//    })
 
 
  
-}
-})
+// }
+// })
 
-}
+// }
