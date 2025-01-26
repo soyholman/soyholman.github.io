@@ -180,6 +180,8 @@ border-color: blue;
   box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px #ffffff !important;
   text-align: center;
   padding: 20px 20px;
+
+  max-width: 400px;
 }
 
 .container .box-container .box img {
@@ -202,6 +204,29 @@ border-color: blue;
 .container .actives {
   background: white;
   color: black;
+}
+.categories .item .icon {
+    width: 62px;
+    height: 62px;
+    display: inline-block;
+    text-align: center;
+    line-height: 62px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.categories .item{
+
+  text-align: center;
+    padding: 30px;
+    border: 1px solid #404245;
+    position: relative;
+    color: #31344b;
+    border: 0.0625rem solid rgba(243, 247, 250, 0.05);
+    border-radius: 0.55rem;
+    background-color: #e6e7ee;
+    box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px #ffffff;
+
 }
 .container a {
   color: black;
@@ -227,6 +252,11 @@ border-color: blue;
   padding: 10px 0;
 }
 
+
+html {
+  background: #e6e7ee;
+  overflow-x: hidden  ;
+}
 .container .box-container p {
   color: #777;
   font-size: 15px;
