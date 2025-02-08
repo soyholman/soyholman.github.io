@@ -104,20 +104,21 @@
                                     <br>
                                     <div class="block-reveal block-reveal--active">
                                         <span class="block-reveal__block"></span>
-                                        <h1 class="block-reveal__text subtitle mb-0">
+                                        <h1 class="block-reveal__text subtitle mb-0 left-transition">
                                             Hi, my name is <strong class="purple">Holman Morales</strong><br>
                                         </h1>
                                     </div>
                                     <br>
                                     <div class="block-reveal block-reveal--active">
                                         <span class="block-reveal__block"></span>
-                                        <h1 class="block-reveal__text subtitle mt-0 ws-nowarp">
+                                        <h1 class="block-reveal__text subtitle mt-0 ws-nowarp left-transition">
                                             i <em class="serif normal">design</em> and <span
                                                 class="mono fat">develop</span> <span class="anim-txt">dynamic <br> and
                                                 visually <br> appealing
                                                 websites.</span>
                                         </h1>
-                                        <p class="fs-md">Results-driven Web Developer with 4 years of experience
+                                        <p class="fs-md bottom-transition">Results-driven Web Developer with 4 years of
+                                            experience
                                             crafting dynamic,
                                             user-focused websites. Specialized in
                                             WordPress, skilled in HTML, CSS, JavaScript, and PHP. Committed to
@@ -140,23 +141,23 @@
                             <div class="mx-auto pt-0 offseted col-sm-7 col-md-7 col-9">
                                 <div class="timeline alt"></div>
                                 <small class="section-title bullet-title alt">Work /&gt;</small>
-                                <h4>Featured projects</h4>
+                                <h4 class="left-transition">Featured projects</h4>
                             </div>
                         </div>
                         <section id="web" class="mb-3">
-                            <div class="row align-self-top w-100 pt-3 mt-3 mb-3 projects-row">
+                            <div class="row align-self-top w-100 pt-3 mt-3 mb-3 projects-row ">
                                 <div id="C3"
                                     class="mx-auto pt-0 offseted justify-content-center d-flex workboxcol col-sm-10 col-md-5">
                                     <a href="https://c3leadership.ca/" target="_blank">
                                         <div aria-label="Drivee" data-tilt="" data-tilt-gyroscope="false"
                                             data-tilt-scale="1.05" data-tilt-speed="200" data-tilt-glare="true"
                                             data-tilt-max-glare="0.2" data-tilt-perspective="700" data-hover=""
-                                            class="project-box h" style="margin-top:0;margin-left:130px">
+                                            class="project-box h " style="margin-top:0;margin-left:130px">
 
                                             <div class="block-reveal projects block-reveal--active">
                                                 <span class="block-reveal__block white"></span>
-                                                <span class="block-reveal__text">
-                                                    <div class="project-image" data-src="/c3-leaderhips-mockup.png"
+                                                <span class="block-reveal__text ">
+                                                    <div class="project-image " data-src="/c3-leaderhips-mockup.png"
                                                         lazy="loading" style="background-image: url('/Recursos/c3-leaderhips-mockup.png');background-size: contain;
                                        filter: brightness(0.5);
                                        display: block; position:fixed;">
@@ -1022,6 +1023,27 @@
 
 
 
+    <script src="/js/scrollreveal.js"></script>
+
+    <script>
+        //common reveal options to create reveal animations
+        ScrollReveal({
+            //reset: true,
+            distance: '60px',
+            duration: 2500,
+            delay: 400
+        });
+
+        //target elements, and specify options to create reveal animations
+        ScrollReveal().reveal('.left-transition ', { delay: 500, origin: 'left' });
+        ScrollReveal().reveal(' .bottom-transition ', { delay: 600, origin: 'bottom' });
+        ScrollReveal().reveal('.right-transition ', { delay: 700, origin: 'right' });
+        ScrollReveal().reveal('.bottom-tra nsition-i', { delay: 500, origin: 'bottom', interval: 200 });
+        ScrollReveal().reveal('.top-transition', { delay: 500, origin: 'top' });
+        ScrollReveal().reveal('.top-transition-1', { delay: 600, origin: 'top' });
+        ScrollReveal().reveal('.left-transition-i', { delay: 500, origin: 'left', interval: 200 });
+
+    </script>
 
 </body>
 
